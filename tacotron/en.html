@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Multi-Speaker Tacotron</title>
+    <meta property="og:image" content="http://carpedm20.github.io/tacotron/image.png"/>
+    <meta name="description" content="Audio samples of Multi-Speaker Tacotron in TensorFlow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
+    <script src="./js/wavesurfer.min.js"></script>
+    <script src="./js/siriwave.js"></script>
+    <script src="./js/main.js"></script>
+  </head>
+  <body class="layout-default">
+
+    <section class="hero has-text-centered">
+      <div class="hero-body">
+        <div class="container">
+          <h1 id="bulma" class="title is-spaced">
+            Multi-Speaker Tacotron in TensorFlow
+          </h1>
+          <h2 class="subtitle">
+            TensorFlow implementation of <strong>Deep Voice 2: Multi-Speaker Neural Text-to-Speech</strong>.
+          </h2>
+          <h2 class="subtitle">
+            <a target="_blank" href="http://carpedm20.github.io/"><strong>Taehoon Kim</strong>
+            <br/>
+            carpedm20</a>
+          </h2>
+          <h2 class="subtitle">
+            [GitHub]
+            &nbsp; &nbsp; &nbsp; 
+            <a target="_blank" href="https://www.slideshare.net/carpedm20/deview-2017-80824162">[Talk (Korean)]</a>
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero is-dark dark has-text-centered is-fullheight">
+      <div class="hero-body">
+        <div class="container">
+          <div class="section-body" onKeyPress="return checkSubmit(event)">
+            <h1 class="title is-bold has-text-centered is-spaced">
+              Samples
+            </h1>
+
+            <div class="field">
+              <div class="control">
+                <div class="columns">
+                  <div class="column"></div>
+                  <div class="column  has-text-centered">
+                    <div id="wave"></div>
+                  </div>
+                  <div class="column"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="control">
+                <div id="waveform"></div>
+              </div>
+            </div>
+
+            <div class="field example">
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="footer dark">
+        <div class="container">
+          <div class="content has-text-centered">
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

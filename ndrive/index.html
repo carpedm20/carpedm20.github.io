@@ -1,0 +1,834 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>ndrive manual &mdash; ndrive 0.0.1 documentation</title>
+    
+    <link rel="stylesheet" href="static/flasky.css" type="text/css" />
+    <link rel="stylesheet" href="static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="static/jquery.js"></script>
+    <script type="text/javascript" src="static/underscore.js"></script>
+    <script type="text/javascript" src="static/doctools.js"></script>
+    <link rel="top" title="ndrive 0.0.1 documentation" href="#" /> 
+  </head>
+  <body>
+  
+  
+  <div class=indexwrapper>
+  
+
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="ndrive-manual">
+<h1>ndrive manual<a class="headerlink" href="#ndrive-manual" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p><em>ndrive</em> is a python library that can provide an access to Naver Ndrive. This is not an official Ndrive python API, so some features may not be implemented, yet.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">ndrive</span> <span class="kn">import</span> <span class="n">Ndrive</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">nd</span> <span class="o">=</span> <span class="n">Ndrive</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">nd</span><span class="o">.</span><span class="n">login</span><span class="p">(</span><span class="s">&quot;YOUR_ID&quot;</span><span class="p">,</span><span class="s">&quot;YOUR_PASSWORD&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">nd</span><span class="o">.</span><span class="n">uploadFile</span><span class="p">(</span><span class="s">&quot;test.txt&quot;</span><span class="p">,</span><span class="s">&#39;/test.txt&#39;</span><span class="p">,</span><span class="bp">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="key-features">
+<h2>Key Features<a class="headerlink" href="#key-features" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Download and upload a file</li>
+<li>Get file and directory list of Ndrive directories</li>
+<li>Make a url share link for a specific directory or file</li>
+<li>Search Ndrive file and  directory</li>
+<li>Get properties of file and directory</li>
+</ul>
+</div>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<p>This package is available in PyPI. To install it in your system, use easy_install:</p>
+<div class="highlight-python"><div class="highlight"><pre>$ easy_install ndrive
+</pre></div>
+</div>
+<p>Or use pip:</p>
+<div class="highlight-python"><div class="highlight"><pre>$ pip install ndrive
+</pre></div>
+</div>
+<p>Or check out developement version:</p>
+<div class="highlight-python"><div class="highlight"><pre>$ git clone git://github.com/carpedm20/ndrive.git
+</pre></div>
+</div>
+</div>
+<div class="section" id="quick-start">
+<h2>Quick Start<a class="headerlink" href="#quick-start" title="Permalink to this headline">¶</a></h2>
+<p>If you want to start with Ndrive module, you need to <em>login</em> to Ndrive first. Just make a <tt class="docutils literal"><span class="pre">Ndrive</span></tt> object and use <tt class="docutils literal"><span class="pre">login</span></tt> method.</p>
+<p>Login:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">nd</span> <span class="o">=</span> <span class="n">Ndrive</span><span class="p">()</span>
+<span class="n">nd</span><span class="o">.</span><span class="n">login</span><span class="p">(</span><span class="s">&quot;YOUR_ID&quot;</span><span class="p">,</span><span class="s">&quot;YOUR_PASSWORD&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Then you might want to <em>download</em> a file from your Ndrive, but you might don&#8217;t know exact filename in Ndrive directory. Then, you can use <tt class="docutils literal"><span class="pre">getList</span></tt> method to <em>get list</em> of files and directory of given directory.</p>
+<p><em>Don&#8217;t forget to put / in front of the Ndrive path, which indicate root directory of Ndrive</em></p>
+<p>Get file and directory List:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">nd_list</span> <span class="o">=</span> <span class="n">nd</span><span class="o">.</span><span class="n">getList</span><span class="p">(</span><span class="s">&#39;/&#39;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">nd_list</span>
+</pre></div>
+</div>
+<p>If you find a file, then you can download the file to your local directory.</p>
+<p>Download:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">nd</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="s">&#39;/Picture/flower.png&#39;</span><span class="p">,</span> <span class="s">&#39;./flower.png&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Or you can upload a file:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">nd</span><span class="o">.</span><span class="n">puloadFile</span><span class="p">(</span><span class="s">&#39;./flower.png&#39;</span><span class="p">,</span><span class="s">&#39;/Picture/flower.png&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>You can make a test directory at root directory:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">nd</span><span class="o">.</span><span class="n">makeDirectory</span><span class="p">(</span><span class="s">&#39;/test&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>and move a file from root to a created test directory:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">nd</span><span class="o">.</span><span class="n">doMove</span><span class="p">(</span><span class="s">&#39;/flower.png&#39;</span><span class="p">,</span><span class="s">&#39;/test/flower.png&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="api-documentation">
+<h2>API documentation<a class="headerlink" href="#api-documentation" title="Permalink to this headline">¶</a></h2>
+<p>This is the information of class and method of <em>ndrive</em>.</p>
+<dl class="class">
+<dt id="ndrive.Ndrive">
+<em class="property">class </em><tt class="descclassname">ndrive.</tt><tt class="descname">Ndrive</tt><big>(</big><em>debug=False</em>, <em>NID_AUT=None</em>, <em>NID_SES=None</em><big>)</big><a class="headerlink" href="#ndrive.Ndrive" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize <tt class="docutils literal"><span class="pre">NdriveClient</span></tt> instance.</p>
+<p>Using given user information, login to ndrive server and create a session</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>debug</strong> (<em>bool</em>) &#8211; (optional) print all metadata of http requests</li>
+<li><strong>NID_AUT</strong> (<em>str</em>) &#8211; (optional) Naver account authentication info</li>
+<li><strong>NID_SES</strong> (<em>str</em>) &#8211; (optional) Naver account session info</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Usage:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">ndrive</span> <span class="kn">import</span> <span class="n">Ndrive</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">nd</span> <span class="o">=</span> <span class="n">Ndrive</span><span class="p">()</span>
+</pre></div>
+</div>
+<dl class="method">
+<dt id="ndrive.Ndrive.GET">
+<tt class="descname">GET</tt><big>(</big><em>func</em>, <em>data</em><big>)</big><a class="headerlink" href="#ndrive.Ndrive.GET" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send GET request to execute Ndrive API</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>func</strong> &#8211; The function name you want to execute in Ndrive API.</li>
+<li><strong>params</strong> &#8211; Parameter data for HTTP request.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">metadata when success or False when failed</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="ndrive.Ndrive.POST">
+<tt class="descname">POST</tt><big>(</big><em>func</em>, <em>data</em><big>)</big><a class="headerlink" href="#ndrive.Ndrive.POST" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send POST request to execute Ndrive API</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>func</strong> &#8211; The function name you want to execute in Ndrive API.</li>
+<li><strong>params</strong> &#8211; Parameter data for HTTP request.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><tt class="docutils literal"><span class="pre">metadata</span></tt> when success or <tt class="docutils literal"><span class="pre">False</span></tt> when failed</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="ndrive.Ndrive.checkStatus">
+<tt class="descname">checkStatus</tt><big>(</big><big>)</big><a class="headerlink" href="#ndrive.Ndrive.checkStatus" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check status</p>
+<p>Check whether it is possible to access Ndrive or not.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><tt class="docutils literal"><span class="pre">True</span></tt> when success or <tt class="docutils literal"><span class="pre">False</span></tt> when failed.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="ndrive.Ndrive.checkUpload">
+<tt class="descname">checkUpload</tt><big>(</big><em>file_obj</em>, <em>full_path='/'</em>, <em>overwrite=False</em><big>)</big><a class="headerlink" href="#ndrive.Ndrive.checkUpload" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check whether it is possible to upload a file.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">s</span> <span class="o">=</span> <span class="n">nd</span><span class="o">.</span><span class="n">checkUpload</span><span class="p">(</span><span class="s">&#39;~/flower.png&#39;</span><span class="p">,</span><span class="s">&#39;/Picture/flower.png&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>file_obj</strong> &#8211; A file-like object to check whether possible to upload. You can pass a string as a file_obj or a real file object.</li>
+<li><strong>full_path</strong> (<em>str</em>) &#8211; The full path to upload the file to, <em>including the file name</em>. If the destination directory does not yet exist, it will be created.</li>
+<li><strong>overwrite</strong> &#8211; Whether to overwrite an existing file at the given path. (Default <tt class="docutils literal"><span class="pre">False</span></tt>.)</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><tt class="docutils literal"><span class="pre">True</span></tt> if possible to upload or <tt class="docutils literal"><span class="pre">False</span></tt> if impossible to upload.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="ndrive.Ndrive.createFileLink">
+<tt class="descname">createFileLink</tt><big>(</big><em>resourceno</em><big>)</big><a class="headerlink" href="#ndrive.Ndrive.createFileLink" title="Permalink to this definition">¶</a></dt>
+<dd><p>Make a link of file</p>
+<p>If you don&#8217;t know <tt class="docutils literal"><span class="pre">resourceno</span></tt>, you&#8217;d better use <tt class="docutils literal"><span class="pre">getFileLink</span></tt>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>resourceno</strong> &#8211; Resource number of a file to create link</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><tt class="docutils literal"><span class="pre">Shared</span> <span class="pre">url</span></tt> or <tt class="docutils literal"><span class="pre">False</span></tt> when failed to share a file</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="ndrive.Ndrive.delete">
+<tt class="descname">delete</tt><big>(</big><em>full_path</em><big>)</big><a class="headerlink" href="#ndrive.Ndrive.delete" title="Permalink to this definition">¶</a></dt>
+<dd><p>Delete a file in full_path</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">nd</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="s">&#39;/Picture/flower.png&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>full_path</strong> &#8211; The full path to delete the file to, <em>including the file name</em>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><tt class="docutils literal"><span class="pre">True</span></tt> if success to delete the file or <tt class="docutils literal"><span class="pre">False</span></tt></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="ndrive.Ndrive.doMove">
+<tt class="descname">doMove</tt><big>(</big><em>from_path</em>, <em>to_path</em>, <em>overwrite=False</em>, <em>bShareFireCopy='false'</em>, <em>dummy=56147</em><big>)</big><a class="headerlink" href="#ndrive.Ndrive.doMove" title="Permalink to this definition">¶</a></dt>
+<dd><p>Move a file.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">nd</span><span class="o">.</span><span class="n">doMove</span><span class="p">(</span><span class="s">&#39;/Picture/flower.png&#39;</span><span class="p">,</span> <span class="s">&#39;/flower.png&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>from_path</strong> &#8211; The path to the file or folder to be moved.</li>
+<li><strong>to_path</strong> &#8211; The destination path of the file or folder to be copied. File name should be included in the end of to_path.</li>
+<li><strong>overwrite</strong> &#8211; Whether to overwrite an existing file at the given path. (Default <tt class="docutils literal"><span class="pre">False</span></tt>.)</li>
+<li><strong>bShareFireCopy</strong> &#8211; <p>???</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><tt class="docutils literal"><span class="pre">True</span></tt> if success to move a file or <tt class="docutils literal"><span class="pre">False</span></tt>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="ndrive.Ndrive.doSearch">
+<tt class="descname">doSearch</tt><big>(</big><em>filename</em>, <em>filetype=None</em>, <em>type=3</em>, <em>full_path='/'</em>, <em>sharedowner='A'</em>, <em>datatype='all'</em>, <em>sort='update'</em>, <em>order='desc'</em>, <em>searchtype='filesearch'</em>, <em>startnum=0</em>, <em>pagingrow=100</em>, <em>includeworks='N'</em>, <em>bodysearch='N'</em>, <em>dummy=36644</em><big>)</big><a class="headerlink" href="#ndrive.Ndrive.doSearch" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get music album list.</p>
+<dl class="docutils">
+<dt>There are 4 kinds in <tt class="docutils literal"><span class="pre">type</span></tt>:</dt>
+<dd><ul class="first last simple">
+<li>1 : only directories with idxfolder property</li>
+<li>2 : only files</li>
+<li>3 : directories and files with thumbnail info (like viewHeight, viewWidth for Image file)</li>
+<li>4 : only directories except idxfolder</li>
+<li>5 : directories and files without thumbnail info</li>
+</ul>
+</dd>
+<dt>Tyere are 5 kindes of <tt class="docutils literal"><span class="pre">filetype</span></tt>:</dt>
+<dd>ex) None: all, 1: document, 2:image, 3: video, 4: msuic, 5: zip</dd>
+</dl>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>filename</strong> &#8211; Query to search.</li>
+<li><strong>filetype</strong> &#8211; Type of a file to search.</li>
+<li><strong>full_path</strong> &#8211; Directory path to search recursively.</li>
+<li><strong>sharedowner</strong> &#8211; File priority to search. (P: priority files only, A: all files.)</li>
+<li><strong>datatype</strong> &#8211; Data type of a file to search</li>
+<li><strong>sort</strong> &#8211; Order criteria of search result. (&#8216;update&#8217;, &#8216;date&#8217; ...)</li>
+<li><strong>order</strong> &#8211; Order of files. (&#8216;desc&#8217; or &#8216;inc&#8217;)</li>
+<li><strong>searchtype</strong> &#8211; <p>???</p>
+</li>
+<li><strong>includeworks</strong> &#8211; Whether to include Naver Work files to result.</li>
+<li><strong>bodysearch</strong> &#8211; Search content of file.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">metadata</span></tt> or <tt class="docutils literal"><span class="pre">False</span></tt></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Metadata:</th><td class="field-body"><ul class="first last simple">
+<li>authtoken</li>
+<li>content</li>
+<li>copyright</li>
+<li>creationdate</li>
+<li>domaintype</li>
+<li>filelink</li>
+<li>fileuploadstatus</li>
+<li>getcontentlength</li>
+<li>getlastmodified</li>
+<li>hilightfilename</li>
+<li>href</li>
+<li>lastaccessed</li>
+<li>owner</li>
+<li>ownerid</li>
+<li>owneridc</li>
+<li>owneridx</li>
+<li>ownership</li>
+<li>protect</li>
+<li>resourceno</li>
+<li>resourcetype</li>
+<li>root</li>
+<li>root_shareno</li>
+<li>s_type</li>
+<li>sharedfoldername</li>
+<li>sharedinfo</li>
+<li>shareno</li>
+<li>subpath</li>
+<li>thumbnailpath</li>
+<li>virusstatus</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="ndrive.Ndrive.downloadFile">
+<tt class="descname">downloadFile</tt><big>(</big><em>from_path</em>, <em>to_path=''</em><big>)</big><a class="headerlink" href="#ndrive.Ndrive.downloadFile" title="Permalink to this definition">¶</a></dt>
+<dd><p>Download a file.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">nd</span><span class="o">.</span><span class="n">downloadFile</span><span class="p">(</span><span class="s">&#39;/Picture/flower.png&#39;</span><span class="p">,</span> <span class="s">&#39;~/flower.png&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>from_path</strong> &#8211; The full path to download the file to, <em>including the file name</em>. If the destination directory does not yet exist, it will be created.</li>
+<li><strong>to_path</strong> &#8211; The full path of a file to be saved in local directory.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">File object</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="ndrive.Ndrive.getDiskSpace">
+<tt class="descname">getDiskSpace</tt><big>(</big><big>)</big><a class="headerlink" href="#ndrive.Ndrive.getDiskSpace" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get disk space information.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">disk_info</span> <span class="o">=</span> <span class="n">nd</span><span class="o">.</span><span class="n">getDiskSpace</span><span class="p">()</span>
+</pre></div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">metadata</span></tt> if success or <tt class="docutils literal"><span class="pre">error</span> <span class="pre">message</span></tt></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Metadata:</th><td class="field-body"><ul class="first last simple">
+<li>expandablespace</li>
+<li>filemaxsize</li>
+<li>largefileminsize</li>
+<li>largefileunusedspace</li>
+<li>largefileusedspace</li>
+<li>paymentspace</li>
+<li>totallargespace</li>
+<li>totalspace</li>
+<li>unusedspace</li>
+<li>usedspace</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="ndrive.Ndrive.getFileLink">
+<tt class="descname">getFileLink</tt><big>(</big><em>full_path</em><big>)</big><a class="headerlink" href="#ndrive.Ndrive.getFileLink" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a link of file</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">file_link</span> <span class="o">=</span> <span class="n">nd</span><span class="o">.</span><span class="n">getFileLink</span><span class="p">(</span><span class="s">&#39;/Picture/flower.png&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>full_path</strong> &#8211; The full path of file to get file link. Path should start and  end with &#8216;/&#8217;.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><tt class="docutils literal"><span class="pre">Shared</span> <span class="pre">url</span></tt> or <tt class="docutils literal"><span class="pre">False</span></tt> if failed to share a file or directory through url</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="ndrive.Ndrive.getList">
+<tt class="descname">getList</tt><big>(</big><em>full_path</em>, <em>type=1</em>, <em>dept=0</em>, <em>sort='name'</em>, <em>order='asc'</em>, <em>startnum=0</em>, <em>pagingrow=1000</em>, <em>dummy=56184</em><big>)</big><a class="headerlink" href="#ndrive.Ndrive.getList" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a list of files</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">nd_list</span> <span class="o">=</span> <span class="n">nd</span><span class="o">.</span><span class="n">getList</span><span class="p">(</span><span class="s">&#39;/&#39;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">print</span> <span class="n">nd_list</span>
+</pre></div>
+</div>
+<dl class="docutils">
+<dt>There are 5 kinds of <tt class="docutils literal"><span class="pre">type</span></tt>:</dt>
+<dd><ul class="first last simple">
+<li>1 =&gt; only directories with idxfolder property</li>
+<li>2 =&gt; only files</li>
+<li>3 =&gt; directories and files with thumbnail info (like viewHeight, viewWidth for Image file)</li>
+<li>4 =&gt; only directories except idxfolder</li>
+<li>5 =&gt; directories and files without thumbnail info</li>
+</ul>
+</dd>
+<dt>There are 5 kindes of <tt class="docutils literal"><span class="pre">sort</span></tt>:</dt>
+<dd><ul class="first last simple">
+<li>file : file type, 종류</li>
+<li>length : size of file, 크기</li>
+<li>date : edited date, 수정한 날짜</li>
+<li>credate : creation date, 올린 날짜</li>
+<li>protect : protect or not, 중요 표시</li>
+</ul>
+</dd>
+</dl>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>full_path</strong> &#8211; The full path to get the file list.</li>
+<li><strong>type</strong> &#8211; 1, 2, 3, 4 or 5</li>
+<li><strong>depth</strong> &#8211; Dept for file list</li>
+<li><strong>sort</strong> &#8211; name =&gt; 이름</li>
+<li><strong>order</strong> &#8211; Order by (asc, desc)</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">metadata (list of dict) or False when failed to get list</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Metadata:</th><td class="field-body"><ul class="first last simple">
+<li>u&#8217;copyright&#8217;: u&#8217;N&#8217;,</li>
+<li>u&#8217;creationdate&#8217;: u&#8216;2013-05-12T21:17:23+09:00&#8217;,</li>
+<li>u&#8217;filelink&#8217;: None,</li>
+<li>u&#8217;fileuploadstatus&#8217;: u&#8216;1&#8217;,</li>
+<li>u&#8217;getcontentlength&#8217;: 0,</li>
+<li>u&#8217;getlastmodified&#8217;: u&#8216;2014-01-26T12:23:07+09:00&#8217;,</li>
+<li>u&#8217;href&#8217;: u&#8217;/Codes/&#8217;,</li>
+<li>u&#8217;lastaccessed&#8217;: u&#8216;2013-05-12T21:17:23+09:00&#8217;,</li>
+<li>u&#8217;lastmodifieduser&#8217;: None,</li>
+<li>u&#8217;priority&#8217;: u&#8216;1&#8217;,</li>
+<li>u&#8217;protect&#8217;: u&#8217;N&#8217;,</li>
+<li>u&#8217;resourceno&#8217;: 204041859,</li>
+<li>u&#8217;resourcetype&#8217;: u&#8217;collection&#8217;,</li>
+<li>u&#8217;sharedinfo&#8217;: u&#8217;F&#8217;,</li>
+<li>u&#8217;sharemsgcnt&#8217;: 0,</li>
+<li>u&#8217;shareno&#8217;: 0,</li>
+<li>u&#8217;subfoldercnt&#8217;: 5,</li>
+<li>u&#8217;thumbnailpath&#8217;: u&#8217;N&#8217;,</li>
+<li>u&#8217;virusstatus&#8217;: u&#8217;N&#8217;</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="ndrive.Ndrive.getMusicAlbumList">
+<tt class="descname">getMusicAlbumList</tt><big>(</big><em>tagtype=0</em>, <em>startnum=0</em>, <em>pagingrow=100</em>, <em>dummy=51467</em><big>)</big><a class="headerlink" href="#ndrive.Ndrive.getMusicAlbumList" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get music album list.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>tagtype</strong> &#8211; <p>?</p>
+</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">metadata</span></tt> or <tt class="docutils literal"><span class="pre">False</span></tt></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Metadata:</th><td class="field-body"><ul class="first last simple">
+<li>u&#8217;album&#8217;:u&#8217;Greatest Hits Coldplay&#8217;,</li>
+<li>u&#8217;artist&#8217;:u&#8217;Coldplay&#8217;,</li>
+<li>u&#8217;href&#8217;:u&#8217;/Coldplay - Clocks.mp3&#8217;,</li>
+<li>u&#8217;musiccount&#8217;:1,</li>
+<li>u&#8217;resourceno&#8217;:12459548378,</li>
+<li>u&#8217;tagtype&#8217;:1,</li>
+<li>u&#8217;thumbnailpath&#8217;:u&#8217;N&#8217;,</li>
+<li>u&#8217;totalpath&#8217;:u&#8217;/&#8217;</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="ndrive.Ndrive.getProperty">
+<tt class="descname">getProperty</tt><big>(</big><em>full_path</em>, <em>dummy=56184</em><big>)</big><a class="headerlink" href="#ndrive.Ndrive.getProperty" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a file property</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>full_path</strong> &#8211; The full path to get the file or directory property.</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">metadata</span></tt> if success or <tt class="docutils literal"><span class="pre">False</span></tt> if failed to get property</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Metadata:</th><td class="field-body"><ul class="first last simple">
+<li>creationdate</li>
+<li>exif</li>
+<li>filelink</li>
+<li>filelinkurl</li>
+<li>filetype =&gt; 1: document, 2: image, 3: video, 4: music, 5: zip</li>
+<li>fileuploadstatus</li>
+<li>getcontentlength</li>
+<li>getlastmodified</li>
+<li>href</li>
+<li>lastaccessed</li>
+<li>protect</li>
+<li>resourceno</li>
+<li>resourcetype</li>
+<li>thumbnail</li>
+<li>totalfilecnt</li>
+<li>totalfoldercnt</li>
+<li>virusstatus</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="ndrive.Ndrive.getRegisterUserInfo">
+<tt class="descname">getRegisterUserInfo</tt><big>(</big><em>svctype='Android NDrive App ver'</em>, <em>auth=0</em><big>)</big><a class="headerlink" href="#ndrive.Ndrive.getRegisterUserInfo" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve information about useridx</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>svctype</strong> &#8211; Information about the platform you are using right now.</li>
+<li><strong>auth</strong> &#8211; Authentication type</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><tt class="docutils literal"><span class="pre">True</span></tt> when success or <tt class="docutils literal"><span class="pre">False</span></tt> when failed</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="ndrive.Ndrive.getVersionList">
+<tt class="descname">getVersionList</tt><big>(</big><em>full_path</em>, <em>startnum=0</em>, <em>pagingrow=50</em>, <em>dummy=54213</em><big>)</big><a class="headerlink" href="#ndrive.Ndrive.getVersionList" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a version list of a file or dierectory.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>full_path</strong> &#8211; The full path to get the file or directory property. Path should start with &#8216;/&#8217;</li>
+<li><strong>startnum</strong> &#8211; Start version index.</li>
+<li><strong>pagingrow</strong> &#8211; Max # of version list in one page.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><tt class="docutils literal"><span class="pre">metadata</span></tt> if succcess or <tt class="docutils literal"><span class="pre">False</span></tt> (failed to get history or there is no history)</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Metadata:</th><td class="field-body"><ul class="first last simple">
+<li>createuser</li>
+<li>filesize</li>
+<li>getlastmodified</li>
+<li>href</li>
+<li>versioninfo</li>
+<li>versionkey</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="ndrive.Ndrive.getVersionListCount">
+<tt class="descname">getVersionListCount</tt><big>(</big><em>full_path</em>, <em>dummy=51234</em><big>)</big><a class="headerlink" href="#ndrive.Ndrive.getVersionListCount" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a count of version list.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>full_path</strong> &#8211; The full path to get the file or directory property.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><tt class="docutils literal"><span class="pre">Integer</span></tt> (number of version lists) or <tt class="docutils literal"><span class="pre">False</span></tt> if failed to get a version list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="ndrive.Ndrive.login">
+<tt class="descname">login</tt><big>(</big><em>user_id</em>, <em>password</em>, <em>svctype='Android NDrive App ver'</em>, <em>auth=0</em><big>)</big><a class="headerlink" href="#ndrive.Ndrive.login" title="Permalink to this definition">¶</a></dt>
+<dd><p>Log in Naver and get cookie</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">s</span> <span class="o">=</span> <span class="n">nd</span><span class="o">.</span><span class="n">login</span><span class="p">(</span><span class="s">&quot;YOUR_ID&quot;</span><span class="p">,</span> <span class="s">&quot;YOUR_PASSWORD&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>user_id</strong> (<em>str</em>) &#8211; Naver account&#8217;s login id</li>
+<li><strong>password</strong> (<em>str</em>) &#8211; Naver account&#8217;s login password</li>
+<li><strong>svctype</strong> (<em>str</em>) &#8211; Service type</li>
+<li><strong>auth</strong> &#8211; <p>???</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><tt class="docutils literal"><span class="pre">True</span></tt> when success to login or <tt class="docutils literal"><span class="pre">False</span></tt></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="ndrive.Ndrive.makeDirectory">
+<tt class="descname">makeDirectory</tt><big>(</big><em>full_path</em>, <em>dummy=40841</em><big>)</big><a class="headerlink" href="#ndrive.Ndrive.makeDirectory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Make a directory</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">nd</span><span class="o">.</span><span class="n">makeDirectory</span><span class="p">(</span><span class="s">&#39;/test&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>full_path</strong> &#8211; The full path to get the directory property. Should be end with &#8216;/&#8217;.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><tt class="docutils literal"><span class="pre">True</span></tt> when success to make a directory or <tt class="docutils literal"><span class="pre">False</span></tt></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="ndrive.Ndrive.makeShareUrl">
+<tt class="descname">makeShareUrl</tt><big>(</big><em>full_path</em>, <em>passwd</em><big>)</big><a class="headerlink" href="#ndrive.Ndrive.makeShareUrl" title="Permalink to this definition">¶</a></dt>
+<dd><p>Make a share url of directory</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">nd</span><span class="o">.</span><span class="n">makeShareUrl</span><span class="p">(</span><span class="s">&#39;/Picture/flower.png&#39;</span><span class="p">,</span> <span class="n">PASSWORD</span><span class="p">)</span>
+</pre></div>
+</div>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd><dl class="first last docutils">
+<dt>full_path:</dt>
+<dd>The full path of directory to get share url.
+Should be end with &#8216;/&#8217;.
+ex) /folder/</dd>
+<dt>passwd:</dt>
+<dd>Access password for shared directory</dd>
+</dl>
+</dd>
+<dt>Returns:</dt>
+<dd><dl class="first last docutils">
+<dt>URL:</dt>
+<dd>share url for a directory</dd>
+<dt>False:</dt>
+<dd>Failed to share a directory</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="ndrive.Ndrive.put">
+<tt class="descname">put</tt><big>(</big><em>file_obj</em>, <em>full_path</em>, <em>overwrite=False</em><big>)</big><a class="headerlink" href="#ndrive.Ndrive.put" title="Permalink to this definition">¶</a></dt>
+<dd><p>Upload a file.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">nd</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="s">&#39;./flower.png&#39;</span><span class="p">,</span><span class="s">&#39;/Picture/flower.png&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">nd</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="nb">open</span><span class="p">(</span><span class="s">&#39;./flower.png&#39;</span><span class="p">,</span><span class="s">&#39;r&#39;</span><span class="p">),</span><span class="s">&#39;/Picture/flower.png&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>file_obj</strong> &#8211; A file-like object to check whether possible to upload. You can pass a string as a file_obj or a real file object.</li>
+<li><strong>full_path</strong> &#8211; The full path to upload the file to, <em>including the file name</em>. If the destination directory does not yet exist, it will be created.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><tt class="docutils literal"><span class="pre">True</span></tt> when succcess to upload a file or <tt class="docutils literal"><span class="pre">False</span></tt></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="ndrive.Ndrive.setProperty">
+<tt class="descname">setProperty</tt><big>(</big><em>full_path</em>, <em>protect</em>, <em>dummy=7046</em><big>)</big><a class="headerlink" href="#ndrive.Ndrive.setProperty" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set property of a file.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>full_path</strong> &#8211; The full path to get the file or directory property.</li>
+<li><strong>protect</strong> &#8211; &#8216;Y&#8217; or &#8216;N&#8217;, 중요 표시</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><tt class="docutils literal"><span class="pre">True</span></tt> when success to set property or <tt class="docutils literal"><span class="pre">False</span></tt></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="ndrive.Ndrive.uploadFile">
+<tt class="descname">uploadFile</tt><big>(</big><em>file_obj</em>, <em>full_path</em>, <em>overwrite=False</em><big>)</big><a class="headerlink" href="#ndrive.Ndrive.uploadFile" title="Permalink to this definition">¶</a></dt>
+<dd><p>Upload a file as Ndrive really do.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">nd</span><span class="o">.</span><span class="n">uploadFile</span><span class="p">(</span><span class="s">&#39;~/flower.png&#39;</span><span class="p">,</span><span class="s">&#39;/Picture/flower.png&#39;</span><span class="p">,</span><span class="bp">True</span><span class="p">)</span>
+</pre></div>
+</div>
+<dl class="docutils">
+<dt>This function imitates the process when Ndrive uploads a local file to its server. The process follows 7 steps:</dt>
+<dd><blockquote class="first">
+<div><ol class="arabic simple">
+<li>POST /CheckStatus.ndrive</li>
+<li>POST /GetDiskSpace.ndrive</li>
+<li>POST /CheckUpload.ndrive</li>
+<li>PUT /FILE_PATH</li>
+<li>POST /GetList.ndrive</li>
+<li>POST /GetWasteInfo.ndrive</li>
+<li>POST /GetDiskSpace.ndrive</li>
+</ol>
+</div></blockquote>
+<p class="last">nd.uploadFile(&#8216;./flower.png&#8217;,&#8217;/Picture/flower.png&#8217;)</p>
+</dd>
+</dl>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>file_obj</strong> &#8211; A file-like object to check whether possible to upload. You can pass a string as a file_obj or a real file object.</li>
+<li><strong>full_path</strong> &#8211; The full path to upload the file to, <em>including the file name</em>. If the destination directory does not yet exist, it will be created.</li>
+<li><strong>overwrite</strong> &#8211; Whether to overwrite an existing file at the given path. (Default <tt class="docutils literal"><span class="pre">False</span></tt>.)</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="changelog">
+<h2>Changelog<a class="headerlink" href="#changelog" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="version-0-1">
+<h2>Version 0.1<a class="headerlink" href="#version-0-1" title="Permalink to this headline">¶</a></h2>
+<p>First public preview release.</p>
+</div>
+<div class="section" id="license-and-author">
+<h2>License and Author<a class="headerlink" href="#license-and-author" title="Permalink to this headline">¶</a></h2>
+<p>This Ndrive package is opened under the MIT license. See LISENCE file for a further information.</p>
+<p>I&#8217;m <a class="reference external" href="http://carpedm20.us.to/">Kim Tae Hoon</a>, a student who want to be a great developer :)</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+  
+    <a href="http://github.com/carpedm20/ndrive"><img style="position: fixed; top: 0; right: 0; border: 0;"
+    src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+  
+
+  
+  </div>
+  
+
+  </body>
+</html>

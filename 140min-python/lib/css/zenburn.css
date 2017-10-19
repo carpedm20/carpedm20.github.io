@@ -1,0 +1,114 @@
+/*
+
+Zenburn style from voldmar.ru (c) Vladimir Epifanov <voldmar@voldmar.ru>
+based on dark.css by Ivan Sagalaev
+
+*/
+
+pre.zenburn code {
+  display: block; padding: 0.5em;
+  background: #3F3F3F;
+  color: #DCDCDC;
+}
+
+pre.zenburn .keyword,
+pre.zenburn .tag,
+pre.zenburn .css .class,
+pre.zenburn .css .id,
+pre.zenburn .lisp .title,
+pre.zenburn .nginx .title,
+pre.zenburn .request,
+pre.zenburn .status,
+pre.zenburn .clojure .attribute {
+  color: #E3CEAB;
+}
+
+pre.zenburn .django .template_tag,
+pre.zenburn .django .variable,
+pre.zenburn .django .filter .argument {
+  color: #DCDCDC;
+}
+
+pre.zenburn .number,
+pre.zenburn .date {
+  color: #8CD0D3;
+}
+
+pre.zenburn .dos .envvar,
+pre.zenburn .dos .stream,
+pre.zenburn .variable,
+pre.zenburn .apache .sqbracket {
+  color: #EFDCBC;
+}
+
+pre.zenburn .dos .flow,
+pre.zenburn .diff .change,
+pre.zenburn .python .exception,
+pre.zenburn .python .built_in,
+pre.zenburn .literal,
+pre.zenburn .tex .special {
+  color: #EFEFAF;
+}
+
+pre.zenburn .diff .chunk,
+pre.zenburn .subst {
+  color: #8F8F8F;
+}
+
+pre.zenburn .dos .keyword,
+pre.zenburn .python .decorator,
+pre.zenburn .title,
+pre.zenburn .haskell .type,
+pre.zenburn .diff .header,
+pre.zenburn .ruby .class .parent,
+pre.zenburn .apache .tag,
+pre.zenburn .nginx .built_in,
+pre.zenburn .tex .command,
+pre.zenburn .prompt {
+    color: #efef8f;
+}
+
+pre.zenburn .dos .winutils,
+pre.zenburn .ruby .symbol,
+pre.zenburn .ruby .symbol .string,
+pre.zenburn .ruby .string {
+  color: #DCA3A3;
+}
+
+pre.zenburn .diff .deletion,
+pre.zenburn .string,
+pre.zenburn .tag .value,
+pre.zenburn .pre.zenburnprocessor,
+pre.zenburn .built_in,
+pre.zenburn .sql .aggregate,
+pre.zenburn .javadoc,
+pre.zenburn .smalltalk .class,
+pre.zenburn .smalltalk .localvars,
+pre.zenburn .smalltalk .array,
+pre.zenburn .css .rules .value,
+pre.zenburn .attr_selector,
+pre.zenburn .pseudo,
+pre.zenburn .apache .cbracket,
+pre.zenburn .tex .formula {
+  color: #CC9393;
+}
+
+pre.zenburn .shebang,
+pre.zenburn .diff .addition,
+pre.zenburn .comment,
+pre.zenburn .java .annotation,
+pre.zenburn .template_comment,
+pre.zenburn .pi,
+pre.zenburn .doctype {
+  color: #7F9F7F;
+}
+
+pre.zenburn .coffeescript .javascript,
+pre.zenburn .javascript .xml,
+pre.zenburn .tex .formula,
+pre.zenburn .xml .javascript,
+pre.zenburn .xml .vbscript,
+pre.zenburn .xml .css,
+pre.zenburn .xml .cdata {
+  opacity: 0.5;
+}

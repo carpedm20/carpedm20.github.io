@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Korail2 &mdash; korail2 0.0.1 documentation</title>
+    
+    <link rel="stylesheet" href="static/flasky.css" type="text/css" />
+    <link rel="stylesheet" href="static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="static/jquery.js"></script>
+    <script type="text/javascript" src="static/underscore.js"></script>
+    <script type="text/javascript" src="static/doctools.js"></script>
+    <link rel="top" title="korail2 0.0.1 documentation" href="#" /> 
+  </head>
+  <body>
+  
+  
+  <div class=indexwrapper>
+  
+
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="korail2">
+<h1>Korail2<a class="headerlink" href="#korail2" title="Permalink to this headline">¶</a></h1>
+<p>Korail (www.letskorail.com) wrapper for Python.</p>
+<p>This project was inspired from
+<a class="reference external" href="https://github.com/devxoul/korail">korail</a> of
+<a class="reference external" href="https://github.com/devxoul">devxoul</a>.</p>
+<p><a class="reference external" href="https://github.com/devxoul/korail">korail</a> is not working anymore
+becuase of a huge change in Korail API.</p>
+<div class="section" id="installing">
+<h2>Installing<a class="headerlink" href="#installing" title="Permalink to this headline">¶</a></h2>
+<p>To install korail2, simply:</p>
+<div class="highlight-python"><div class="highlight"><pre>$ pip install korail2
+</pre></div>
+</div>
+<p>Or, you can use:</p>
+<div class="highlight-python"><div class="highlight"><pre>$ easy_install korail2
+</pre></div>
+</div>
+<p>Or, you can also install manually:</p>
+<div class="highlight-python"><div class="highlight"><pre>$ git clone git://github.com/carpedm20/korail2.git
+$ cd korail2
+$ python setup.py install
+</pre></div>
+</div>
+</div>
+<div class="section" id="using">
+<h2>Using<a class="headerlink" href="#using" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="login">
+<h3>1. Login<a class="headerlink" href="#login" title="Permalink to this headline">¶</a></h3>
+<p>First, you need to create a Korail object.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">korail2</span> <span class="kn">import</span> <span class="n">Korail</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">korail</span> <span class="o">=</span> <span class="n">Korail</span><span class="p">(</span><span class="s">&quot;12345678&quot;</span><span class="p">,</span> <span class="n">YOUR_PASSWORD</span><span class="p">)</span> <span class="c"># with membership number</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">korail</span> <span class="o">=</span> <span class="n">Korail</span><span class="p">(</span><span class="s">&quot;carpedm20@gmail.com&quot;</span><span class="p">,</span> <span class="n">YOUR_PASSWORD</span><span class="p">)</span> <span class="c"># with email</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">korail</span> <span class="o">=</span> <span class="n">Korail</span><span class="p">(</span><span class="s">&quot;010-9964-xxxx&quot;</span><span class="p">,</span> <span class="n">YOUR_PASSWORD</span><span class="p">)</span> <span class="c"># with phone number</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="search-train">
+<h3>2. Search train<a class="headerlink" href="#search-train" title="Permalink to this headline">¶</a></h3>
+<p>You can search train schedules <tt class="docutils literal"><span class="pre">search_train</span></tt> method. <tt class="docutils literal"><span class="pre">search_train</span></tt>
+method takes these arguments:</p>
+<ul class="simple">
+<li>dep : A departure station in Korean ex) &#8216;서울&#8217;</li>
+<li>arr : A arrival station in Korean ex) &#8216;부산&#8217;</li>
+<li>date : (optional) A departure date in <tt class="docutils literal"><span class="pre">yyyyMMdd</span></tt> format</li>
+<li>time : (optional) A departure time in <tt class="docutils literal"><span class="pre">hhmmss</span></tt> format</li>
+<li>train_type: (optional) A type of train<ul>
+<li>00: KTX</li>
+<li>01: 새마을호</li>
+<li>02: 무궁화호</li>
+<li>03: 통근열차</li>
+<li>04: 누리로</li>
+<li>05: 전체 (기본값)</li>
+<li>06: 공학직통</li>
+<li>07: KTX-산천</li>
+<li>08: ITX-새마을</li>
+<li>09: ITX-청춘</li>
+</ul>
+</li>
+</ul>
+<p>Below is a sample code of <tt class="docutils literal"><span class="pre">search_train</span></tt>:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">dep</span> <span class="o">=</span> <span class="s">&#39;서울&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">arr</span> <span class="o">=</span> <span class="s">&#39;동대구&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">date</span> <span class="o">=</span> <span class="s">&#39;20140815&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">time</span> <span class="o">=</span> <span class="s">&#39;144000&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">trains</span> <span class="o">=</span> <span class="n">korail</span><span class="o">.</span><span class="n">search_train</span><span class="p">(</span><span class="n">dep</span><span class="p">,</span> <span class="n">arr</span><span class="p">,</span> <span class="n">date</span><span class="p">,</span> <span class="n">time</span><span class="p">)</span>
+<span class="go">[[KTX] 8월 3일, 서울~부산(11:00~13:42) [특실:1][일반실:1] 예약가능,</span>
+<span class="go"> [ITX-새마을] 8월 3일, 서울~부산(11:04~16:00) [일반실:1] 예약가능,</span>
+<span class="go"> [무궁화호] 8월 3일, 서울~부산(11:08~16:54) [일반실:0] 입석 역발매중,</span>
+<span class="go"> [ITX-새마을] 8월 3일, 서울~부산(11:50~16:50) [일반실:0] 입석 역발매중,</span>
+<span class="go"> [KTX] 8월 3일, 서울~부산(12:00~14:43) [특실:1][일반실:1] 예약가능,</span>
+<span class="go"> [KTX] 8월 3일, 서울~부산(12:30~15:13) [특실:1][일반실:1] 예약가능,</span>
+<span class="go"> [KTX] 8월 3일, 서울~부산(12:40~15:45) [특실:1][일반실:1] 예약가능,</span>
+<span class="go"> [KTX] 8월 3일, 서울~부산(12:55~15:26) [특실:1][일반실:1] 예약가능,</span>
+<span class="go"> [KTX] 8월 3일, 서울~부산(13:00~15:37) [특실:1][일반실:1] 예약가능,</span>
+<span class="go"> [KTX] 8월 3일, 서울~부산(13:10~15:58) [특실:1][일반실:1] 예약가능]</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="make-a-reservation">
+<h3>3. Make a reservation<a class="headerlink" href="#make-a-reservation" title="Permalink to this headline">¶</a></h3>
+<p>You can get your tickes with <tt class="docutils literal"><span class="pre">tickets</span></tt> method.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">trains</span> <span class="o">=</span> <span class="n">korail</span><span class="o">.</span><span class="n">search_train</span><span class="p">(</span><span class="n">dep</span><span class="p">,</span> <span class="n">arr</span><span class="p">,</span> <span class="n">date</span><span class="p">,</span> <span class="n">time</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">seat</span> <span class="o">=</span> <span class="n">korail</span><span class="o">.</span><span class="n">reserve</span><span class="p">(</span><span class="n">trains</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="go">정상처리되었습니다</span>
+<span class="go">동일시간대 예약발매내역이 있습니다.</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">seat</span>
+<span class="go">[KTX] 8월 3일, 서울~부산(11:00~:) 16호 6A</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-tickets">
+<h3>4. Get tickets<a class="headerlink" href="#get-tickets" title="Permalink to this headline">¶</a></h3>
+<p>You can get your tickes with <tt class="docutils literal"><span class="pre">tickets</span></tt> method.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">tickets</span> <span class="o">=</span> <span class="n">k</span><span class="o">.</span><span class="n">tickets</span><span class="p">()</span>
+<span class="go">정상발매처리,정상발권처리</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">tickets</span>
+<span class="go">[[KTX] 8월 10일, 동대구~울산(09:26~09:54) =&gt; 5호 4A, 13900원]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="how-do-i-get-the-korail-api">
+<h2>How do I get the Korail API<a class="headerlink" href="#how-do-i-get-the-korail-api" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Extract Korail apk from mobile phone</li>
+<li>Decompile apk using <a class="reference external" href="https://code.google.com/p/dex2jar/">dex2jar</a></li>
+<li>Read a jar code using <a class="reference external" href="http://jd.benow.ca/">jdgui</a></li>
+<li>Edit a smaili code</li>
+<li>Recompile a new Korail apk using
+<a class="reference external" href="https://code.google.com/p/android-apktool/">apktool</a></li>
+<li>Key signing with <tt class="docutils literal"><span class="pre">motizen-sign</span></tt></li>
+<li>Upload and run a new Korail apk</li>
+<li>Capture packets and analyze the API</li>
+</ol>
+</div>
+<div class="section" id="license">
+<h2>License<a class="headerlink" href="#license" title="Permalink to this headline">¶</a></h2>
+<p>Source codes are distributed under BSD license.</p>
+</div>
+<div class="section" id="author">
+<h2>Author<a class="headerlink" href="#author" title="Permalink to this headline">¶</a></h2>
+<p>Taehoon Kim / <a class="reference external" href="http://carpedm20.github.io/about/">&#64;carpedm20</a></p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+  
+    <a href="http://github.com/carpedm20/korail2"><img style="position: fixed; top: 0; right: 0; border: 0;"
+    src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+  
+
+  
+  </div>
+  
+
+  </body>
+</html>

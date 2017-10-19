@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+  <title>Poisson Disk Sampling</title>
+</head>
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+var WIDTH = 600,
+    HEIGHT = 600,
+    MIN_DIST = 20,
+    NEW_POINTS_COUNT = 10;
+
+function Point(x, y) {
+  this.x = x || 0;
+  this.y = y || 0;
+}
+
+function Points() {
+  this.points = [];
+  this.length = this.points.length;
+
+  this.push = function(point) {
+    this.points.push(point);
+
+    this.length = this.points.length;
+  };
+
+  this.pop = function() {
+    var length = this.points.length;
+
+    var point = this.points.splice(0, 1)[0];
+    this.length = this.points.length;
+
+    return point;
+  };
+
+  this.randomPop = function() {
+    var length = this.points.length;
+    var randIdx = parseInt(length * Math.random(), 10);
+
+    var point = this.points.splice(randIdx, 1)[0];
+    this.length = this.points.length;
+
+    return point;
+  };
+}
+
+function Grid(row, col) {
+  this.points = new Array(row);
+
+  for (var i=0; i<row; i++) {
+    this.points[i] = new Array(col);
+  }
+
+  this.setPoint = function(row, col, point) {
+    try {
+      this.points[row][col] = point;
+    } catch(err) {
+      return false;
+    }
+  };
+
+  this.getPoint = function(row, col) {
+    try {
+      return this.points[row][col];
+    } catch(err) {
+      return undefined;
+    }
+  };
+
+  this.isExist = function(row, col) {
+    if (this.points[row][col] === undefined)
+      return false;
+    else
+      return true;
+  };
+}
+
+function poissonDiskSampler(width, height, min_dist, new_points_count) {
+  this.width = width || WDITH;
+  this.height = height || HEIGHT;
+  this.min_dist = min_dist || MIN_DIST;
+  this.cell_size = min_dist/Math.sqrt(this.min_dist);
+  this.new_points_count = new_points_count || NEW_POINTS_COUNT;
+
+  this.samplePoints = new Points();
+  this.processPoints = new Points();
+
+  this.row = Math.ceil(this.width/this.cell_size, 10)
+  this.col = Math.ceil(this.height/this.cell_size, 10)
+
+  this.grid = new Grid(this.row, this.col);
+
+  this.pointToGridPoint = function (point) {
+    var row = Math.ceil(point.x / this.cell_size, 10);
+    var col = Math.ceil(point.y / this.cell_size, 10);
+
+    return new Point(row, col);
+  };
+
+  this.isInRange = function(point) {
+    if (0 < point.x < this.width && 0 < point.y < this.height)
+      return true;
+    else
+      return false;
+  };
+
+  this.isThereAnyNeighbors = function(point) {
+    var gridPoint = this.pointToGridPoint(point);
+    var row = gridPoint.x;
+    var col = gridPoint.y;
+
+    var range = [-2, -1, 0, 1, 2];
+
+    for (var i in range) {
+      for (var j in range) {
+        if (i === 0 || j === 0)
+          continue;
+
+        var pointToCompare = this.grid.getPoint(row, col);
+
+        if (point === undefined || pointToCompare === undefined)
+          continue;
+        else {
+          var dist = Math.sqrt(Math.pow(point.x - pointToCompare.x, 2)
+                      + Math.pow(point.y - pointToCompare.y, 2));
+          if (dist < this.min_dist)
+            return true;
+        }
+      }
+    }
+
+    return false;
+  }
+
+  this.generateRandomPointAround = function(centerPoint) {
+    var length = this.min_dist * (1 + Math.random());
+    var theta = 2 * Math.PI * Math.random();
+
+    var x = centerPoint.x + this.min_dist * Math.sin(theta);
+    var y = centerPoint.y + this.min_dist * Math.cos(theta);
+
+    return new Point(x, y);
+  }
+
+  var x = width * Math.random();
+  var y = height * Math.random();
+
+  var startPoint = new Point(x, y);
+
+  samplePoints.push(startPoint);
+  processPoints.push(startPoint);
+
+  var gridPoint = this.pointToGridPoint(startPoint);
+  var row = gridPoint.x;
+  var col = gridPoint.y;
+
+  this.grid.setPoint(row, col, startPoint)
+
+  count = 0
+
+  while (processPoints.length > 0) {
+    var tmpPoint = processPoints.randomPop();
+
+    for (var i=0; i<new_points_count; i++) {
+      var randomPoint = this.generateRandomPointAround(tmpPoint);
+
+      if (this.isInRange(randomPoint) && !this.isThereAnyNeighbors(randomPoint)) {
+        processPoints.push(randomPoint);
+        samplePoints.push(randomPoint);
+
+        var gridPoint = this.pointToGridPoint(randomPoint);
+        var row = gridPoint.x;
+        var col = gridPoint.y;
+
+        this.grid.setPoint(row, col, startPoint)
+      }
+    }
+
+    if (count++ > 100) return this.samplePoints;
+  }
+
+  return this.samplePoints;
+}
+
+var svg = d3.select("body").append("svg")
+    .attr("width", WIDTH)
+    .attr("height", HEIGHT);
+
+var sample = poissonDiskSampler(WIDTH, HEIGHT, MIN_DIST, NEW_POINTS_COUNT);
+
+d3.timer(function() {
+    for (var i = 0; i < 10; ++i) {
+      var randomPoint = samplePoints.pop();
+      if (randomPoint != undefined)
+      svg.append("circle")
+        .attr("cx", randomPoint.x)
+        .attr("cy", randomPoint.y)
+        .attr("r", 0)
+        .transition()
+        .attr("r", 2);
+    }
+});
+
+
+</script>

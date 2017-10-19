@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>random-wall</title>
+  <meta name="description" content="A jQuery plugin that randomly changes background-image of an element.">
+  <meta name="author" content="Kim Tae Hoon">
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <div id="content">
+    <img id="logo" src="./img/logo.png">
+  </div>
+
+  <div id="random-wall">
+    <div class="overlay"></div>
+  </div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script src="js/jquery.random-wall.min.js"></script>
+  <script>
+  (function($){
+    $(function() {
+      $("#random-wall").randomwall({
+        delay_time: 8000,
+        /* set random image pool manually (optional)
+        image_list: ['http://i.imgur.com/CiAvVQL.jpg',
+                     'http://i.imgur.com/qC5Nprs.jpg',
+                     'http://i.imgur.com/fckzvp1.jpg',
+                     'http://i.imgur.com/od4QZ8C.jpg'],
+        */
+      });
+    });
+  }(jQuery));
+  </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+#random-wall { 
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  z-index: -1;
+}
+
+#content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -192px;
+  width: 200px;
+  height: 200px;
+}
+
+#logo {
+  display:block;
+  margin:auto;
+  position: relative;
+  text-align: center;
+  height: 110px;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: #3f3f3f;
+  margin: 0 0 30px 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 24px;
+  letter-spacing: -1px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+div.overlay {
+  opacity: .8;
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}

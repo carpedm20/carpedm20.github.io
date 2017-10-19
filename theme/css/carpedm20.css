@@ -1,0 +1,157 @@
+/* carpedm20 */
+@import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic,400);
+@import url(//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css);
+
+ul.first.last {
+  padding: 0px;
+}
+
+.black {
+  color: black;
+}
+
+body {
+  font-family: "Nanum Barun Gothic";
+}
+
+em, #papers * {
+  font-family: 'Vollkorn', serif !important;
+}
+
+h2, h3, ul {
+  /*margin-top: 0 !important;*/
+}
+
+li {
+  line-height: 1.8em;
+}
+
+dd {
+ margin-left: 20px;
+}
+.first.last.simple {
+  padding: 0px;
+}
+#papers li, #profile li, #taehoon-kim li, #about-me li, #introduction li, #links li, #interests li, #publications li, #awards li, #development-experience li, #work-experience li, #research-experience li, #experience li, #projects li, #presentations li, #skills li, #translation li, #campus-activities li, #id5 li {
+  list-style: none;
+  margin: 0.3em 0em;
+  padding: 0em;
+}
+#profile ul, #taehoon-kim ul, #skills ul, #about-me ul, #introduction ul {
+  padding-left: 1em;
+}
+#id5 dd ul {
+  padding-left: 0em;
+}
+small {
+  font-size: 0.6em;
+}
+
+#footer p {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.fb-bot {
+  float: left;
+  padding: 13px;
+  width: 75%;
+  margin-left: 4%;
+}
+
+#links table {
+  margin-left: 1em;
+}
+
+#interests h3, #projects h3, #links h3, #publications h3, #awards h3, #presentations h3,  #development-experience h3, #work-experience h3, #research-experience h3, #experience h3, #translation h3, #current h3, #old h3, #campus-activities h3, #id5 h3 {
+  margin-left: 1em;
+  margin-bottom: 0.8em;
+}
+#interests li, #projects li, #links li, #publications li, #awards li, #presentations li,  #development-experience li, #work-experience li, #research-experience li, #experience li, #translation li, #current li, #old li, #papers li, #campus-activities li, #id5 li {
+  line-height: 1.3em;
+}
+
+#footer {
+  margin-top: 2em;
+}
+/* carpedm20 */
+
+#id5 li p {
+  /*line-height: 0.5em;*/
+}
+
+#papers li p {
+  /*line-height: 0.8em;*/
+  /*line-height: 0.5em;*/
+}
+
+.pure-g [class *="pure-u"] {
+}
+.pure-u-1, .pure-u-1-1, .pure-u-1-2, .pure-u-1-3, .pure-u-2-3, .pure-u-1-4, .pure-u-3-4, .pure-u-1-5, .pure-u-2-5, .pure-u-3-5, .pure-u-4-5, .pure-u-5-5, .pure-u-1-6, .pure-u-5-6, .pure-u-1-8, .pure-u-3-8, .pure-u-5-8, .pure-u-7-8, .pure-u-1-12, .pure-u-5-12, .pure-u-7-12, .pure-u-11-12, .pure-u-1-24, .pure-u-2-24, .pure-u-3-24, .pure-u-4-24, .pure-u-5-24, .pure-u-6-24, .pure-u-7-24, .pure-u-8-24, .pure-u-9-24, .pure-u-10-24, .pure-u-11-24, .pure-u-12-24, .pure-u-13-24, .pure-u-14-24, .pure-u-15-24, .pure-u-16-24, .pure-u-17-24, .pure-u-18-24, .pure-u-19-24, .pure-u-20-24, .pure-u-21-24, .pure-u-22-24, .pure-u-23-24, .pure-u-24-24 {
+  display: inline-block;
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+}
+.pure-g {
+  letter-spacing: -.31em;
+  text-rendering: optimizespeed;
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
+  display: -ms-flexbox;
+  -ms-flex-flow: row wrap;
+}
+
+
+.showcode{
+  background: #1569C7;
+  color: white;
+  width: 55px;
+  height: 55px;
+  text-align: center;
+  position: absolute;
+  right: 1em;
+  bottom: 2em;
+  margin-bottom: -15px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.26);
+  transition: all .3s;
+}
+.viewCode .showcode{
+  -webkit-transform: rotateX(-180deg);
+  transform: rotateX(-180deg);
+  box-shadow: 0px -2px 5px 0 rgba(0, 0, 0, 0.26);      
+} 
+.icon-nocode, .icon-yepcode{
+  transition: opacity .3s;
+  position: absolute;
+  left: 0;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+}    
+.icon-nocode{
+  opacity: 0;
+}
+.viewCode .icon-nocode{
+  opacity: 1;
+}
+.viewCode .icon-yepcode{
+  opacity: 0;
+}
+
+div#publications ul {
+  padding: 0 0 0 20px !important;
+}
+
+#scholarships p, #etc p {
+  line-height: 1em;
+}
+
+#publications li {
+  line-height: 1.5em;
+  margin: 0em 0em 0.7em 0em;
+}
