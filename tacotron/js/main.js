@@ -9,7 +9,13 @@ var inactiveColors = [[241,243,245], [206,212,218], [222,226,230], [173,181,189]
 
 function displayRawAudio() {
   $('a.play').replaceWith(function(){
-    return $("<audio controls><source src='" + $(this).attr('data') + "'>", {html: $(this).attr('data')});
+    var data = $(this).attr('data');
+    
+    if (typeof data !== typeof undefined && data !== false) {
+      return $("<audio controls><source src='" + data + "'>", {html: $(this).attr('data')});
+    } else {
+      return ""
+    }
   });
   return $("#display-audio").remove();
 }
