@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Taehoon Kim</title><link href="/" rel="alternate"></link><link href="/feeds/taehoon-kim.atom.xml" rel="self"></link><id>/</id><updated>2014-07-03T00:00:00+02:00</updated><entry><title>[번역] Neural Network를 이용한 손글씨 인지</title><link href="/2014/neural-net-translation/" rel="alternate"></link><updated>2014-07-03T00:00:00+02:00</updated><author><name>Taehoon Kim</name></author><id>tag:,2014-07-03:2014/neural-net-translation/</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://neuralnetworksanddeeplearning.com/"&gt;http://neuralnetworksanddeeplearning.com/&lt;/a&gt; 에 올라온 챕터을 이해하고 기록하고자 번역을 시작한다. 번역의 속도를 높이기 위해 &lt;strong&gt;수많은&lt;/strong&gt; 의역이 포함되어 있다.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Taehoon Kim - Taehoon Kim</title><link href="/" rel="alternate"></link><link href="/feeds/taehoon-kim.atom.xml" rel="self"></link><id>/</id><updated>2014-07-03T00:00:00+02:00</updated><entry><title>[번역] Neural Network를 이용한 손글씨 인지</title><link href="/2014/neural-net-translation/" rel="alternate"></link><published>2014-07-03T00:00:00+02:00</published><updated>2014-07-03T00:00:00+02:00</updated><author><name>Taehoon Kim</name></author><id>tag:None,2014-07-03:/2014/neural-net-translation/</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://neuralnetworksanddeeplearning.com/"&gt;http://neuralnetworksanddeeplearning.com/&lt;/a&gt; 에 올라온 챕터을 이해하고 기록하고자 번역을 시작한다. 번역의 속도를 높이기 위해 &lt;strong&gt;수많은 …&lt;/strong&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="http://neuralnetworksanddeeplearning.com/"&gt;http://neuralnetworksanddeeplearning.com/&lt;/a&gt; 에 올라온 챕터을 이해하고 기록하고자 번역을 시작한다. 번역의 속도를 높이기 위해 &lt;strong&gt;수많은&lt;/strong&gt; 의역이 포함되어 있다.&lt;/p&gt;
 &lt;div class="section" id="info"&gt;
 &lt;h2&gt;Info&lt;/h2&gt;
 &lt;table class="docutils field-list" frame="void" rules="none"&gt;
@@ -230,17 +230,15 @@ graph.append("text")
 &lt;/div&gt;
 &lt;div class="section" id="excercises"&gt;
 &lt;h2&gt;Excercises&lt;/h2&gt;
-&lt;ul&gt;
+&lt;ul class="simple"&gt;
 &lt;li&gt;&lt;dl class="first docutils"&gt;
 &lt;dt&gt;Sigmoid neuron simulating perceptrons, part 1&lt;/dt&gt;
-&lt;dd&gt;&lt;p class="first last"&gt;perceptron의 모든 weight와 bias를 양의 상수 $c &amp;gt; 0$로 곱했을때, network의 행동이 변하지 않는다는 것을 증명해라&lt;/p&gt;
-&lt;/dd&gt;
+&lt;dd&gt;perceptron의 모든 weight와 bias를 양의 상수 $c &amp;gt; 0$로 곱했을때, network의 행동이 변하지 않는다는 것을 증명해라&lt;/dd&gt;
 &lt;/dl&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;dl class="first docutils"&gt;
 &lt;dt&gt;Sigmoid neuron simulating perceptrons, part 2&lt;/dt&gt;
-&lt;dd&gt;&lt;p class="first last"&gt;???&lt;/p&gt;
-&lt;/dd&gt;
+&lt;dd&gt;???&lt;/dd&gt;
 &lt;/dl&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -309,5 +307,6 @@ graph.append("text")
 &lt;p&gt;MNIST 데이터는 두개의 부분으로 나뉜다. 첫번째 파트는 60,000개의 이미지로 구성되어 있고 training data로 사용할 것이다. 이 이미지들은 250명의 사람들로부터 얻은 스캔한 손글씨들이며, 반은 US Census Bureau 노동자들로부터, 나머지 반은 고등학교 학생들로부터 얻었다. 이미지들은 28 * 28 픽셀 사이즈로 회색톤(greyscale)으로 되어있다. MNIST의 두번째 파트는&lt;/p&gt;
 &lt;p&gt;( .. 진행중 .. )&lt;/p&gt;
 &lt;/div&gt;
-</summary><category term="machine learning"></category><category term="neural network"></category><category term="perceptron"></category><category term="sigmoid neuron"></category></entry><entry><title>Moved blog from blogger</title><link href="/2014/moved-blog-from-blogger/" rel="alternate"></link><updated>2014-06-29T23:04:00+02:00</updated><author><name>Taehoon Kim</name></author><id>tag:,2014-06-29:2014/moved-blog-from-blogger/</id><summary type="html">&lt;p&gt;I moved my blog from blogger (&lt;a class="reference external" href="http://carpedm20.blogspot.kr"&gt;http://carpedm20.blogspot.kr&lt;/a&gt;) to here.&lt;/p&gt;
-</summary><category term="blog"></category></entry></feed>
+</content><category term="machine learning"></category><category term="neural network"></category><category term="perceptron"></category><category term="sigmoid neuron"></category></entry><entry><title>Moved blog from blogger</title><link href="/2014/moved-blog-from-blogger/" rel="alternate"></link><published>2014-06-29T23:04:00+02:00</published><updated>2014-06-29T23:04:00+02:00</updated><author><name>Taehoon Kim</name></author><id>tag:None,2014-06-29:/2014/moved-blog-from-blogger/</id><summary type="html">&lt;p&gt;I moved my blog from blogger (&lt;a class="reference external" href="http://carpedm20.blogspot.kr"&gt;http://carpedm20.blogspot.kr&lt;/a&gt;) to here.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;I moved my blog from blogger (&lt;a class="reference external" href="http://carpedm20.blogspot.kr"&gt;http://carpedm20.blogspot.kr&lt;/a&gt;) to here.&lt;/p&gt;
+</content><category term="blog"></category></entry></feed>
