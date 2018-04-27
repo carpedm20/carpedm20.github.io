@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <title>Taehoon Kim (carpedm20)</title>
+
+    <!-- meta -->
+    <meta charset="utf-8" />
+    <meta name="author" content="Taehoon Kim" />
+    <meta content="Reinforcement Learning, Computer Vision, Machine Learning" name="description">
+        <meta name="description" content="발표 자료: link 저는 TensorFlow가 공개된 2015년 11월부터 지금까지 여러 편의 논문을 구현하고 오픈 소스들을 ..." />
+    <meta name="dc.language" content="en" />
+    <meta name="dc.license" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:url" content="http://carpedm20.github.io"/>
+    <meta property="og:image" content="http://carpedm20.github.io/images/carpedm20.png" />
+
+    <!-- favicon -->
+    <link rel="icon" href="/theme/favicon.ico" type="image/x-icon">
+
+    <!-- newsfeeds -->
+        <link href="/feeds/rss.xml" type="application/rss+xml" rel="alternate" title="Taehoon Kim RSS Feed" />
+
+    <!-- assets -->
+    <!--[if lt IE 9]>
+        <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Linden+Hill:400,400italic" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link href="../../theme/css/mfb.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../../theme/css/main.css" type="text/css">
+    <link rel="stylesheet" href="../../theme/css/pure.css" type="text/css">
+    <link rel="stylesheet" href="../../theme/css/carpedm20.css" type="text/css">
+    <link rel="stylesheet" href="../../theme/css/pygments.css" type="text/css">
+
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="blogtitle"><a href="../..">Taehoon Kim</a></div>
+        <ul id="mainnav">
+            <li class="first"><a href="/">home</a></li>
+            <li><a href="/archive/">archive</a></li>
+            <li><a href="/tags/">tags</a></li>
+            <li class="last"><a href="/about/">about me</a></li>
+        </ul>
+
+        <div class="clearboth"></div>
+
+        <section id="content">
+
+    <h1 class="title">딥러닝 논문 구현에 대한 생각</h1>
+
+        <div class="date">
+            <p>October 26, 2018</p>
+        </div>
+
+    <div class="clearboth article-content">
+        <p>발표 자료: <a class="reference external" href="https://www.slideshare.net/carpedm20/random-thoughts-on-paper-implementations-kaist-2018-95048244">link</a></p>
+<p>저는 TensorFlow가 공개된 2015년 11월부터 지금까지 여러 편의 논문을 구현하고 오픈 소스들을 읽으면서 많은 것을 배울 수 있었습니다. 다양한 분야의 연구자들이 어떤 고민을 하고 있는지, 특정 분야에서만 사용되는 노하우가 어떤 것이 있는지를 알 수 있었고, 몇 날 며칠을 같은 코드를 디버깅하면서 생긴 요령도 지금 하고있는 연구에 큰 도움이 되고 있습니다.</p>
+<p>하지만 논문 구현 자체는 문장과 수식을 코드로 번역하는 과정으로, 익숙해지면 생각 없이 기계적으로 할 수 있는 단순 반복 작업이 될 수 있습니다. 연구자들을 성장하게 만든 &quot;실패의 과정&quot;은 생략하고 정답만 재현하는 것이기 때문에, 많이 빨리 구현하는 것보단 논문에선 보이지 않는 저자의 의도를 파악하고 정답을 끌어낸 수많은 실패를 상상해 보는 것이 더 중요한 것 같습니다. 그리고 비슷한 논문을 계속 구현하면 새로 배우는 것이 점점 없어지기 때문에 다른 분야에서 더 복잡한 논문을 구현하는 것도 중요합니다.</p>
+<p>하지만 저는 숫자와 속도에 너무 집착했었고 비판적 사고 없이 뇌를 비우고 구현하며 시간만 때운 경우가 많았습니다. 저와 비슷한 실수를 하시는 분이 없으면 좋겠고 계속해서 구현을 즐기고 이야기할 수 있는 분들이 많아졌으면 좋겠습니다.</p>
+<p>마지막으로 OpenAI의 Greg과 Ilya가 구현에 관해 한 얘기도 읽어보면 좋을 것 같습니다: <a class="reference external" href="https://www.quora.com/What-are-the-best-ways-to-pick-up-Deep-Learning-skills-as-an-engineer/answer/Greg-Brockman">link</a></p>
+
+    </div>
+
+        <div class="tags">
+            <p>태그 : 
+<a href="../../tags/deep_learning/">deep_learning</a></p>
+        </div>
+
+
+    <div id="sermo"></div>
+<script type="text/javascript" src="//10.101.59.165:8000/static/js/iframeResizer.min.js"></script> 
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var sermo_server = 'repl.ajaxui.org:8000'
+    var sermo_shortname = 'YTE5NzZlMT'; // required
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    var sermo = document.createElement('script'); sermo.type = 'text/javascript'; sermo.async = true;
+    sermo.src = '//' + sermo_server + '/static/js/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(sermo);
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Sermo.</a></noscript>
+<a href="#" onclick="window.href=sermo_server;" class="dsq-brlink">comments powered by <span class="logo-disqus">sermo</span></a>
+    
+
+        </section>
+    </div>
+
+    <div id="footer">
+      <p>Powered by <a href="http://blog.getpelican.com/">Pelican</a></p>
+    </div>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-60954038-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="../theme/js/mfb.js"></script>
+    <script src="../theme/js/modernizr.touch.js"></script>
+    <script src="../theme/js/script.js"></script>
+
+
+</body>
+
+</html>
