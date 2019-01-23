@@ -10,7 +10,7 @@
     <meta name="author" content="Taehoon Kim (김태훈)" />
     <meta content="Reinforcement Learning, Machine Learning" name="description">
     <meta name="keywords" content="Reinforcement Learning,Machine Learning,김태훈,강화 학습,머신러닝">
-        <meta name="description" content="발표 자료: link 저는 TensorFlow가 공개된 2015년 11월부터 지금까지 여러 편의 논문을 구현하고 오픈 소스들을 …" />
+        <meta name="description" content="4개월이 지났다. 샌프란에 있으면서 느낀 점을 정리하면 기술은 인터넷에 선택적으로 공유되는 것보다 훨씬 빠르게 발전하고 …" />
     <meta name="dc.language" content="en" />
     <meta name="dc.license" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -54,32 +54,58 @@
 
         <section id="content">
 
-    <h1 class="title">딥러닝 논문 구현에 대한 생각</h1>
+    <h1 class="title">샌프란에 있으면서 느낀 점</h1>
 
         <div class="date">
-            <p>October 26, 2018</p>
+            <p>January 11, 2019</p>
         </div>
 
     <div class="clearboth article-content">
-        <p>발표 자료: <a class="reference external" href="https://www.slideshare.net/carpedm20/random-thoughts-on-paper-implementations-kaist-2018-95048244">link</a></p>
-<p>저는 TensorFlow가 공개된 2015년 11월부터 지금까지 여러 편의 논문을 구현하고 오픈 소스들을 읽으면서 많은 것을 배울 수 있었습니다. 다양한 분야의 연구자들이 어떤 고민을 하고 있는지, 특정 분야에서만 사용되는 노하우가 어떤 것이 있는지를 알 수 있었고, 몇 날 며칠을 같은 코드를 디버깅하면서 생긴 요령도 지금 하고있는 연구에 큰 도움이 되고 있습니다.</p>
-<p>하지만 논문 구현 자체는 문장과 수식을 코드로 번역하는 과정으로, 익숙해지면 생각 없이 기계적으로 할 수 있는 단순 반복 작업이 될 수 있습니다. 연구자들을 성장하게 만든 &quot;실패의 과정&quot;은 생략하고 정답만 재현하는 것이기 때문에, 많이 빨리 구현하는 것보단 논문에선 보이지 않는 저자의 의도를 파악하고 정답을 끌어낸 수많은 실패를 상상해 보는 것이 더 중요한 것 같습니다. 그리고 비슷한 논문을 계속 구현하면 새로 배우는 것이 점점 없어지기 때문에 다른 분야에서 더 복잡한 논문을 구현하는 것도 중요합니다.</p>
-<p>하지만 저는 숫자와 속도에 너무 집착했었고 비판적 사고 없이 뇌를 비우고 구현하며 시간만 때운 경우가 많았습니다. 저와 비슷한 실수를 하시는 분이 없으면 좋겠고 계속해서 구현을 즐기고 이야기할 수 있는 분들이 많아졌으면 좋겠습니다.</p>
-<p>마지막으로 OpenAI의 Greg과 Ilya가 구현에 관해 한 얘기도 읽어보면 좋을 것 같습니다: <a class="reference external" href="https://www.quora.com/What-are-the-best-ways-to-pick-up-Deep-Learning-skills-as-an-engineer/answer/Greg-Brockman">link</a></p>
+        <p>4개월이 지났다. 샌프란에 있으면서 느낀 점을 정리하면</p>
+<ul class="simple">
+<li>기술은 인터넷에 선택적으로 공유되는 것보다 훨씬 빠르게 발전하고 있다</li>
+<li>그런 발전을 여기선 훨씬 빠르게 느낄 수 있다</li>
+<li>talent density가 높으며 그만큼 (좋은 의미의) 또라이들이 많다</li>
+<li>네트워킹의 기회를 찾아갈 뿐 아니라 스스로 만들어내는 사람이 많다</li>
+<li>한 명은 자기는 알지만 서로는 모르는 사람들을 모아서 저녁 자리를 계속 만든다</li>
+<li>많은 사람이 책과 팟캐스트 같은 미디어를 소비한다</li>
+<li>이러한 점들 때문에 시간 장소를 가리지 않고 일상의 대화가 대부분 건설적이다</li>
+<li>대부분 운동을 한다 (회사에선 매주 수요일 3시 즈음에 근처에 실내 클라이밍 하러 간다)</li>
+<li>비영리 기업은 영리 기업과는 다르다</li>
+<li>페이스북, 트위터를 소비하는 패턴이 한국과는 다르다</li>
+<li>전 세계에서 3번째로 큰 나라라는 지리적 특성이 도시별 문화를 만들어 내는 데 크게 한몫하는 것 같다</li>
+<li>파티, 페스티벌 등이 항상 있다</li>
+<li>회사에서 춤도 배우고 마술도 배우고 도타도 배우고 술도 배웠다</li>
+<li>회사 내에 건강식으로 김이 있다</li>
+<li>쿠키를 준비할 때도 비건쿠키를 항상 챙기는 것처럼 비건이 많다</li>
+<li>산불 났을 땐 방독면을 회사 안에서 쓰고 다니는 사람도 있었다</li>
+<li>실내 클라이밍은 Top rope와 Bouldering로 나뉜다</li>
+<li>쓰레기통을 매주 화요일 밤마다 밖에 가져다 놔야 한다</li>
+<li>면허가 없어서 스쿠터를 못 탄다</li>
+<li>비가 와도 맞고 다니는 사람이 많다</li>
+<li>인터넷 설치하는데 벽과 바닥을 뚫었다</li>
+<li>헤어샵 고르기 어려웠다</li>
+<li>집에 코스튬이 한두개씩은 있는 듯</li>
+<li>아사이볼, 아이스크림 존맛</li>
+<li>월세 노답</li>
+<li>아이케아</li>
+<li>Patagonia, Allbirds, Everlane, Timbuk2</li>
+<li>그놈의 오이 물은 왜 마시는 건지</li>
+</ul>
 
     </div>
 
         <div class="tags">
             <p>태그 : 
-<a href="https://carpedm20.github.io/tags/deep_learning/">deep_learning</a></p>
+<a href="https://carpedm20.github.io/tags/life/">life</a></p>
         </div>
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = "carpedm20";
-    var disqus_title = "딥러닝 논문 구현에 대한 생각";
-    var disqus_url = "https://carpedm20.github.io/2018/paper-implementation/";
+    var disqus_title = "샌프란에 있으면서 느낀 점";
+    var disqus_url = "https://carpedm20.github.io/2019/sf/";
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
