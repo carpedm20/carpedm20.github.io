@@ -176,8 +176,9 @@ a, a:visited {
 }
 
 .entry-overview {
+    /* carpedm20 
     line-height: 2em;
-    margin-bottom: 35px;
+    margin-bottom: 35px;*/
 }
 
 .entry-overview h1 {
