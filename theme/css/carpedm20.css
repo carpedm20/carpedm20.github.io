@@ -58,6 +58,10 @@ small {
   text-align: center;
 }
 
+.center {
+  text-align: center;
+}
+
 .fb-bot {
   float: left;
   padding: 13px;
