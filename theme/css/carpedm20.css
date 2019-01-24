@@ -29,6 +29,7 @@ h2, h3, ul {
 
 li {
   line-height: 1.8em;
+  margin-bottom: 0.2em !important;
 }
 
 dd {
