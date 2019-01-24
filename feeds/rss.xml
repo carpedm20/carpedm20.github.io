@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Taehoon Kim</title><link>https://carpedm20.github.io/</link><description></description><lastBuildDate>Fri, 11 Jan 2019 20:40:00 +0100</lastBuildDate><item><title>샌프란에 있으면서 느낀 점</title><link>https://carpedm20.github.io/2019/sf/</link><description>&lt;p&gt;4개월이 지났다. 샌프란에 있으면서 느낀 점을 정리하면&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Taehoon Kim</title><link>https://carpedm20.github.io/</link><description></description><atom:link href="https://carpedm20.github.io/feeds/rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 11 Jan 2019 20:40:00 +0100</lastBuildDate><item><title>샌프란에 있으면서 느낀 점</title><link>https://carpedm20.github.io/2019/sf/</link><description>&lt;p&gt;4개월이 지났다. 샌프란에 있으면서 느낀 점을 정리하면&lt;/p&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;기술은 인터넷에 선택적으로 공유되는 것보다 훨씬 빠르게 발전하고 …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehoon Kim</dc:creator><pubDate>Fri, 11 Jan 2019 20:40:00 +0100</pubDate><guid isPermaLink="false">tag:carpedm20.github.io,2019-01-11:/2019/sf/</guid><category>life</category></item><item><title>딥러닝 논문 구현에 대한 생각</title><link>https://carpedm20.github.io/2018/paper-implementation/</link><description>&lt;div class="pure-g"&gt;
-   &lt;iframe class="align-center" src="//www.slideshare.net/slideshow/embed_code/key/at2f2YgI8ftkdv" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen&gt; &lt;/iframe&gt;
+&lt;li&gt;기술은 인터넷에 선택적으로 공유되는 것보다 훨씬 빠르게 발전하고 있다&lt;/li&gt;
+&lt;li&gt;그런 발전을 여기선 훨씬 빠르게 느낄 수 있다&lt;/li&gt;
+&lt;li&gt;talent density가 높으며 그만큼 (좋은 의미의) 또라이들이 많다&lt;/li&gt;
+&lt;li&gt;네트워킹의 기회를 찾아갈 뿐 아니라 스스로 만들어내는 사람이 많다&lt;/li&gt;
+&lt;li&gt;한 명은 자기는 알지만 서로는 모르는 사람들을 모아서 저녁 자리를 계속 만든다&lt;/li&gt;
+&lt;li&gt;많은 사람이 책과 팟캐스트 같은 미디어를 소비한다&lt;/li&gt;
+&lt;li&gt;이러한 점들 때문에 시간 장소를 가리지 않고 일상의 대화가 대부분 건설적이다&lt;/li&gt;
+&lt;li&gt;대부분 운동을 한다 (회사에선 매주 수요일 3시 즈음에 근처에 실내 클라이밍 하러 간다)&lt;/li&gt;
+&lt;li&gt;비영리 기업은 영리 기업과는 다르다&lt;/li&gt;
+&lt;li&gt;페이스북, 트위터를 소비하는 패턴이 한국과는 다르다&lt;/li&gt;
+&lt;li&gt;전 세계에서 3번째로 큰 나라라는 지리적 특성이 도시별 문화를 만들어 내는 데 크게 한몫하는 것 같다&lt;/li&gt;
+&lt;li&gt;파티, 페스티벌 등이 항상 있다&lt;/li&gt;
+&lt;li&gt;회사에서 춤도 배우고 마술도 배우고 도타도 배우고 술도 배웠다&lt;/li&gt;
+&lt;li&gt;회사 내에 건강식으로 김이 있다&lt;/li&gt;
+&lt;li&gt;쿠키를 준비할 때도 비건쿠키를 항상 챙기는 것처럼 비건이 많다&lt;/li&gt;
+&lt;li&gt;산불 났을 땐 방독면을 회사 안에서 쓰고 다니는 사람도 있었다&lt;/li&gt;
+&lt;li&gt;실내 클라이밍은 Top rope와 Bouldering로 나뉜다&lt;/li&gt;
+&lt;li&gt;쓰레기통을 매주 화요일 밤마다 밖에 가져다 놔야 한다&lt;/li&gt;
+&lt;li&gt;면허가 없어서 스쿠터를 못 탄다&lt;/li&gt;
+&lt;li&gt;비가 와도 맞고 다니는 사람이 많다&lt;/li&gt;
+&lt;li&gt;인터넷 설치하는데 벽과 바닥을 뚫었다&lt;/li&gt;
+&lt;li&gt;헤어샵 고르기 어려웠다&lt;/li&gt;
+&lt;li&gt;집에 코스튬이 한두개씩은 있는 듯&lt;/li&gt;
+&lt;li&gt;아사이볼, 아이스크림 존맛&lt;/li&gt;
+&lt;li&gt;월세 노답&lt;/li&gt;
+&lt;li&gt;아이케아&lt;/li&gt;
+&lt;li&gt;Patagonia, Allbirds, Everlane, Timbuk2&lt;/li&gt;
+&lt;li&gt;그놈의 오이 물은 왜 마시는 건지&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;출처: &lt;a class="reference external" href="https://www.facebook.com/carpedm20/posts/2010547345691447"&gt;Facebook&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehoon Kim</dc:creator><pubDate>Fri, 11 Jan 2019 20:40:00 +0100</pubDate><guid>tag:carpedm20.github.io,2019-01-11:2019/sf/</guid><category>life</category></item><item><title>딥러닝 논문 구현에 대한 생각</title><link>https://carpedm20.github.io/2018/paper-implementation/</link><description>&lt;div class="pure-g"&gt;
+   &lt;iframe class="align-center" src="//www.slideshare.net/slideshow/embed_code/key/at2f2YgI8ftkdv" width="595" height="373" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen&gt; &lt;/iframe&gt;
 &lt;/div&gt;
-&lt;br/&gt;&lt;p&gt;저는 TensorFlow가 공개된 2015년 11월부터 지금까지 여러 편의 논문을 구현하고 오픈 소스들을 읽으면서 많은 것을 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehoon Kim</dc:creator><pubDate>Fri, 26 Oct 2018 23:04:00 +0200</pubDate><guid isPermaLink="false">tag:carpedm20.github.io,2018-10-26:/2018/paper-implementation/</guid><category>deep_learning</category></item></channel></rss>
+&lt;br/&gt;&lt;p&gt;저는 TensorFlow가 공개된 2015년 11월부터 지금까지 여러 편의 논문을 구현하고 오픈 소스들을 읽으면서 많은 것을 배울 수 있었습니다. 다양한 분야의 연구자들이 어떤 고민을 하고 있는지, 특정 분야에서만 사용되는 노하우가 어떤 것이 있는지를 알 수 있었고, 몇 날 며칠을 같은 코드를 디버깅하면서 생긴 요령도 지금 하는 연구에 큰 도움이 되고 있습니다.&lt;/p&gt;
+&lt;p&gt;하지만 논문 구현 자체는 문장과 수식을 코드로 번역하는 과정으로, 익숙해지면 생각 없이 기계적으로 할 수 있는 단순 반복 작업이 될 수 있습니다. 연구자들을 성장하게 만든 &amp;quot;실패의 과정&amp;quot;은 생략하고 정답만 재현하는 것이기 때문에, 많이 빨리 구현하는 것보단 논문에선 보이지 않는 저자의 의도를 파악하고 정답을 끌어낸 수많은 실패를 상상해 보는 것이 더 중요한 것 같습니다. 그리고 비슷한 논문을 계속 구현하면 새로 배우는 것이 점점 없어지기 때문에 다른 분야에서 더 복잡한 논문을 구현하는 것도 중요합니다.&lt;/p&gt;
+&lt;p&gt;하지만 저는 숫자와 속도에 너무 집착했었고 비판적 사고 없이 뇌를 비우고 구현하며 시간만 때운 경우가 많았습니다. 저와 비슷한 실수를 하시는 분이 없으면 좋겠고, 계속해서 구현을 즐기고 이야기할 수 있는 분들이 많아졌으면 좋겠습니다.&lt;/p&gt;
+&lt;p&gt;마지막으로 OpenAI의 &lt;a class="reference external" href="https://twitter.com/gdb"&gt;Greg Brockman&lt;/a&gt; 과 &lt;a class="reference external" href="https://twitter.com/ilyasut"&gt;Ilya Sutskever&lt;/a&gt; 가 구현에 관해 쓴 &lt;a class="reference external" href="https://www.quora.com/What-are-the-best-ways-to-pick-up-Deep-Learning-skills-as-an-engineer/answer/Greg-Brockman"&gt;글&lt;/a&gt; 도 읽어보면 좋을 것 같습니다.&lt;/p&gt;
+&lt;p&gt;출처: &lt;a class="reference external" href="https://www.facebook.com/groups/TensorFlowKR/permalink/638778569796538/"&gt;Facebook&lt;/a&gt;&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehoon Kim</dc:creator><pubDate>Fri, 26 Oct 2018 23:04:00 +0200</pubDate><guid>tag:carpedm20.github.io,2018-10-26:2018/paper-implementation/</guid><category>deep_learning</category></item></channel></rss>

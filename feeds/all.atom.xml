@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Taehoon Kim</title><link href="https://carpedm20.github.io/" rel="alternate"></link><link href="https://carpedm20.github.io/feeds/all.atom.xml" rel="self"></link><id>https://carpedm20.github.io/</id><updated>2019-01-11T20:40:00+01:00</updated><entry><title>샌프란에 있으면서 느낀 점</title><link href="https://carpedm20.github.io/2019/sf/" rel="alternate"></link><published>2019-01-11T20:40:00+01:00</published><updated>2019-01-11T20:40:00+01:00</updated><author><name>Taehoon Kim</name></author><id>tag:carpedm20.github.io,2019-01-11:/2019/sf/</id><summary type="html">&lt;p&gt;4개월이 지났다. 샌프란에 있으면서 느낀 점을 정리하면&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;기술은 인터넷에 선택적으로 공유되는 것보다 훨씬 빠르게 발전하고 …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;4개월이 지났다. 샌프란에 있으면서 느낀 점을 정리하면&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Taehoon Kim</title><link href="https://carpedm20.github.io/" rel="alternate"></link><link href="https://carpedm20.github.io/feeds/all.atom.xml" rel="self"></link><id>https://carpedm20.github.io/</id><updated>2019-01-11T20:40:00+01:00</updated><entry><title>샌프란에 있으면서 느낀 점</title><link href="https://carpedm20.github.io/2019/sf/" rel="alternate"></link><updated>2019-01-11T20:40:00+01:00</updated><author><name>Taehoon Kim</name></author><id>tag:carpedm20.github.io,2019-01-11:2019/sf/</id><summary type="html">&lt;p&gt;4개월이 지났다. 샌프란에 있으면서 느낀 점을 정리하면&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;기술은 인터넷에 선택적으로 공유되는 것보다 훨씬 빠르게 발전하고 있다&lt;/li&gt;
 &lt;li&gt;그런 발전을 여기선 훨씬 빠르게 느낄 수 있다&lt;/li&gt;
@@ -33,15 +31,12 @@
 &lt;li&gt;그놈의 오이 물은 왜 마시는 건지&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;출처: &lt;a class="reference external" href="https://www.facebook.com/carpedm20/posts/2010547345691447"&gt;Facebook&lt;/a&gt;&lt;/p&gt;
-</content><category term="life"></category></entry><entry><title>딥러닝 논문 구현에 대한 생각</title><link href="https://carpedm20.github.io/2018/paper-implementation/" rel="alternate"></link><published>2018-10-26T23:04:00+02:00</published><updated>2018-10-26T23:04:00+02:00</updated><author><name>Taehoon Kim</name></author><id>tag:carpedm20.github.io,2018-10-26:/2018/paper-implementation/</id><summary type="html">&lt;div class="pure-g"&gt;
-   &lt;iframe class="align-center" src="//www.slideshare.net/slideshow/embed_code/key/at2f2YgI8ftkdv" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen&gt; &lt;/iframe&gt;
-&lt;/div&gt;
-&lt;br/&gt;&lt;p&gt;저는 TensorFlow가 공개된 2015년 11월부터 지금까지 여러 편의 논문을 구현하고 오픈 소스들을 읽으면서 많은 것을 …&lt;/p&gt;</summary><content type="html">&lt;div class="pure-g"&gt;
-   &lt;iframe class="align-center" src="//www.slideshare.net/slideshow/embed_code/key/at2f2YgI8ftkdv" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen&gt; &lt;/iframe&gt;
+</summary><category term="life"></category></entry><entry><title>딥러닝 논문 구현에 대한 생각</title><link href="https://carpedm20.github.io/2018/paper-implementation/" rel="alternate"></link><updated>2018-10-26T23:04:00+02:00</updated><author><name>Taehoon Kim</name></author><id>tag:carpedm20.github.io,2018-10-26:2018/paper-implementation/</id><summary type="html">&lt;div class="pure-g"&gt;
+   &lt;iframe class="align-center" src="//www.slideshare.net/slideshow/embed_code/key/at2f2YgI8ftkdv" width="595" height="373" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen&gt; &lt;/iframe&gt;
 &lt;/div&gt;
 &lt;br/&gt;&lt;p&gt;저는 TensorFlow가 공개된 2015년 11월부터 지금까지 여러 편의 논문을 구현하고 오픈 소스들을 읽으면서 많은 것을 배울 수 있었습니다. 다양한 분야의 연구자들이 어떤 고민을 하고 있는지, 특정 분야에서만 사용되는 노하우가 어떤 것이 있는지를 알 수 있었고, 몇 날 며칠을 같은 코드를 디버깅하면서 생긴 요령도 지금 하는 연구에 큰 도움이 되고 있습니다.&lt;/p&gt;
 &lt;p&gt;하지만 논문 구현 자체는 문장과 수식을 코드로 번역하는 과정으로, 익숙해지면 생각 없이 기계적으로 할 수 있는 단순 반복 작업이 될 수 있습니다. 연구자들을 성장하게 만든 &amp;quot;실패의 과정&amp;quot;은 생략하고 정답만 재현하는 것이기 때문에, 많이 빨리 구현하는 것보단 논문에선 보이지 않는 저자의 의도를 파악하고 정답을 끌어낸 수많은 실패를 상상해 보는 것이 더 중요한 것 같습니다. 그리고 비슷한 논문을 계속 구현하면 새로 배우는 것이 점점 없어지기 때문에 다른 분야에서 더 복잡한 논문을 구현하는 것도 중요합니다.&lt;/p&gt;
 &lt;p&gt;하지만 저는 숫자와 속도에 너무 집착했었고 비판적 사고 없이 뇌를 비우고 구현하며 시간만 때운 경우가 많았습니다. 저와 비슷한 실수를 하시는 분이 없으면 좋겠고, 계속해서 구현을 즐기고 이야기할 수 있는 분들이 많아졌으면 좋겠습니다.&lt;/p&gt;
-&lt;p&gt;마지막으로 OpenAI의 &lt;a class="reference external" href="https://twitter.com/gdb"&gt;Greg Brockman&lt;/a&gt; 과 &lt;a class="reference external" href="https://twitter.com/ilyasut"&gt;Ilya Sutskever&lt;/a&gt; 가 구현에 관해 한 &lt;a class="reference external" href="https://www.quora.com/What-are-the-best-ways-to-pick-up-Deep-Learning-skills-as-an-engineer/answer/Greg-Brockman"&gt;글&lt;/a&gt; 도 읽어보면 좋을 것 같습니다.&lt;/p&gt;
+&lt;p&gt;마지막으로 OpenAI의 &lt;a class="reference external" href="https://twitter.com/gdb"&gt;Greg Brockman&lt;/a&gt; 과 &lt;a class="reference external" href="https://twitter.com/ilyasut"&gt;Ilya Sutskever&lt;/a&gt; 가 구현에 관해 쓴 &lt;a class="reference external" href="https://www.quora.com/What-are-the-best-ways-to-pick-up-Deep-Learning-skills-as-an-engineer/answer/Greg-Brockman"&gt;글&lt;/a&gt; 도 읽어보면 좋을 것 같습니다.&lt;/p&gt;
 &lt;p&gt;출처: &lt;a class="reference external" href="https://www.facebook.com/groups/TensorFlowKR/permalink/638778569796538/"&gt;Facebook&lt;/a&gt;&lt;/p&gt;
-</content><category term="deep_learning"></category></entry></feed>
+</summary><category term="deep_learning"></category></entry></feed>
