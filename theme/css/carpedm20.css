@@ -2,6 +2,11 @@
 @import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic,400);
 @import url(//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css);
 
+
+body {
+  margin: 0px 10px 0px 10px;
+}
+
 ul.first.last {
   padding: 0px;
 }
