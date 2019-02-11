@@ -51,7 +51,11 @@
   function Slave(item) {
     this.name = item[2];
     this.startDate = moment(item[0], 'YYYY.MM.DD');
-    this.endDate = this.startDate.clone().add(item[1], 'months').subtract(1, 'days');
+    if (item.length == 4) {
+      this.endDate = moment(item[3], 'YYYY.MM.DD');
+    } else {
+      this.endDate = this.startDate.clone().add(item[1], 'months').subtract(1, 'days');
+    }
     this.finished = moment() > this.endDate;
   };
 
@@ -74,6 +78,8 @@
       ['2017.06.02', 36, '웅자'],
       ['2018.02.26', 36, '잉자'],
       ['2018.09.03', 36, '츤기'],
+
+      ['2019.03.01', null, '공생', '2020.03.01'],
 
       ['2020.02.01', 21, '조잼'],
       ['2020.01.01', 21, '환자'],
