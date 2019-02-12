@@ -51,6 +51,7 @@
 &lt;p&gt;4&amp;gt; 중국 AI 시장에 관심이 있는 분들은 &lt;a class="reference external" href="https://chinai.substack.com"&gt;ChinAI Newsletter&lt;/a&gt; 라는 주간 뉴스레터도 읽어보면 좋을 것 같다. 매주 중국 AI 시장에 관련된 뉴스 중에서 유명한 뉴스를 골라서 영어로 번역해 주며, 좋은 글, 기사도 함께 소개한다. 중국의 AI 스타트업 지도나 중국의 값싼 노동력을 이용해 AI 학습에 필요한 데이터를 만드는 회사의 이야기, 데이터 annotation 시장의 미래 등 흥미로운 내용이 많이 있다.&lt;/p&gt;
 &lt;p&gt;5&amp;gt; 일본의 AI 시장은 &lt;a class="reference external" href="https://www.preferred-networks.jp/en/"&gt;Preferred Networks&lt;/a&gt; (PFN)가 대부분을 차지하고 있는 것으로 보인다. 중국에서 성공한 스타트업과는 다르게 문어발식 사업적 제휴로 성장해 왔고 최근에 $2B 벨류에이션을 받았다고 한다. 작년 이맘때 즈음에 나는 PFN이 어떤 회사인지 궁금해서 Research engineer로 지원한 적이 있다. 최종 면접에서 CEO, CTO와 대화할 기회가 있었는데, 회사가 궁극적으로 달성하고 싶은 목표가 가정용 로봇이라고 말한 게 인상 깊었다.&lt;/p&gt;
 &lt;p&gt;6&amp;gt; 마지막으로 해외 AI 기술과 시장 동향에 대해 혼자서 조사하고 고민하기보다 다른 분들과 공유하며 다양한 생각을 듣고 싶습니다. 그리고 대화한 내용을 정리해서 뉴스레터 형태로 공유하고 싶은데 관심 있으신 분들은 연락주세요 :)&lt;/p&gt;
+&lt;p&gt;원글: &lt;a class="reference external" href="https://www.facebook.com/photo.php?fbid=2028280760584772&amp;amp;set=a.237254699687396&amp;amp;type=3"&gt;Facebook&lt;/a&gt;&lt;/p&gt;
 &lt;div class="section" id="references"&gt;
 &lt;h3&gt;References:&lt;/h3&gt;
 &lt;ul class="simple"&gt;
@@ -96,7 +97,7 @@
 &lt;li&gt;Patagonia, Allbirds, Everlane, Timbuk2&lt;/li&gt;
 &lt;li&gt;그놈의 오이 물은 왜 마시는 건지&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;출처: &lt;a class="reference external" href="https://www.facebook.com/carpedm20/posts/2010547345691447"&gt;Facebook&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;원글: &lt;a class="reference external" href="https://www.facebook.com/carpedm20/posts/2010547345691447"&gt;Facebook&lt;/a&gt;&lt;/p&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehoon Kim</dc:creator><pubDate>Fri, 11 Jan 2019 20:40:00 +0100</pubDate><guid>tag:carpedm20.github.io,2019-01-11:2019/sf/</guid><category>life</category></item><item><title>딥러닝 논문 구현에 대한 생각</title><link>https://carpedm20.github.io/2018/paper-implementation/</link><description>&lt;div class="pure-g"&gt;
    &lt;iframe class="align-center" src="//www.slideshare.net/slideshow/embed_code/key/at2f2YgI8ftkdv" width="595" height="373" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen&gt; &lt;/iframe&gt;
 &lt;/div&gt;
@@ -104,7 +105,7 @@
 &lt;p&gt;하지만 논문 구현 자체는 문장과 수식을 코드로 번역하는 과정으로, 익숙해지면 생각 없이 기계적으로 할 수 있는 단순 반복 작업이 될 수 있습니다. 연구자들을 성장하게 만든 &amp;quot;실패의 과정&amp;quot;은 생략하고 정답만 재현하는 것이기 때문에, 많이 빨리 구현하는 것보단 논문에선 보이지 않는 저자의 의도를 파악하고 정답을 끌어낸 수많은 실패를 상상해 보는 것이 더 중요한 것 같습니다. 그리고 비슷한 논문을 계속 구현하면 새로 배우는 것이 점점 없어지기 때문에 다른 분야에서 더 복잡한 논문을 구현하는 것도 중요합니다.&lt;/p&gt;
 &lt;p&gt;하지만 저는 숫자와 속도에 너무 집착했었고 비판적 사고 없이 뇌를 비우고 구현하며 시간만 때운 경우가 많았습니다. 저와 비슷한 실수를 하시는 분이 없으면 좋겠고, 계속해서 구현을 즐기고 이야기할 수 있는 분들이 많아졌으면 좋겠습니다.&lt;/p&gt;
 &lt;p&gt;마지막으로 OpenAI의 &lt;a class="reference external" href="https://twitter.com/gdb"&gt;Greg Brockman&lt;/a&gt; 과 &lt;a class="reference external" href="https://twitter.com/ilyasut"&gt;Ilya Sutskever&lt;/a&gt; 가 구현에 관해 쓴 &lt;a class="reference external" href="https://www.quora.com/What-are-the-best-ways-to-pick-up-Deep-Learning-skills-as-an-engineer/answer/Greg-Brockman"&gt;글&lt;/a&gt; 도 읽어보면 좋을 것 같습니다.&lt;/p&gt;
-&lt;p&gt;출처: &lt;a class="reference external" href="https://www.facebook.com/groups/TensorFlowKR/permalink/638778569796538/"&gt;Facebook&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;원글: &lt;a class="reference external" href="https://www.facebook.com/groups/TensorFlowKR/permalink/638778569796538/"&gt;Facebook&lt;/a&gt;&lt;/p&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehoon Kim</dc:creator><pubDate>Fri, 26 Oct 2018 23:04:00 +0200</pubDate><guid>tag:carpedm20.github.io,2018-10-26:2018/paper-implementation/</guid><category>ai</category></item><item><title>carpedm20</title><link>https://carpedm20.github.io/2018/carpedm20/</link><description>&lt;p&gt;틀에 박힌 고교생활에서 벗어나 대학의 자유로움을 느끼기 시작했을 때부터 사용하게 된 아이디다. &amp;lt;죽은 시인의 사회&amp;gt;에서 키팅 선생이 끊임없이 말했듯이 20대의 매일을 즐기자고 다짐하며 모든 계정을 바꿨다. 지금 돌아보면, 나의 대학 생활은 어느 정도 carpe diem 했던 것 같다. 등수나 학점에 연연하지 않고, 코딩 그 자체와 소소한 발전, 다양한 경험을 즐겼다.&lt;/p&gt;
 &lt;p&gt;하지만 학교를 떠나 군복무를 시작하면서, 나는 성취만을 행복으로 보고 매일을 즐기지 못했다. 첫 몇 달간 성장하지 않는 내 모습을 보며, 내가 버리게 될 2.8년을 최대한 가치 있게 보내기 위해 행동의 가성비를 계산하고 효율적인 삶에 집착하기 시작했다. 그러면서 사람들이 얼마나 인정해주는 가를 가치 판단의 척도로 삼고, 깃헙 스타, 페이스북 좋아요 수, 기업의 컨택 수 등 정량적이고 일반적인 기준에 집착했다. 내면적 가치 판단이 아니라 외부의 기준으로 나를 평가하면서 언제나 남들의 기대에 한참 못 미친다는 생각에 매일 스트레스를 받아왔다. 이렇게 관심 그 자체가 삶의 원동력인 관종이 되면서, 자존감은 끊임없이 떨어졌다.&lt;/p&gt;
 &lt;p&gt;그리고 나의 작디작은 그릇을 얼마나 키울 수 있는가, 내가 속한 우물을 얼마나 벗어날 수 있는가를 두 손으로 증명하고 싶었다, 나도 할 수 있다고. 거창하게 말했지만 결국 탑스쿨에 가는 것이 나의 세속적인 목표였다. 하지만 어느 순간 성장이 정체되었다는 것을 느꼈고 그런 나를 들키고 싶지 않아서 성장과는 관련 없지만, 사람들이 좋아할 만한 프로젝트들을 닥치는 대로 해왔다. 사람들은 내 거품을 칭찬했지만, 나는 그 거품이 꺼져버릴까 두려웠다.&lt;/p&gt;
@@ -112,4 +113,5 @@
 &lt;p&gt;어쨌든 carpedm20.&lt;/p&gt;
 &lt;p&gt;지난 2년을 돌아보면, 나에겐 일과 컴퓨터뿐이었고 사람은 없었다. 인간관계를 등한시했고 가치관과 행복에 대한 질문을 거의 하지 않았다. 그래서 미국을 가기 전에 지금까지 하지 못했던 것을 최대한 많이 하면서 나와 사람, 일상의 행복을 배우려고 노력하고 있다. 다양한 사람과의 대화부터, 여행, 독서, 음악을 하며 부족한 점들을 채우려고 노력 중이다. 그 과정에서 내 심장을 다시 뛰게 해준, 하루하루를 즐기는, 새로운 경험을 공유하는, 부족한 관계를 깨닫게 해준 사람을 만나서 다행이고 행복했다.&lt;/p&gt;
 &lt;p&gt;끝나지 않을 것 같던 혼돈의 카오스가 지나갔다. 나를 컴퓨터의 세계로 인도해주신 분부터, 구현에 미치게 만들어 주신 분, 병특을 시작하게 만들어 준 술까지.. 인생의 방향을 정하게 도와주신 수많은 인연에 감사하고 또 다른 인연을 기대한다.&lt;/p&gt;
+&lt;p&gt;원글: &lt;a class="reference external" href="https://www.facebook.com/carpedm20/posts/1752958058117045"&gt;Facebook&lt;/a&gt;&lt;/p&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taehoon Kim</dc:creator><pubDate>Tue, 10 Jul 2018 23:04:00 +0200</pubDate><guid>tag:carpedm20.github.io,2018-07-10:2018/carpedm20/</guid></item></channel></rss>
