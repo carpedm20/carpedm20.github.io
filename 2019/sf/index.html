@@ -10,7 +10,7 @@
     <meta name="author" content="Taehoon Kim (김태훈)" />
     <meta content="Reinforcement Learning, Machine Learning" name="description">
     <meta name="keywords" content="Reinforcement Learning,Machine Learning,김태훈,강화 학습,머신러닝">
-        <meta name="description" content="4개월이 지났다. 샌프란에 있으면서 느낀 점을 정리하면 기술은 인터넷에 선택적으로 공유되는 것보다 훨씬 빠르게 발전하고 …" />
+        <meta name="description" content="Sutton 교수님께서 70년간 AI 연구자들이 반복한 실수와 그로부터 우리가 배워야 하는 것에 대한 글 <The …" />
     <meta name="dc.language" content="en" />
     <meta name="dc.license" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -54,45 +54,31 @@
 
         <section id="content">
 
-    <h1 class="title">샌프란에 있으면서 느낀 점</h1>
+    <h1 class="title">import tensorflow에서 벗어나기</h1>
 
         <div class="date">
-            <p>January 11, 2019</p>
+            <p>March 15, 2019</p>
         </div>
 
     <div class="clearboth article-content">
-        <p>4개월이 지났다. 샌프란에 있으면서 느낀 점을 정리하면</p>
+        <p>Sutton 교수님께서 70년간 AI 연구자들이 반복한 실수와 그로부터 우리가 배워야 하는 것에 대한 글 &lt;The Bitter Lesson&gt;을 공유했다. 글을 관통하는 메세지는 체스, 바둑 같은 역사적 사례에서 볼 수 있듯이 인공지능의 혁신은 언제나 computation에 있었다는 것. General하고 scalable한 알고리즘만이 생존하고 세상을 바꾼다는 것.</p>
+<p>GPU 1개로 논문을 구현할 수 있었던 1, 2년 전과 달리 지금은 DGX 하나로도 SOTA를 찍기 어려워졌다. 돈이 없으면 논문 하나도 제대로 구현 못 하는데, DGX가 있더라도 full로 쓰는 법을 모르면 빛 좋은 개살구일 뿐이다. 하지만 딥러닝의 기초, 퍼셉트론, LSTM 정도의 튜토리얼이 수도 없이 재생산되고+0.3% SOTA 같은 쓸데없는 정보들이 공유되는 환경에서 optimization이나 low-level 엔지니어링에 대한 필요성을 느끼거나 정보를 얻기란 굉장히 어렵다.</p>
+<p>나를 예를 들면, 적당히 모델을 학습시킬 때 GPU-utilization이 90% 이상을 찍고 있지 않다면 어딘가에 bottleneck이 있고, 그걸 프로파일러로 찾을 수 있다는 것, 그래프를 cpu에 먼저 넣고 컴파일해서 gpu에 넣으면 OOM을 피할 수 있다거나, tf.Defun 같은 걸 언제 왜 써야 하는지, fp16과 sparsity가 왜 중요한지, adam과 adafactor가 어떻게 다른지, tf.cast 같은 함수가 얼마나 비효율적인지, tf.custom_gradient와 custom op으로 어떻게 그런 비효율을 없앨 수 있는지 따위를 알아야 한다는 걸 몰랐다.</p>
+<p>만약 세상의 &quot;진짜&quot; 문제를 “직접” 풀고 싶지만, 논문을 읽고 구현하는데 매너리즘에 빠져다면, import tensorflow에서 벗어나 compute에 대해 고민해보는게 도움이 될 것 같다. Tensor Core와 같은 하드웨어에 대한 이해부터 MPI, NCCL, fp16와 TensorFlow XLA, Mesh TensorFlow, Horovod 등으로 Data/Model parallelization를 하는 것, Adafactor, Blocksparse, Gradient recompute, nvprof 따위로 memory optimization과 Compute/Network/Pipeline bandwidth에서 bottleneck을 없애는 것. 그리고 Transformer-xl, BigGAN, GPT-2와 같은 논문들 뒤에 보이지 않는 엔지니어링을 생각하고, 찾아보고, 구현하는 것.</p>
+<p>GPT-2가 보여주었듯이 scalable한 모델을 만들고 다룰 수 있느냐 없느냐에 따라 풀 수 있는 문제의 범위와 그 결과가 크게 바뀐다. 세상이 바뀌듯 우리도 변해야 한다.</p>
 <ul class="simple">
-<li>기술은 인터넷에 선택적으로 공유되는 것보다 훨씬 빠르게 발전하고 있다</li>
-<li>그런 발전을 여기선 훨씬 빠르게 느낄 수 있다</li>
-<li>talent density가 높으며 그만큼 (좋은 의미의) 또라이들이 많다</li>
-<li>네트워킹의 기회를 찾아갈 뿐 아니라 스스로 만들어내는 사람이 많다</li>
-<li>한 명은 자기는 알지만 서로는 모르는 사람들을 모아서 저녁 자리를 계속 만든다</li>
-<li>많은 사람이 책과 팟캐스트 같은 미디어를 소비한다</li>
-<li>이러한 점들 때문에 시간 장소를 가리지 않고 일상의 대화가 대부분 건설적이다</li>
-<li>대부분 운동을 한다 (회사에선 매주 수요일 3시 즈음에 근처에 실내 클라이밍 하러 간다)</li>
-<li>비영리 기업은 영리 기업과는 다르다</li>
-<li>페이스북, 트위터를 소비하는 패턴이 한국과는 다르다</li>
-<li>전 세계에서 3번째로 큰 나라라는 지리적 특성이 도시별 문화를 만들어 내는 데 크게 한몫하는 것 같다</li>
-<li>파티, 페스티벌 등이 항상 있다</li>
-<li>회사에서 춤도 배우고 마술도 배우고 도타도 배우고 술도 배웠다</li>
-<li>회사 내에 건강식으로 김이 있다</li>
-<li>쿠키를 준비할 때도 비건쿠키를 항상 챙기는 것처럼 비건이 많다</li>
-<li>산불 났을 땐 방독면을 회사 안에서 쓰고 다니는 사람도 있었다</li>
-<li>실내 클라이밍은 Top rope와 Bouldering로 나뉜다</li>
-<li>쓰레기통을 매주 화요일 밤마다 밖에 가져다 놔야 한다</li>
-<li>면허가 없어서 스쿠터를 못 탄다</li>
-<li>비가 와도 맞고 다니는 사람이 많다</li>
-<li>인터넷 설치하는데 벽과 바닥을 뚫었다</li>
-<li>헤어샵 고르기 어려웠다</li>
-<li>집에 코스튬이 한두개씩은 있는 듯</li>
-<li>아사이볼, 아이스크림 존맛</li>
-<li>월세 노답</li>
-<li>아이케아</li>
-<li>Patagonia, Allbirds, Everlane, Timbuk2</li>
-<li>그놈의 오이 물은 왜 마시는 건지</li>
+<li>The Bitter Lesson: <a class="reference external" href="http://www.incompleteideas.net/IncIdeas/BitterLesson.html">http://www.incompleteideas.net/IncIdeas/BitterLesson.html</a></li>
+<li>Mesh TensorFlow: <a class="reference external" href="https://www.youtube.com/watch?v=HgGyWS40g-g">https://www.youtube.com/watch?v=HgGyWS40g-g</a></li>
+<li>Horovod: <a class="reference external" href="https://github.com/horovod/horovod">https://github.com/horovod/horovod</a></li>
+<li>TF custom op: <a class="reference external" href="https://www.tensorflow.org/guide/extend/op">https://www.tensorflow.org/guide/extend/op</a></li>
+<li>TF performance: <a class="reference external" href="https://www.tensorflow.org/guide/performance/overview">https://www.tensorflow.org/guide/performance/overview</a></li>
+<li>Tensorpack: <a class="reference external" href="https://github.com/tensorpack/benchmarks/tree/master/DCGAN">https://github.com/tensorpack/benchmarks/tree/master/DCGAN</a></li>
+<li>Tensor cores: <a class="reference external" href="https://stackoverflow.com/">https://stackoverflow.com/</a>…/what-is-the-difference-between-…</li>
+<li>Parallel and Distributed Deep Learning: <a class="reference external" href="https://www.youtube.com/watch?v=xtxxLWZznBI">https://www.youtube.com/watch?v=xtxxLWZznBI</a></li>
+<li>Blocksparse: <a class="reference external" href="https://openai.com/blog/block-sparse-gpu-kernels/">https://openai.com/blog/block-sparse-gpu-kernels/</a></li>
+<li>Gradient checkpoint: <a class="reference external" href="https://github.com/openai/gradient-checkpointing">https://github.com/openai/gradient-checkpointing</a></li>
 </ul>
-<p>원글: <a class="reference external" href="https://www.facebook.com/carpedm20/posts/2010547345691447">Facebook</a></p>
+<p>원글: <a class="reference external" href="https://www.facebook.com/carpedm20/posts/2102786876467493">Facebook</a></p>
 
     </div>
 
@@ -105,7 +91,7 @@
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = "carpedm20";
-    var disqus_title = "샌프란에 있으면서 느낀 점";
+    var disqus_title = "import tensorflow에서 벗어나기";
     var disqus_url = "https://carpedm20.github.io/2019/sf/";
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
