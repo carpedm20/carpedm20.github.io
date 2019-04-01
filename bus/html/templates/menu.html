@@ -1,0 +1,28 @@
+<div class="btn-group select select-block">
+  <button class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown">
+    <span class="filter-option pull-left">
+      {{ busStops[model.selectedIndex]["name"] }}
+    </span>
+    &nbsp;
+    <span class="caret">
+    </span>
+  </button>
+  <span class="dropdown-arrow dropdown-arrow-inverse">
+  </span>
+
+  <ul class="dropdown-menu dropdown-inverse" role="menu">
+    <li rel="{{ $index }}" ng-class="{selected: $index==model.selectedIndex}" ng-repeat="busStop in busStops">
+      <a ng-click="selectBusStop($index)">
+        {{ busStop.name }}
+
+        <!--&nbsp;
+        <small style="font-size: 75%;" ng-repeat="bus in busStop  ['buses']">{{ bus }}, </small>-->
+        
+        <!--<span class="tag" ng-repeat="bus in busStop  ['buses']">
+          <span>{{ bus }}</span>
+        </span>-->
+        
+      </a>
+    </li>
+  </ul>
+</div>

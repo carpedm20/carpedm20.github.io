@@ -1,0 +1,68 @@
+
+<bus-menu></bus-menu>
+
+<div class="text-center">
+  <label class="checkbox school-from-box" ng-click="refreshBusSTop(0)" for="fromSchool">
+    <span class="icons">
+      <span class="first-icon fui-checkbox-unchecked">
+      </span>
+      <span class="second-icon fui-checkbox-checked">
+      </span>
+    </span>
+    <input type="checkbox" value="" id="fromSchool" data-toggle="checkbox">
+    <small>학교 쪽 숨기기</small>
+  </label>
+
+  <label class="checkbox school-to-box" ng-click="refreshBusSTop(1)" for="toSchool">
+    <span class="icons">
+      <span class="first-icon fui-checkbox-unchecked">
+      </span>
+      <span class="second-icon fui-checkbox-checked">
+      </span>
+    </span>
+    <input type="checkbox" value="" id="toSchool" data-toggle="checkbox">
+    <small>학교 출발 숨기기</small>
+  </label>
+</div>
+
+<div id="main-bus">
+  <ul class="list-group">
+    <li class="list-group-item" ng-repeat="(no, data) in directionFilter(busStops[model.selectedIndex]['buses'])">
+      <div class="bus-div">
+        <div class="bus-header">
+          <h5>
+            {{ buses[no]['name'] }}
+          </h5>
+        </div>
+        <div class="bus-time pull-right">
+          <div class="bus-time-div">
+            <p class="bus-text list-group-item-text text-right">
+              <small><span>&nbsp;{{ data['remainTime'] }}</span></small>
+            </p>
+            <p class="bus-text list-group-item-text text-right">
+              <small><span>&nbsp;{{ data['fStopName'] }} → {{ data['tStopName'] }} </span></small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<!--<div class="bus-table btn-toolbar">
+  <div class="bus-table-header text-center">
+    <small>버스 시간표</small>
+  </div>
+  <div class="btn-group">
+    <a class="btn btn-success" href="#fakelink">일</a>
+    <a class="btn btn-primary" href="#fakelink">월</a>
+    <a class="btn btn-primary active" href="#fakelink">화</a>
+    <a class="btn btn-primary" href="#fakelink">수</a>
+    <a class="btn btn-primary" href="#fakelink">목</a>
+    <a class="btn btn-primary" href="#fakelink">금</a>
+    <a class="btn btn-success" href="#fakelink">토</a>
+  </div>
+  <div class="text-center">
+    <span class="caret-down"></span> 
+  </div>
+</div>-->

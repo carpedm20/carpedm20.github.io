@@ -1,0 +1,28 @@
+{
+  "background": {
+    "page": "html/background.html"
+  },
+  "browser_action": {
+    "default_icon": "static/img/icon48_active.png",
+    "default_popup": "html/popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "webRequest",
+    "notifications",
+    "webRequestBlocking",
+    "clipboardWrite",
+    "http://apis.its.ulsan.kr:8088/*"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval' http://localhost; object-src 'self'",
+  "default_locale": "en",
+  "description": "__MSG_extDescription__",
+  "icons": {
+    "128": "static/img/icon128_active.png",
+    "48": "static/img/icon48_active.png"
+  },
+  "manifest_version": 2,
+  "name": "__MSG_extName__",
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "version": "0.5.0"
+}

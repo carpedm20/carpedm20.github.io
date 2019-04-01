@@ -1,0 +1,132 @@
+/* General */
+
+html {
+	overflow-y: hidden;
+}
+
+body {
+	min-height: 413px;
+	font-family: 'Nanum Gothic', Arial, sans-serif;
+}
+
+#main-container {
+	width: 220px;
+	font-size: 12px;
+}
+
+#main-bus {
+
+}
+
+/* Flat-UI fix */
+.select {
+	margin-bottom: 0px !important;
+}
+.dropdown-arrow {
+	margin-top: 12px !important;
+}
+
+.icons, .checkbox {
+	display: inline !important;
+	font-size: 13px !important;
+	padding-left: 18px !important;
+}
+
+.school-to-box {
+	margin-left:15px !important;
+}
+
+/* Bootstrap Fix */
+
+.list-group {
+	margin-bottom: 0px !important;
+}
+
+/* Bus */
+
+p.bus-tag {
+	margin: 10px 0px 0px 0px;
+	font-size: 4px;
+	line-height: 0;
+}
+
+.tag {
+	border-radius: 4px;
+	background-color: #5dade2;
+	color: #ffffff;
+	font-size: 10px;
+	cursor: pointer;
+	display: inline-block;
+	margin-left: 5px;
+	overflow: hidden;
+	line-height: 15px;
+	padding: 2px 4px 2px 4px;
+	position: relative;
+	vertical-align: middle;
+	-webkit-transition: 0.25s linear;
+	transition: 0.25s linear;
+}
+
+.bus-div {
+	overflow: auto;
+	min-height: 20px; 
+}
+
+.bus-header {
+	position: absolute;
+	top: 0px;
+}
+
+.bus-time {
+}
+
+.bus-time-div {
+	position: relative;
+}
+
+.bus-text {
+	display: block;
+	font-size: 13px;
+}
+
+p.bus-text span, {
+	color: #bdc3c7;
+}
+
+.footer {
+	margin-top: 8px;
+	line-height: 13px;
+}
+
+.footer span {
+	font-size: 13px;
+}
+
+.UNIST-bus {
+	margin-right: 7px;
+}
+
+.carpedm20 {
+	font-size: 4px;
+	margin-bottom: 0px;
+	color: #bdc3c7;
+	margin-right: 13px;
+}
+
+.bus-text-label {
+	display: block;
+	position: absolute;
+	top: 4px;
+	font-size: 13px;
+	line-height: 13px;
+	color: #c0c1c2;
+	font-weight: 400;
+}
+
+.bus-table {
+	margin-bottom: 5px;
+}
+
+.bus-table .btn {
+	padding: 5px 10px !important;
+}
