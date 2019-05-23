@@ -2,6 +2,15 @@
 @import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic,400);
 @import url(//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css);
 
+#publications li {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin: 0.7em 0em 0.7em 0em !important;
+}
+
+#wrapper {
+    max-width: 900px !important;
+}
 
 body {
   margin: 0px 10px 0px 10px;
@@ -159,9 +168,4 @@ div#publications ul {
 
 #scholarships p, #etc p {
   line-height: 1em;
-}
-
-#publications li {
-  line-height: 1.5em;
-  margin: 0em 0em 0.7em 0em;
 }
