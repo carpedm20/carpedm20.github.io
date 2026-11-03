@@ -481,3 +481,47 @@ Source: https://prettyporkfactory.com/harajuku/
 Original: https://prettyporkfactory.com/wp-content/themes/prettyporkfactory/image/harajuku/katsu-img1.png
 
 Resized and encoded as WebP. Rights retained by source.
+
+## Restaurant menu photographs — 2026-11-03
+
+- `menu-spice-palette-combo` — 치킨 & 키마 카레 · 神田カレーグランプリ · 가게 소개 사진 · [source](https://kanda-curry.com/スパイスパレット/). 가게 소개에 실린 치킨·키마 한 접시. 촬영 당시 구성으로 토핑은 바뀔 수 있어요.
+- `menu-spice-palette-chicken` — 치킨 카레 · 神田カレーグランプリ · 가게 소개 사진 · [source](https://kanda-curry.com/スパイスパレット/). 가게 소개에 실린 닭고기 카레. 현재 토핑·담음새는 다를 수 있어요.
+- `menu-ichimi-reirei-gyoza` — 철판에서 굽는 수제 교자 · 一味玲玲 · 공식 요리 사진 · [source](https://www.ichimiringring.com/home). 브랜드 공식 조리 사진. 시소 등 특정 속 재료를 식별한 사진은 아니에요.
+- `menu-ichimi-reirei-steamed` — 찐교자와 중화요리 한 상 · 一味玲玲 · 공식 요리 사진 · [source](https://www.ichimiringring.com/home). 공식 대표 요리 사진. 레몬 교자·유린기의 특정 주문 구성과는 달라요.
+- `menu-kushikatsu-tanaka-assorted` — 바삭한 쿠시카츠 모둠 · 串カツ田中 · 공식 메뉴 사진 · [source](https://kushi-tanaka.com/menu/). 브랜드 공식 모둠 사진. 소고기·돼지고기·새우는 한 꼬치씩 골라 주문해요.
+- `menu-kushikatsu-tanaka-lotus` — 아삭한 연근 튀김 꼬치 · 串カツ田中 · 공식 메뉴 사진 · [source](https://kushi-tanaka.com/menu/). 공식 메뉴 페이지에 실린 연근 꼬치. 체인 공통 이미지예요.
+- `menu-ohsho-gyoza` — 군만두 · 餃子 · 餃子の王将 · 동일본 공식 메뉴 사진 · [source](https://www.ohsho.co.jp/menu/east/). 공식 일반 크기 메뉴 사진. 저스트 사이즈는 양이 더 적어요.
+- `menu-ohsho-karaage` — 가라아게 · 鶏の唐揚 · 餃子の王将 · 동일본 공식 메뉴 사진 · [source](https://www.ohsho.co.jp/menu/east/). 공식 일반 크기 메뉴 사진. 바삭한 닭튀김을 맥주와 나눠 먹어요.
+- `menu-ohsho-chahan` — 볶음밥 · 炒飯 · 餃子の王将 · 동일본 공식 메뉴 사진 · [source](https://www.ohsho.co.jp/menu/east/). 공식 일반 크기 메뉴 사진. 군만두와 곁들이거나 작은 사이즈로 주문해요.
+- `menu-kirin-shibuya-fish` — 대구 피시앤칩스 · Kirin City · 공식 메뉴 PDF p.8 · [source](https://www.kirincity.co.jp/menu/pdf/2026/food_20261007.pdf). 鱈のフィッシュ＆チップス · 공식 메뉴 사진
+- `menu-kirin-shibuya-sausage` — 소시지 3종 모둠 · Kirin City · 공식 메뉴 PDF p.1 · [source](https://www.kirincity.co.jp/menu/pdf/2026/food_20261007.pdf). 좋아하는 소시지 3종 선택 · 사진은 공식 추천 조합
+- `menu-kirin-shibuya-potato` — CITY 포테이토 · Kirin City · 공식 메뉴 PDF p.4 · [source](https://www.kirincity.co.jp/menu/pdf/2026/food_20261007.pdf). 베이컨·마늘을 곁들인 독일식 감자요리
+- `menu-katsusen-haneda-trio` — 삼색 모둠 정식 · Wako Group · 카츠센 공식 메뉴 PDF p.5 · [source](https://wako-group.co.jp/wp/wp-content/uploads/2025/11/%E3%81%8B%E3%81%A4%E4%BB%99_GM_%E5%80%A4%E4%B8%8A%E3%81%92_%E6%97%A5%E8%8B%B1__WEB.pdf). 한입 안심카츠 + 큰 새우튀김 + 게살 크림고로케
+- `menu-katsusen-haneda-loin` — 등심 돈카츠 정식 · Wako Group · 카츠센 공식 메뉴 PDF p.3 · [source](https://wako-group.co.jp/wp/wp-content/uploads/2025/11/%E3%81%8B%E3%81%A4%E4%BB%99_GM_%E5%80%A4%E4%B8%8A%E3%81%92_%E6%97%A5%E8%8B%B1__WEB.pdf). ロースかつ膳 · 공식 메뉴의 등심카츠 사진
+- `menu-dennys-kiyosumi-hamburg` — 일본식 함박스테이크 · Denny’s Japan · 공식 메뉴 · [source](https://www.dennys.jp/menu/hamburg/). 和風ハンバーグ · 공식 메뉴 사진
+- `menu-dennys-kiyosumi-fish` — 전갱이튀김 · Denny’s Japan · 공식 메뉴 · [source](https://www.dennys.jp/menu/side/). 長崎県松浦港のアジフライ · 공식 메뉴 사진
+- `menu-dennys-kiyosumi-chicken` — 닭 가라아게 · Denny’s Japan · 공식 메뉴 · [source](https://www.dennys.jp/menu/side/). 鶏唐揚げ · 공식 메뉴 사진
+- `menu-harakado-tonkatsu` — 두툼한 돈카츠 · PRETTY PORK FACTORY & KATSUプリポー · [source](https://prettyporkfactory.com/harajuku/). 공식 돈카츠 사진 · 주문하는 품종·두께·부위에 따라 달라져요
+- `menu-harakado-fillet` — 난고쿠 포크 돈카츠 · PRETTY PORK FACTORY & KATSUプリポー · [source](https://prettyporkfactory.com/harajuku/). 공식 브랜드 돼지고기 사진 · 품종·부위는 당일 매장에 확인
+- `menu-harakado-katsudon` — 브랜드 돼지고기 가츠동 · PRETTY PORK FACTORY & KATSUプリポー · [source](https://prettyporkfactory.com/harajuku/). 공식 포장용 가츠동 사진 · 매장 식기의 차이가 있어요
+- `menu-harmony-buffet` — 런치 뷔페 구성 예시 · The Royal Park Hotel Iconic Tokyo Shiodome · [source](https://www.royalparkhotels.co.jp/en/ic/tokyoshiodome/news/un1y1fo5a/). 2026년 가을 공식 사진 · 신년 메뉴와 제공 여부는 미확정
+- `menu-harmony-dessert` — 디저트 코너 예시 · The Royal Park Hotel Iconic Tokyo Shiodome · [source](https://www.royalparkhotels.co.jp/en/ic/tokyoshiodome/news/un1y1fo5a/). 같은 가을 뷔페 사진의 디저트 부분 · 신년 구성 미확정
+
+
+## Convenience-store product photographs — 2026-11-03
+
+- `snack-lawson-dora` — 도라모치 팥&휘핑크림 · LAWSON · 공식 상품 사진 · [source](https://www.lawson.co.jp/recommend/original/detail/1511871_1996.html).
+- `snack-lawson-chicken` — 카라아게군 레드 · LAWSON · 공식 상품 사진 · [source](https://www.lawson.co.jp/recommend/original/detail/1390564_1996.html).
+- `snack-lawson-roll` — 모치 식감 생크림 롤 · LAWSON · 공식 상품 사진 · [source](https://www.lawson.co.jp/recommend/original/detail/1530059_1996.html).
+- `snack-lawson-premium-roll` — 프리미엄 롤케이크 · LAWSON · 공식 상품 사진 · [source](https://www.lawson.co.jp/recommend/original/detail/1528735_1996.html).
+- `snack-lawson-latte` — 마치카페 따뜻한 카페라테 M · LAWSON · 공식 상품 사진 · [source](https://www.lawson.co.jp/recommend/original/detail/1390664_1996.html).
+- `snack-family-chicken` — 파미치키 · FamilyMart · 공식 상품 사진 · [source](https://www.family.co.jp/goods/friedfoods/0253116.html).
+- `snack-family-souffle` — 수플레 푸딩 · FamilyMart · 공식 상품 사진 · [source](https://www.family.co.jp/goods/dessert/1940145.html).
+- `snack-family-pizza` — 쭉 늘어나는 치즈 피자만 · FamilyMart · 공식 상품 사진 · [source](https://www.family.co.jp/goods/chukaman/0240260.html).
+- `snack-family-melon` — 파미마 더 메론빵 · FamilyMart · 공식 상품 사진 · [source](https://www.family.co.jp/goods/bread/1532654.html).
+- `snack-family-strawberry` — 딸기 과육 우유 · FamilyMart · 공식 상품 사진 · [source](https://www.family.co.jp/goods/drink/1720532.html).
+- `snack-seven-egg` — THE 달걀 샌드위치 · Seven-Eleven Japan · 공식 상품 사진 · [source](https://www.sej.co.jp/products/a/item/054037/).
+- `snack-seven-chicken` — 나나치키 · Seven-Eleven Japan · 공식 상품 사진 · [source](https://www.sej.co.jp/products/a/item/150398/).
+- `snack-seven-sumire` — 스미레 삿포로 진한 미소 컵라멘 · Seven-Eleven Japan · 공식 상품 사진 · [source](https://www.sej.co.jp/products/a/item/340043/).
+- `snack-seven-edamame` — 에다마메 · Seven-Eleven Japan · 공식 상품 사진 · [source](https://www.sej.co.jp/products/a/item/105303/).
+- `snack-seven-smoothie` — 베리베리 요구르트 스무디 · Seven-Eleven Japan · 공식 상품 사진 · [source](https://www.sej.co.jp/products/smoothie/).
