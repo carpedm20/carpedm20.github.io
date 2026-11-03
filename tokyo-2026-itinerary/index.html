@@ -55,9 +55,9 @@
 @media(max-width:760px){.route-header{padding:16px}.route-header .section-title{font-size:19px}.map-days{padding:12px 11px 7px}.map-controls{padding:7px 13px 13px}.map-controls .left{gap:10px}.map-body{display:block}.map-canvas{height:370px;min-height:370px}.map-floating{top:9px;left:9px;padding:7px 8px}.map-aside-head{padding:14px}.route-list{max-height:270px}.map-aside-bottom{padding:13px}.google-key-details{padding:11px 14px}.mobile-nav button{padding:5px 7px;font-size:8.5px}}
 @media print{.map-controls,.map-days,.map-zoom,.google-key-details{display:none!important}.map-body{display:block}.map-canvas{height:380px;min-height:380px}.map-aside{max-height:none}.route-list{max-height:none}}
 </style>
-<link rel="stylesheet" href="assets/visuals.css" />
-<link rel="stylesheet" href="assets/food-guide.css" />
-<link rel="stylesheet" href="assets/travel-refinements.css">
+<link rel="stylesheet" href="assets/visuals.css?v=314ed8dddb" />
+<link rel="stylesheet" href="assets/food-guide.css?v=449d925b8d" />
+<link rel="stylesheet" href="assets/travel-refinements.css?v=622f406114">
 </head>
 <body>
 <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden"><defs>
@@ -87,8 +87,8 @@
 </main></div></div>
 <nav class="mobile-nav" id="mobileNav"><button class="active" data-anchor="overview"><svg class="ic"><use href="#i-map"/></svg>개요</button><button data-anchor="schedule"><svg class="ic"><use href="#i-calendar"/></svg>일정</button><button data-anchor="mapSection"><svg class="ic"><use href="#i-map"/></svg>지도</button><button data-anchor="food"><svg class="ic"><use href="#i-coffee"/></svg>맛집·술</button><button data-anchor="hotel"><svg class="ic"><use href="#i-pin"/></svg>숙소</button></nav><div class="toast" id="toast" role="status"></div>
 <dialog id="photoDialog" class="photo-dialog" aria-labelledby="photoDialogTitle"><button type="button" id="photoDialogClose" class="photo-close" aria-label="사진 닫기">×</button><img id="photoDialogImage" alt=""><div class="photo-dialog-copy"><h3 id="photoDialogTitle"></h3><p id="photoDialogCaption"></p><a id="photoDialogCredit" target="_blank" rel="noopener"></a> <a id="photoDialogLicense" target="_blank" rel="noopener" hidden></a></div></dialog>
-<script src="assets/visuals.js"></script>
-<script src="assets/food-guide.js"></script>
+<script src="assets/visuals.js?v=0ec2006ae1"></script>
+<script src="assets/food-guide.js?v=42d26f2f41"></script>
 <script>
 const GOOGLE_MAPS_API_KEY = 'AIzaSyB-K-mZmCrA5RYP1-lPNrtxvzrmCNhGQHk'; // Browser key restricted to carpedm20.github.io and Maps/Routes APIs.
  const $=(s)=>document.querySelector(s);const money=v=>'₩'+Math.round(v||0).toLocaleString('ko-KR');const icon=(id,cls='')=>`<svg class="ic ${cls}"><use href="#i-${id}"/></svg>`;const maps=q=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(q);const dir=(a,b,mode='transit')=>'https://www.google.com/maps/dir/?api=1&origin='+encodeURIComponent(a)+'&destination='+encodeURIComponent(b)+'&travelmode='+mode;const HOTEL='Sotetsu Fresa Inn Daimon, 2-6-2 Shibadaimon, Minato, Tokyo';
