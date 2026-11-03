@@ -525,3 +525,7 @@ Resized and encoded as WebP. Rights retained by source.
 - `snack-seven-sumire` — 스미레 삿포로 진한 미소 컵라멘 · Seven-Eleven Japan · 공식 상품 사진 · [source](https://www.sej.co.jp/products/a/item/340043/).
 - `snack-seven-edamame` — 에다마메 · Seven-Eleven Japan · 공식 상품 사진 · [source](https://www.sej.co.jp/products/a/item/105303/).
 - `snack-seven-smoothie` — 베리베리 요구르트 스무디 · Seven-Eleven Japan · 공식 상품 사진 · [source](https://www.sej.co.jp/products/smoothie/).
+
+## Ariso Sushi — 2026-11-04
+
+- `menu-ariso-sushi`, `menu-ariso-counter`: [Ariso Sushi Edokoji official gallery](https://www.arisozushi.com/shop/edokoji/), photos 02/04; representative sushi and preparation, not a guaranteed set.

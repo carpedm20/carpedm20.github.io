@@ -781,5 +781,23 @@
     "url": "https://www.sej.co.jp/library/contents/products/smoothie/260623/cover_Berries.png",
     "width": 260,
     "height": 260
+  },
+  "menu-ariso-sushi": {
+    "src": "assets/photos/menu-ariso-sushi.webp",
+    "width": 500,
+    "height": 500,
+    "title": "아리소의 참치 초밥",
+    "caption": "에도코지점 공식 사진 · 그날 생선과 구성은 달라요.",
+    "source": "https://www.arisozushi.com/shop/edokoji/",
+    "credit": "ありそ鮨し · 江戸小路店 공식 사진"
+  },
+  "menu-ariso-counter": {
+    "src": "assets/photos/menu-ariso-counter.webp",
+    "width": 500,
+    "height": 500,
+    "title": "직접 쥐는 에도마에 초밥",
+    "caption": "에도코지점 공식 조리 사진 · 특정 세트 구성은 아니에요.",
+    "source": "https://www.arisozushi.com/shop/edokoji/",
+    "credit": "ありそ鮨し · 江戸小路店 공식 사진"
   }
 }

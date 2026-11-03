@@ -57,6 +57,7 @@
 </style>
 <link rel="stylesheet" href="assets/visuals.css" />
 <link rel="stylesheet" href="assets/food-guide.css" />
+<link rel="stylesheet" href="assets/travel-refinements.css">
 </head>
 <body>
 <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden"><defs>
@@ -79,19 +80,19 @@
  <div id="mapRouteWarning" class="google-route-warning" role="status"></div>
   <details class="google-key-details" id="googleMapConfig"><summary>지도 연결 설정</summary><div>지도는 자동으로 연결됩니다. 연결에 문제가 있을 때만 다른 브라우저 API 키를 입력하세요. 이 사이트의 기본 키는 carpedm20.github.io에서만 사용할 수 있습니다. 변경한 키는 이 브라우저 세션에만 저장됩니다.</div><div class="google-key-row"><input id="googleMapApiKey" type="password" placeholder="Google Maps JavaScript API key" autocomplete="off" spellcheck="false" aria-label="Google Maps API 키"/><button id="googleMapApiApply" type="button">Google 지도 연결</button><button id="googleMapApiReset" type="button" style="background:#e7ebe5;color:#344135">연결 해제</button></div><p id="googleMapApiStatus" role="status" style="margin:6px 0 0">Google 지도를 연결하는 중입니다…</p></details>
 </div><div class="route-legend"><span class="legend-item"><i class="legend-stroke walk"></i>도보 · 실선</span><span class="legend-item"><i class="legend-stroke transit"></i>대중교통 · 개략 점선</span><span>실제 경로 모드는 Google Routes API 사용량 발생</span></div></section>
-<section id="food"><div class="section-line"><div><div class="section-kicker">03 / GOOD FOOD</div><h2 class="section-title">동선에 맞춘 타베로그 맛집</h2></div><span class="section-aside">카레 · 교자 · 돈카츠 · 튀김 + 맥주</span></div><p class="food-guide-intro">하루마다 다른 맛을 골라요. 고평점 후보와 편하게 들를 일본 체인을 구분하고, 메뉴판에서 바로 찾을 일본어와 추천 조합을 적었어요. 아래는 여러 후보 중 골라 먹는 목록입니다.</p><div class="notice"><svg class="ic"><use href="#i-info"/></svg><p><strong>영업 확인 · 2026.11.03 조사</strong> 평점이 높은 곳도 대기가 있을 수 있어요. 표기 시간은 평소 영업시간이며, 12/30–1/3 특별영업·메뉴·재고는 별도 확인이 필요합니다. 「일상 체인」은 고평점 맛집과 구분한 편한 식사 선택지예요.</p></div><div id="foodDayFilters" class="food-day-filters" role="group" aria-label="식당 날짜 필터"></div><div id="restaurants" class="restaurants"></div><div id="konbini" class="konbini-section"><div class="section-kicker">KONBINI / SWEET & SAVOURY</div><h3>편의점에서는 이걸 담아요</h3><p class="konbini-lead">세 편의점에서 <strong>5개씩, 총 15개</strong>를 골랐어요. 치킨·간단한 식사·음료·디저트를 섞어 취향대로 담아요. 좋아하는 팥 디저트는 <strong>LAWSON → 도라모치 팥&amp;휘핑크림</strong>으로 남겼어요. <a href="https://www.japankuru.com/ko/food/e3990/" target="_blank" rel="noopener">참고한 로손 소개 글 ↗</a></p><p class="konbini-lead">튀김에는 <a href="https://www.sapporobeer.jp/product/beer/kurolabel/" target="_blank" rel="noopener">サッポロ生ビール黒ラベル 350ml · 삿포로 쿠로라벨</a>을 제안해요. 공식 상품 기준 2026.11 확인, 여행일 판매·재고는 점포마다 달라요. 체크하면 이 브라우저에 구매 목록이 저장됩니다.</p><details class="konbini-evidence"><summary>추천을 고른 기준 · 일본 대표 상품 + 한국 여행 추천</summary><p>파미치키는 <a href="https://www.family.co.jp/company/news_releases/2026/20260707_02.html" target="_blank" rel="noopener">패밀리마트의 판매 1위 대표 상품</a>, 수플레 푸딩은 <a href="https://www.family.co.jp/content/dam/family/company/news_releases/2023/20240319_newsrelease_01.pdf" target="_blank" rel="noopener">2024년 누적 8천만 개 판매 발표</a>를 참고했어요. <a href="https://www.yeogi.com/content/ob-jp-all-hotel-bx2-japan-convenience-store-food-best9" target="_blank" rel="noopener">여기어때의 일본 편의점 추천</a>과 <a href="https://www.jmap.co.kr/guide/japan/japan-convenience-store-recommendations-guide.html" target="_blank" rel="noopener">한국어 여행 가이드</a>도 함께 보고, 아침·야식·맥주 안주를 더했어요. 15개 모두의 인기 순위를 뜻하지는 않아요.</p></details><div id="konbiniCards" class="konbini-grid"></div></div></section>
+<section id="food"><div class="section-line"><div><div class="section-kicker">03 / GOOD FOOD</div><h2 class="section-title">동선에 맞춘 타베로그 맛집</h2></div><span class="section-aside">카레 · 쿠시카츠 · 함박 · 돈카츠 · 초밥</span></div><p class="food-guide-intro">하루마다 다른 맛을 골라요. 같은 식당은 여러 날에 반복하지 않고, 메뉴판에서 바로 찾을 일본어와 추천 조합을 적었어요. 술은 메뉴와의 궁합을 고려한 추천이며, 확인한 메뉴와 현장 확인이 필요한 항목을 구분했어요. 같은 날의 대안 식당은 둘 중 한 곳만 선택해요.</p><div class="notice"><svg class="ic"><use href="#i-info"/></svg><p><strong>영업 확인 · 2026.11.03 조사</strong> 평점이 높은 곳도 대기가 있을 수 있어요. 표기 시간은 평소 영업시간이며, 12/30–1/3 특별영업·메뉴·재고는 별도 확인이 필요합니다. 「일상 체인」은 고평점 맛집과 구분한 편한 식사 선택지예요.</p></div><nav class="quick-food-links" aria-label="음식 바로가기"><a href="#restaurants">식당·술 조합</a><a href="#konbini">편의점 15개</a><a href="#fieldHelp">주문할 때 쓸 말</a></nav><div id="mealOverview" class="meal-overview" aria-label="날짜별로 다른 식사"></div><div id="foodDayFilters" class="food-day-filters" role="group" aria-label="식당 날짜 필터"></div><div id="restaurants" class="restaurants"></div><div id="konbini" class="konbini-section"><div class="section-kicker">KONBINI / SWEET & SAVOURY</div><h3>편의점에서는 이걸 담아요</h3><p class="konbini-lead">세 편의점에서 <strong>5개씩, 총 15개</strong>를 골랐어요. 치킨·간단한 식사·음료·디저트를 섞어 취향대로 담아요. 좋아하는 팥 디저트는 <strong>LAWSON → 도라모치 팥&amp;휘핑크림</strong>으로 남겼어요. <a href="https://www.japankuru.com/ko/food/e3990/" target="_blank" rel="noopener">참고한 로손 소개 글 ↗</a></p><p class="konbini-lead">튀김에는 <a href="https://www.sapporobeer.jp/product/beer/kurolabel/" target="_blank" rel="noopener">サッポロ生ビール黒ラベル 350ml · 삿포로 쿠로라벨</a>을 제안해요. 공식 상품 기준 2026.11 확인, 여행일 판매·재고는 점포마다 달라요. 체크하면 이 브라우저에 구매 목록이 저장됩니다.</p><details class="konbini-evidence"><summary>추천을 고른 기준 · 일본 대표 상품 + 한국 여행 추천</summary><p>파미치키는 <a href="https://www.family.co.jp/company/news_releases/2026/20260707_02.html" target="_blank" rel="noopener">패밀리마트의 판매 1위 대표 상품</a>, 수플레 푸딩은 <a href="https://www.family.co.jp/content/dam/family/company/news_releases/2023/20240319_newsrelease_01.pdf" target="_blank" rel="noopener">2024년 누적 8천만 개 판매 발표</a>를 참고했어요. <a href="https://www.yeogi.com/content/ob-jp-all-hotel-bx2-japan-convenience-store-food-best9" target="_blank" rel="noopener">여기어때의 일본 편의점 추천</a>과 <a href="https://www.jmap.co.kr/guide/japan/japan-convenience-store-recommendations-guide.html" target="_blank" rel="noopener">한국어 여행 가이드</a>도 함께 보고, 아침·야식·맥주 안주를 더했어요. 15개 모두의 인기 순위를 뜻하지는 않아요.</p></details><div class="konbini-tools"><div id="storeFilters" class="store-filters" role="group" aria-label="편의점 선택"></div><span id="shoppingCount" class="shopping-count" role="status" aria-live="polite"></span></div><div id="konbiniCards" class="konbini-grid"></div><div id="fieldHelp" class="field-help"><h3>현장에서 바로 꺼내 쓰기</h3><p>버튼을 누르면 일본어가 복사돼요. 식당 카드의 주문 도움말에는 음식·음료 이름도 들어 있어요.</p><div class="phrase-buttons"><button type="button" data-copy-phrase="二人です。">두 명이에요 · 二人です。</button><button type="button" data-copy-phrase="生ビールを一つお願いします。">생맥주 한 잔 주세요</button><button type="button" data-copy-phrase="取り皿を二枚ください。">앞접시 두 개 주세요</button><button type="button" data-copy-phrase="お会計をお願いします。">계산 부탁해요</button></div><details><summary>취향별로 한 잔 고르기</summary><p>고소한 고기·소시지 → 몰트 풍미의 맥주 / 튀김꼬치 → 생맥주 또는 하이볼 / 새콤한 교자·유린기 → 레몬사와 / 초밥 → 깔끔한 라거 또는 드라이한 사케. 모두 마시는 순서가 아니라 취향에 따라 하나를 고르는 제안이에요.</p><p>生ビール = 생맥주 · ハイボール = 위스키+탄산 · レモンサワー = 레몬맛 술+탄산 · ウーロン茶 = 우롱차 · ウーロンハイ = 우롱차에 술을 섞은 음료.</p></details><details><summary>편의점 야식에는 어떤 캔맥주?</summary><p>파미치키·카라아게군 → <a href="https://www.sapporobeer.jp/product/beer/kurolabel/" target="_blank" rel="noopener">삿포로 쿠로라벨 350ml</a>. 나나치키·에다마메 → <a href="https://www.asahibeer.co.jp/superdry/" target="_blank" rel="noopener">아사히 슈퍼드라이</a>를 제안해요. 치킨은 3개 브랜드 중 하나만 골라 비교는 다음 여행으로. 푸딩·도라모치에는 술보다 따뜻한 커피나 차를 곁들여요.</p></details><details><summary>줄이 길거나 비가 오면</summary><p>식당 앞에서 기다릴 시간을 먼저 정해요. 첫날 카레가 휴무면 그날의 교자 대안으로 전환. 신년 호텔 식사 예약이 안 되면 데니즈 영업을 확인해요. 하라주쿠는 야외 산책을 줄이고 하라카도 안에서 쉬어가요. 공항에서는 식사보다 체크인·보안검색 시간을 우선해요.</p></details></div></div></section>
 <section id="hotel"><div class="section-line"><div><div class="section-kicker">04 / BASE CAMP</div><h2 class="section-title">호텔은 다이몬·신바시에서</h2></div><span class="section-aside">이동 횟수 최소화 · 4박 연박</span></div><div class="hotelgrid" id="hotels"></div><div class="tip" style="margin-top:14px;padding:13px 16px"> <svg class="ic sm"><use href="#i-info"/></svg>연말연시에는 객실이 빠르게 마감됩니다. 예약 전 4박 연속 숙박 가능 여부를 확인하세요.</div></section>
-<section id="sources"><div class="section-line"><div><div class="section-kicker">05 / FACT CHECK</div><h2 class="section-title">출발 전 확인할 것들</h2></div></div><div class="source-wrap"><p>교통시간은 출발지에서 도착지까지의 <strong>예상 범위</strong>입니다. 구체적 열차 배차·실시간 혼잡을 반영한 확정값은 아닙니다. 모바일에서 각 일정의 「경로」를 누르면 Google Maps의 대중교통 길찾기를 바로 열 수 있습니다. 여행 자료는 2026년 10월, 음식·편의점 자료는 2026년 11월 3일 조회 기준입니다.</p><div class="sources" id="sourceLinks"></div></div></section>
+<section id="sources"><div class="section-line"><div><div class="section-kicker">05 / FACT CHECK</div><h2 class="section-title">출발 전 확인할 것들</h2></div></div><div class="source-wrap"><p>교통시간은 출발지에서 도착지까지의 <strong>예상 범위</strong>입니다. 구체적 열차 배차·실시간 혼잡을 반영한 확정값은 아닙니다. 모바일에서 각 일정의 「경로」를 누르면 Google Maps의 대중교통 길찾기를 바로 열 수 있습니다. 여행 자료는 2026년 10월, 음식·편의점 자료는 2026년 11월 3일, 술 메뉴·공항 초밥은 11월 4일 조회 기준입니다.</p><div class="sources" id="sourceLinks"></div></div></section>
 <details class="photo-credits"><summary>사진 출처 · Photo credits</summary><p>과거 행사·객실 예시·음식 참고 사진은 캡션에 표시했습니다. 사진은 크기를 조정하고 WebP로 변환했으며, 카드에서는 일부가 잘려 보일 수 있습니다. CC 사진의 편집본은 원본과 동일한 라이선스를 따릅니다.</p><ul><li>아키하바라의 밤 — <a href="https://commons.wikimedia.org/wiki/File:Sotokanda%2C_Akihabara_Electric_Town_at_night_20231114.png" target="_blank" rel="noopener">Phineyes / Wikimedia Commons</a> · <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0</a></li><li>도쿄 빅사이트 — <a href="https://commons.wikimedia.org/wiki/File:20030727_27_July_2003_Tokyo_International_Exhibition_Center_Big_Sight_Odaiba_Tokyo_Japan.jpg" target="_blank" rel="noopener">Morio / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a></li><li>스미다강의 여유 — <a href="https://commons.wikimedia.org/wiki/File:Sumidagawa_river.JPG" target="_blank" rel="noopener">Kirkpatrick / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a></li><li>시부야의 도시 풍경 — <a href="https://commons.wikimedia.org/wiki/File:Shibuya_skyline_from_Tokyu_Plaza_in_Omotesando%2C_Harajuku%2C_Tokyo%2C_2024_May.jpg" target="_blank" rel="noopener">Simo Räsänen / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a></li><li>고탄다 동네 풍경 — <a href="https://commons.wikimedia.org/wiki/File:Gotanda_District.jpg" target="_blank" rel="noopener">Bernard Gagnon / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a></li><li>숯불에 굽는 야키토리 — <a href="https://commons.wikimedia.org/wiki/File:Cooking_yakitori.jpg" target="_blank" rel="noopener">竹麦魚 (Searobin) / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a></li><li>만다라케의 서가 — <a href="https://commons.wikimedia.org/wiki/File:Interiors_of_Mandarake%2C_Akibahara.jpg" target="_blank" rel="noopener">PhilaSiti / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a></li><li>코미케의 열기 — <a href="https://commons.wikimedia.org/wiki/File:Comicmarket62_00.JPG" target="_blank" rel="noopener">Kobak; blur by Benpedia / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a></li><li>코스프레 구역 — <a href="https://commons.wikimedia.org/wiki/File:The_Cosplayers_of_Comiket_69.jpg" target="_blank" rel="noopener">stormstill / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener">CC BY-SA 2.0</a></li><li>캣스트리트 산책 — <a href="https://commons.wikimedia.org/wiki/File:Cat_Street%2C_Ura_Harajuku_2.jpg" target="_blank" rel="noopener">Aw1805 / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a></li><li>하네다 도착 — <a href="https://commons.wikimedia.org/wiki/File:Haneda_airport_international_terminal_005.jpg" target="_blank" rel="noopener">AD Train / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a></li><li>테이블 위의 야키니쿠 — <a href="https://commons.wikimedia.org/wiki/File:Yakiniku_002.jpg" target="_blank" rel="noopener">Jonathan Lin; edited by E136 / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener">CC BY-SA 2.0</a></li><li>Kindal 하라주쿠 — <a href="https://www.kind.co.jp/en/harajuku/" target="_blank" rel="noopener">Kindal · 공식 사이트</a></li><li>디자이너 빈티지 찾기 — <a href="https://www.kind.co.jp/en/harajuku/" target="_blank" rel="noopener">Kindal · 공식 사이트</a></li><li>TRUNK(KUSHI) — <a href="https://catstreet.trunk-hotel.com/kushi/" target="_blank" rel="noopener">TRUNK(HOTEL) · 공식 사이트</a></li><li>HARMONY — <a href="https://www.royalparkhotels.co.jp/en/ic/tokyoshiodome/dining/harmony/" target="_blank" rel="noopener">The Royal Park Hotel · 공식 사이트</a></li><li>Sotetsu Fresa Inn Daimon — <a href="https://sotetsu-hotels.com/fresa-inn/daimon-ekimae/rooms/" target="_blank" rel="noopener">Sotetsu Hotels · 공식 사이트</a></li><li>다이몬 · 트윈 객실 — <a href="https://sotetsu-hotels.com/fresa-inn/daimon-ekimae/gallery/" target="_blank" rel="noopener">Sotetsu Hotels · 공식 사이트</a></li><li>신바시 · 스탠더드 객실 — <a href="https://www.superhotel.co.jp/s_hotels/shinbashi/gallery.html" target="_blank" rel="noopener">Super Hotel · 공식 사이트</a></li><li>신바시 · 로프트 객실 — <a href="https://www.superhotel.co.jp/s_hotels/shinbashi/gallery.html" target="_blank" rel="noopener">Super Hotel · 공식 사이트</a></li><li>고탄다 TOC 플리마켓 — <a href="https://hotdogger.jp/blogs/eventshop/e4-ba-94-e5-8f-8d-e7-94-b0-ef-bd-94-ef-bd-8f-ef-bd-83-e3-80-80-e3-83-88-e3-82-af-e3-83-88-e3-82-afbig-e3-83-95-e3-83-aa-e3-83-bc-e3-83-9e-e3-83-bc-e3-82-b1-e3-83-83-e3-83-88-e9-96-8b-e5-82-ac" target="_blank" rel="noopener">Hotdogger · 과거 TOC 행사 안내</a></li><li>라디오회관 — <a href="https://commons.wikimedia.org/wiki/File:Akihabara_Radio_Kaikan_Shopping_Building_(53416976349).jpg" target="_blank" rel="noopener">Stephen Kelly / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener">CC BY 2.0</a></li><li>Tori no Kakehashi — <a href="https://r.gnavi.co.jp/efupm64v0000/" target="_blank" rel="noopener">Tori no Kakehashi / Rakuten Gurunavi</a></li><li>Yakiniku Kuroda — <a href="https://tabelog.com/tokyo/A1303/A130301/13235527/table/" target="_blank" rel="noopener">Yakiniku Kuroda / Tabelog</a></li><li>Yakitori Tsukada — <a href="https://hitosara.com/0004045035/photo/2/" target="_blank" rel="noopener">Hitosara · 매장 사진</a></li><li>RAGTAG 하라주쿠 — <a href="https://prtimes.jp/main/html/rd/p/000001027.000002439.html" target="_blank" rel="noopener">WORLD / RAGTAG · 공식 보도자료</a></li><li>스파이스 팔레트의 카레 — <a href="https://kanda-curry.com/スパイスパレット/" target="_blank" rel="noopener">神田カレーグランプリ · 가게 소개 사진</a></li><li>이치미 레이레이의 교자와 중화요리 — <a href="https://www.ichimiringring.com/home" target="_blank" rel="noopener">一味玲玲 · 공식 요리 사진</a></li><li>쿠시카츠 다나카의 튀김 꼬치 — <a href="https://kushi-tanaka.com/" target="_blank" rel="noopener">串カツ田中 · 공식 대표 메뉴 사진</a></li><li>교자의 오쇼 군만두 — <a href="https://www.ohsho.co.jp/menu/east/" target="_blank" rel="noopener">餃子の王将 · 공식 메뉴 사진</a></li><li>기린 시티 시부야 도겐자카 — <a href="https://www.kirincity.co.jp/shop/shibuya-dogenzaka.html" target="_blank" rel="noopener">Kirin City 공식 웹사이트</a></li><li>데니즈 전갱이튀김 — <a href="https://www.dennys.jp/menu/side/" target="_blank" rel="noopener">Denny’s Japan 공식 웹사이트</a></li><li>하네다 카츠센 입구 — <a href="https://wako-group.co.jp/shop/detai/shop_3165/" target="_blank" rel="noopener">Wako Group 공식 웹사이트</a></li><li>도라모치 팥&amp;휘핑크림 — <a href="https://www.lawson.co.jp/recommend/original/detail/1511871_1996.html" target="_blank" rel="noopener">LAWSON · 공식 상품 사진</a></li><li>카라아게군 레드 — <a href="https://www.lawson.co.jp/recommend/original/detail/1390564_1996.html" target="_blank" rel="noopener">LAWSON · 공식 상품 사진</a></li><li>파미치키 — <a href="https://www.family.co.jp/goods/friedfoods/0253116.html" target="_blank" rel="noopener">FamilyMart · 공식 상품 사진</a></li><li>패밀리마트 통팥 도라야키 — <a href="https://www.family.co.jp/goods/baked_sweets/1310047.html" target="_blank" rel="noopener">FamilyMart · 공식 상품 사진</a></li><li>세븐일레븐 생도라야키 통팥&amp;휘핑 — <a href="https://www.sej.co.jp/products/a/item/115554" target="_blank" rel="noopener">Seven-Eleven Japan · 공식 상품 사진</a></li><li>나나치키 — <a href="https://www.sej.co.jp/products/a/item/150398/" target="_blank" rel="noopener">Seven-Eleven Japan · 공식 상품 사진</a></li><li>하라카도 카츠 프리포 — <a href="https://prettyporkfactory.com/harajuku/" target="_blank" rel="noopener">PRETTY PORK FACTORY &amp; KATSUプリポー 공식</a></li></ul></details><div class="footer"><span>© TOKYO / FIELD NOTES — A travel planning companion</span><span>Routes are estimates. Reservations and opening hours require reconfirmation.</span></div>
 </main></div></div>
-<nav class="mobile-nav" id="mobileNav"><button class="active" data-anchor="overview"><svg class="ic"><use href="#i-map"/></svg>개요</button><button data-anchor="schedule"><svg class="ic"><use href="#i-calendar"/></svg>일정</button><button data-anchor="mapSection"><svg class="ic"><use href="#i-map"/></svg>지도</button><button data-anchor="food"><svg class="ic"><use href="#i-coffee"/></svg>맛집</button><button data-anchor="hotel"><svg class="ic"><use href="#i-pin"/></svg>숙소</button></nav><div class="toast" id="toast" role="status"></div>
+<nav class="mobile-nav" id="mobileNav"><button class="active" data-anchor="overview"><svg class="ic"><use href="#i-map"/></svg>개요</button><button data-anchor="schedule"><svg class="ic"><use href="#i-calendar"/></svg>일정</button><button data-anchor="mapSection"><svg class="ic"><use href="#i-map"/></svg>지도</button><button data-anchor="food"><svg class="ic"><use href="#i-coffee"/></svg>맛집·술</button><button data-anchor="hotel"><svg class="ic"><use href="#i-pin"/></svg>숙소</button></nav><div class="toast" id="toast" role="status"></div>
 <dialog id="photoDialog" class="photo-dialog" aria-labelledby="photoDialogTitle"><button type="button" id="photoDialogClose" class="photo-close" aria-label="사진 닫기">×</button><img id="photoDialogImage" alt=""><div class="photo-dialog-copy"><h3 id="photoDialogTitle"></h3><p id="photoDialogCaption"></p><a id="photoDialogCredit" target="_blank" rel="noopener"></a> <a id="photoDialogLicense" target="_blank" rel="noopener" hidden></a></div></dialog>
 <script src="assets/visuals.js"></script>
 <script src="assets/food-guide.js"></script>
 <script>
 const GOOGLE_MAPS_API_KEY = 'AIzaSyB-K-mZmCrA5RYP1-lPNrtxvzrmCNhGQHk'; // Browser key restricted to carpedm20.github.io and Maps/Routes APIs.
  const $=(s)=>document.querySelector(s);const money=v=>'₩'+Math.round(v||0).toLocaleString('ko-KR');const icon=(id,cls='')=>`<svg class="ic ${cls}"><use href="#i-${id}"/></svg>`;const maps=q=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(q);const dir=(a,b,mode='transit')=>'https://www.google.com/maps/dir/?api=1&origin='+encodeURIComponent(a)+'&destination='+encodeURIComponent(b)+'&travelmode='+mode;const HOTEL='Sotetsu Fresa Inn Daimon, 2-6-2 Shibadaimon, Minato, Tokyo';
-const sourceLinks=[['C109 공식 일정','https://comiket.co.jp/info-a/C109/C109Schedule.html'],['C109 외국인 참가 안내','https://www2.comiket.co.jp/info-a/TAFO/C109TAFO/index.html'],['1/3 고탄다 플리마켓 공지','https://www.enjoytokyo.jp/event/2089530/'],['Kindal 하라주쿠 점포','https://www.kind.co.jp/en/harajuku/'],['RAGTAG 하라주쿠 영업 안내','https://www.ragtag.jp/english/harajuku.html'],['M’s 아키하바라 공식 안내','https://www.ms-online.co.jp/page/akihabara-store']];
+const sourceLinks=[['도쿄빅사이트역 U11 안내','https://www.yurikamome.co.jp/station-timetable/u-11.html'],['C109 공식 일정','https://comiket.co.jp/info-a/C109/C109Schedule.html'],['C109 외국인 참가 안내','https://www2.comiket.co.jp/info-a/TAFO/C109TAFO/index.html'],['1/3 고탄다 플리마켓 공지','https://www.enjoytokyo.jp/event/2089530/'],['Kindal 하라주쿠 점포','https://www.kind.co.jp/en/harajuku/'],['RAGTAG 하라주쿠 영업 안내','https://www.ragtag.jp/english/harajuku.html'],['M’s 아키하바라 공식 안내','https://www.ms-online.co.jp/page/akihabara-store']];
 sourceLinks.push(...foods.map(f=>[f.name,f.url]));
 const days=[
  {
@@ -234,7 +235,7 @@ const days=[
   "crowd": "high",
   "crowdText": "매우 높음",
   "transit": "약 95~125분",
-  "tip": "다이몬→시오도메 한 정거장(오에도선), 시오도메→국제전시장정문(유리카모메), 빅사이트 도보. 전시장 혼잡 시 추가 20분 이상 여유 필요.",
+  "tip": "다이몬→시오도메 한 정거장(오에도선), 시오도메→도쿄빅사이트역(유리카모메), 빅사이트 도보. 전시장 혼잡 시 추가 20분 이상 여유 필요.",
   "warning": "2026년 C109는 12/29~31 확정. 12/31 참가 서클 구성이 맞는지 11월 카탈로그 확인 필수. 오후 입장권은 미발매/미확정 상태.",
   "stops": [
    {
@@ -506,7 +507,7 @@ const days=[
    {
     "t": "18:30",
     "title": "저녁 · 기린 시티 시부야 도겐자카",
-    "desc": "야키토리 대신 대구튀김·소시지·감자요리를 생맥주와 나눠 먹기. 시부야 산책 후 앉아서 쉬기 좋은 선택. 추천: 鱈のフィッシュ＆チップス, ソーセージ. 휴일 영업 확인.",
+    "desc": "점심 돈카츠 다음에는 소시지 3종 모둠 + CITY 포테이토. 기린 브라우마이스터 또는 이치방시보리 쿠로나마 중 취향에 맞는 맥주를 골라요. 튀김 메뉴는 반복하지 않기.",
     "cat": "식사",
     "place": "キリンシティ 渋谷道玄坂店 東京都渋谷区道玄坂2-25-13 松原ビル1F",
     "end": "20:15",
@@ -584,8 +585,8 @@ const days=[
    },
    {
     "t": "11:30",
-    "title": "고탄다에서 점심",
-    "desc": "지나가는 길에 간단히. 신년 영업 여부 확인.",
+    "title": "고탄다에서 가벼운 간식",
+    "desc": "점심을 크게 먹기보다 가볍게 쉬기. 오늘의 메인 식사는 공항의 초밥으로 남겨둬요.",
     "cat": "식사",
     "place": "Gotanda Station Tokyo",
     "end": "12:20"
@@ -607,18 +608,11 @@ const days=[
    },
    {
     "t": "13:10",
-    "title": "카페 또는 호텔 라운지 자유시간",
-    "desc": "공항 도착까지 충분한 여유. 필요하면 일찍 공항 이동.",
-    "cat": "휴식",
-    "end": "15:00"
-   },
-   {
-    "t": "15:00",
     "title": "하네다공항 이동",
     "desc": "다이몬→아사쿠사선·게이큐 직통 계통. 하네다 T3/T2 항공사 터미널 확인.",
     "cat": "교통",
     "place": "Haneda Airport Tokyo",
-    "end": "16:00",
+    "end": "14:10",
     "leg": {
      "from": "Sotetsu Fresa Inn Daimon, 2-6-2 Shibadaimon, Minato, Tokyo",
      "to": "Haneda Airport Tokyo",
@@ -626,6 +620,16 @@ const days=[
      "min": "35~50분",
      "how": "아사쿠사선·게이큐 직통"
     }
+   },
+   {
+    "t": "14:10",
+    "title": "출국 전 초밥 · 아리소 에도코지점",
+    "desc": "T3 이용 시 4층 보안검색 전. 참다랑어·단새우·오늘의 추천 생선으로 마지막 식사. 항공사 수속 마감과 대기열부터 확인하고 빠듯하면 생략.",
+    "cat": "식사",
+    "place": "ありそ鮨し 江戸小路店 羽田空港第3ターミナル",
+    "end": "15:00",
+    "photo": "menu-ariso-sushi",
+    "book": "https://tokyo-haneda.com/shop_and_dine/detail/tenant_00053.html"
    },
    {
     "t": "19:30",
@@ -971,12 +975,12 @@ const routeDays=[
     "행사"
    ],
    [
-    "고탄다역 · 점심",
+    "고탄다역 · 간식·휴식",
     "11:30",
     35.6265,
     139.7238,
     "Gotanda Station Tokyo",
-    "식사"
+    "휴식"
    ],
    [
     "호텔 · 짐 찾기",
@@ -987,12 +991,12 @@ const routeDays=[
     "호텔"
    ],
    [
-    "하네다공항 T3",
-    "15:00",
+    "하네다 T3 · 아리소 초밥 (4층)",
+    "14:10",
     35.5445,
     139.7682,
-    "Haneda Airport Terminal 3 Tokyo",
-    "공항"
+    "ありそ鮨し 江戸小路店 羽田空港第3ターミナル",
+    "공항·식사"
    ]
   ],
   "legs": [

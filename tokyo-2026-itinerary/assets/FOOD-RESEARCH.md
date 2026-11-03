@@ -101,3 +101,23 @@ https://www.royalparkhotels.co.jp/en/ic/tokyoshiodome/dining/harmony/
 Map dinner access points for Spice Palette and Kirin City were resolved from the full verified address via the existing Google Routes API on 2026-11-03. Tanaka uses coordinates from official venue structured data.
 
 Convenience-store source: https://www.japankuru.com/ko/food/e3990/ (2023-07-13). Product names independently checked against the official product links in food-guide.js; historical prices omitted.
+
+
+## 2026-11-04: distinct daily meals and drink pairings
+
+Removed Ohsho and Katsusen from active recommendations. Each restaurant is assigned to exactly one day. Gyoza appears only as the first day's curry alternative. Denny's now centers on hamburger steak; Kirin on sausages and potatoes; day five is sushi. Convenience-store products remain a catalogue of alternatives, not a directive to eat all three fried chickens.
+
+Drink pairings are editorial taste suggestions, not claims that restaurants recommend them. Availability labels distinguish verified official menus from unverified drink types to ask for.
+
+- Ichimi Reirei: https://www.ichimiringring.com/_files/ugd/a34baf_624637a5b15b4600838724e500c8c618.pdf — common official menu lists Kaoru Ale and lemon sour; branch variations noted.
+- Tanaka: https://kushi-tanaka.com/img/files/up/20260910_drink.pdf — Kaoru Ale, Jim Beam highball, Kodawari Sakaba lemon sour.
+- Kirin: https://www.kirincity.co.jp/ — Braumeister and Ichiban Shibori dark draft.
+- Denny's: https://www.dennys.jp/menu/alcohol/ — Premium Malt's and Kaku highball.
+- Spice Palette, Harakado, HARMONY: no verified current specific drinks; marked as conditional food pairing suggestions, not confirmed availability.
+- Ariso Edokoji: https://www.arisozushi.com/shop/edokoji/ and https://tokyo-haneda.com/shop_and_dine/detail/tenant_00053.html — T3 general area 4F, phone03-6428-0444, no reservations. Airport lists24h except02–03drinks only; not the other same-floor Ariso branch. Natural tuna and sweet shrimp supported by airport page; daily fish is a question to staff. Alcohol icon verified, brands not confirmed. Map point uses existing airport coordinate as an approximate terminal anchor, not a precise indoor shop pin.
+- Sapporo Black Label: https://www.sapporobeer.jp/product/beer/kurolabel/
+- Asahi Super Dry: https://www.asahibeer.co.jp/brand/superdry/
+
+Mobile review: larger food text and touch targets, safe-area bottom navigation, toast above navigation, store filters and persistent shopping count, Japanese phrase helpers, meal overview, reduced motion support.
+
+Station wording corrected to Tokyo Big Sight/U11: https://www.yurikamome.co.jp/station-timetable/u-11.html .
