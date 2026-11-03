@@ -313,3 +313,171 @@ License: Venue / publisher image; rights retained by source
 Source: https://prtimes.jp/main/html/rd/p/000001027.000002439.html
 
 Original image: https://prcdn.freetls.fastly.net/release_image/2439/1027/2439-1027-62b798d2bb74e6f9e6b9b9a1185ba08b-3900x2925.jpg?auto=webp&fit=bounds&format=jpeg&height=600&width=900
+
+## food-spice-palette
+
+스파이스 팔레트의 카레 — 해당 가게 소개에 실린 카레 사진 · 토핑과 구성은 당일 메뉴 확인.
+
+Credit: 神田カレーグランプリ · 가게 소개 사진
+
+Source: https://kanda-curry.com/スパイスパレット/
+
+Original: https://kanda-curry.com/wp/wp-content/uploads/2020/04/image2-1.jpeg
+
+Resized and encoded as WebP. Rights retained by source.
+
+## food-ichimi-reirei
+
+이치미 레이레이의 교자와 중화요리 — 브랜드 공식 사진 · 여러 교자와 중화요리 예시이며 본점의 특정 코스 구성을 뜻하지 않아요.
+
+Credit: 一味玲玲 · 공식 요리 사진
+
+Source: https://www.ichimiringring.com/home
+
+Original: https://static.wixstatic.com/media/a34baf_ace70fd205de48a5bbc619b0a563759b~mv2.jpg
+
+Resized and encoded as WebP. Rights retained by source.
+
+## food-kushikatsu-tanaka
+
+쿠시카츠 다나카의 튀김 꼬치 — 체인 공식 대표 메뉴 사진 · 신바시 지점의 당일 구성은 별도 확인.
+
+Credit: 串カツ田中 · 공식 대표 메뉴 사진
+
+Source: https://kushi-tanaka.com/
+
+Original: https://kushi-tanaka.com/assets/img/index/menu-kushikatsu.png?v=20261019
+
+Resized and encoded as WebP. Rights retained by source.
+
+## food-ohsho
+
+교자의 오쇼 군만두 — 체인 공식 메뉴 사진 · 신바시 지점 내부 사진이 아닌 군만두 예시.
+
+Credit: 餃子の王将 · 공식 메뉴 사진
+
+Source: https://www.ohsho.co.jp/menu/east/
+
+Original: https://www.ohsho.co.jp/menu/assets/img/gyoza202205.jpg
+
+Resized and encoded as WebP. Rights retained by source.
+
+## food-kirin
+
+기린 시티 시부야 도겐자카 — 공식 지점 내부 사진 · 피시앤칩스와 생맥주를 곁들이는 저녁.
+
+Credit: Kirin City 공식 웹사이트
+
+Source: https://www.kirincity.co.jp/shop/shibuya-dogenzaka.html
+
+Original: https://www.kirincity.co.jp/images/shop/shibuya-dogenzaka/01.jpg
+
+Resized and encoded as WebP. Rights retained by source.
+
+## food-dennys
+
+데니즈 전갱이튀김 — 나가사키 마쓰우라항 전갱이튀김 · 데니즈 공식 메뉴 사진
+
+Credit: Denny’s Japan 공식 웹사이트
+
+Source: https://www.dennys.jp/menu/side/
+
+Original: https://www.dennys.jp/images/menu/fried-horse-mackerel-from-matsuuraport-nagasaki-c.jpg?0610
+
+Resized and encoded as WebP. Rights retained by source.
+
+## food-katsusen
+
+하네다 카츠센 입구 — 하네다 제3터미널 카츠센 실제 매장 외관 · 공식 사진
+
+Credit: Wako Group 공식 웹사이트
+
+Source: https://wako-group.co.jp/shop/detai/shop_3165/
+
+Original: https://wako-group.co.jp/wp/wp-content/uploads/2020/05/3165かつ仙第３旅客ターミナルビル羽田空港店-外観.jpg
+
+Resized and encoded as WebP. Rights retained by source.
+
+## food-lawson-dora
+
+도라모치 팥&휘핑크림 — 로손 공식 상품 이미지 · 포장·판매 여부는 매장에서 확인.
+
+Credit: LAWSON · 공식 상품 사진
+
+Source: https://www.lawson.co.jp/recommend/original/detail/1511871_1996.html
+
+Original: https://www.lawson.co.jp/recommend/original/detail/img/l792746.png
+
+Resized and encoded as WebP. Rights retained by source.
+
+## food-lawson-chicken
+
+카라아게군 레드 — 로손 공식 상품 이미지 · 매콤한 한입 치킨.
+
+Credit: LAWSON · 공식 상품 사진
+
+Source: https://www.lawson.co.jp/recommend/original/detail/1390564_1996.html
+
+Original: https://www.lawson.co.jp/recommend/original/detail/img/l456069_8.png
+
+Resized and encoded as WebP. Rights retained by source.
+
+## food-family-chicken
+
+파미치키 — 패밀리마트 공식 상품 이미지 · 바삭한 순살 치킨.
+
+Credit: FamilyMart · 공식 상품 사진
+
+Source: https://www.family.co.jp/goods/friedfoods/0253116.html
+
+Original: https://www.family.co.jp/content/dam/family/goods/0253116.jpg
+
+Resized and encoded as WebP. Rights retained by source.
+
+## food-family-dora
+
+패밀리마트 통팥 도라야키 — 패밀리마트 공식 상품 이미지 · 판매 종료 전 보이면 고르기.
+
+Credit: FamilyMart · 공식 상품 사진
+
+Source: https://www.family.co.jp/goods/baked_sweets/1310047.html
+
+Original: https://www.family.co.jp/content/dam/family/goods/1310047.jpg
+
+Resized and encoded as WebP. Rights retained by source.
+
+## food-seven-dora
+
+세븐일레븐 생도라야키 통팥&휘핑 — 세븐일레븐 공식 상품 이미지 · 방문일 판매·재고 확인.
+
+Credit: Seven-Eleven Japan · 공식 상품 사진
+
+Source: https://www.sej.co.jp/products/a/item/115554
+
+Original: https://img-afd.7api-01.dp1.sej.co.jp/item-image/115554/63682D9F1CFE0983BA9E51337BF01BD2.jpg
+
+Resized and encoded as WebP. Rights retained by source.
+
+## food-seven-chicken
+
+나나치키 — 세븐일레븐 공식 상품 이미지 · 도톰한 프라이드치킨.
+
+Credit: Seven-Eleven Japan · 공식 상품 사진
+
+Source: https://www.sej.co.jp/products/a/item/150398/
+
+Original: https://img-afd.7api-01.dp1.sej.co.jp/item-image/150398/29CC9A1A223BAD51290EC23434636138.jpg
+
+Resized and encoded as WebP. Rights retained by source.
+
+## food-harakado
+
+하라카도 카츠 프리포 — 브랜드 돼지고기 돈카츠 · 공식 메뉴 사진
+
+Credit: PRETTY PORK FACTORY & KATSUプリポー 공식
+
+Source: https://prettyporkfactory.com/harajuku/
+
+Original: https://prettyporkfactory.com/wp-content/themes/prettyporkfactory/image/harajuku/katsu-img1.png
+
+Resized and encoded as WebP. Rights retained by source.

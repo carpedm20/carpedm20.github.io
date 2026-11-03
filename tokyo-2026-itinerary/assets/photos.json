@@ -284,5 +284,145 @@
     "src": "assets/photos/ragtag.webp",
     "width": 800,
     "height": 600
+  },
+  "food-spice-palette": {
+    "url": "https://kanda-curry.com/wp/wp-content/uploads/2020/04/image2-1.jpeg",
+    "title": "스파이스 팔레트의 카레",
+    "caption": "해당 가게 소개에 실린 카레 사진 · 토핑과 구성은 당일 메뉴 확인.",
+    "source": "https://kanda-curry.com/スパイスパレット/",
+    "credit": "神田カレーグランプリ · 가게 소개 사진",
+    "src": "assets/photos/food-spice-palette.webp",
+    "width": 640,
+    "height": 480
+  },
+  "food-ichimi-reirei": {
+    "url": "https://static.wixstatic.com/media/a34baf_ace70fd205de48a5bbc619b0a563759b~mv2.jpg",
+    "title": "이치미 레이레이의 교자와 중화요리",
+    "caption": "브랜드 공식 사진 · 여러 교자와 중화요리 예시이며 본점의 특정 코스 구성을 뜻하지 않아요.",
+    "source": "https://www.ichimiringring.com/home",
+    "credit": "一味玲玲 · 공식 요리 사진",
+    "src": "assets/photos/food-ichimi-reirei.webp",
+    "width": 900,
+    "height": 600
+  },
+  "food-kushikatsu-tanaka": {
+    "url": "https://kushi-tanaka.com/assets/img/index/menu-kushikatsu.png?v=20261019",
+    "title": "쿠시카츠 다나카의 튀김 꼬치",
+    "caption": "체인 공식 대표 메뉴 사진 · 신바시 지점의 당일 구성은 별도 확인.",
+    "source": "https://kushi-tanaka.com/",
+    "credit": "串カツ田中 · 공식 대표 메뉴 사진",
+    "src": "assets/photos/food-kushikatsu-tanaka.webp",
+    "width": 660,
+    "height": 738
+  },
+  "food-ohsho": {
+    "url": "https://www.ohsho.co.jp/menu/assets/img/gyoza202205.jpg",
+    "title": "교자의 오쇼 군만두",
+    "caption": "체인 공식 메뉴 사진 · 신바시 지점 내부 사진이 아닌 군만두 예시.",
+    "source": "https://www.ohsho.co.jp/menu/east/",
+    "credit": "餃子の王将 · 공식 메뉴 사진",
+    "src": "assets/photos/food-ohsho.webp",
+    "width": 400,
+    "height": 400
+  },
+  "food-kirin": {
+    "url": "https://www.kirincity.co.jp/images/shop/shibuya-dogenzaka/01.jpg",
+    "title": "기린 시티 시부야 도겐자카",
+    "caption": "공식 지점 내부 사진 · 피시앤칩스와 생맥주를 곁들이는 저녁.",
+    "source": "https://www.kirincity.co.jp/shop/shibuya-dogenzaka.html",
+    "credit": "Kirin City 공식 웹사이트",
+    "src": "assets/photos/food-kirin.webp",
+    "width": 400,
+    "height": 400
+  },
+  "food-dennys": {
+    "url": "https://www.dennys.jp/images/menu/fried-horse-mackerel-from-matsuuraport-nagasaki-c.jpg?0610",
+    "title": "데니즈 전갱이튀김",
+    "caption": "나가사키 마쓰우라항 전갱이튀김 · 데니즈 공식 메뉴 사진",
+    "source": "https://www.dennys.jp/menu/side/",
+    "credit": "Denny’s Japan 공식 웹사이트",
+    "src": "assets/photos/food-dennys.webp",
+    "width": 640,
+    "height": 640
+  },
+  "food-katsusen": {
+    "url": "https://wako-group.co.jp/wp/wp-content/uploads/2020/05/3165かつ仙第３旅客ターミナルビル羽田空港店-外観.jpg",
+    "title": "하네다 카츠센 입구",
+    "caption": "하네다 제3터미널 카츠센 실제 매장 외관 · 공식 사진",
+    "source": "https://wako-group.co.jp/shop/detai/shop_3165/",
+    "credit": "Wako Group 공식 웹사이트",
+    "src": "assets/photos/food-katsusen.webp",
+    "width": 884,
+    "height": 658
+  },
+  "food-lawson-dora": {
+    "url": "https://www.lawson.co.jp/recommend/original/detail/img/l792746.png",
+    "title": "도라모치 팥&휘핑크림",
+    "caption": "로손 공식 상품 이미지 · 포장·판매 여부는 매장에서 확인.",
+    "source": "https://www.lawson.co.jp/recommend/original/detail/1511871_1996.html",
+    "credit": "LAWSON · 공식 상품 사진",
+    "src": "assets/photos/food-lawson-dora.webp",
+    "width": 520,
+    "height": 400
+  },
+  "food-lawson-chicken": {
+    "url": "https://www.lawson.co.jp/recommend/original/detail/img/l456069_8.png",
+    "title": "카라아게군 레드",
+    "caption": "로손 공식 상품 이미지 · 매콤한 한입 치킨.",
+    "source": "https://www.lawson.co.jp/recommend/original/detail/1390564_1996.html",
+    "credit": "LAWSON · 공식 상품 사진",
+    "src": "assets/photos/food-lawson-chicken.webp",
+    "width": 520,
+    "height": 400
+  },
+  "food-family-chicken": {
+    "url": "https://www.family.co.jp/content/dam/family/goods/0253116.jpg",
+    "title": "파미치키",
+    "caption": "패밀리마트 공식 상품 이미지 · 바삭한 순살 치킨.",
+    "source": "https://www.family.co.jp/goods/friedfoods/0253116.html",
+    "credit": "FamilyMart · 공식 상품 사진",
+    "src": "assets/photos/food-family-chicken.webp",
+    "width": 600,
+    "height": 600
+  },
+  "food-family-dora": {
+    "url": "https://www.family.co.jp/content/dam/family/goods/1310047.jpg",
+    "title": "패밀리마트 통팥 도라야키",
+    "caption": "패밀리마트 공식 상품 이미지 · 판매 종료 전 보이면 고르기.",
+    "source": "https://www.family.co.jp/goods/baked_sweets/1310047.html",
+    "credit": "FamilyMart · 공식 상품 사진",
+    "src": "assets/photos/food-family-dora.webp",
+    "width": 600,
+    "height": 600
+  },
+  "food-seven-dora": {
+    "url": "https://img-afd.7api-01.dp1.sej.co.jp/item-image/115554/63682D9F1CFE0983BA9E51337BF01BD2.jpg",
+    "title": "세븐일레븐 생도라야키 통팥&휘핑",
+    "caption": "세븐일레븐 공식 상품 이미지 · 방문일 판매·재고 확인.",
+    "source": "https://www.sej.co.jp/products/a/item/115554",
+    "credit": "Seven-Eleven Japan · 공식 상품 사진",
+    "src": "assets/photos/food-seven-dora.webp",
+    "width": 900,
+    "height": 672
+  },
+  "food-seven-chicken": {
+    "url": "https://img-afd.7api-01.dp1.sej.co.jp/item-image/150398/29CC9A1A223BAD51290EC23434636138.jpg",
+    "title": "나나치키",
+    "caption": "세븐일레븐 공식 상품 이미지 · 도톰한 프라이드치킨.",
+    "source": "https://www.sej.co.jp/products/a/item/150398/",
+    "credit": "Seven-Eleven Japan · 공식 상품 사진",
+    "src": "assets/photos/food-seven-chicken.webp",
+    "width": 640,
+    "height": 480
+  },
+  "food-harakado": {
+    "url": "https://prettyporkfactory.com/wp-content/themes/prettyporkfactory/image/harajuku/katsu-img1.png",
+    "title": "하라카도 카츠 프리포",
+    "caption": "브랜드 돼지고기 돈카츠 · 공식 메뉴 사진",
+    "source": "https://prettyporkfactory.com/harajuku/",
+    "credit": "PRETTY PORK FACTORY & KATSUプリポー 공식",
+    "src": "assets/photos/food-harakado.webp",
+    "width": 900,
+    "height": 505
   }
 }
