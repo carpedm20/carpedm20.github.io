@@ -1,0 +1,27 @@
+.nutrition-explainer { margin: 18px 0; padding: 14px 0; border-top: 1px solid #dededb; border-bottom: 1px solid #dededb; color: #666; font-size: 12px; line-height: 1.9; }
+.nutrition-explainer p { margin: 0 0 5px; }
+.nutrition-explainer p:last-child { margin-bottom: 0; }
+.nutrition-explainer strong { font-weight: 500; color: #345b56; }
+.nutrition-explainer a { color: #777; text-decoration: underline; text-underline-offset: 3px; }
+.nutrition-facts { margin: 14px 0 0; padding: 12px 0 0; border: 0; border-top: 1px solid #dededb; min-width: 0; }
+.nutrition-facts .nutrition-serving { margin: 0 0 12px; font-size: 11px; color: #777; line-height: 1.6; overflow-wrap: anywhere; }
+.nutrition-facts dl { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; margin: 0; }
+.nutrition-facts dl > div { min-width: 0; }
+.nutrition-facts dt { font-size: 11px; color: #666; margin-bottom: 4px; }
+.nutrition-facts dd { margin: 0; color: #333; line-height: 1.6; }
+.nutrition-facts strong { font-size: 22px; font-weight: 500; font-variant-numeric: tabular-nums; }
+.nutrition-facts dl > div:last-child dd { color: #345b56; }
+.nutrition-unit { font-size: 12px; }
+.nutrition-facts dd small { display: block; font-size: 10px; font-weight: 400; color: #777; }
+.nutrition-unknown { font-size: 13px; color: #888; }
+.nutrition-facts .nutrition-note { margin: 10px 0 0; font-size: 10px; line-height: 1.8; color: #777; overflow-wrap: anywhere; }
+.nutrition-facts .nutrition-reference { margin: 0 0 12px; color: #a74e70; }
+.nutrition-source { display: inline-flex; align-items: center; min-height: 44px; color: #777; font-size: 10px; text-decoration: underline; text-underline-offset: 3px; }
+@media(max-width:760px) {
+  .nutrition-facts dl { grid-template-columns: minmax(0,1fr); gap: 10px; }
+  .nutrition-facts dl > div { display: grid; grid-template-columns: minmax(0,1fr) auto; align-items: baseline; column-gap: 5px; }
+  .nutrition-facts dd { text-align: right; }
+  .nutrition-facts strong { font-size: 18px; }
+  .nutrition-unit { font-size: 10px; }
+  .nutrition-facts dd small { font-size: 10px; }
+}
