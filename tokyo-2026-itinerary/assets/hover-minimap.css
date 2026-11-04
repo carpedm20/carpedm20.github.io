@@ -33,9 +33,9 @@
 
 /* A transparent three-frame photo sticker perched on the top-right edge. */
 .hover-minimap-sticker{position:absolute;right:5px;bottom:calc(100% - 1px);width:var(--minimap-sticker-width,50%);aspect-ratio:901/687;pointer-events:none;user-select:none;isolation:isolate}
-.hover-minimap-sticker img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain;pointer-events:none;filter:saturate(.82) brightness(1.03);animation:minimap-photo-frame 3s step-end infinite;opacity:0}
-.hover-minimap-sticker img:nth-child(2){animation-delay:-2s}
-.hover-minimap-sticker img:nth-child(3){animation-delay:-1s}
+.hover-minimap-sticker img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain;pointer-events:none;filter:saturate(.82) brightness(1.03);animation:minimap-photo-frame 1s step-end infinite;opacity:0}
+.hover-minimap-sticker img:nth-child(2){animation-delay:calc(-2s / 3)}
+.hover-minimap-sticker img:nth-child(3){animation-delay:calc(-1s / 3)}
 @keyframes minimap-photo-frame{0%{opacity:1}33.333333%,100%{opacity:0}}
 .hover-minimap.is-minimized .hover-minimap-sticker,.hover-minimap.sticker-no-room .hover-minimap-sticker{display:none}
 @media(prefers-reduced-motion:reduce){.hover-minimap-sticker img{animation:none;opacity:0}.hover-minimap-sticker img:first-child{opacity:1}}
