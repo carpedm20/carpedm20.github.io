@@ -1,0 +1,47 @@
+{
+  "flea-1": {
+    "src": "assets/photos/category-flea-plate.webp",
+    "width": 900,
+    "height": 466,
+    "photoSource": "https://e-kihara.co.jp/project/komon/",
+    "credit": "KIHARA · 공식 제품 사진",
+    "photoType": "종류 참고 사진 · 플리마켓 판매 확정 아님",
+    "sampleTitle": "KIHARA KOMON 작은 접시 · 도자기 종류 예시"
+  },
+  "flea-2": {
+    "src": "assets/photos/category-flea-glass.webp",
+    "width": 900,
+    "height": 900,
+    "photoSource": "https://aderia-retro.com/collections/hananowa/products/1932",
+    "credit": "ADERIA RETRO · 공식 제품 사진",
+    "photoType": "종류 참고 사진 · 플리마켓 판매 확정 아님",
+    "sampleTitle": "ADERIA RETRO 花の輪 · 쇼와 무늬의 현행 복각 유리컵 예시"
+  },
+  "flea-3": {
+    "src": "assets/photos/category-flea-tenugui.webp",
+    "width": 900,
+    "height": 900,
+    "photoSource": "https://kamawanu-store.jp/products/06607347",
+    "credit": "KAMAWANU · 공식 제품 사진",
+    "photoType": "종류 참고 사진 · 플리마켓 판매 확정 아님",
+    "sampleTitle": "가마와누 地染め豆絞り 紺 · 면 데누구이 예시"
+  },
+  "flea-4": {
+    "src": "assets/photos/category-flea-camera.webp",
+    "width": 520,
+    "height": 342,
+    "photoSource": "https://global.canon/ja/c-museum/product/film102.html",
+    "credit": "Canon Camera Museum · 공식 자료 사진",
+    "photoType": "종류 참고 사진 · 플리마켓 판매 확정 아님",
+    "sampleTitle": "Canon AF35M 오토보이 · 소형 필름카메라 예시"
+  },
+  "flea-5": {
+    "src": "assets/photos/category-flea-stamps.webp",
+    "width": 450,
+    "height": 450,
+    "photoSource": "https://www.yuubinsyumi.com/shopdetail/000000005022/ct235/page1/recommend/",
+    "credit": "日本郵便趣味協会 · 판매처 자료 사진",
+    "photoType": "종류 참고 사진 · 플리마켓 판매 확정 아님",
+    "sampleTitle": "쇼와 시대 사용 우표 · 종이 수집품 예시"
+  }
+}

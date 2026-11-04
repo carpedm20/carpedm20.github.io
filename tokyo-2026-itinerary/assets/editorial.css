@@ -1,7 +1,7 @@
 /* A quiet collection for Donggyeong: white pages, fine rules, a little colour. */
 :root{--bg:#fff;--paper:#fff;--ink:#282629;--muted:#777477;--subtle:#979297;--border:#dedcde;--accent:#9b4e70;--accent-soft:#faf1f5;--mint:#edf5f2;--card:#faf9fa;--shadow:none;--r:1px;--ed-pink:#a64f73;--ed-purple:#805a8b;--ed-teal:#427b76;--ed-orange:#a96745}
-html{background:#f2eaf0;scroll-padding-top:80px}
-body.editorial-page{font-family:Arial,'Noto Sans KR',sans-serif;font-size:14px;font-weight:400;line-height:1.6;color:var(--ink);background:radial-gradient(ellipse at 15% 5%,#f4e9f4 0,transparent 46%),radial-gradient(ellipse at 85% 5%,#fbe8e3 0,transparent 48%),radial-gradient(ellipse at 8% 95%,#e7f2f1 0,transparent 50%),#f2edf3;background-attachment:fixed;padding:30px 24px 42px}
+html{background:#fff;scroll-padding-top:80px}
+body.editorial-page{font-family:Arial,'Noto Sans KR',sans-serif;font-size:14px;font-weight:400;line-height:1.6;color:var(--ink);background:#fff;padding:30px 24px 42px}
 .editorial-page .shell{max-width:1456px;grid-template-columns:215px minmax(0,1fr);min-height:calc(100dvh - 72px);background:#fff;border:1px solid #e6e2e6;box-shadow:0 8px 38px #4d38400b}
 .editorial-page .sidebar{position:sticky;top:30px;height:calc(100dvh - 60px);padding:32px 21px 24px;background:#fff;border-right:1px solid var(--border);scrollbar-width:thin;scrollbar-color:#e5dce2 transparent}
 .editorial-page .brand{padding:0;gap:11px;align-items:flex-start}

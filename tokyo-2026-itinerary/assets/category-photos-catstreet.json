@@ -1,0 +1,47 @@
+{
+  "catstreet-1": {
+    "src": "assets/photos/category-catstreet-scarf.webp",
+    "width": 799,
+    "height": 800,
+    "photoSource": "https://tentoumusi.ocnk.net/product/55100",
+    "credit": "てんとうむし · 판매점 상품 사진",
+    "photoType": "종류 참고 사진 · 방문 매장 재고 미확인",
+    "sampleTitle": "일본제 꽃무늬 실크 스카프 · 중고 상품 예시"
+  },
+  "catstreet-2": {
+    "src": "assets/photos/category-catstreet-bandana.webp",
+    "width": 800,
+    "height": 800,
+    "photoSource": "https://www.feeetshop.net/product/118106",
+    "credit": "Feeet · 판매점 상품 사진",
+    "photoType": "종류 참고 사진 · 방문 매장 재고 미확인",
+    "sampleTitle": "COLOR FAST 페이즐리 반다나 · 빈티지 상품 예시"
+  },
+  "catstreet-3": {
+    "src": "assets/photos/category-catstreet-tie.webp",
+    "width": 640,
+    "height": 640,
+    "photoSource": "https://www.rushout.jp/SHOP/nec25070242.html",
+    "credit": "RushOut · 판매점 상품 사진",
+    "photoType": "종류 참고 사진 · 방문 매장 재고 미확인",
+    "sampleTitle": "네이비 패턴 넥타이 · 빈티지 상품 예시"
+  },
+  "catstreet-4": {
+    "src": "assets/photos/category-catstreet-haori.webp",
+    "width": 900,
+    "height": 900,
+    "photoSource": "https://store.kimono-off.jp/products/ki11119ab",
+    "credit": "KIMONO OFF · 판매점 상품 사진",
+    "photoType": "종류 참고 사진 · 방문 매장 재고 미확인",
+    "sampleTitle": "검은 실크 하오리 · 앤티크 착장 예시"
+  },
+  "catstreet-5": {
+    "src": "assets/photos/category-catstreet-obi.webp",
+    "width": 700,
+    "height": 700,
+    "photoSource": "https://k-wasou.ocnk.net/product/1250",
+    "credit": "きもの和總 · 판매점 상품 사진",
+    "photoType": "종류 참고 사진 · 방문 매장 재고 미확인",
+    "sampleTitle": "꽃 자수 나고야 오비 · 앤티크 상품 예시"
+  }
+}

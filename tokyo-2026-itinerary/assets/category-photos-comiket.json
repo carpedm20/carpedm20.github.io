@@ -1,0 +1,47 @@
+{
+  "comiket-1": {
+    "src": "assets/photos/category-comiket-illustration-book.webp",
+    "width": 900,
+    "height": 900,
+    "photoSource": "https://booth.pm/en/items/5895532",
+    "credit": "蒼井すばる / うぐいすあん · 작가 공식 상품 사진",
+    "photoType": "종류 참고 사진 · 코미케 판매 확정 아님",
+    "sampleTitle": "蒼井すばる · 日常的非日常 일러스트북"
+  },
+  "comiket-2": {
+    "src": "assets/photos/category-comiket-walking-zines.webp",
+    "width": 800,
+    "height": 900,
+    "photoSource": "https://www.kamometomachi.com/kamometomachi-stockist",
+    "credit": "かもめと街 · 작가 공식 진 소개 사진",
+    "photoType": "종류 참고 사진 · 코미케 판매 확정 아님",
+    "sampleTitle": "かもめと街 · 散歩するつもりじゃなかった / 決めない散歩"
+  },
+  "comiket-3": {
+    "src": "assets/photos/category-comiket-indie-cd.webp",
+    "width": 900,
+    "height": 752,
+    "photoSource": "https://booth.pm/ko/items/8270772",
+    "credit": "Baobab Crossing / EMN Records · 공식 CD 구성 사진",
+    "photoType": "종류 참고 사진 · 코미케 판매 확정 아님",
+    "sampleTitle": "Baobab Crossing · Blooming Moments CD와 북클릿"
+  },
+  "comiket-4": {
+    "src": "assets/photos/category-comiket-type-postcards.webp",
+    "width": 675,
+    "height": 900,
+    "photoSource": "https://kazuipress.buyshop.jp/items/139125594",
+    "credit": "嘉瑞工房 / Kazui Press · 공식 엽서 세트 사진",
+    "photoType": "종류 참고 사진 · 코미케 판매 확정 아님",
+    "sampleTitle": "嘉瑞工房 · AK Renaissance Pb 타이포그래피 엽서 16장"
+  },
+  "comiket-5": {
+    "src": "assets/photos/category-comiket-illustrated-stickers.webp",
+    "width": 900,
+    "height": 900,
+    "photoSource": "https://www.ornedefeuilles.com/products/hongama-orneko-stickers-set-of-6",
+    "credit": "HONGAMA × Orneko / Orné de Feuilles · 공식 상품 사진",
+    "photoType": "종류 참고 사진 · 코미케 판매 확정 아님",
+    "sampleTitle": "HONGAMA × Orneko · HOUSE CATS CLUB 스티커 6장"
+  }
+}
