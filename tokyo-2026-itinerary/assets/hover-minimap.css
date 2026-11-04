@@ -1,5 +1,5 @@
 /* Independent floating map; it never reserves space in the page or sidebar. */
-.hover-minimap{position:fixed;right:24px;bottom:24px;width:320px;height:310px;z-index:2147483645;display:flex;flex-direction:column;box-sizing:border-box;overflow:hidden;background:#fff;border:1px solid var(--border,#dedcde);border-radius:0;color:var(--ink,#282629);box-shadow:0 6px 30px #35263330;font-family:Arial,'Noto Sans KR',sans-serif;line-height:1.5}
+.hover-minimap{position:fixed;right:24px;bottom:24px;width:320px;height:310px;z-index:2147483645;display:flex;flex-direction:column;box-sizing:border-box;overflow:visible;background:#fff;border:1px solid var(--border,#dedcde);border-radius:0;color:var(--ink,#282629);box-shadow:0 6px 30px #35263330;font-family:Arial,'Noto Sans KR',sans-serif;line-height:1.5}
 .hover-minimap-heading{display:flex;flex:0 0 44px;min-height:0;align-items:stretch;border-bottom:1px solid var(--border,#dedcde);background:#fff}
 .hover-minimap-heading button,.hover-minimap-resize{appearance:none;border:0;border-radius:0;margin:0;background:transparent;color:var(--ed-pink,#9b4e70);font-family:inherit;box-sizing:border-box;box-shadow:none;transform:none}
 .hover-minimap-heading button{min-width:44px;min-height:44px;flex:0 0 44px;padding:0;font-size:20px;cursor:pointer}
@@ -30,3 +30,12 @@
 .hover-minimap-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 @media(max-width:760px){.hover-minimap{width:220px;height:230px;right:12px;bottom:80px;border-radius:0}.hover-minimap-caption a{min-height:38px}}
 @media print{.hover-minimap,.hover-minimap-shield{display:none!important}}
+
+/* A transparent three-frame photo sticker perched on the top-right edge. */
+.hover-minimap-sticker{position:absolute;right:5px;bottom:calc(100% - 1px);width:var(--minimap-sticker-width,50%);aspect-ratio:901/687;pointer-events:none;user-select:none;isolation:isolate}
+.hover-minimap-sticker img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain;pointer-events:none;filter:saturate(.82) brightness(1.03);animation:minimap-photo-frame 3s step-end infinite;opacity:0}
+.hover-minimap-sticker img:nth-child(2){animation-delay:-2s}
+.hover-minimap-sticker img:nth-child(3){animation-delay:-1s}
+@keyframes minimap-photo-frame{0%{opacity:1}33.333333%,100%{opacity:0}}
+.hover-minimap.is-minimized .hover-minimap-sticker,.hover-minimap.sticker-no-room .hover-minimap-sticker{display:none}
+@media(prefers-reduced-motion:reduce){.hover-minimap-sticker img{animation:none;opacity:0}.hover-minimap-sticker img:first-child{opacity:1}}

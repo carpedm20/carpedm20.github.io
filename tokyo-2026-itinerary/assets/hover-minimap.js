@@ -7,6 +7,7 @@
     '.hotel-card', '.overnight-card', '.discovery-card', '.route-point', '.route-leg',
     '.stop[data-stop]', '[data-food-jump]', '[data-shop-activity-jump]', '#tripPlanPanel label'
   ].join(',');
+  const decorationBase = new URL('decorations/', document.currentScript.src).href;
   const desktop = matchMedia('(min-width:761px)');
   const storageKey = 'tokyo-hover-minimap-geometry-v1';
   let panel, frame, caption, detail, openLink, shield;
@@ -187,6 +188,10 @@
 
   function renderGeometry() {
     geometry = clampGeometry(geometry);
+    // Let the photo perch above the panel, shrinking only when headroom is tight.
+    const stickerWidth = Math.max(0, Math.min(geometry.width * .5, (geometry.y - bounds().top) * 901 / 687));
+    panel.style.setProperty('--minimap-sticker-width', stickerWidth + 'px');
+    panel.classList.toggle('sticker-no-room', stickerWidth < 45);
     Object.assign(panel.style, {
       left: geometry.x + 'px', top: geometry.y + 'px',
       width: geometry.width + 'px', height: (minimized ? Math.min(44, geometry.height) : geometry.height) + 'px'
@@ -276,7 +281,9 @@
     panel.id = 'hoverMinimap';
     panel.className = 'hover-minimap';
     panel.setAttribute('aria-label', '이동과 크기 조절이 가능한 장소 미니맵');
-    panel.innerHTML = `<div class="hover-minimap-heading">
+    panel.innerHTML = `<div class="hover-minimap-sticker" aria-hidden="true">
+        ${[1, 2, 3].map(n => `<img src="${decorationBase}minimap-${n}.png" width="901" height="687" alt="" draggable="false">`).join('')}
+      </div><div class="hover-minimap-heading">
         <button type="button" class="hover-minimap-resize-nw" aria-label="미니맵 왼쪽 위 모서리 크기 조절" aria-describedby="hoverMinimapResizeNWHint" title="왼쪽 위로 드래그해 확대 · 왼쪽/위쪽 방향키: 확대"><span aria-hidden="true">◤</span></button>
         <button type="button" class="hover-minimap-drag" aria-label="미니맵 이동" aria-describedby="hoverMinimapMoveHint" title="드래그 또는 방향키로 이동 · Shift: 크게 이동">미니맵</button>
         <button type="button" class="hover-minimap-reset" aria-label="미니맵 위치와 크기 초기화" title="위치와 크기 초기화">↺</button>

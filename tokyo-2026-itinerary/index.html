@@ -80,8 +80,8 @@
 <link rel="stylesheet" href="assets/phrase-guide.css?v=181bdda793">
 <link rel="stylesheet" href="assets/cafe-menu-photos.css?v=d2d50403f1">
 <link rel="stylesheet" href="assets/street-snacks.css?v=becac388eb">
-<link rel="stylesheet" href="assets/hover-minimap.css?v=0fe1ebc5bc">
-<link rel="stylesheet" href="assets/orb-trail.css?v=dca68f275c">
+<link rel="stylesheet" href="assets/hover-minimap.css?v=f44681d8ba">
+<link rel="stylesheet" href="assets/orb-trail.css?v=0715e98563">
 </head>
 <body class="editorial-page">
 <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden"><defs>
@@ -1494,7 +1494,7 @@ function renderDays(){renderSidebarDayFilters();const r=$('#dayTabs');r.innerHTM
 function renderHotels(){$('#hotels').innerHTML=hotels.map((h,i)=>`<article class="hotel-card ${selectedHotel===i?'selected':''}"><div class="hotel-photo-grid">${photoFigure(i===0?'daimon':'super1')}${photoFigure(i===0?'daimon-twin':'super2')}</div><div class="hotel-header"><span class="restaurant-pill">${i===0?'BEST LOCATION':'BEST VALUE'}</span><span class="mini-badge">4박 · 2인</span></div><h3>${h.name}</h3><div class="place" style="color:#817f78;font-size:11px">${icon('pin','sm')} ${h.area}</div><p>${h.desc}</p><div class="hotel-bottom"><span>${selectedHotel===i?'✓ 여행 구성에서 선택한 본숙소':'본숙소 비교 후보'}</span><a href="${maps(h.name+' Tokyo')}" target="_blank" rel="noopener">위치 보기 ${icon('out','sm')}</a></div></article>`).join('');$('#hotels').querySelectorAll('[data-select]').forEach(b=>b.onclick=()=>{selectedHotel=+b.dataset.select;save('tokyo-hotel',selectedHotel);renderHotels();renderDays();syncHotelMap();toast('지도에서 호텔 위치를 변경했습니다. 예상 이동시간은 기본 호텔 기준입니다')})}
 function navTo(anchor){document.querySelector('#'+anchor).scrollIntoView({behavior:'smooth',block:'start'});document.querySelectorAll('[data-anchor]').forEach(b=>b.classList.toggle('active',b.dataset.anchor===anchor))}document.querySelectorAll('[data-anchor]').forEach(b=>b.onclick=()=>navTo(b.dataset.anchor));$('#copyBtn').onclick=async()=>{try{await navigator.clipboard.writeText(location.href);toast('웹사이트 주소를 복사했습니다')}catch{toast('주소창의 URL을 복사해 주세요')}};$('#printBtn').onclick=()=>window.print();$('#sourceLinks').innerHTML=sourceLinks.map(([name,url])=>`<a href="${url}" target="_blank" rel="noopener">${name} ${icon('out','sm')}</a>`).join('');renderDays();renderFoods();renderHotels();initRouteExplorer();renderVisualJourney();renderKonbini();renderDiscoveryGuide();renderOvernightGuide();renderPlanPanel();attachPlanPanel();refreshPlanViews();window.addEventListener('resize',()=>{const p=document.querySelector('#tripPlanPanel');const desired=matchMedia('(max-width:760px)').matches?'mobilePlanSlot':'sidebarPlanSlot';if(p.parentElement.id!==desired)attachPlanPanel()});
 </script>
-<script src="assets/hover-minimap.js?v=6203c12b66"></script>
-<script src="assets/orb-trail.js?v=3119dc9309"></script>
+<script src="assets/hover-minimap.js?v=af39947162"></script>
+<script src="assets/orb-trail.js?v=11c31636ca"></script>
 </body>
 </html>
