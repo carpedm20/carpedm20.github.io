@@ -1,0 +1,28 @@
+.street-snack-options { margin: 25px 0 16px; padding: 20px 0 0; border: 0; border-top: 1px solid #dededb; }
+.street-snack-heading { margin-bottom: 15px; }
+.street-snack-heading h4 { margin: 0 0 7px; font-size: 15px; font-weight: 500; line-height: 1.7; color: #345b56; }
+.street-snack-heading p { margin: 0; color: #777; font-size: 11px; line-height: 1.9; }
+.street-snack-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px; }
+.street-snack-card { min-width: 0; border: 1px solid #dededb; background: #fff; align-self: start; }
+.street-snack-photo { position: relative; display: block; width: 100%; padding: 0; border: 0; border-bottom: 1px solid #dededb; background: #fafafa; cursor: zoom-in; }
+.street-snack-photo img { display: block; width: 100%; height: 190px; object-fit: cover; }
+.street-snack-photo > span { position: absolute; bottom: 8px; right: 8px; width: 30px; height: 30px; display: grid; place-items: center; border: 1px solid #dededb; background: #fff; color: #666; }
+.street-snack-copy { padding: 15px; }
+.street-snack-mode { display: block; font-size: 10px; color: #a74e70; line-height: 1.8; }
+.street-snack-copy h5 { margin: 7px 0 11px; font-size: 15px; font-weight: 500; color: #333; line-height: 1.7; word-break: keep-all; overflow-wrap: anywhere; }
+.street-snack-copy p { margin: 9px 0; font-size: 11px; color: #777; line-height: 1.9; }
+.street-snack-copy .street-snack-placement { color: #555; }
+.street-snack-placement small { display: block; margin-top: 3px; color: #888; font-size: 10px; }
+.street-snack-copy ul { list-style: none; margin: 13px 0; padding: 0; }
+.street-snack-copy li { padding: 8px 0; border-top: 1px solid #eee; }
+.street-snack-copy li strong { display: block; font-size: 12px; font-weight: 500; color: #345b56; line-height: 1.8; }
+.street-snack-copy li span { display: block; font-size: 11px; color: #888; line-height: 1.8; }
+.street-snack-copy .street-snack-holiday { padding-top: 10px; border-top: 1px solid #eee; color: #888; font-size: 10px; }
+.street-snack-links { display: flex; flex-wrap: wrap; gap: 0 15px; }
+.street-snack-links a { display: inline-flex; align-items: center; min-height: 44px; color: #777; font-size: 11px; text-decoration: underline; text-underline-offset: 3px; }
+@media(max-width:760px) {
+  .street-snack-grid { grid-template-columns: minmax(0,1fr); }
+  .street-snack-copy { padding: 15px 13px; }
+  .street-snack-copy p { font-size: 12px; }
+  .street-snack-photo img { height: 210px; }
+}
