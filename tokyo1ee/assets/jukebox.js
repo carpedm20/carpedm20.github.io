@@ -1,12 +1,19 @@
-/* Single-track YouTube IFrame API jukebox. Playback state always comes from the player. */
+/* Three-video YouTube IFrame API jukebox. Playback state always comes from the player. */
 (() => {
   'use strict';
   if (document.getElementById('tripJukebox')) return;
   const assetRoot = new URL('.', document.currentScript?.src || location.href);
-  const VIDEO = 'l482T0yNkeo';
+  const tracks = [
+    { id: 'l482T0yNkeo', title: 'Highway to Hell', artist: 'AC/DC', cover: 'jukebox-highway.jpg' },
+    { id: '0zUJd-o0yMw', title: "Don’t Look Back Into the Sun", artist: 'The Libertines', cover: 'jukebox-libertines.jpg' },
+    { id: 'QH6Xrtxi4N0', title: 'Late ’90s Britpop & Alternative Rock', artist: 'moumouplaylist · 믹스', cover: 'jukebox-britpop.jpg' }
+  ];
+  let trackIndex = 0;
+  const VIDEO = tracks[0].id;
   const icons = {
     play: '<path d="m9 5 11 7-11 7Z" fill="currentColor" stroke="none"/>',
     pause: '<path d="M8 5v14M16 5v14" stroke-width="4"/>',
+    next: '<path d="m6 5 10 7-10 7Z" fill="currentColor" stroke="none"/><path d="M19 5v14" stroke-width="2"/>',
     restart: '<path d="M4 10a8 8 0 1 1 1 7M4 4v6h6"/>',
     repeat: '<path d="m16 3 4 4-4 4M4 11V9a2 2 0 0 1 2-2h14M8 21l-4-4 4-4m12 0v2a2 2 0 0 1-2 2H4"/>',
     volume: '<path d="M11 5 6 9H3v6h3l5 4ZM15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/>',
@@ -18,8 +25,8 @@
   bar.className = 'trip-jukebox';
   bar.setAttribute('aria-label', '여행 주크박스');
   bar.innerHTML = `
-    <div class="jukebox-track"><img class="jukebox-cover" src="${new URL('decorations/jukebox-highway.jpg', assetRoot)}" width="48" height="48" alt="AC/DC Highway to Hell 영상 썸네일"><div class="jukebox-track-copy"><strong>Highway to Hell</strong><span>AC/DC <i class="jukebox-equalizer" aria-hidden="true"><b></b><b></b><b></b></i></span><small class="jukebox-status" role="status" aria-live="polite">음악 연결 중…</small></div></div>
-    <div class="jukebox-controls"><button type="button" class="jukebox-button jukebox-restart" aria-label="처음부터 재생" title="처음부터 재생" disabled>${svg('restart')}</button><button type="button" class="jukebox-button jukebox-play" aria-label="음악 연결 중" title="음악 연결 중" disabled>${svg('play')}</button><button type="button" class="jukebox-button jukebox-repeat" aria-label="한 곡 반복" title="한 곡 반복" aria-pressed="false">${svg('repeat')}</button></div>
+    <div class="jukebox-track"><img class="jukebox-cover" src="${new URL('decorations/jukebox-highway.jpg', assetRoot)}" width="48" height="48" alt="AC/DC Highway to Hell 영상 썸네일"><div class="jukebox-track-copy"><strong>Highway to Hell</strong><span><span class="jukebox-artist">AC/DC</span><small class="jukebox-order">1 / 3</small> <i class="jukebox-equalizer" aria-hidden="true"><b></b><b></b><b></b></i></span><small class="jukebox-status" role="status" aria-live="polite">음악 연결 중…</small></div></div>
+    <div class="jukebox-controls"><button type="button" class="jukebox-button jukebox-restart" aria-label="처음부터 재생" title="처음부터 재생" disabled>${svg('restart')}</button><button type="button" class="jukebox-button jukebox-play" aria-label="음악 연결 중" title="음악 연결 중" disabled>${svg('play')}</button><button type="button" class="jukebox-button jukebox-next" aria-label="다음 곡" title="다음 곡" disabled>${svg('next')}</button><button type="button" class="jukebox-button jukebox-repeat" aria-label="전체 반복" title="전체 반복 켜짐" aria-pressed="true">${svg('repeat')}</button></div>
     <div class="jukebox-progress"><time class="jukebox-current">0:00</time><input class="jukebox-seek" type="range" min="0" max="1" step="1" value="0" aria-label="재생 위치" aria-valuetext="0분 0초" disabled><time class="jukebox-duration">–:––</time></div>
     <label class="jukebox-volume">${svg('volume')}<span class="jukebox-sr">음량</span><input type="range" min="0" max="100" value="35" aria-label="음량" disabled></label>
     <a class="jukebox-external" href="https://www.youtube.com/watch?v=${VIDEO}" target="_blank" rel="noopener noreferrer" aria-label="YouTube에서 Highway to Hell 열기" title="YouTube에서 열기">YouTube ${svg('external')}</a>`;
@@ -30,11 +37,12 @@
   document.body.append(host, bar);
   document.body.classList.add('has-jukebox');
   const $ = selector => bar.querySelector(selector);
-  const play = $('.jukebox-play'), restart = $('.jukebox-restart'), repeat = $('.jukebox-repeat');
+  const play = $('.jukebox-play'), restart = $('.jukebox-restart'), repeat = $('.jukebox-repeat'), next = $('.jukebox-next');
   const seek = $('.jukebox-seek'), volume = $('.jukebox-volume input'), status = $('.jukebox-status');
-  let player, ready = false, failed = false, playing = false, wantsPlay = true, repeating = false;
+  let player, ready = false, failed = false, playing = false, wantsPlay = true, repeating = true;
   let generation = 0, apiPromise, readyTimeout, attemptTimeout, seeking = false;
   let duration = 0, requestFrame = 0;
+  let autoStartPending = true;
   const time = seconds => `${Math.floor(Math.max(0, seconds) / 60)}:${String(Math.floor(Math.max(0, seconds) % 60)).padStart(2, '0')}`;
   function setStatus(message) { if (status.textContent !== message) status.textContent = message; }
   function setPlaying(value) {
@@ -44,16 +52,46 @@
     play.setAttribute('aria-label', value ? '음악 일시정지' : failed ? '음악 연결 다시 시도' : '음악 재생');
     play.title = play.getAttribute('aria-label');
   }
+  function showTrack() {
+    const track = tracks[trackIndex];
+    $('.jukebox-track-copy strong').textContent = track.title;
+    $('.jukebox-artist').textContent = track.artist;
+    $('.jukebox-order').textContent = `${trackIndex + 1} / ${tracks.length}`;
+    const cover = $('.jukebox-cover');
+    cover.src = new URL(`decorations/${track.cover}`, assetRoot);
+    cover.alt = `${track.title} 영상 썸네일`;
+    const link = $('.jukebox-external');
+    link.href = `https://www.youtube.com/watch?v=${track.id}`;
+    link.setAttribute('aria-label', `YouTube에서 ${track.title} 열기`);
+    duration = 0; updateProgress(0); seek.disabled = true;
+    $('.jukebox-duration').textContent = '–:––';
+  }
+  function nextTrack(manual = false) {
+    if (manual && failed) {
+      trackIndex = (trackIndex + 1) % tracks.length;
+      showTrack(); connect(); return;
+    }
+    if (!ready || !player) return;
+    if (!manual && trackIndex === tracks.length - 1 && !repeating) {
+      wantsPlay = false; setPlaying(false); setStatus('재생목록 끝 · ▶ 다시 듣기'); return;
+    }
+    trackIndex = (trackIndex + 1) % tracks.length;
+    autoStartPending = false; wantsPlay = true; setPlaying(false); showTrack();
+    setStatus('다음 곡 연결 중…');
+    try { player.loadVideoById(tracks[trackIndex].id); requestPlay(); }
+    catch (_) { fail('다음 곡 연결 오류 · 다시 시도 / YouTube ↗'); }
+  }
   function fail(message) {
     clearTimeout(readyTimeout); clearTimeout(attemptTimeout);
-    failed = true; ready = false; wantsPlay = false;
+    failed = true; ready = false; wantsPlay = false; autoStartPending = false;
     setPlaying(false); setStatus(message);
-    play.disabled = false; restart.disabled = true; seek.disabled = true; volume.disabled = true;
+    play.disabled = false; restart.disabled = true; next.disabled = false; seek.disabled = true; volume.disabled = true;
     play.innerHTML = svg('restart');
   }
   function blocked() {
+    if (playing) return;
     clearTimeout(attemptTimeout); wantsPlay = false; setPlaying(false);
-    setStatus('▶ 눌러 음악 시작');
+    setStatus(autoStartPending ? '화면을 터치하면 음악이 시작돼요' : '▶ 눌러 음악 시작');
   }
   function refreshTime() {
     if (!ready || !player) return;
@@ -78,7 +116,10 @@
       player.playVideo();
       clearTimeout(attemptTimeout);
       attemptTimeout = setTimeout(() => {
-        if (!playing && wantsPlay) { wantsPlay = false; setStatus('재생이 지연돼요 · ▶ 다시 시도 / YouTube ↗'); }
+        if (!playing && wantsPlay) {
+          if (autoStartPending) blocked();
+          else { wantsPlay = false; setStatus('재생이 지연돼요 · ▶ 다시 시도 / YouTube ↗'); }
+        }
       }, 10000);
     } catch (_) { fail('연결 오류 · 다시 시도 또는 YouTube ↗'); }
   }
@@ -105,8 +146,8 @@
   async function connect() {
     const currentGeneration = ++generation;
     clearTimeout(readyTimeout); clearTimeout(attemptTimeout);
-    failed = false; ready = false; wantsPlay = true; setPlaying(false);
-    setStatus('음악 연결 중…'); play.disabled = true; restart.disabled = true; seek.disabled = true;
+    failed = false; ready = false; wantsPlay = true; autoStartPending = true; setPlaying(false);
+    setStatus('음악 연결 중…'); play.disabled = true; restart.disabled = true; next.disabled = true; seek.disabled = true;
     try { player?.destroy(); } catch (_) { /* Already removed. */ }
     player = null; host.replaceChildren();
     try {
@@ -115,15 +156,15 @@
       const mount = document.createElement('div'); host.append(mount);
       readyTimeout = setTimeout(() => { if (currentGeneration === generation && !ready) fail('연결이 지연돼요 · 다시 시도 / YouTube ↗'); }, 15000);
       player = new YT.Player(mount, {
-        width: 200, height: 200, videoId: VIDEO,
-        playerVars: { autoplay: 0, playsinline: 1, controls: 0, disablekb: 1, fs: 0, origin: location.origin },
+        width: 200, height: 200, videoId: tracks[trackIndex].id,
+        playerVars: { autoplay: 1, playsinline: 1, controls: 0, disablekb: 1, fs: 0, origin: location.origin },
         events: {
           onReady(event) {
             if (currentGeneration !== generation || failed) return;
             clearTimeout(readyTimeout); ready = true;
             const iframe = event.target.getIframe(); iframe.tabIndex = -1; iframe.setAttribute('aria-hidden', 'true');
             event.target.setVolume(Number(volume.value));
-            play.disabled = false; restart.disabled = false; volume.disabled = false;
+            play.disabled = false; restart.disabled = false; next.disabled = false; volume.disabled = false;
             refreshTime(); requestPlay();
           },
           onStateChange(event) {
@@ -132,13 +173,14 @@
             if (state === 1) {
               // A delayed response must not override an explicit pause or blocked playback.
               if (!wantsPlay) { event.target.pauseVideo(); return; }
+              autoStartPending = false;
               clearTimeout(attemptTimeout); setPlaying(true); setStatus('재생 중'); refreshTime();
             } else if (state === 2) {
+              if (autoStartPending) { blocked(); return; }
               clearTimeout(attemptTimeout); wantsPlay = false; setPlaying(false); setStatus('일시정지'); refreshTime();
             } else if (state === 0) {
               setPlaying(false); refreshTime();
-              if (repeating && wantsPlay) { event.target.seekTo(0, true); requestPlay(); }
-              else { wantsPlay = false; setStatus('한 곡 끝 · ▶ 다시 듣기'); }
+              if (wantsPlay) nextTrack();
             } else if (state === 3) { setPlaying(false); if (wantsPlay) setStatus('버퍼링 중…'); }
             else if (state === 5 && !wantsPlay) { setPlaying(false); setStatus('▶ 눌러 음악 시작'); }
           },
@@ -155,13 +197,24 @@
   play.addEventListener('click', () => {
     if (failed) { connect(); return; }
     if (!ready) return;
+    autoStartPending = false;
     if (playing || wantsPlay) { wantsPlay = false; clearTimeout(attemptTimeout); player.pauseVideo(); setPlaying(false); setStatus('일시정지'); }
     else requestPlay();
   });
-  restart.addEventListener('click', () => { if (ready) { player.seekTo(0, true); updateProgress(0); requestPlay(); } });
+  restart.addEventListener('click', () => { if (ready) { autoStartPending = false; player.seekTo(0, true); updateProgress(0); requestPlay(); } });
+  // Retry blocked startup in a real click/tap or keyboard gesture. Explicit pauses stay paused.
+  function startOnInteraction(event) {
+    if (!event.isTrusted || !autoStartPending || !ready || failed || playing || bar.contains(event.target)) return;
+    if (event.type === 'keydown' && !['Enter', ' '].includes(event.key)) return;
+    autoStartPending = false;
+    requestPlay();
+  }
+  document.addEventListener('click', startOnInteraction, true);
+  document.addEventListener('keydown', startOnInteraction, true);
+  next.addEventListener('click', () => nextTrack(true));
   repeat.addEventListener('click', () => {
     repeating = !repeating; repeat.setAttribute('aria-pressed', String(repeating));
-    repeat.title = repeating ? '한 곡 반복 켜짐' : '한 곡 반복 꺼짐';
+    repeat.title = repeating ? '전체 반복 켜짐' : '전체 반복 꺼짐';
   });
   seek.addEventListener('input', () => { seeking = true; updateProgress(Number(seek.value)); });
   seek.addEventListener('change', () => {

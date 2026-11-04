@@ -7,6 +7,8 @@ body.has-jukebox::after { content: ''; display: block; height: var(--jukebox-hei
 .jukebox-track-copy { min-width: 0; }
 .jukebox-track-copy strong { display: block; font-size: 13px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .jukebox-track-copy > span { display: flex; align-items: center; gap: 8px; font-size: 11px; color: #716a70; margin-top: 2px; }
+.jukebox-artist { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.jukebox-order { flex-shrink: 0; font: 9px ui-monospace,monospace; color: #a08f99; }
 .jukebox-status { display: block; color: #897882; font-size: 10px; line-height: 1.4; margin-top: 2px; overflow-wrap: anywhere; }
 .jukebox-controls { display: flex; align-items: center; gap: 7px; }
 .trip-jukebox .jukebox-button { display: inline-flex; justify-content: center; align-items: center; width: 40px; height: 40px; padding: 10px; color: #716a70; background: transparent; border: 0; border-radius: 50%; cursor: pointer; }
@@ -48,11 +50,11 @@ body.has-jukebox::after { content: ''; display: block; height: var(--jukebox-hei
   .trip-jukebox { grid-template-columns: minmax(0,1fr) auto; gap: 2px 6px; padding: 8px 12px 5px; }
   .jukebox-track { gap: 8px; }.jukebox-cover { width: 38px; height: 38px; }
   .jukebox-track-copy strong { font-size: 11px; }.jukebox-track-copy > span { font-size: 10px; }
-  .jukebox-status { font-size: 9px; }.jukebox-controls { gap: 0; }
+  .jukebox-status { font-size: 9px; }.jukebox-controls { display: grid; grid-template-columns: repeat(2,44px); gap: 0; grid-column: 2; grid-row: 1 / span 3; }
   .trip-jukebox .jukebox-button { width: 44px; height: 44px; padding: 12px; }
   .trip-jukebox .jukebox-play { width: 44px; height: 44px; }
   .jukebox-progress { grid-column: 1; gap: 6px; }.jukebox-progress time { font-size: 9px; }
-  .jukebox-external { justify-self: end; min-height: 40px; font-size: 9px; }
+  .jukebox-external { grid-column: 1; justify-self: start; min-height: 24px; font-size: 9px; }
 }
 @media (prefers-reduced-motion:reduce) { .is-playing .jukebox-equalizer b { animation: none; } }
 @media print { .trip-jukebox,.jukebox-video-host,body.has-jukebox::after { display: none !important; } }
