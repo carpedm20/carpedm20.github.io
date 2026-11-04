@@ -1,0 +1,184 @@
+{
+  "clusters": [
+    {
+      "id": "akiba-culture",
+      "title": "아키하바라 · 게임, 책, 음악 중 골라 걷기",
+      "area": "아키하바라 · 스에히로초 · SEEKBASE",
+      "note": "라디오회관·만다라케를 한 시간씩 고정하지 않고, 이 구역에서 끌리는 2–3곳만 골라요. 피규어보다 게임·보드게임·책·레코드 중심. 만다라케 두 곳은 서로 다른 건물이며, SEEKBASE 두 곳은 같은 고가 아래 상점가예요. 12/30 특별영업은 출발 전 확인해요.",
+      "stores": [
+        {
+          "id": "akiba-radio-kaikan",
+          "name": "아키하바라 라디오회관",
+          "area": "소토칸다 1-15-16 · 여러 매장이 든 건물",
+          "tag": "보드게임·카드·오디오 소품",
+          "query": "秋葉原ラジオ会館 東京都千代田区外神田1-15-16",
+          "source": "https://akihabara-radiokaikan.co.jp/floor-guide/",
+          "guideKey": "radio",
+          "photo": "radio"
+        },
+        {
+          "id": "akiba-mandarake-complex",
+          "name": "만다라케 컴플렉스",
+          "area": "소토칸다 3-11-12",
+          "tag": "중고 만화·잡지·서브컬처",
+          "query": "まんだらけ コンプレックス 東京都千代田区外神田3-11-12",
+          "source": "https://www.mandarake.co.jp/dir/cmp/",
+          "photo": "mandarake",
+          "guideKey": "mandarake"
+        },
+        {
+          "id": "akiba-mandarake-complex2",
+          "name": "만다라케 컴플렉스2",
+          "area": "소토칸다 3-12-2 · 본관과 별도 건물",
+          "tag": "카드·게임·음반 · 2025 개점",
+          "query": "まんだらけ コンプレックス2 東京都千代田区外神田3-12-2",
+          "source": "https://www.mandarake.co.jp/dir/cmp2/index-en.html"
+        },
+        {
+          "id": "akiba-surugaya-games",
+          "name": "스루가야 아키하바라 게임관",
+          "area": "소토칸다 3-15-4 · 2F",
+          "tag": "레트로 게임·공략집·게임 잡지",
+          "query": "駿河屋 秋葉原ゲーム館 東京都千代田区外神田3-15-4 2F",
+          "source": "https://www.suruga-ya.com/en/shoplist"
+        },
+        {
+          "id": "akiba-recofan",
+          "name": "RECOfan 아키하바라 SEEKBASE",
+          "area": "간다네리베이초 13-1 · SEEKBASE",
+          "tag": "중고 LP·CD·음악 서적",
+          "query": "RECOfan 秋葉原 SEEKBASE 東京都千代田区神田練塀町13-1",
+          "source": "https://www.recofan.co.jp/map/SEEKBASE.html"
+        },
+        {
+          "id": "akiba-yellow-submarine-rpg",
+          "name": "옐로 서브마린 아키하바라 RPG숍",
+          "area": "소토칸다 4-6-1 · 6F",
+          "tag": "보드게임·TRPG·주사위",
+          "query": "イエローサブマリン 秋葉原RPGショップ 東京都千代田区外神田4-6-1 塩田トゥール秋葉原6F",
+          "source": "https://yellowsubmarine.co.jp/company/"
+        },
+        {
+          "id": "akiba-shosen-base-lab",
+          "name": "SHOSEN BASE LAB",
+          "area": "SEEKBASE 01동 1-2구획",
+          "tag": "취향 서적·잡화 · 2026.10 프리오픈",
+          "query": "SHOSEN BASE LAB 東京都千代田区神田練塀町13-1 SEEKBASE01棟1-2区画",
+          "source": "https://www.jrtk.jp/seekbase/info/detail_00179/"
+        }
+      ]
+    },
+    {
+      "id": "akiba-adult",
+      "title": "커플 소품 또는 코스튬 · 관심에 따라 고르기",
+      "area": "아키하바라역 · 주오도리",
+      "note": "M’s·러브메르시는 성인용품점, 나머지 세 곳은 일반 코스튬·의류·잡화 대안이에요. 성인 매장이 부담스러우면 일반 매장만 골라도 돼요. 러브메르시와 지스토어는 같은 주소의 별도 매장이에요. 코스튬·상품 재고와 연말 영업은 현장·공식 공지를 확인해요.",
+      "stores": [
+        {
+          "id": "akiba-ms",
+          "name": "M’s 아키하바라",
+          "area": "소토칸다 1-15-13 · B1–6F",
+          "tag": "18+ · 커플 소품·란제리·코스튬",
+          "query": "大人のデパート エムズ 秋葉原 東京都千代田区外神田1-15-13",
+          "source": "https://www.ms-online.co.jp/page/akihabara-store",
+          "guideKey": "ms"
+        },
+        {
+          "id": "akiba-love-merci",
+          "name": "러브메르시 아키하바라",
+          "area": "소토칸다 1-2-7",
+          "tag": "18+ · 커플 소품·의상",
+          "query": "ラブメルシー 秋葉原 東京都千代田区外神田1-2-7",
+          "source": "https://x.com/akibalovemerci"
+        },
+        {
+          "id": "akiba-geestore",
+          "name": "지스토어 아키바 · COSPATIO",
+          "area": "소토칸다 1-2-7 · 오노덴 빌딩 4F",
+          "tag": "일반 매장 · 코스튬·캐릭터 옷",
+          "query": "ジーストア アキバ 東京都千代田区外神田1-2-7 オノデンビル4F",
+          "source": "https://www.geestore.com/geenet/geestore/akiba"
+        },
+        {
+          "id": "akiba-cospa-atre",
+          "name": "COSPA 오피셜 스토어 아트레",
+          "area": "아트레 아키하바라1 · 3F",
+          "tag": "일반 매장 · 그래픽 티셔츠·소품",
+          "query": "コスパ オフィシャルストア アトレ秋葉原1 3F",
+          "source": "https://www.atre.co.jp/akihabara/shop/9311/"
+        },
+        {
+          "id": "akiba-donki",
+          "name": "돈키호테 아키하바라점",
+          "area": "소토칸다 4-3-3",
+          "tag": "일반 매장 · 패션 소품·잡화",
+          "query": "ドン キホーテ 秋葉原店 東京都千代田区外神田4-3-3",
+          "source": "https://www.donki.com/store/shop_detail.php?add=1&shop_id=98"
+        }
+      ]
+    },
+    {
+      "id": "east-art",
+      "title": "동쪽 도쿄 · 아트북, 레코드, 디자인 소품",
+      "area": "가메아리 / 요시와라·쿠라마에 확장",
+      "note": "twelvebooks와 VDS는 SKAC 한 건물 안의 두 매장, 에이신도는 가메아리역 북쪽이에요. 아래 요시와라·쿠라마에는 다른 동네라 전철·버스로 이동하는 확장 후보예요. 전부 도보로 이어지는 코스가 아니며, 한 구역을 골라 둘러봐요. 1/2 특별영업을 확인한 뒤 선택해요.",
+      "stores": [
+        {
+          "id": "east-twelvebooks",
+          "name": "twelvebooks · SKAC 입점",
+          "area": "가메아리 · 니시카메아리 3-26-4",
+          "tag": "아트북·사진집·인디 출판",
+          "query": "twelvebooks SKAC 東京都葛飾区西亀有3-26-4",
+          "source": "https://twelve-books.com/pages/about",
+          "photo": "discover-skac",
+          "guideKey": "skac"
+        },
+        {
+          "id": "east-vds",
+          "name": "VDS · SKAC 입점",
+          "area": "가메아리 · twelvebooks와 같은 건물",
+          "tag": "레코드·음악 듣기",
+          "query": "Vinyl Delivery Service SKAC 東京都葛飾区西亀有3-26-4",
+          "source": "https://vinyldeliveryservice.com/"
+        },
+        {
+          "id": "east-eishindo",
+          "name": "에이신도 서점 · 栄眞堂書店",
+          "area": "가메아리역 북쪽 · 가메아리 5-32-11",
+          "tag": "헌책·레코드·옛 잡화",
+          "query": "栄眞堂書店 東京都葛飾区亀有5-32-11",
+          "source": "https://www.katsushika-kushouren.jp/store/s35025/"
+        },
+        {
+          "id": "east-kastori",
+          "name": "카스토리 서점",
+          "area": "요시와라 · 전철·버스 이동 옵션",
+          "tag": "독립 출판·성문화 역사·희귀 서적",
+          "query": "カストリ書房 東京都台東区千束3-21-14",
+          "source": "https://kastoribookstore.blogspot.com/",
+          "photo": "discover-kastori",
+          "sourceBadge": {
+            "label": "Hypemaps 추천",
+            "url": "https://hypemaps.com/cities/tokyo/best-bookstores-comics-manga-print-shop-tokyo"
+          }
+        },
+        {
+          "id": "east-kakimori",
+          "name": "카키모리 · Kakimori",
+          "area": "쿠라마에 · 미스지 1-6-2 · 별도 이동",
+          "tag": "디자인 문구·노트·잉크",
+          "query": "カキモリ 東京都台東区三筋1-6-2",
+          "source": "https://kakimori.com/pages/stores"
+        },
+        {
+          "id": "east-douguya-nobori",
+          "name": "도구야 노보리 · 道具屋nobori",
+          "area": "쿠라마에 · 고토부키 3-7-1",
+          "tag": "그릇·유리·생활 소품",
+          "query": "道具屋nobori 東京都台東区寿3-7-1 寿町フラワーホーム1F",
+          "source": "https://fromafar.stores.jp/about"
+        }
+      ]
+    }
+  ]
+}

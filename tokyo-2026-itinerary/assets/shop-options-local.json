@@ -1,0 +1,232 @@
+{
+  "clusters": [
+    {
+      "id": "aoyama-design",
+      "title": "아오야마 디자이너 숍 · 하라주쿠 확장",
+      "area": "아오야마 · 오모테산도 / 하라주쿠 선택",
+      "note": "6곳 중 아오야마·오모테산도에서 2–3곳만 골라요. CC STORE는 북쪽 하라주쿠로 더 가는 선택지이며 평소 15시에 열어요. 전부 도는 코스가 아니며 1/2 특별영업은 확인 필요해요.",
+      "stores": [
+        {
+          "id": "yoke-aoyama",
+          "name": "YOKE AOYAMA",
+          "area": "기타아오야마 · 2층",
+          "tag": "니트 · 색감 · 일본 디자이너",
+          "address": "東京都港区北青山2-11-15 町田ビル2F",
+          "query": "YOKE AOYAMA 東京都港区北青山2-11-15 町田ビル2F",
+          "source": "https://yoketokyooo.com/pages/stockists",
+          "photo": "discover-yoke",
+          "guideKey": "yoke",
+          "sourceBadge": {
+            "label": "Hype Maps 추천",
+            "url": "https://hypemaps.com/cities/tokyo/poggy-guide-new-tokyo-hot-spots"
+          }
+        },
+        {
+          "id": "auralee-tokyo",
+          "name": "AURALEE TOKYO",
+          "area": "미나미아오야마",
+          "tag": "미니멀 · 소재·색감",
+          "address": "東京都港区南青山6-3-2 QC cube南青山63 1F",
+          "query": "AURALEE TOKYO 東京都港区南青山6-3-2 QC cube南青山63 1F",
+          "source": "https://auralee.jp/store"
+        },
+        {
+          "id": "aton-aoyama",
+          "name": "ATON AOYAMA",
+          "area": "기타아오야마 · 오모테산도역",
+          "tag": "유니섹스 · 정돈된 실루엣",
+          "address": "東京都港区北青山3-6-27",
+          "query": "ATON AOYAMA 東京都港区北青山3-6-27",
+          "source": "https://aton-tokyo.com/pages/store-stockist"
+        },
+        {
+          "id": "graphpaper-aoyama",
+          "name": "Graphpaper AOYAMA",
+          "area": "진구마에 남쪽 · 아오야마",
+          "tag": "여유 있는 핏 · 디자인 오브제",
+          "address": "東京都渋谷区神宮前5-36-6 ケーリーマンション1A・2D",
+          "query": "Graphpaper AOYAMA 東京都渋谷区神宮前5-36-6 ケーリーマンション1A・2D",
+          "source": "https://graphpaper-tokyo.com/pages/concept"
+        },
+        {
+          "id": "nepenthes-tokyo",
+          "name": "NEPENTHES TOKYO",
+          "area": "진구마에 남쪽 · 아오야마",
+          "tag": "워크웨어 · Needles·패턴",
+          "address": "東京都渋谷区神宮前5-44-1",
+          "query": "NEPENTHES TOKYO 東京都渋谷区神宮前5-44-1",
+          "source": "https://nepenthes.co.jp/stores/"
+        },
+        {
+          "id": "cc-store-harajuku",
+          "name": "CC STORE©",
+          "area": "하라주쿠 북쪽 · 별도 확장",
+          "tag": "90–00년대 빈티지 · 스트리트",
+          "address": "東京都渋谷区神宮前1-2-1 タートル原宿2F",
+          "query": "CC STORE© 東京都渋谷区神宮前1-2-1 タートル原宿2F",
+          "source": "https://www.instagram.com/ccstore_tokyo/",
+          "photo": "discover-cc",
+          "guideKey": "cc",
+          "sourceBadge": {
+            "label": "Time Out 추천",
+            "url": "https://www.timeout.com/tokyo/shopping/cc-store"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hatagaya-local",
+      "title": "하타가야·우에하라 작은 디자인 숍",
+      "area": "하타가야 · 니시하라 · 요요기우에하라",
+      "note": "6곳 중 하타가야·니시하라에서 2곳, 우에하라에서 1곳 정도 골라 걸어요. SO BOOKS는 요요기하치만 방향으로 더 걷는 선택지예요. 전부 도는 코스가 아니며 1/2 특별영업은 확인 필요해요.",
+      "stores": [
+        {
+          "id": "bullpen-nishihara",
+          "name": "BULLPEN",
+          "area": "하타가야 · 니시하라",
+          "tag": "리빙 · 생활 도구",
+          "address": "東京都渋谷区西原1-18-7",
+          "query": "BULLPEN 東京都渋谷区西原1-18-7",
+          "source": "https://bullpen-shop.com/pages/about",
+          "photo": "discover-bullpen",
+          "guideKey": "bullpen",
+          "sourceBadge": {
+            "label": "Views from Japan 추천",
+            "url": "https://www.viewsfromjapan.com/guides/hatagaya-neighbourhood-design-guide-tokyo-japan"
+          }
+        },
+        {
+          "id": "ella-records",
+          "name": "ELLA RECORDS",
+          "area": "하타가야 · 니시하라",
+          "tag": "재즈·소울 · 중고 LP",
+          "address": "東京都渋谷区西原1-14-10",
+          "query": "ELLA RECORDS 東京都渋谷区西原1-14-10",
+          "source": "https://ellarecords.jp/pages/ella-records",
+          "photo": "discover-ella",
+          "guideKey": "ella",
+          "sourceBadge": {
+            "label": "Views from Japan 추천",
+            "url": "https://www.viewsfromjapan.com/guides/hatagaya-neighbourhood-design-guide-tokyo-japan"
+          }
+        },
+        {
+          "id": "aelu-gallery",
+          "name": "AELU GALLERY",
+          "area": "요요기우에하라 · 4층",
+          "tag": "작가 도자기 · 작은 전시",
+          "address": "東京都渋谷区西原3-12-14 西原ビル4F",
+          "query": "AELU GALLERY 東京都渋谷区西原3-12-14 西原ビル4F",
+          "source": "https://www.aelu.jp/"
+        },
+        {
+          "id": "roundabout-uehara",
+          "name": "Roundabout",
+          "area": "요요기우에하라 · 지하",
+          "tag": "공예 · 생활 도구",
+          "address": "東京都渋谷区上原3-7-12 B1",
+          "query": "Roundabout 東京都渋谷区上原3-7-12 B1",
+          "source": "https://roundabout.to/access/"
+        },
+        {
+          "id": "so-books",
+          "name": "SO BOOKS",
+          "area": "요요기하치만 방향 · 동쪽 확장",
+          "tag": "사진집 · 패션·아트 헌책",
+          "address": "東京都渋谷区上原1-47-5",
+          "query": "SO BOOKS 東京都渋谷区上原1-47-5",
+          "source": "https://sobooks.jp/%E5%BA%97%E8%88%97%E6%83%85%E5%A0%B1"
+        },
+        {
+          "id": "iegnim-uehara",
+          "name": "IEGNIM",
+          "area": "요요기우에하라 · 니시하라",
+          "tag": "민예 · 손으로 만든 그릇",
+          "address": "東京都渋谷区西原3-11-5 1F",
+          "query": "IEGNIM 東京都渋谷区西原3-11-5 1F",
+          "source": "https://iegnim.com/"
+        }
+      ]
+    },
+    {
+      "id": "ebisu-books",
+      "title": "에비스·나카메구로 책과 디자인 숍",
+      "area": "에비스 / 나카메구로 강변·골목",
+      "note": "6곳 중 에비스에서 2곳 또는 나카메구로에서 2곳을 먼저 골라요. 두 동네를 모두 돌려면 이동 여유를 두세요. NICENESS는 에비스역 동쪽에 있어 서쪽 서점들과 한 골목은 아니에요. 1/2 특별영업은 확인 필요해요.",
+      "stores": [
+        {
+          "id": "niceness-ebisu",
+          "name": "NICENESS EBISU",
+          "area": "에비스역 동쪽",
+          "tag": "일본 디자이너 · 소재·가죽",
+          "address": "東京都渋谷区恵比寿3-3-8",
+          "query": "NICENESS EBISU 東京都渋谷区恵比寿3-3-8",
+          "source": "https://www.niceness.jp/en/ebisu-store/",
+          "photo": "discover-niceness",
+          "guideKey": "niceness",
+          "sourceBadge": {
+            "label": "Hype Maps 추천",
+            "url": "https://hypemaps.com/cities/tokyo/poggy-guide-new-tokyo-hot-spots"
+          }
+        },
+        {
+          "id": "salt-and-pepper",
+          "name": "SALT AND PEPPER",
+          "area": "에비스 서쪽 · 2층",
+          "tag": "진 · 그래픽·스트리트",
+          "address": "東京都渋谷区恵比寿西2-5-2 今村ビル2F",
+          "query": "SALT AND PEPPER 東京都渋谷区恵比寿西2-5-2 今村ビル2F",
+          "source": "https://sandp.stores.jp/about",
+          "photo": "discover-salt",
+          "guideKey": "salt",
+          "sourceBadge": {
+            "label": "Hype Maps 추천",
+            "url": "https://hypemaps.com/cities/tokyo/best-bookstores-comics-manga-print-shop-tokyo"
+          }
+        },
+        {
+          "id": "post-ebisu",
+          "name": "POST",
+          "area": "에비스 남쪽",
+          "tag": "아트북 · 독립 출판",
+          "address": "東京都渋谷区恵比寿南2-10-3 1F",
+          "query": "POST 東京都渋谷区恵比寿南2-10-3 1F",
+          "source": "https://post-books.info/"
+        },
+        {
+          "id": "cow-books",
+          "name": "COW BOOKS",
+          "area": "나카메구로 · 강변",
+          "tag": "헌책 · 오리지널 굿즈",
+          "address": "東京都目黒区青葉台1-14-11 コーポ青葉台103",
+          "query": "COW BOOKS 東京都目黒区青葉台1-14-11 コーポ青葉台103",
+          "source": "https://cowbooks.stores.jp/about",
+          "photo": "discover-cow",
+          "guideKey": "cow",
+          "sourceBadge": {
+            "label": "Hype Maps 추천",
+            "url": "https://hypemaps.com/cities/tokyo/best-bookstores-comics-manga-print-shop-tokyo"
+          }
+        },
+        {
+          "id": "dessin-nakameguro",
+          "name": "dessin",
+          "area": "나카메구로 · 가미메구로",
+          "tag": "그림책 · 사진집·전시",
+          "address": "東京都目黒区上目黒2-11-1",
+          "query": "dessin 東京都目黒区上目黒2-11-1",
+          "source": "https://dessinweb.jp/hpgen/HPB/entries/1.html"
+        },
+        {
+          "id": "travelers-nakameguro",
+          "name": "TRAVELER’S FACTORY NAKAMEGURO",
+          "area": "나카메구로 · 가미메구로",
+          "tag": "노트 · 스탬프·문구",
+          "address": "東京都目黒区上目黒3-13-10",
+          "query": "TRAVELER’S FACTORY NAKAMEGURO 東京都目黒区上目黒3-13-10",
+          "source": "https://www.travelers-company.com/about"
+        }
+      ]
+    }
+  ]
+}

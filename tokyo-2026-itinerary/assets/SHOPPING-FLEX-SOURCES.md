@@ -1,0 +1,8 @@
+# Flexible shopping activities · 2026-11-04
+
+- Research data: shop-options-{vintage,local,other}.json and corresponding SHOP-OPTIONS source notes. 8 clusters; 52 store/space candidates. Every cluster has 5–8 options, not a mandatory visit list.
+- Dec30 combines the old individual Radio Kaikan/Mandarake stops into an afternoon culture-shopping activity, with adult/costume shopping optional. DecJan2 replaces fixed hourly store visits with broad Harajuku/Shibuya or alternative-neighborhood activities. Event booths at Comiket/the flea market remain event browsing rather than invented future shop lists.
+- Added original Radio Kaikan building option from https://akihabara-radiokaikan.co.jp/floor-guide/ . Six other culture candidates are individual stores.
+- Map coordinates reuse the already sourced itinerary/discovery anchors in MAP-OPTION-SOURCES.md. They now denote representative shopping districts, not exact positions for all candidates. Exact shop addresses are provided in the new candidate cards' Google Maps search links. No guessed new store coordinates were introduced.
+- Clothing strips use official photos already documented in GUIDE-FASHION/GUIDE-VINTAGE sources, plus 5 new SULLEN/Archive Store images in shop-mood-shibuya.json. Images indicate style, not confirmed branch stock. Clothes have no visible item description, price, or product-detail cards. Non-clothing advice is in closed details.
+- One neighborhood selector remains in the trip-plan panel. Candidate cards are research choices with links, not a second route selector. Day0/day3 maps and headings use broad districts, and all meal/day-use choices remain intact.

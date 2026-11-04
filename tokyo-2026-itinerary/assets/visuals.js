@@ -3,7 +3,7 @@ const sceneDays=[
  {photo:'akihabara',tag:'01 / ELECTRIC TOKYO',title:'좋아하는 것들로 가득한 첫날',text:'보드게임·카드 소품과 오래된 책·음악을 찾아보고, 저녁에는 향긋한 카레로 하루를 마무리해요.',chips:['게임·카드 & 인쇄물','아키하바라 산책','스파이스 카레']},
  {photo:'bigsight',tag:'02 / INTO THE FANDOM',title:'이야기와 사람들 사이로',text:'빅사이트의 거대한 전시장, 직접 만든 책과 그림, 코스프레. 서두르지 않고 좋아하는 부스를 찾아봐요.',chips:['동인지 & 창작','코스프레','전시장 탐방']},
  {photo:'sumida',tag:'03 / SLOW NEW YEAR',title:'새해 첫날은 조금 느리게',text:'강바람을 쐬며 걷고, 창밖 풍경과 함께 식사하고, 숙소에서 쉬어가는 하루예요.',chips:['강변 걷기','호텔 다이닝','충분한 휴식']},
- {photo:'catstreet',tag:'04 / FIND YOUR PIECE',title:'골목에서 만나는 취향',text:'옷걸이를 하나씩 넘기며 마음에 드는 한 벌을 찾고, 캣스트리트를 따라 시부야로 내려가요.',chips:['디자이너 빈티지','캣스트리트','시부야의 저녁']},
+ {photo:'catstreet',tag:'04 / FIND YOUR PIECE',title:'골목에서 만나는 취향',text:'하라주쿠와 시부야에서 각각 후보 매장을 보고, 마음에 드는 몇 곳만 느슨하게 둘러봐요.',chips:['구역마다 2–3곳 선택','사진으로 분위기 보기','시부야의 저녁']},
  {photo:'fleamarket',tag:'05 / ONE LAST FIND',title:'마지막 보물찾기, 그리고 집으로',text:'고탄다에서 오래된 물건과 뜻밖의 발견을 구경한 뒤, 짐을 찾아 하네다로 향해요.',chips:['플리마켓','동네 구경','하네다 출발']}
 ];
 const photoEscape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
