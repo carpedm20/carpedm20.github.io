@@ -13,6 +13,19 @@
   let panel, frame, caption, detail, openLink, shield;
   let pendingTimer, pendingQuery = '', lastQuery = '', layoutFrame;
   let geometry, customGeometry = false, gesture = null, minimized = false;
+  let stickerFrames = [], stickerIndex = 0, stickerTimer, stickerReady = false, stickerPaused = false;
+
+  function syncStickerAnimation() {
+    const active = stickerReady && !stickerPaused && !minimized && !document.hidden && !panel.classList.contains('sticker-no-room');
+    if (!active) { clearInterval(stickerTimer); stickerTimer = null; return; }
+    if (stickerTimer) return;
+    // Explicit photo playback: no CSS negative delays or reduced-motion first-frame override.
+    stickerTimer = setInterval(() => {
+      stickerFrames[stickerIndex].hidden = true;
+      stickerIndex = (stickerIndex + 1) % stickerFrames.length;
+      stickerFrames[stickerIndex].hidden = false;
+    }, 1000 / 3);
+  }
 
   function place(query, title, note = '') {
     return typeof query === 'string' && query.trim()
@@ -176,7 +189,7 @@
     return {
       width, height,
       x: clamp(value.x, area.left, area.right - width),
-      y: clamp(value.y, area.top, area.bottom - (minimized ? Math.min(44, height) : height))
+      y: clamp(value.y, area.top, area.bottom - height)
     };
   }
 
@@ -195,9 +208,11 @@
     panel.style.setProperty('--minimap-sticker-width', stickerWidth + 'px');
     panel.classList.toggle('sticker-no-room', stickerWidth < 45);
     Object.assign(panel.style, {
-      left: geometry.x + 'px', top: geometry.y + 'px',
-      width: geometry.width + 'px', height: (minimized ? Math.min(44, geometry.height) : geometry.height) + 'px'
+      left: (minimized ? geometry.x + geometry.width - 46 : geometry.x) + 'px',
+      top: (minimized ? geometry.y + geometry.height - 46 : geometry.y) + 'px',
+      width: (minimized ? 46 : geometry.width) + 'px', height: (minimized ? 46 : geometry.height) + 'px'
     });
+    syncStickerAnimation();
   }
 
   function saveGeometry() {
@@ -283,9 +298,9 @@
     panel.id = 'hoverMinimap';
     panel.className = 'hover-minimap';
     panel.setAttribute('aria-label', '이동과 크기 조절이 가능한 장소 미니맵');
-    panel.innerHTML = `<div class="hover-minimap-sticker" aria-hidden="true">
-        ${[1, 2, 3].map(n => `<img src="${decorationBase}minimap-${n}.png" width="901" height="687" alt="" draggable="false">`).join('')}
-      </div><div class="hover-minimap-heading">
+    panel.innerHTML = `<button type="button" class="hover-minimap-sticker" aria-label="사진 애니메이션 일시정지" title="사진을 눌러 일시정지 / 재생">
+        ${[1, 2, 3].map(n => `<img src="${decorationBase}minimap-${n}.png" width="901" height="687" alt="" draggable="false" ${n > 1 ? 'hidden' : ''}>`).join('')}
+      </button><div class="hover-minimap-heading">
         <button type="button" class="hover-minimap-resize-nw" aria-label="미니맵 왼쪽 위 모서리 크기 조절" aria-describedby="hoverMinimapResizeNWHint" title="왼쪽 위로 드래그해 확대 · 왼쪽/위쪽 방향키: 확대"><span aria-hidden="true">◤</span></button>
         <button type="button" class="hover-minimap-drag" aria-label="미니맵 이동" aria-describedby="hoverMinimapMoveHint" title="드래그 또는 방향키로 이동 · Shift: 크게 이동">미니맵</button>
         <button type="button" class="hover-minimap-reset" aria-label="미니맵 위치와 크기 초기화" title="위치와 크기 초기화">↺</button>
@@ -304,6 +319,19 @@
     shield.hidden = true;
     shield.setAttribute('aria-hidden', 'true');
     document.body.append(panel, shield);
+    const sticker = panel.querySelector('.hover-minimap-sticker');
+    stickerFrames = [...sticker.querySelectorAll('img')];
+    Promise.all(stickerFrames.map(img => img.decode().catch(() => {}))).then(() => {
+      stickerReady = true; syncStickerAnimation();
+    });
+    sticker.addEventListener('click', () => {
+      stickerPaused = !stickerPaused;
+      sticker.classList.toggle('is-paused', stickerPaused);
+      sticker.setAttribute('aria-label', stickerPaused ? '사진 애니메이션 재생' : '사진 애니메이션 일시정지');
+      syncStickerAnimation();
+    });
+    document.addEventListener('visibilitychange', syncStickerAnimation);
+    window.addEventListener('pageshow', syncStickerAnimation);
     frame = panel.querySelector('iframe');
     caption = panel.querySelector('strong');
     detail = panel.querySelector('small');
@@ -328,7 +356,7 @@
       toggle.setAttribute('aria-expanded', String(!value));
       toggle.setAttribute('aria-label', value ? '미니맵 펼치기' : '미니맵 접기');
       toggle.title = value ? '미니맵 펼치기' : '미니맵 접기';
-      toggle.textContent = value ? '+' : '−';
+      toggle.innerHTML = value ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" aria-hidden="true"><path d="m3 5 6-2 6 2 6-2v16l-6 2-6-2-6 2Z"/><path d="M9 3v16M15 5v16"/></svg>' : '−';
       renderGeometry();
     }
     toggle.addEventListener('click', () => setMinimized(!minimized));

@@ -29,7 +29,8 @@
     <div class="jukebox-controls"><button type="button" class="jukebox-button jukebox-restart" aria-label="처음부터 재생" title="처음부터 재생" disabled>${svg('restart')}</button><button type="button" class="jukebox-button jukebox-play" aria-label="음악 연결 중" title="음악 연결 중" disabled>${svg('play')}</button><button type="button" class="jukebox-button jukebox-next" aria-label="다음 곡" title="다음 곡" disabled>${svg('next')}</button><button type="button" class="jukebox-button jukebox-repeat" aria-label="전체 반복" title="전체 반복 켜짐" aria-pressed="true">${svg('repeat')}</button></div>
     <div class="jukebox-progress"><time class="jukebox-current">0:00</time><input class="jukebox-seek" type="range" min="0" max="1" step="1" value="0" aria-label="재생 위치" aria-valuetext="0분 0초" disabled><time class="jukebox-duration">–:––</time></div>
     <label class="jukebox-volume">${svg('volume')}<span class="jukebox-sr">음량</span><input type="range" min="0" max="100" value="35" aria-label="음량" disabled></label>
-    <a class="jukebox-external" href="https://www.youtube.com/watch?v=${VIDEO}" target="_blank" rel="noopener noreferrer" aria-label="YouTube에서 Highway to Hell 열기" title="YouTube에서 열기">YouTube ${svg('external')}</a>`;
+    <a class="jukebox-external" href="https://www.youtube.com/watch?v=${VIDEO}" target="_blank" rel="noopener noreferrer" aria-label="YouTube에서 Highway to Hell 열기" title="YouTube에서 열기">YouTube ${svg('external')}</a>
+    <button type="button" class="jukebox-more" aria-label="음악 추가 기능 펼치기" aria-expanded="false" title="음악 추가 기능">···</button>`;
   const host = document.createElement('div');
   host.className = 'jukebox-video-host';
   host.setAttribute('aria-hidden', 'true');
@@ -223,6 +224,12 @@
   });
   seek.addEventListener('blur', () => { seeking = false; });
   volume.addEventListener('input', () => { if (ready) player.setVolume(Number(volume.value)); });
+  $('.jukebox-more').addEventListener('click', () => {
+    const expanded = bar.classList.toggle('is-expanded');
+    $('.jukebox-more').setAttribute('aria-expanded', String(expanded));
+    $('.jukebox-more').setAttribute('aria-label', expanded ? '음악 추가 기능 접기' : '음악 추가 기능 펼치기');
+    queueMeasure();
+  });
   // Nothing here resumes music on scrolling, tab focus, or viewport changes.
   setInterval(refreshTime, 500);
   let lastLayout = '';

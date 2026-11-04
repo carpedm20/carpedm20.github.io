@@ -97,3 +97,6 @@ body.editorial-page{font-family:Arial,'Noto Sans KR',sans-serif;font-size:14px;f
 @media print{body.editorial-page{padding:0;background:white}.editorial-page .shell{display:block;border:0;box-shadow:none}.editorial-page .sidebar,.editorial-page .topbar,.editorial-page .mobile-nav{display:none}.editorial-page .main{padding:0}.editorial-page .hero{display:block}.editorial-page .hero-poster{display:none}.editorial-page .section-line{margin-top:28px}.editorial-page .daypanel{display:block}.editorial-page .visual-journey{display:grid;grid-template-columns:repeat(5,1fr)}}
 
 @media(max-width:760px){.editorial-page .hero{gap:22px;margin-top:22px;margin-bottom:24px}.editorial-page .hero-poster{min-height:115px;grid-template-columns:1fr 125px;padding-top:12px}.editorial-page .cover-diagram{width:125px;height:110px}.editorial-page .cover-note{padding-bottom:2px}.editorial-page .metrics{margin-bottom:22px}.editorial-page .visual-intro{margin-top:22px}}
+
+/* The mobile page already introduces the trip; keep the duplicate toolbar off the reading area. */
+@media(max-width:760px){.editorial-page .topbar{display:none}}
