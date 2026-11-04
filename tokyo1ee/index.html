@@ -71,7 +71,7 @@
 <link rel="stylesheet" href="assets/overnight-guide.css?v=abcb35452e">
 <link rel="stylesheet" href="assets/map-options.css?v=395bc75582">
 <link rel="stylesheet" href="assets/shopping-guide.css?v=417085ee48">
-<link rel="stylesheet" href="assets/store-gallery.css?v=1d12487175">
+<link rel="stylesheet" href="assets/store-gallery.css?v=f4fced13f3">
 <link rel="stylesheet" href="assets/trip-plan.css?v=6ea9f41045">
 <link rel="stylesheet" href="assets/editorial.css?v=eddf3360a1">
 <link rel="stylesheet" href="assets/editorial-route.css?v=ea47412524">
@@ -85,6 +85,8 @@
 <link rel="stylesheet" href="assets/orb-trail.css?v=88167f0437">
 <link rel="stylesheet" href="assets/horse-culture.css?v=8034f1587e">
 <link rel="stylesheet" href="assets/restaurant-filters.css?v=2b9eb39aed">
+<link rel="stylesheet" href="assets/jukebox.css?v=bdd28e2298">
+<link rel="stylesheet" href="assets/phrase-accordion.css?v=5319e56931">
 </head>
 <body class="editorial-page">
 <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden"><defs>
@@ -377,15 +379,17 @@
 <script src="assets/venue-guides.js?v=fa8da0e23c"></script>
 <script src="assets/shop-options.js?v=b090b17aef"></script>
 <script src="assets/store-photos.js?v=83261e2fbc"></script>
-<script src="assets/store-gallery.js?v=794782fe0d"></script>
-<script src="assets/shopping-guide.js?v=8674024078"></script>
+<script src="assets/store-gallery.js?v=95769ecb52"></script>
+<script src="assets/store-shopping.js?v=0ed2f6635a"></script>
+<script src="assets/store-shopping-extra.js?v=3af81c6daf"></script>
+<script src="assets/shopping-guide.js?v=ff38ea9168"></script>
 <script src="assets/trip-plan.js?v=28733dc67d"></script>
 <script src="assets/map-options.js?v=6692b68e4e"></script>
 <script src="assets/food-options.js?v=68ed0209ba"></script>
 <script src="assets/konbini-nutrition.js?v=04a17708f0"></script>
-<script src="assets/street-snacks.js?v=f2d41fd8de"></script>
-<script src="assets/cafe-menu-photos.js?v=0594f8085a"></script>
-<script src="assets/horse-culture.js?v=1757a532b1"></script>
+<script src="assets/street-snacks.js?v=00faaf6d61"></script>
+<script src="assets/cafe-menu-photos.js?v=bdd93a1b93"></script>
+<script src="assets/horse-culture.js?v=b1eff8ce09"></script>
 <script src="assets/food-guide.js?v=4a1dea22cc"></script>
 <script>
 const GOOGLE_MAPS_API_KEY = 'AIzaSyB-K-mZmCrA5RYP1-lPNrtxvzrmCNhGQHk'; // Browser key restricted to carpedm20.github.io and Maps/Routes APIs.
@@ -1498,7 +1502,9 @@ function renderDays(){renderSidebarDayFilters();const r=$('#dayTabs');r.innerHTM
 function renderHotels(){$('#hotels').innerHTML=hotels.map((h,i)=>`<article class="hotel-card ${selectedHotel===i?'selected':''}"><div class="hotel-photo-grid">${photoFigure(i===0?'daimon':'super1')}${photoFigure(i===0?'daimon-twin':'super2')}</div><div class="hotel-header"><span class="restaurant-pill">${i===0?'BEST LOCATION':'BEST VALUE'}</span><span class="mini-badge">4박 · 2인</span></div><h3>${h.name}</h3><div class="place" style="color:#817f78;font-size:11px">${icon('pin','sm')} ${h.area}</div><p>${h.desc}</p><div class="hotel-bottom"><span>${selectedHotel===i?'✓ 여행 구성에서 선택한 본숙소':'본숙소 비교 후보'}</span><a href="${maps(h.name+' Tokyo')}" target="_blank" rel="noopener">위치 보기 ${icon('out','sm')}</a></div></article>`).join('');$('#hotels').querySelectorAll('[data-select]').forEach(b=>b.onclick=()=>{selectedHotel=+b.dataset.select;save('tokyo-hotel',selectedHotel);renderHotels();renderDays();syncHotelMap();toast('지도에서 호텔 위치를 변경했습니다. 예상 이동시간은 기본 호텔 기준입니다')})}
 function navTo(anchor){document.querySelector('#'+anchor).scrollIntoView({behavior:'smooth',block:'start'});document.querySelectorAll('[data-anchor]').forEach(b=>b.classList.toggle('active',b.dataset.anchor===anchor))}document.querySelectorAll('[data-anchor]').forEach(b=>b.onclick=()=>navTo(b.dataset.anchor));$('#copyBtn').onclick=async()=>{try{await navigator.clipboard.writeText(location.href);toast('웹사이트 주소를 복사했습니다')}catch{toast('주소창의 URL을 복사해 주세요')}};$('#printBtn').onclick=()=>window.print();$('#sourceLinks').innerHTML=sourceLinks.map(([name,url])=>`<a href="${url}" target="_blank" rel="noopener">${name} ${icon('out','sm')}</a>`).join('');renderDays();renderFoods();renderHotels();initRouteExplorer();renderVisualJourney();renderKonbini();renderDiscoveryGuide();renderOvernightGuide();renderPlanPanel();attachPlanPanel();refreshPlanViews();window.addEventListener('resize',()=>{const p=document.querySelector('#tripPlanPanel');const desired=matchMedia('(max-width:760px)').matches?'mobilePlanSlot':'sidebarPlanSlot';if(p.parentElement.id!==desired)attachPlanPanel()});
 </script>
-<script src="assets/hover-minimap.js?v=af39947162"></script>
+<script src="assets/hover-minimap.js?v=7430494b64"></script>
 <script src="assets/orb-trail.js?v=c66fbf76f4"></script>
+<script src="assets/jukebox.js?v=ceb7ee9bf1"></script>
+<script src="assets/phrase-accordion.js?v=1cedfb8403"></script>
 </body>
 </html>

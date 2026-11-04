@@ -7,7 +7,9 @@ const horseCafe = {
   menu: [
     {ko: '말 쿠키 커피 플로트 또는 멜론 크림소다', jp: 'コーヒーフロート / メロンクリームソーダ'},
     {ko: '직접 만든 당근 케이크 + 따뜻한 카페라테', jp: '自家製にんじんケーキ + カフェラテ（HOT）'},
-    {ko: '안주가 당기면 통양송이 아히요 + 에비스 생맥주', jp: 'まるごとマッシュルームのアヒージョ + エビス生ビール'}
+    {ko: '안주가 당기면 통양송이 아히요 + 에비스 생맥주', jp: 'まるごとマッシュルームのアヒージョ + エビス生ビール'},
+    {ko: '식사를 겸하면 버섯·닭고기 페페론치노', jp: 'キノコと鶏ひき肉のペペロンチーノ'},
+    {ko: '둘이 나눌 허브 감자 샐러드', jp: '大人のハーブポテトサラダ'}
   ],
   why: '은퇴 경주마 지원과 연결된 카페. 말 퇴비로 기른 채소를 식재료로 쓰고, 말 관련 책·오리지널 굿즈와 실내 디자인을 둘러볼 수 있어요. 실제 말을 만나는 체험은 아니에요. 둘이 플로트와 크림소다를 하나씩 고르거나, 따뜻한 라테와 케이크로 쉬어가요. 굿즈 재고·말 쿠키 제공 여부는 당일 확인. 캐시리스 결제만 가능해요.',
   placementKo: '1/2 하라주쿠 빈티지 숍 → 이 카페에서 휴식 → 캣스트리트·시부야. 아오야마 디자인 코스에서는 오모테산도 구경 중 선택해요. CHAVATY 등 기존 카페와 모두 돌기보다 한 곳을 골라요.',
@@ -31,7 +33,12 @@ const horseCafeMenuPhoto = {
   source: 'https://prtimes.jp/main/html/rd/p/000000003.000116137.html', credit: 'TCC Japan · 2023년 공식 음식 사진',
   caption: '2023년 공식 사진 · 현재 메뉴에도 통양송이 아히요가 있으나 구성·그릇은 달라질 수 있어요.'
 };
-cafeMenuPhotos[horseCafe.id] = [horseCafeMenuPhoto];
+const horseCafeExtraPhotos = [
+  {key:'cafe-menu-bafun-pasta',title:'버섯 파스타 · 플레이팅 참고',jp:'キノコのパスタ',menuIndexes:[3],src:'assets/photos/horse-bafun-pasta.webp',width:850,height:638,url:'https://prcdn.freetls.fastly.net/release_image/116137/3/116137-3-85a42a4e95ea01ae3214b4dfa2d48c8b-3024x2268.jpg',source:'https://prtimes.jp/main/html/rd/p/000000003.000116137.html',credit:'TCC Japan · 2023년 공식 음식 사진',caption:'2023년 개점 자료의 버섯 파스타. 현재 메뉴는 버섯·닭고기 페페론치노이며 당시 사진과 구성·곁들임이 다를 수 있어요.'},
+  {key:'cafe-menu-bafun-potato',title:'감자 샐러드 · 플레이팅 참고',jp:'ポテトサラダ',menuIndexes:[4],src:'assets/photos/horse-bafun-potato.webp',width:850,height:638,url:'https://prcdn.freetls.fastly.net/release_image/116137/3/116137-3-2d325658a0f1eeebd0b7422cef4a9987-1109x832.jpg',source:'https://prtimes.jp/main/html/rd/p/000000003.000116137.html',credit:'TCC Japan · 2023년 공식 음식 사진',caption:'2023년 개점 자료의 감자 샐러드. 현재 허브 감자 샐러드와 토핑·양이 다를 수 있어요.'}
+];
+cafeMenuPhotos[horseCafe.id] = [horseCafeMenuPhoto,...horseCafeExtraPhotos];
+for(const photo of horseCafeExtraPhotos)tripPhotos[photo.key]={...photo};
 tripPhotos[horseCafeMenuPhoto.key] = {...horseCafeMenuPhoto};
 tripPhotos['horse-gatej'] = {
   title: 'Gate J. Tokyo · 말 로봇과 자료 공간', src: 'assets/photos/horse-gatej.jpg', width: 520, height: 270,

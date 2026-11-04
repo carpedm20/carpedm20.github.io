@@ -155,10 +155,12 @@
     const top = (viewport?.offsetTop || 0) + 8;
     const right = left + (viewport?.width || innerWidth) - 16;
     let bottom = top + (viewport?.height || innerHeight) - 16;
-    const nav = document.querySelector('.mobile-nav');
-    if (nav && getComputedStyle(nav).display !== 'none') {
-      const rect = nav.getBoundingClientRect();
-      if (rect.top > top && rect.top < bottom && rect.bottom > top) bottom = rect.top - 8;
+    for (const selector of ['.mobile-nav', '#tripJukebox']) {
+      const bar = document.querySelector(selector);
+      if (bar && getComputedStyle(bar).display !== 'none') {
+        const rect = bar.getBoundingClientRect();
+        if (rect.top > top && rect.top < bottom && rect.bottom > top) bottom = rect.top - 8;
+      }
     }
     return {left, top, right, bottom, width: Math.max(1, right - left), height: Math.max(1, bottom - top)};
   }
@@ -352,6 +354,7 @@
       if (!event.relatedTarget) queuePlace(null);
     });
     window.addEventListener('resize', positionPanel, {passive: true});
+    window.addEventListener('jukeboxlayout', positionPanel);
     window.addEventListener('orientationchange', positionPanel, {passive: true});
     window.visualViewport?.addEventListener('resize', positionPanel, {passive: true});
     window.visualViewport?.addEventListener('scroll', positionPanel, {passive: true});

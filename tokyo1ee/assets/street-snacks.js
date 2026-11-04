@@ -294,6 +294,14 @@ const streetSnackStops=[
       {
         "ko": "커피 또는 홍차",
         "jp": "コーヒー / 紅茶"
+      },
+      {
+        "ko": "초콜릿 구와 커피 아이스크림 · 이스파한 대신",
+        "jp": "サンサシオン アンフィニマン カフェ"
+      },
+      {
+        "ko": "몽블랑 접시 디저트 · 계절 판매 확인",
+        "jp": "デセール モンブラン"
       }
     ],
     "why": "장미·리치·라즈베리 조합의 접시 디저트를 천천히 먹는 선택. 2층 티 살롱은 공식적으로 예약 없이 도착 순서로 안내해요.",
@@ -417,7 +425,7 @@ const streetSnackStops=[
       "credit": "light source / 喫茶半月 공식 소개",
       "width": 1100,
       "height": 676,
-      "alt": "킷사 한게쓰 공식 사진의 레어 치즈케이크와 카페 내부"
+      "alt": "킷사 한게쓰 공식 사진의 층 케이크·커피와 카페 내부 · 케이크 종류 미확인"
     },
     "planAreas": [
       "east"
@@ -507,6 +515,10 @@ const streetSnackStops=[
       {
         "ko": "미니 크루아상",
         "jp": "ミニクロワッサン"
+      },
+      {
+        "ko": "팥·떡 보름달 소금빵 · 있으면 맛볼 새 후보",
+        "jp": "満月の塩パン（あんもっち／よもぎもっち）"
       }
     ],
     "why": "달콤한 간식 대신 향긋하고 짭짤한 빵이 당길 때. 숙소에 가져가기도 편한 역 안 포장 후보예요.",
@@ -711,6 +723,10 @@ const streetSnackStops=[
       {
         "ko": "오늘의 센차",
         "jp": "本日の煎茶"
+      },
+      {
+        "ko": "말차 라테 · 호지차 대신 선택",
+        "jp": "抹茶ラテ（HOT / ICE）"
       }
     ],
     "why": "마지막 간식에는 커피 대신 구수한 일본차. 호지차 라테나 담백한 센차를 골라 공항에서 천천히 마셔요.",
@@ -775,6 +791,14 @@ const streetSnackStops=[
       {
         "ko": "진한 말차 수제 와라비모치 · 차 포함",
         "jp": "手づくりわらび餅 お濃い抹茶（お茶付き）"
+      },
+      {
+        "ko": "따뜻한 말차 와라비모치 · 차 포함",
+        "jp": "出来立て温わらび餅 お濃い抹茶"
+      },
+      {
+        "ko": "진한 말차 파르페 · 와라비모치 대신",
+        "jp": "翠泉パフェ お濃い抹茶"
       }
     ],
     "why": "탑승 전 앉아서 말차와 와라비모치를 즐기는 선택지. 차가 함께 나오는 메뉴라 다른 디저트나 음료를 많이 추가하지 않아도 좋아요.",
@@ -863,7 +887,7 @@ function renderStreetSnackStops(stop,index,stops){
   return `<section class="street-snack-options" aria-label="${esc(stop.title)} 근처 간식·카페">
     <header class="street-snack-heading"><h4>이 근처에서 간식 · 잠깐 쉬어가기</h4><p>배와 시간에 맞춰 한 곳만 골라도 좋아요. 메뉴와 이용 방식으로 비교해요.</p></header>
     <div class="street-snack-grid">${picks.map(snack=>`<article class="street-snack-card" data-mini-query="${esc(snack.query)}" data-mini-name="${esc(snack.name)}" data-mini-note="${esc(snack.area)}">
-      <button type="button" class="street-snack-photo" data-photo="street-${snack.id}" aria-label="${esc(snack.name)} 사진 크게 보기"><img src="${esc(snack.photo.src)}" width="${snack.photo.width}" height="${snack.photo.height}" loading="lazy" decoding="async" alt="${esc(snack.photo.alt)}"><span aria-hidden="true">⤢</span></button>
+      ${(cafeMenuPhotos[snack.id]||[]).some(photo=>photo.src===snack.photo.src)?'':`<button type="button" class="street-snack-photo" data-photo="street-${snack.id}" aria-label="${esc(snack.name)} 사진 크게 보기"><img src="${esc(snack.photo.src)}" width="${snack.photo.width}" height="${snack.photo.height}" loading="lazy" decoding="async" alt="${esc(snack.photo.alt)}"><span aria-hidden="true">⤢</span></button>`}
       <div class="street-snack-copy"><span class="street-snack-mode">${esc(snack.category)} · ${esc(snack.area)}</span><h5>${esc(snack.name)}</h5>
       <p class="street-snack-placement">${esc(snack.placementKo)}<small>${esc(snack.walkKo)}</small></p>
       <ul>${snack.menu.map(m=>`<li><strong>${esc(m.ko)}</strong><span lang="ja">${esc(m.jp)}</span></li>`).join('')}</ul>${renderCafeMenuPhotos(snack)}

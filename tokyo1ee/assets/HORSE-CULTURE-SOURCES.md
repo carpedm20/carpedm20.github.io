@@ -16,3 +16,5 @@
 - Photo: https://hibiya-fort-tower.com/lib/img/pages/gatej-tokyo/img01.jpg -> horse-gatej.jpg
 - Regular closure explicitly includes New Year holidays, weekends and public holidays. Exact 2026–27 date notice not found. Card is a nearby **visit deferred** note on Dec 31's Shinbashi dinner stop, excluded from route and checklist. No claim of open access or a trip-date live event.
 - Current location is Hibiya Fort Tower B1, Nishishinbashi 1-1-1 (moved in 2021). Official walk time from Shinbashi about 7 minutes.
+
+- Additional menu gallery: historical official mushroom pasta and potato salad photos from the same 2023 release, explicitly labeled presentation references. Current menu names verified on the operator-managed Tabelog menu above. Local files horse-bafun-pasta.webp and horse-bafun-potato.webp.

@@ -1,0 +1,45 @@
+/* White, quiet accordion rows; native details retains keyboard behavior. */
+#fieldHelp > details.phrase-accordion-group,
+#fieldHelp > details.phrase-accordion-group:first-of-type {
+  margin: 12px 0 0; padding: 0; border: 1px solid #dededb; background: #fff; border-radius: 0;
+}
+#fieldHelp .phrase-accordion-summary {
+  display: flex; align-items: center; gap: 12px; min-height: 64px; padding: 14px 16px;
+  list-style: none; cursor: pointer; touch-action: manipulation; user-select: none;
+}
+#fieldHelp .phrase-accordion-summary::-webkit-details-marker { display: none; }
+#fieldHelp .phrase-accordion-summary::marker { content: ''; }
+#fieldHelp .phrase-accordion-summary:focus-visible { outline: 2px solid #345b56; outline-offset: 3px; }
+#fieldHelp .phrase-category-number { font-size: 12px; color: #a74e70; font-variant-numeric: tabular-nums; flex: 0 0 22px; }
+#fieldHelp .phrase-category-label { flex: 1; min-width: 0; }
+#fieldHelp .phrase-category-label strong { display: block; font-size: 15px; font-weight: 500; line-height: 1.65; color: #333; word-break: keep-all; overflow-wrap: anywhere; }
+#fieldHelp .phrase-category-label > span { display: block; margin-top: 2px; font-size: 11px; line-height: 1.65; color: #777; word-break: keep-all; overflow-wrap: anywhere; }
+#fieldHelp .phrase-category-count { font-size: 11px; color: #777; white-space: nowrap; }
+#fieldHelp .phrase-category-toggle { width: 16px; height: 16px; flex: 0 0 16px; position: relative; }
+#fieldHelp .phrase-category-toggle::before,
+#fieldHelp .phrase-category-toggle::after { content: ''; position: absolute; background: #555; top: 7px; left: 2px; width: 12px; height: 1px; }
+#fieldHelp .phrase-category-toggle::after { transform: rotate(90deg); }
+#fieldHelp details[open] > summary .phrase-category-toggle::after { display: none; }
+#fieldHelp .phrase-accordion-body { margin: 0; padding: 16px; border-top: 1px solid #dededb; min-width: 0; }
+#fieldHelp .queer-phrase-intro,
+#fieldHelp .queer-phrase-note,
+#fieldHelp .queer-translation-note { font-size: 12px; line-height: 1.9; color: #666; overflow-wrap: anywhere; word-break: keep-all; }
+#fieldHelp .queer-phrase-intro { margin: 0 0 24px; }
+#fieldHelp .queer-phrase-block { margin-top: 26px; }
+#fieldHelp .queer-phrase-block h4 { margin: 0; font-size: 15px; font-weight: 500; color: #333; }
+#fieldHelp .queer-phrase-note { margin: 8px 0 14px; }
+#fieldHelp .queer-term-note { margin: 12px 0 0; padding-top: 10px; border-top: 1px solid #eee; font-size: 12px; line-height: 1.9; color: #666; word-break: keep-all; overflow-wrap: anywhere; }
+#fieldHelp .phrase-source-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+#fieldHelp .phrase-source-badge { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 12px; border: 1px solid #e1e1de; color: #666; font-size: 11px; line-height: 1.6; text-decoration: none; }
+#fieldHelp .phrase-source-badge:hover { border-color: #777; color: #222; }
+#fieldHelp .phrase-source-badge:focus-visible { outline: 2px solid #345b56; outline-offset: 2px; }
+#fieldHelp .queer-translation-note { margin: 24px 0 0; padding-top: 16px; border-top: 1px solid #dededb; }
+@media (max-width: 760px) {
+  #fieldHelp .phrase-accordion-summary { padding: 12px 10px; gap: 8px; min-height: 64px; }
+  #fieldHelp .phrase-accordion-body { padding: 12px 10px; }
+  #fieldHelp .phrase-category-number { flex-basis: 18px; }
+  #fieldHelp .phrase-category-label strong { font-size: 14px; }
+  #fieldHelp .phrase-category-count { font-size: 10px; }
+  #fieldHelp .queer-phrase-card { padding: 14px 10px; }
+  #fieldHelp .phrase-count { white-space: normal; }
+}
