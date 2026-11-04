@@ -1,0 +1,43 @@
+/* Read-aloud language notes: visible text, no copy interaction. */
+.field-help { scroll-margin-top: 90px; }
+.phrase-heading { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+.phrase-heading .section-kicker { margin-bottom: 8px; }
+.phrase-heading h3 { margin: 0; }
+.phrase-count { font-size: 12px; color: #777; white-space: nowrap; }
+.field-help .phrase-intro { font-size: 14px; color: #444; max-width: 70ch; margin: 16px 0 8px; }
+.field-help .phrase-reading-note { font-size: 12px; color: #777; margin: 0; max-width: 80ch; }
+.phrase-group { margin: 28px 0 0; padding: 0; border: 0; }
+.phrase-group-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 12px; }
+.phrase-group-heading > span { font-size: 12px; color: #a74e70; font-variant-numeric: tabular-nums; }
+.phrase-group-heading h4 { margin: 0; font-size: 16px; font-weight: 500; color: #333; }
+.field-help .phrase-group-heading p { margin: 4px 0 0; font-size: 12px; color: #777; }
+.phrase-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.phrase-card { min-width: 0; padding: 18px; border: 1px solid #dededb; background: #fff; }
+.phrase-card h5 { margin: 0 0 10px; font-size: 14px; font-weight: 500; line-height: 1.7; color: #333; word-break: keep-all; overflow-wrap: anywhere; }
+.field-help .phrase-japanese { margin: 0 0 12px; font-size: 17px; line-height: 1.7; color: #222; overflow-wrap: anywhere; }
+.phrase-readings { margin: 0; }
+.phrase-readings > div { display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 8px; align-items: baseline; margin-top: 6px; }
+.phrase-readings dt { font-size: 10px; color: #888; line-height: 1.8; }
+.phrase-readings dd { margin: 0; font-size: 13px; line-height: 1.9; color: #666; overflow-wrap: anywhere; }
+.phrase-readings .phrase-korean { font-size: 15px; font-weight: 500; color: #345b56; word-break: keep-all; overflow-wrap: anywhere; }
+.field-help > details:first-of-type { border-top: 1px solid #dededb; margin-top: 30px; padding-top: 10px; }
+.order-help .order-reading { margin-top: 15px; padding-top: 12px; border-top: 1px solid #e8e8e4; }
+.order-help .order-reading > strong { display: block; font-size: 12px; font-weight: 500; }
+.order-help .order-reading > p { margin: 7px 0; font-size: 14px !important; }
+.order-help .order-reading .phrase-readings > div { display: block; }
+.order-help .order-reading .phrase-readings dt { font-size: 10px; }
+.order-help .order-reading .phrase-readings dd { font-size: 12px; }
+.order-help .order-reading .phrase-readings .phrase-korean { font-size: 14px; color: #345b56; }
+.order-help .order-menu-names { margin: 10px 0; font-size: 12px !important; }
+.order-help > a { display: inline-flex; align-items: center; min-height: 44px; margin-top: 8px; font-size: 12px; }
+@media (max-width: 1050px) {
+  .phrase-grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 760px) {
+  .field-help { padding: 16px 12px; }
+  .phrase-heading h3 { font-size: 21px; }
+  .phrase-card { padding: 15px 12px; }
+  .phrase-group-heading { gap: 10px; }
+  .phrase-group-heading h4 { font-size: 15px; }
+  .phrase-readings > div { grid-template-columns: 46px minmax(0, 1fr); gap: 6px; }
+}
