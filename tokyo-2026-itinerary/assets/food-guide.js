@@ -20,9 +20,9 @@ function renderKonbini(){
 
 document.addEventListener('click',e=>{const filter=e.target.closest('[data-food-filter]');if(filter){foodFilter=+filter.dataset.foodFilter;renderFoods();document.querySelector(`#foodDayFilters [data-food-filter="${foodFilter}"]`).focus({preventScroll:true})}const jump=e.target.closest('[data-food-jump]');if(jump){e.preventDefault();foodFilter=foods.find(f=>f.id===jump.dataset.foodJump)?.days[0]??-1;renderFoods();document.querySelector('#food-'+jump.dataset.foodJump).scrollIntoView({behavior:'smooth',block:'start'})}});
 document.addEventListener('change',e=>{if(e.target.matches('[data-snack]')){const checked=getStore('tokyo-konbini-check',{});checked[e.target.dataset.snack]=e.target.checked;save('tokyo-konbini-check',checked);renderShoppingCount()}});
-let storeFilter='all',categoryFilter='all',konbiniSort='recommended';
+let storeFilter='all',categoryFilter='all',konbiniSort='protein_percent_desc';
 const konbiniCategories={meal:'식사·주먹밥',hot:'치킨·핫스낵',side:'반찬·안주',sweet:'빵·디저트',snack:'과자',drink:'음료'};
-const konbiniSortLabels={recommended:'추천 순',protein_desc:'단백질 높은 순',protein_asc:'단백질 낮은 순',kcal_asc:'열량 낮은 순',kcal_desc:'열량 높은 순'};
+const konbiniSortLabels={protein_percent_desc:'단백질 % 높은 순',protein_desc:'단백질 g 높은 순',protein_asc:'단백질 g 낮은 순',kcal_asc:'열량 낮은 순',kcal_desc:'열량 높은 순',recommended:'추천 순'};
 function visibleKonbiniItems(){
   const entries=konbiniStores.flatMap(store=>store.items.map(item=>({store,item})))
     .map((entry,index)=>({...entry,index}))
@@ -30,8 +30,13 @@ function visibleKonbiniItems(){
   if(konbiniSort==='recommended')return entries;
   const field=konbiniSort.startsWith('protein')?'proteinG':'kcal';
   const direction=konbiniSort.endsWith('desc')?-1:1;
+  const value=entry=>{
+    const amount=konbiniNutrition[entry.item.id]?.[field];
+    if(typeof amount!=='number'||!Number.isFinite(amount))return null;
+    return konbiniSort==='protein_percent_desc'?amount/nutritionDailyReference.proteinG*100:amount;
+  };
   return entries.sort((a,b)=>{
-    const av=konbiniNutrition[a.item.id]?.[field],bv=konbiniNutrition[b.item.id]?.[field];
+    const av=value(a),bv=value(b);
     const ak=typeof av==='number'&&Number.isFinite(av),bk=typeof bv==='number'&&Number.isFinite(bv);
     if(ak!==bk)return ak?-1:1;
     return ak?(av-bv)*direction||a.index-b.index:a.index-b.index;
