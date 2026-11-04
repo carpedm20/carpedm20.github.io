@@ -1,0 +1,12 @@
+.cafe-menu-photos { margin: 18px 0; padding-top: 13px; border-top: 1px solid #e3e3df; }
+.cafe-menu-photos h6 { margin: 0 0 11px; color: #345b56; font-size: 12px; line-height: 1.7; font-weight: 500; }
+.cafe-menu-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,130px),1fr)); gap: 12px; }
+.cafe-menu-photo { min-width: 0; margin: 0; }
+.cafe-menu-photo button { position: relative; display: block; width: 100%; padding: 0; border: 1px solid #e3e3df; background: #fff; cursor: zoom-in; }
+.cafe-menu-photo img { display: block; width: 100%; height: auto; aspect-ratio: 4/3; object-fit: contain; }
+.cafe-menu-photo button > span { position: absolute; right: 5px; bottom: 5px; display: grid; place-items: center; min-width: 25px; height: 25px; background: #fff; border: 1px solid #dededb; color: #777; font-size: 12px; }
+.cafe-menu-photo figcaption { padding: 9px 0 0; overflow-wrap: anywhere; }
+.cafe-menu-photo figcaption strong { display: block; font-weight: 500; font-size: 12px; line-height: 1.7; color: #444; }
+.cafe-menu-photo figcaption > span { display: block; font-size: 10px; line-height: 1.8; color: #777; margin-top: 3px; }
+.cafe-menu-photo figcaption small { display: block; font-size: 10px; line-height: 1.8; color: #888; margin-top: 5px; }
+.cafe-menu-photo figcaption a { display: inline-flex; align-items: center; min-height: 44px; font-size: 10px; line-height: 1.7; color: #777; text-decoration: underline; text-underline-offset: 3px; }

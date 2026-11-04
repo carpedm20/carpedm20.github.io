@@ -866,7 +866,7 @@ function renderStreetSnackStops(stop,index,stops){
       <button type="button" class="street-snack-photo" data-photo="street-${snack.id}" aria-label="${esc(snack.name)} 사진 크게 보기"><img src="${esc(snack.photo.src)}" width="${snack.photo.width}" height="${snack.photo.height}" loading="lazy" decoding="async" alt="${esc(snack.photo.alt)}"><span aria-hidden="true">⤢</span></button>
       <div class="street-snack-copy"><span class="street-snack-mode">${esc(snack.category)} · ${esc(snack.area)}</span><h5>${esc(snack.name)}</h5>
       <p class="street-snack-placement">${esc(snack.placementKo)}<small>${esc(snack.walkKo)}</small></p>
-      <ul>${snack.menu.map(m=>`<li><strong>${esc(m.ko)}</strong><span lang="ja">${esc(m.jp)}</span></li>`).join('')}</ul>
+      <ul>${snack.menu.map(m=>`<li><strong>${esc(m.ko)}</strong><span lang="ja">${esc(m.jp)}</span></li>`).join('')}</ul>${renderCafeMenuPhotos(snack)}
       <p>${esc(snack.why)}</p><p class="street-snack-holiday">${esc(snack.holidayNote)}</p>
       <div class="street-snack-links"><a href="${maps(snack.query)}" target="_blank" rel="noopener noreferrer">위치 ↗</a><a href="${esc(snack.source)}" target="_blank" rel="noopener noreferrer">매장 안내 ↗</a>${snack.menuSource&&snack.menuSource!==snack.source?`<a href="${esc(snack.menuSource)}" target="_blank" rel="noopener noreferrer">메뉴 ↗</a>`:''}</div>
       </div></article>`).join('')}</div></section>`;
