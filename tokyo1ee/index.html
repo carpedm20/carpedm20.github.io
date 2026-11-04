@@ -73,7 +73,7 @@
 <link rel="stylesheet" href="assets/shopping-guide.css?v=417085ee48">
 <link rel="stylesheet" href="assets/store-gallery.css?v=1d12487175">
 <link rel="stylesheet" href="assets/trip-plan.css?v=6ea9f41045">
-<link rel="stylesheet" href="assets/editorial.css?v=a53ba64729">
+<link rel="stylesheet" href="assets/editorial.css?v=eddf3360a1">
 <link rel="stylesheet" href="assets/editorial-route.css?v=ea47412524">
 <link rel="stylesheet" href="assets/editorial-collections.css?v=b1698c36b9">
 <link rel="stylesheet" href="assets/trip-selection.css?v=0ff11b7c82">
@@ -379,7 +379,7 @@
 <script src="assets/store-photos.js?v=83261e2fbc"></script>
 <script src="assets/store-gallery.js?v=794782fe0d"></script>
 <script src="assets/shopping-guide.js?v=8674024078"></script>
-<script src="assets/trip-plan.js?v=503eddce85"></script>
+<script src="assets/trip-plan.js?v=28733dc67d"></script>
 <script src="assets/map-options.js?v=6692b68e4e"></script>
 <script src="assets/food-options.js?v=68ed0209ba"></script>
 <script src="assets/konbini-nutrition.js?v=04a17708f0"></script>
@@ -1481,7 +1481,7 @@ function renderMapList(){if(activeMapOption()){renderAlternativeMapList(activeMa
  function focusMapPoint(di,pi){const p=getMapRoute(di).points[pi];if(googleMap){googleMap.panTo({lat:p[2],lng:p[3]});googleMap.setZoom(16)}else{const frame=$('#routeMap iframe');if(frame){frame.src='https://maps.google.com/maps?q='+encodeURIComponent(p[2]+','+p[3])+'&z=16&hl=ko&output=embed'}}toast(p[0]+' · 지도 위치로 이동했습니다')}
  function syncHotelMap(){const alternate=selectedHotel===1;routePathCache.clear();for(const r of routeDays){for(const p of r.points){if(p[5]!=='호텔')continue;p[2]=alternate?35.6630:35.6565;p[3]=alternate?139.7530:139.7541;p[4]=alternate?'Super Hotel Shimbashi Karasumoriguchi Tokyo':HOTEL;p[0]=alternate?'호텔 · 신바시':'호텔 · 다이몬'}}if($('#mapDayFilters').children.length){renderMapList();renderMapCanvas()}}
  function initRouteExplorer(){
-   syncHotelMap();mapDay=getStore('tokyo-mapday',0);if(![-1,0,1,2,3,4].includes(mapDay))mapDay=0;mapOptionId=selectedPlanId(mapDay);
+   syncHotelMap();mapDay=0;day=0;foodFilter=0;mapOptionId=selectedPlanId(mapDay);
    $('#mapWalk').checked=routeShowWalk;$('#mapTransit').checked=routeShowTransit;$('#mapShowHotel').checked=routeShowHotel;$('#mapLiveRoutes').checked=routeLive;
    [['mapWalk','routeShowWalk'],['mapTransit','routeShowTransit'],['mapShowHotel','routeShowHotel']].forEach(([id,k])=>{$('#'+id).addEventListener('change',e=>{if(k==='routeShowWalk')routeShowWalk=e.target.checked;if(k==='routeShowTransit')routeShowTransit=e.target.checked;if(k==='routeShowHotel')routeShowHotel=e.target.checked;renderMapList();renderMapCanvas()})});
    $('#mapLiveRoutes').onchange=e=>{routeLive=e.target.checked;if(routeLive&&!googleMap){$('#googleMapConfig').open=true;mapStatus('실제 경로 계산을 사용하려면 Google Maps API 키를 연결하세요.');}renderMapList();renderMapCanvas()};

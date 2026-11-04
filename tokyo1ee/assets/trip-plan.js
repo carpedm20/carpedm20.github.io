@@ -1,5 +1,5 @@
 /* One shared trip plan drives the sidebar, timeline, map, meals and hotel views. */
-const planChoices=(()=>{try{const old=JSON.parse(localStorage.getItem('tokyo-plan-v1')||'{}'),p=JSON.parse(localStorage.getItem('tokyo-plan-v2')||'{}');return {night:['base',...shortStayOptions.map(o=>o.id)].includes(p.night)?p.night:'train',shops:['base','fashion','local','books','east'].includes(p.shops||old.shops)?(p.shops||old.shops):'base'}}catch{return {night:'train',shops:'base'}}})();
+const planChoices=(()=>{try{const old=JSON.parse(localStorage.getItem('tokyo-plan-v1')||'{}'),p=JSON.parse(localStorage.getItem('tokyo-plan-v2')||'{}');return {night:['base',...shortStayOptions.map(o=>o.id)].includes(p.night)?p.night:'base',shops:['base','fashion','local','books','east'].includes(p.shops||old.shops)?(p.shops||old.shops):'base'}}catch{return {night:'base',shops:'base'}}})();
 const planLabels={base:'기본 일정',...Object.fromEntries(shortStayOptions.map(o=>[o.id,o.label+' · 3시간'])),fashion:'아오야마·하라주쿠 디자인',local:'하타가야·우에하라 작은 숍',books:'에비스·나카메구로 책과 옷',east:'동쪽 도쿄 아트·책'};
 const planChanges={
  ...Object.fromEntries(shortStayOptions.map(o=>[o.id,{skip:'1/3 고탄다 플리마켓 · 고탄다 간식',add:'짐 맡기기 → 긴시초 SARA '+o.room.slice(0,3)+'호 10:00–13:00',join:'13:50 본숙소 짐 찾기 → 약 15:00 하네다 → 19:30 출발 가정'}])),
