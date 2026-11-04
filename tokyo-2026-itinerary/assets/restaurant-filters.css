@@ -1,0 +1,16 @@
+/* Same quiet, native checkbox treatment as the route map controls. */
+.food-kind-filters{min-width:0;margin:14px 0 16px;padding:8px 14px 10px;border:1px solid var(--border,#dedcde);background:#fff;color:var(--ink,#282629)}
+.food-kind-filters legend{padding:0 6px;font-size:11px;font-weight:600;letter-spacing:.02em}
+.food-kind-options{display:flex;flex-wrap:wrap;gap:0 20px;align-items:center}
+.food-kind-options label{display:flex;align-items:center;gap:6px;min-height:44px;font-size:11px;font-weight:400;color:#777;cursor:pointer}
+.food-kind-options input{width:14px;height:14px;margin:0;accent-color:#805a8b;flex:none}
+.food-kind-options input:focus-visible{outline:2px solid #805a8b;outline-offset:3px}
+.food-kind-options label>span{display:flex;align-items:center;gap:5px}
+.food-kind-options small{font-size:10px;color:#969096;font-variant-numeric:tabular-nums}
+.food-kind-options label:has(input:checked){color:var(--ed-purple,#805a8b)}
+.food-kind-options label.is-unavailable{opacity:.45;cursor:default}
+.food-kind-footer{display:flex;align-items:center;justify-content:space-between;gap:8px;border-top:1px solid #eee9ed;padding-top:6px}
+.food-kind-footer p{margin:0;font-size:10px;line-height:1.7;color:#8a8188}
+.food-kind-footer .smallbtn{min-height:44px;flex:none;font-size:10px;font-weight:400;border-radius:0}
+@media(max-width:760px){.food-kind-filters{padding:6px 10px 9px}.food-kind-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 8px}.food-kind-options label{font-size:10px;min-width:0}.food-kind-options label>span{flex-wrap:wrap;gap:2px 4px}.food-kind-footer{align-items:flex-start;flex-direction:column}.food-kind-footer .smallbtn{align-self:flex-end}}
+@media print{.food-kind-filters{display:none}}

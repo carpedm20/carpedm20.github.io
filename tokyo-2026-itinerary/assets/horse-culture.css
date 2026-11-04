@@ -1,0 +1,5 @@
+.horse-culture-card{display:grid;grid-template-columns:minmax(160px,.8fr) minmax(0,1.5fr)}
+.horse-culture-card .street-snack-photo{height:auto;min-height:180px;align-self:start;aspect-ratio:520/270}
+.horse-culture-card .street-snack-photo img{height:100%;object-fit:cover}
+.horse-culture-card .street-snack-holiday strong{display:block;margin-bottom:6px}
+@media(max-width:760px){.horse-culture-card{grid-template-columns:minmax(0,1fr)}}
