@@ -1,0 +1,208 @@
+/* Dates, movement and planning: quiet rules and small exhibition labels. */
+.editorial-page .daytabs{gap:0;padding:0 0 16px;margin-bottom:10px;scrollbar-width:thin;scrollbar-color:#d3ced2 transparent}
+.editorial-page .day-tab{border:1px solid #dededb;border-right:0;border-radius:0;padding:15px 16px;min-width:132px;min-height:90px;gap:7px;background:#fff;color:#383838;box-shadow:none;transition:background .15s,border-color .15s}
+.editorial-page .day-tab:last-child{border-right:1px solid #dededb}
+.editorial-page .day-tab:nth-child(1){--day-ink:#a74e70;--day-paper:#fcf3f6}
+.editorial-page .day-tab:nth-child(2){--day-ink:#a3674b;--day-paper:#fcf6f1}
+.editorial-page .day-tab:nth-child(3){--day-ink:#805a8b;--day-paper:#f7f3fa}
+.editorial-page .day-tab:nth-child(4){--day-ink:#427b76;--day-paper:#f1f8f6}
+.editorial-page .day-tab:nth-child(5){--day-ink:#657898;--day-paper:#f2f5fa}
+.editorial-page .day-tab:hover{background:#fafafa}
+.editorial-page .day-tab.active{background:var(--day-paper);color:#262626;border-color:#dededb;box-shadow:inset 0 2px 0 var(--day-ink)}
+.editorial-page .day-tab .tab-date{font-size:10px;font-weight:500;letter-spacing:.6px;opacity:1;color:var(--day-ink)}
+.editorial-page .day-tab strong{font-size:13px;font-weight:500;letter-spacing:-.2px}
+.editorial-page .day-tab .tab-sub{color:#777;font-size:10px;opacity:1;line-height:1.6}
+.editorial-page .timeline-wrap{border:0;border-radius:0;background:white;box-shadow:none;padding:0;min-width:0}
+.editorial-page .day-head{padding:10px 0 20px;border-bottom:1px solid #dededb;align-items:flex-start}
+.editorial-page .day-head h3{font-size:20px;font-weight:500;letter-spacing:-.5px;line-height:1.5}
+.editorial-page .day-head p{font-size:12px;line-height:1.8;color:#737373}
+.editorial-page .crowd{font-size:10px;font-weight:400;background:#fff;border:1px solid #e6e2e3;border-radius:0;padding:6px 8px}
+.editorial-page .crowd.low{color:#427b76;background:#f7fbfa}
+.editorial-page .crowd.medium{color:#90674f;background:#fcf9f6}
+.editorial-page .crowd.high{color:#a74e70;background:#fcf6f8}
+.editorial-page .crowd .dot{width:4px;height:4px;border-radius:0}
+.editorial-page .stop{grid-template-columns:48px 16px minmax(0,1fr);gap:10px;min-height:80px}
+.editorial-page .stop-time{font-size:11px;font-weight:500;color:#805a8b;letter-spacing:.15px;padding-top:14px}
+.editorial-page .rail{padding-top:18px}
+.editorial-page .rail span{width:9px;height:9px;margin-left:3px;border:1px solid #c8c4ca;border-radius:0;background:white}
+.editorial-page .stop:not(:last-child) .rail:after{left:7px;top:27px;border-left:1px solid #e6e4e6}
+.editorial-page .stop.featured .rail span{border-color:#a74e70;background:#f7e8ef}
+.editorial-page .stop-body{padding:9px 0 23px;min-width:0}
+.editorial-page .stop-title strong{font-size:14px;font-weight:500;line-height:1.65;letter-spacing:-.2px}
+.editorial-page .mini-badge{font-size:9px;font-weight:400;border:1px solid #e5e3e4;border-radius:0;background:#fff;color:#797379;padding:2px 5px}
+.editorial-page .mini-badge.warning{color:#966f4d;background:#fcf9f5;border-color:#e9e1d7}
+.editorial-page .mini-badge.book{color:#427b76;background:#f7fbfa;border-color:#dce7e5}
+.editorial-page .stop-summary{font-size:12px;line-height:1.85;color:#737373;margin-top:7px}
+.editorial-page .stop-actions{gap:14px;margin-top:8px}
+.editorial-page .stop-actions a{font-size:11px;font-weight:400;min-height:44px;color:#626262;text-decoration:underline;text-decoration-color:#cfcdcf;text-underline-offset:4px}
+.editorial-page .stop-actions .booklink{color:#805a8b}
+.editorial-page .stop-actions a:hover{color:#a74e70;text-decoration-color:currentColor}
+.editorial-page .leg{border:1px solid #e8e6e8;border-radius:0;background:#fbfafb;color:#747174;padding:7px 9px;font-size:10px;line-height:1.75}
+.editorial-page .leg b{font-weight:500;color:#4b484b}
+.editorial-page .stop.shopping-block{padding-top:20px;border-top:1px solid #dededb}
+.editorial-page .stop.shopping-block>.stop-time{border-radius:0;background:#faf6fb;color:#805a8b;font-weight:500;border:1px solid #e5dce8}
+.editorial-page .checker{border-radius:1px;border:1px solid #bbb8bc;background:white}
+.editorial-page .checker:checked{background:#a74e70;border-color:#a74e70;box-shadow:inset 0 0 0 3px white}
+.editorial-page .progress{font-size:11px;font-weight:400;color:#777}
+.editorial-page .context-stack{gap:20px}
+.editorial-page .context-card{padding:20px;border:1px solid #dededb;border-radius:0;background:#fff;box-shadow:none}
+.editorial-page .context-head{font-size:12px;font-weight:500;line-height:1.5;color:#444;margin-bottom:14px}
+.editorial-page .context-head .ic{stroke-width:1.3}
+.editorial-page .context-card p,.editorial-page .context-card li{font-size:12px;line-height:1.9;color:#747474}
+.editorial-page .context-card .big-number{font-size:25px;font-weight:400;letter-spacing:-.8px;color:#805a8b}
+.editorial-page .context-card .small-caption{font-size:10px;color:#858085;line-height:1.7}
+.editorial-page .context-card.soft-orange{background:#fff;border-top:2px solid #dfb1c3}
+.editorial-page .weather-icon{width:24px;height:24px;border:1px solid #e9dce2;background:#fcf7f9;border-radius:0;color:#a74e70}
+.editorial-page .tip{background:#fafafa;border:1px solid #eceaec;border-radius:0;color:#777;font-size:11px;line-height:1.85;padding:10px;margin-top:15px}
+.editorial-page .notice{background:#fff;border:1px solid #e3dce6;border-left:2px solid #b69bbd;border-radius:0;box-shadow:none;padding:16px 18px;margin:20px 0}
+.editorial-page .notice p{font-size:12px;line-height:1.9;color:#777}
+.editorial-page .notice strong{font-weight:500;color:#805a8b}
+
+/* A single set of planning choices remains in its existing location. */
+.editorial-page .trip-plan-details{border:0;border-top:1px solid #dededb;border-radius:0;background:#fff;padding:16px 0 0;margin:24px 0 0}
+.editorial-page .trip-plan-details>summary{font-size:13px;font-weight:500;line-height:1.6;gap:4px;min-height:44px;color:#333}
+.editorial-page .trip-plan-details summary span{font-size:10px;font-weight:400;color:#949094}
+.editorial-page .plan-help{font-size:11px;line-height:1.85;color:#858085;margin:10px 0}
+.editorial-page .trip-plan-details fieldset{margin:22px 0 0;padding-top:14px;border:0;border-top:1px solid #efedef;min-width:0}
+.editorial-page .trip-plan-details legend{font-size:11px;font-weight:500;color:#805a8b;line-height:1.7;padding-right:8px;margin-bottom:6px}
+.editorial-page .trip-plan-details label{padding:10px 5px;gap:8px;min-height:44px;border:1px solid transparent;border-radius:0;font-size:11px;line-height:1.65;font-weight:400}
+.editorial-page .trip-plan-details label:has(input:checked){background:#fcf5f8;border-color:#ecd6df;color:#743e53}
+.editorial-page .trip-plan-details input{width:15px;height:15px;margin-top:2px;accent-color:#a74e70}
+.editorial-page .trip-plan-details label small{font-size:10px;line-height:1.75;color:#888187;margin-top:4px}
+.editorial-page .trip-plan-details label:has(input:focus-visible){outline:2px solid #805a8b;outline-offset:2px}
+.editorial-page .trip-plan-details .room-more-options{border-top:1px solid #eee9ed;margin-top:10px;padding-top:6px}
+.editorial-page .trip-plan-details .room-more-options>summary{font-size:11px;font-weight:400;line-height:1.8;min-height:44px;align-content:center;color:#727072}
+.editorial-page .plan-room-gallery{display:inline-flex;align-items:center;min-height:44px;font-size:11px;color:#805a8b;text-decoration:underline;text-underline-offset:4px}
+.editorial-page .plan-status{padding:12px 0;border:0;border-top:1px solid #dededb;border-bottom:1px solid #dededb;border-radius:0;background:#fff;color:#7f787e;font-size:11px;font-weight:400;line-height:1.9}
+.editorial-page .plan-flow{border:1px solid #e2dde4;border-radius:0;padding:18px;background:#fff;font-size:12px;line-height:1.8}
+.editorial-page .plan-flow>b{font-weight:500;color:#805a8b}
+.editorial-page .plan-flow small{font-size:10px;font-weight:400;color:#8b818d}
+.editorial-page .flow-removed{border:1px solid #e7e5e7;border-radius:0;background:#fafafa;color:#928d92;padding:11px 13px}
+.editorial-page .flow-removed span{text-decoration-color:#cfc7cf}
+.editorial-page .flow-selected{border:1px solid #decedf;border-radius:0;background:#faf6fb;color:#72537d;font-weight:500;padding:13px}
+.editorial-page .flow-arrow{color:#aa93af;font-size:11px;padding:7px}
+.editorial-page .flow-join{border:1px solid #e7e3e8;border-radius:0;background:#fff;color:#777;padding:11px 13px}
+.editorial-page .plan-flow p{font-size:10px;line-height:1.8;color:#928a94}
+
+/* Map controls keep the live map itself and its native controls intact. */
+.editorial-page .route-explorer{border:1px solid #dededb;border-radius:0;background:#fff;box-shadow:none}
+.editorial-page .route-header{padding:20px;border-bottom:1px solid #dededb;align-items:flex-start}
+.editorial-page .route-header strong{font-weight:500;font-size:13px}
+.editorial-page .route-header .route-subtitle{font-size:11px;line-height:1.8;color:#818181}
+.editorial-page .route-status{font-weight:400;font-size:10px;border:1px solid #dce7e5;border-radius:0;background:#f8fbfa;color:#427b76;padding:6px 8px}
+.editorial-page .map-days{gap:0;padding:16px 20px 10px}
+.editorial-page .map-day{border:1px solid #dededb;border-radius:0;background:#fff;min-height:44px;font-size:11px;font-weight:400;color:#707070;padding:10px 14px}
+.editorial-page .map-day+.map-day{border-left:0}
+.editorial-page .map-day.active{border-color:#dededb;background:#f7f3fa;color:#805a8b;box-shadow:inset 0 -2px 0 #a184ab}
+.editorial-page .map-controls{padding:10px 20px 18px}
+.editorial-page .map-controls label{font-size:11px;font-weight:400;color:#777;min-height:44px}
+.editorial-page .map-controls input{accent-color:#805a8b}
+.editorial-page .map-live-label{color:#427b76!important}
+.editorial-page .map-live-label input{accent-color:#427b76}
+.editorial-page .map-api-settings .smallbtn{background:#fff;border:1px solid #dededb;border-radius:0;font-size:11px;font-weight:400;color:#666;min-height:44px}
+.editorial-page .map-body{border-color:#dededb}
+.editorial-page .map-canvas{background:#f2f3f1}
+.editorial-page .map-floating{border:1px solid #dededb;border-radius:0;background:#fffffff2;box-shadow:none;color:#4e4e4e;font-size:10px;font-weight:500;padding:9px 11px}
+.editorial-page .map-floating small{font-weight:400;color:#818181}
+.editorial-page .map-zoom{border:1px solid #dededb;border-radius:0;background:white;box-shadow:none;color:#555;min-height:44px;font-size:11px;font-weight:400}
+.editorial-page .map-aside{border-color:#dededb}
+.editorial-page .map-aside-head{padding:18px;border-color:#dededb}
+.editorial-page .map-aside-head strong{font-size:13px;font-weight:500;letter-spacing:0}
+.editorial-page .map-aside-head p{font-size:11px;line-height:1.75;color:#818181}
+.editorial-page .route-list{padding:10px 12px;scrollbar-color:#d7d4d7 #fff}
+.editorial-page .route-point{border-radius:0;min-height:48px;padding:10px 7px}
+.editorial-page .route-point:hover,.editorial-page .route-point:focus-visible{background:#faf7fb}
+.editorial-page .route-index{width:25px;height:25px;border:1px solid #ddd5df;border-radius:0;background:#fff;color:#805a8b;font-size:10px;font-weight:500}
+.editorial-page .route-point strong{font-size:12px;font-weight:500;line-height:1.6}
+.editorial-page .route-point small{font-size:10px;color:#8b858b;line-height:1.7}
+.editorial-page .route-leg{font-size:10px;line-height:1.7;color:#8b858b;border-left-width:1px;border-color:#ded7df;margin-left:19px}
+.editorial-page .route-leg a{font-weight:400;color:#805a8b;min-height:44px;display:inline-flex;align-items:center;text-decoration:underline;text-underline-offset:3px}
+.editorial-page .map-aside-bottom{padding:16px 18px;background:#fff;border-color:#dededb}
+.editorial-page .route-note{font-size:10px;line-height:1.8;color:#8a858a}
+.editorial-page .map-google-link{background:#fff;color:#805a8b;border:1px solid #dcd3df;border-radius:0;font-size:11px;font-weight:400;min-height:44px;line-height:1.7}
+.editorial-page .map-google-link:hover{background:#f8f5fa}
+.editorial-page .map-option-notice{font-size:11px;color:#777;line-height:1.9}
+.editorial-page .map-option-return{padding:14px;border:1px solid #e5dfe8;border-radius:0;background:#fcfafc;color:#777;font-size:12px;line-height:1.85}
+.editorial-page .map-option-return a,.editorial-page .map-option-detail{font-size:11px;font-weight:400;color:#805a8b;min-height:44px}
+.editorial-page .map-option-stop img{border-radius:0;border:1px solid #e5e3e5}
+.editorial-page .map-option-tabs button,.editorial-page .map-option-choices button,.editorial-page .preview-map-button{border-radius:0;border-color:#dededb;background:#fff;color:#777;font-size:11px;font-weight:400}
+.editorial-page .map-option-tabs button[aria-pressed=true],.editorial-page .map-option-choices button[aria-pressed=true]{background:#faf5fb;color:#805a8b;border-color:#d9c9df}
+.editorial-page .google-key-details{background:#fafafa;border-color:#dededb;font-size:11px;line-height:1.9;color:#888}
+.editorial-page .google-key-details summary{font-size:11px;font-weight:400;color:#777;min-height:44px;align-content:center}
+.editorial-page .google-key-row input{border-radius:0;border-color:#dededb;background:white}
+.editorial-page .google-key-row button{border:1px solid #dededb;border-radius:0;background:#fff;color:#805a8b;font-weight:400;min-height:44px}
+.editorial-page .google-route-warning{background:#fcf8fa;border-color:#e8dce2;color:#9b6179;font-size:11px;line-height:1.8}
+.editorial-page .map-api-overlay>div{border:1px solid #dededb;border-radius:0;background:#fff;box-shadow:none}
+.editorial-page .map-api-overlay strong{font-weight:500}
+.editorial-page .map-api-overlay button{border:1px solid #d9c9df;border-radius:0;background:#faf5fb;color:#805a8b;font-weight:400;min-height:44px}
+.editorial-page .route-legend{font-size:10px;line-height:1.8;color:#888;padding-top:5px}
+.editorial-page .legend-stroke{border-top-width:1px;border-top-color:#7f928b}
+.editorial-page .real-route-time{color:#427b76;font-weight:400}
+
+/* End matter: an index of sources, not another dashboard card. */
+.editorial-page .source-wrap{padding:18px 0 0;border:0;border-top:1px solid #dededb;border-radius:0;background:#fff;box-shadow:none}
+.editorial-page .source-wrap p{font-size:12px;line-height:1.9;color:#777;max-width:780px}
+.editorial-page .source-wrap strong{font-weight:500;color:#555}
+.editorial-page .sources{gap:0 26px}
+.editorial-page .sources a{font-size:11px;line-height:1.8;min-height:44px;padding:10px 0;border-bottom:1px solid #eeecee;gap:12px;color:#787278;overflow-wrap:anywhere}
+.editorial-page .sources a:hover{color:#805a8b}
+.editorial-page .photo-credits{padding-top:18px;border-top:1px solid #dededb;color:#888;font-size:11px;line-height:1.9}
+.editorial-page .photo-credits summary{font-weight:400;min-height:44px;align-content:center}
+.editorial-page .toast{border:1px solid #d4cad7;border-radius:0;background:#fff;color:#72537d;box-shadow:0 5px 25px #28202d12;font-size:12px;font-weight:400}
+
+@media(max-width:760px){
+ .editorial-page .daytabs{margin-bottom:4px;padding-bottom:13px}
+ .editorial-page .day-tab{min-width:124px;min-height:88px;padding:13px 12px}
+ .editorial-page .day-head{padding:10px 0 17px;gap:12px}
+ .editorial-page .day-head h3{font-size:18px}
+ .editorial-page .day-head p{font-size:12px}
+ .editorial-page .timeline-wrap{padding:0}
+ .editorial-page .stop{grid-template-columns:40px 13px minmax(0,1fr);gap:8px}
+ .editorial-page .stop-time{font-size:10px;line-height:1.7}
+ .editorial-page .rail span{margin-left:1px}
+ .editorial-page .stop:not(:last-child) .rail:after{left:5px}
+ .editorial-page .stop-title strong{font-size:14px}
+ .editorial-page .stop-body{padding-bottom:24px}
+ .editorial-page .stop-summary{font-size:12px;line-height:1.9}
+ .editorial-page .stop-actions{gap:12px}
+ .editorial-page .stop-actions a{font-size:11px}
+ .editorial-page .stop.shopping-block{display:block;padding:20px 0 26px}
+ .editorial-page .stop.shopping-block>.stop-time{font-size:10px;padding:4px 8px;margin-bottom:12px}
+ .editorial-page .stop.shopping-block>.stop-body{padding:0}
+ .editorial-page .context-stack{gap:14px}
+ .editorial-page .context-card{padding:18px}
+ .editorial-page .context-card .big-number{font-size:24px}
+ .editorial-page .trip-plan-details{padding:12px 14px;margin:0 0 20px;border:1px solid #dededb}
+ .editorial-page .trip-plan-details>summary{font-size:13px}
+ .editorial-page .trip-plan-details legend{font-size:12px}
+ .editorial-page .trip-plan-details label{font-size:12px;padding:12px 7px}
+ .editorial-page .trip-plan-details label small{font-size:11px}
+ .editorial-page .trip-plan-details input{width:17px;height:17px}
+ .editorial-page .plan-help{font-size:11px}
+ .editorial-page .plan-status{font-size:10px;line-height:1.9;margin-bottom:20px}
+ .editorial-page .plan-flow{padding:14px}
+ .editorial-page .route-header{padding:16px;flex-wrap:wrap}
+ .editorial-page .map-days{padding:12px 12px 8px}
+ .editorial-page .map-day{font-size:11px;padding:9px 12px}
+ .editorial-page .map-controls{padding:8px 12px 14px}
+ .editorial-page .map-controls .left{gap:6px 12px}
+ .editorial-page .map-controls label{min-height:44px}
+ .editorial-page .map-aside-head{padding:15px}
+ .editorial-page .map-aside-bottom{padding:15px}
+ .editorial-page .route-list{padding:8px 10px}
+ .editorial-page .route-point strong{font-size:12px}
+ .editorial-page .route-leg a{min-height:44px}
+ .editorial-page .google-key-row{flex-wrap:wrap}
+ .editorial-page .google-key-row input{flex:1 1 100%;min-height:44px;font-size:16px}
+ .editorial-page .google-key-row button{flex:1}
+ .editorial-page .notice{padding:14px}
+ .editorial-page .source-wrap{padding-top:14px}
+ .editorial-page .sources{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){.editorial-page .day-tab{transition:none}}
+
+.editorial-page .route-pop{font-family:inherit;color:#555}.editorial-page .route-pop strong{font-weight:500}.editorial-page .route-pop a{color:#805a8b;font-weight:400}.editorial-page .route-pop small{color:#888}
+.editorial-page .map-controls .smallbtn{min-height:44px;border:1px solid #dededb;border-radius:0;background:#fff;color:#666;font-size:11px;font-weight:400;padding:10px 12px}
+.editorial-page .trip-plan-details>summary{position:relative;padding-right:23px}
+.editorial-page .trip-plan-details>summary:after{content:'+';position:absolute;right:2px;top:9px;font-size:18px;line-height:24px;font-weight:400;color:#a74e70}
+.editorial-page .trip-plan-details[open]>summary:after{content:'−'}

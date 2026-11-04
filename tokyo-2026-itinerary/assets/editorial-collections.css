@@ -1,0 +1,377 @@
+/* Photographs and choices as an open collection: white paper, quiet captions,
+   fine rules and enough room to look. Loaded after the original components. */
+
+.trip-photo,
+.shopping-card,
+.store-option-card,
+.restaurant-card,
+.konbini-card,
+.discovery-card,
+.hotel-card,
+.overnight-card {
+  border: 1px solid #dededb;
+  border-radius: 0;
+  background: #fff;
+  box-shadow: none;
+}
+
+.trip-photo { background: #fff; }
+.photo-open { background: #fff; }
+.photo-open img { transition: none; }
+.photo-open:hover img { transform: none; }
+.trip-photo figcaption { padding: 11px 12px; line-height: 1.75; }
+.trip-photo figcaption strong { font-weight: 500; color: #303030; }
+.trip-photo figcaption span { color: #777; }
+.trip-photo figcaption a { color: #777; text-decoration-color: #c7c7c2; }
+.photo-enlarge,
+.shopping-photo span,
+.shop-mood-photo > span,
+.store-photo-expand,
+.konbini-product-photo > span {
+  border: 1px solid #d5d5d0;
+  border-radius: 0;
+  color: #555;
+  background: #fffffff0;
+  box-shadow: none;
+  font-weight: 400;
+}
+.photo-enlarge { padding: 2px 6px; font-size: 15px; }
+
+/* Images remain beside the activity or item they describe. */
+.timeline-photo-label { color: #745d7e; font-weight: 500; margin-top: 24px; }
+.timeline-photo-label span { color: #858585; }
+.timeline-photo-grid { gap: 14px; margin-bottom: 18px; }
+.timeline-photo-grid .trip-photo { border-color: #e1e1de; }
+.timeline-photo-grid figcaption strong { font-weight: 500; }
+.timeline-food-link,
+.timeline-snacks > a { color: #8e576d; font-weight: 500; }
+.timeline-snacks {
+  border: 1px solid #dededb;
+  border-radius: 0;
+  background: #fff;
+  padding: 20px;
+  margin: 24px 0;
+}
+.timeline-snacks h4 { font-size: 15px; font-weight: 500; }
+.timeline-snacks > p { color: #727272; }
+
+/* Shopping: the clothing strip stays a single horizontal row. */
+.stop-shopping { border-top-color: #dededb; margin: 22px 0; padding-top: 20px; }
+.stop-shopping-heading { gap: 8px 14px; }
+.stop-shopping-heading strong { color: #333; font-weight: 500; font-size: 14px; }
+.stop-shopping-heading span { color: #858585; }
+.stop-shopping-note {
+  padding: 13px 0;
+  border-radius: 0;
+  background: transparent;
+  border-bottom: 1px solid #e5e5e1;
+  color: #727272;
+}
+.shop-activity-note { color: #727272; line-height: 1.9; margin: 12px 0 22px; }
+.shopping-mood { margin: 20px 0 28px; }
+.shopping-mood-heading strong { font-weight: 500; color: #805a8b; }
+.shopping-mood-heading span { color: #858585; }
+.shop-mood-strip { gap: 12px; padding-bottom: 12px; scrollbar-color: #c9c6cd #f4f3f5; }
+.shop-mood-photo { border-radius: 0; border-color: #dededb; flex-basis: 136px; }
+.shop-mood-photo img { height: 175px; }
+.store-gallery-help { color: #858585; font-size: 11px; margin-top: 22px; }
+.store-option-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 20px; margin-top: 18px; }
+.store-option-copy { padding: 16px 15px 10px; }
+.store-option-tag { color: #805a8b; font-size: 10px; font-weight: 400; }
+.store-option-card h4 { color: #262626; font-weight: 500; font-size: 15px; letter-spacing: -.3px; margin: 9px 0; }
+.store-option-area { color: #818181; font-size: 11px; line-height: 1.8; }
+.store-option-links { gap: 15px; }
+.store-option-links a { color: #686868; font-weight: 400; text-decoration: underline; text-decoration-color: #c9c9c5; text-underline-offset: 4px; }
+.store-gallery,
+.store-photo-open { background: #fafafa; }
+.store-gallery-tools { background: #fff; border-bottom-color: #dededb; padding-left: 13px; }
+.store-photo-count { color: #888; font-size: 10px; }
+.store-gallery-nav button { color: #555; font-weight: 400; }
+.store-photo-expand { width: 25px; height: 25px; font-size: 15px; }
+.store-option-card .source-badge,
+.source-badge,
+.source-badge.hypemaps {
+  min-height: 32px;
+  padding: 5px 7px;
+  border: 1px solid #ddd2e2;
+  border-radius: 0;
+  color: #805a8b;
+  background: #fff;
+  font-weight: 400;
+  font-size: 10px;
+}
+.source-badge.hypemaps { border-color: #cedfdc; color: #427b76; }
+.shop-item-tips { border-top-color: #dededb; padding-top: 12px; margin-top: 24px; }
+.shop-item-tips > summary { color: #666; font-weight: 500; }
+.shop-item-tips h4,
+.shop-item-tips li > strong { color: #333; font-weight: 500; }
+.shop-item-tips li { border-bottom-color: #ecece8; padding: 14px 0; }
+.shop-item-tips li > p,
+.shop-item-tips li > small { color: #777; }
+.shop-item-tips li > a { color: #805a8b; }
+.shopping-photo { background: #fff; }
+.shopping-copy { padding: 17px; }
+.shopping-copy h4 { font-weight: 500; }
+.shopping-copy small,
+.shopping-copy p { color: #727272; }
+.shopping-status { color: #777; background: #fafafa; padding: 10px; border-radius: 0; }
+.shopping-copy a,
+.venue-guide-source { color: #805a8b; }
+.category-guide-label { background: #f8f6f9; border-bottom: 1px solid #e1dbe5; border-radius: 0; }
+
+/* Food reads like a set of photographs and annotations, with quieter controls. */
+.restaurants { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 22px; }
+.restaurant-card { padding: 18px; min-width: 0; }
+.restaurant-card > .trip-photo { margin: -18px -18px 19px; border-radius: 0; border-bottom: 1px solid #dededb; }
+.restaurant-pill { padding: 3px 0; border-radius: 0; background: transparent; color: #a74e70; font-weight: 400; }
+.rating { color: #666; font-size: 11px; font-weight: 500; }
+.rating svg { color: #ab8997; }
+.restaurant-card h3,
+.food-guide-card h3 { color: #262626; font-weight: 500; font-size: 18px; line-height: 1.55; }
+.restaurant-card p,
+.restaurant-card .place { color: #727272; }
+.food-guide-intro { color: #727272; line-height: 1.95; }
+.food-meta { color: #a74e70; font-weight: 400; line-height: 1.8; }
+.food-list-status { background: #fff; border: 1px solid #dededb; border-radius: 0; padding: 16px 18px; color: #333; }
+.food-list-status strong { font-weight: 500; }
+.food-list-status span { color: #777; }
+.food-day-filters .smallbtn,
+.store-filters .smallbtn { border: 1px solid #dededb; border-radius: 0; background: #fff; color: #777; font-weight: 400; }
+.food-day-filters .smallbtn.active,
+.food-day-filters .smallbtn[aria-pressed=true],
+.store-filters .smallbtn.active,
+.store-filters .smallbtn[aria-pressed=true] { border-color: #cda6b7; color: #a74e70; background: #fcf8fa; }
+.food-day-filters .smallbtn:hover,
+.store-filters .smallbtn:hover { border-color: #b59da8; }
+.food-route-hint { background: #faf7f9; border: 1px solid #e8dce1; border-radius: 0; }
+.food-guide-card .food-route-hint { color: #8e576d !important; }
+.quick-food-links { gap: 16px; border-bottom: 1px solid #dededb; padding-bottom: 7px; margin: 20px 0; }
+.quick-food-links a { background: transparent; border-radius: 0; color: #777; padding: 8px 0; text-decoration: underline; text-underline-offset: 4px; text-decoration-color: #d1c4ca; }
+.food-hours { color: #777; }
+.food-hours strong { color: #444; font-weight: 500; }
+.food-caveat,
+.rating-note { color: #8a7a80; }
+.order-heading,
+.menu-photo-heading { font-weight: 500; color: #333; border-color: #dededb; }
+.order-heading span,
+.menu-photo-heading span { color: #888; }
+.order-list { margin-bottom: 20px; }
+.order-list li { padding: 11px 0; border-bottom-color: #e8e8e4; }
+.order-list strong { font-weight: 500; }
+.order-list span { color: #777; }
+.menu-photo-grid { gap: 10px; margin: 15px 0 22px; }
+.menu-photo-grid .photo-open img { height: 150px; }
+.menu-photo-grid figcaption strong { font-weight: 500; }
+.food-links { border-top-color: #dededb; gap: 14px; }
+.food-links a { color: #777; font-weight: 400; }
+.food-links .reserve,
+.restaurant-foot .reserve { border: 1px solid #d7c9cf; border-radius: 0; color: #885569; background: #fff; font-weight: 400; }
+.restaurant-foot .reserve:hover { color: #262626; background: #faf7f8; }
+.portion-tip { background: #fafafa; border-left: 1px solid #d8d8d3; border-radius: 0; }
+.drink-pair { background: #fff; border: 1px solid #dededb; border-radius: 0; padding: 14px; }
+.drink-pair h4 { color: #a74e70; font-size: 13px; font-weight: 500; }
+.drink-choice { border-bottom-color: #dededb; }
+.drink-choice strong { font-weight: 500; }
+.drink-choice > span[lang],
+.drink-pair > small { color: #777; }
+.drink-rank { padding: 3px 0; background: transparent; border-radius: 0; color: #a74e70; font-weight: 400; }
+.drink-pair > a,
+.day-drink { color: #a74e70; font-weight: 400; }
+.drink-choice > .trip-photo,
+.beer-pair > .trip-photo { border-color: #e4e4df; }
+.order-copy,
+.order-help button,
+.phrase-buttons button { border-color: #d4d4cf; border-radius: 0; background: #fff; color: #555; font-weight: 400; }
+.order-copy:hover,
+.phrase-buttons button:hover { border-color: #ad91a0; background: #fcfafb; }
+.order-help p { color: #333 !important; }
+.day-food-card { background: #fff; border-color: #dededb; }
+.day-food-pick { border-bottom-color: #dededb; margin-bottom: 20px; padding-bottom: 18px; }
+.day-food-pick > .trip-photo { border-radius: 0; }
+.day-food-number { background: #fff; border: 1px solid #d9cbd2; border-radius: 0; color: #a74e70; font-weight: 400; }
+.day-food-pick strong { font-weight: 500; }
+.day-food-pick small,
+.day-food-pick em { color: #777; }
+.day-konbini { background: #fafafa; border: 1px solid #e2e2de; border-radius: 0; padding: 14px; }
+.day-konbini > strong { font-weight: 500; }
+.day-konbini a { color: #a74e70; font-weight: 400; }
+.day-snack-photos { gap: 9px; }
+
+/* Convenience-store products keep a consistent column count under filters. */
+.konbini-section { margin-top: 44px; padding-top: 28px; border-top-color: #dededb; }
+.konbini-section h3 { font-size: 23px; font-weight: 500; }
+.konbini-lead { color: #727272; }
+.konbini-lead strong { font-weight: 500; color: #444; }
+.konbini-lead a { color: #a74e70; text-decoration-color: #d8c2cc; }
+.konbini-evidence { color: #777; }
+.konbini-evidence summary { color: #777; font-weight: 500; }
+.konbini-evidence a { color: #a74e70; }
+#konbiniCards { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 22px; }
+#konbiniCards .konbini-product-card { border: 1px solid #dededb; border-radius: 0; padding: 16px; background: #fff; }
+.konbini-brand { font-weight: 500; font-size: 10px; letter-spacing: .3px; }
+.konbini-product-photo { margin: 4px 0 10px; }
+.konbini-product-photo img { height: 190px; }
+#konbiniCards .shopping-item { border-color: #e3e3df; }
+#konbiniCards .shopping-item strong { font-weight: 500; font-size: 14px; }
+#konbiniCards .shopping-item small,
+#konbiniCards .shopping-item span[lang] { color: #777; }
+#konbiniCards .product-source { color: #888; font-weight: 400; text-decoration-color: #d1d1cb; }
+.shopping-count { color: #888; font-size: 11px; }
+.beer-pair { background: #fafafa; border: 1px solid #e2e2dd; border-radius: 0; }
+.beer-pair strong { color: #555; font-weight: 500; }
+.beer-pair p { color: #777; }
+.field-help { border-color: #dededb; border-radius: 0; padding: 24px; margin-top: 28px; }
+.field-help h3 { font-weight: 500; }
+.field-help p { color: #777; }
+.field-help summary { font-weight: 500; color: #555; }
+
+/* Other neighbourhoods and rooms use the same collection vocabulary. */
+.discovery-grid { gap: 24px; }
+.discovery-status { color: #777; line-height: 1.9; margin-bottom: 23px; }
+.discovery-card .trip-photo { border-bottom: 1px solid #dededb; }
+.discovery-copy { padding: 4px 20px 20px; }
+.discovery-copy h3 { color: #333; font-size: 19px; line-height: 1.55; font-weight: 500; }
+.discovery-copy p,
+.discovery-copy small { color: #777; }
+.discovery-map { color: #805a8b; text-decoration: underline; text-decoration-color: #d5c8dc; text-underline-offset: 4px; }
+.discovery-shortcut,
+.discovery-note { border: 1px solid #dededb; border-radius: 0; background: #fff; color: #777; }
+.discovery-note strong { color: #444; font-weight: 500; }
+.hotelgrid { gap: 24px; }
+.hotel-card { padding: 22px; }
+.hotel-card.selected { border: 1px solid #8db2ad; background: #fff; }
+.hotel-card h3 { color: #262626; font-weight: 500; font-size: 18px; }
+.hotel-card p { color: #777; }
+.hotel-photo-grid { background: #fff; gap: 1px; border-bottom: 1px solid #dededb; padding-bottom: 0; }
+.hotel-photo-grid .trip-photo { background: #fff; }
+.hotel-bottom { border-top-color: #dededb; }
+.hotel-bottom a { color: #427b76; font-weight: 400; }
+.hotel-select { border-color: #cfdad8; border-radius: 0; color: #427b76; font-weight: 400; }
+.hotel-card.selected .hotel-select { color: #427b76; border-color: #91b5af; background: #f6faf9; }
+#overnightGuide { margin-top: 48px; }
+.overnight-kicker { color: #805a8b; font-weight: 400; letter-spacing: 1px; }
+.overnight-intro h3 { color: #262626; font-weight: 500; font-size: 24px; line-height: 1.5; }
+.overnight-intro p { color: #777; }
+.overnight-status { padding: 14px 16px; border: 1px solid #dededb; border-radius: 0; background: #fff; }
+.overnight-grid { gap: 24px; }
+.overnight-card.selected { border: 1px solid #a58daf; background: #fff; }
+.overnight-photos { background: #fff; gap: 1px; border-bottom: 1px solid #dededb; }
+.overnight-photos span { position: static; display: block; background: #fff; color: #888; padding: 8px 10px; font-size: 10px; }
+.overnight-copy { padding: 20px; }
+.overnight-copy h4 { color: #262626; font-weight: 500; font-size: 19px; }
+.overnight-tag,
+.overnight-card.selected .overnight-tag { color: #805a8b; font-weight: 400; }
+.overnight-reason { color: #805a8b; font-weight: 400; }
+.overnight-copy p { color: #777; }
+.overnight-copy .overnight-room { color: #805a8b !important; font-weight: 500; }
+.overnight-copy summary { color: #555; font-weight: 500; }
+.overnight-copy details { border-color: #dededb; }
+.overnight-source { background: #fff; color: #805a8b; border: 1px solid #ddd2e2; border-radius: 0; font-weight: 400; }
+.overnight-actions button,
+.overnight-actions button[aria-pressed=true] { border: 1px solid #c7b7d0; border-radius: 0; color: #805a8b; background: #fff; font-weight: 400; }
+.overnight-actions a { color: #805a8b; font-weight: 400; }
+.overnight-note { border: 1px solid #dededb; border-radius: 0; background: #fafafa; color: #777; }
+.overnight-note a { font-weight: 500; }
+
+/* Full-size photographs remain accessible and keep all provenance. */
+.photo-dialog,
+.shopping-dialog,
+.store-photo-dialog { border: 1px solid #dededb; border-radius: 0; background: #fff; color: #262626; box-shadow: 0 18px 60px #3030301c; }
+.photo-dialog::backdrop,
+.shopping-dialog::backdrop,
+.store-photo-dialog::backdrop { background: #e8e5ebd9; backdrop-filter: blur(7px); }
+.photo-dialog > img,
+.store-dialog-image { background: #f7f7f5; border-radius: 0; }
+.photo-close,
+.shopping-dialog button,
+.store-dialog-top button,
+.store-dialog-controls button { color: #555; background: #fff; border: 1px solid #ccc; border-radius: 0; box-shadow: none; font-weight: 400; }
+.photo-dialog h3,
+.shopping-dialog h3,
+.store-dialog-top strong { font-weight: 500; color: #333; }
+.photo-dialog p,
+.shopping-dialog p,
+.store-dialog-caption { color: #777; }
+.photo-dialog a,
+.shopping-dialog a,
+.store-dialog-sources a { color: #805a8b; font-weight: 400; }
+.store-dialog-count { color: #777; }
+
+@media (max-width:1120px) {
+  .restaurants { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+@media (max-width:760px) {
+  .shopping-block .store-option-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+  .store-option-copy { padding: 12px 10px 8px; }
+  .shopping-block .store-option-card h4 { font-size: 13px; font-weight: 500; line-height: 1.6; }
+  .shopping-block .store-option-area { font-size: 10px; }
+  .shopping-block .store-option-links a { font-size: 10px; }
+  .store-option-card .source-badge { font-size: 9px; padding: 4px 6px; }
+  .shopping-block .shop-mood-photo { flex-basis: 116px; }
+  .shop-mood-photo img { height: 154px; }
+  .shop-mood-strip { gap: 10px; }
+  .store-gallery-tools { padding-left: 9px; }
+  .store-photo-count { font-size: 9px; }
+  .store-gallery-nav button { width: 35px; min-height: 44px; }
+  .store-photo-expand { width: 23px; height: 23px; }
+  .timeline-photo-grid { gap: 12px; scrollbar-color: #c9c6cd #f5f4f6; }
+  .timeline-snacks { padding: 15px; }
+  .restaurants { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+  .restaurant-card { padding: 13px; }
+  .restaurant-card > .trip-photo { margin: -13px -13px 15px; }
+  .food-guide-card h3 { font-size: 16px; overflow-wrap: anywhere; }
+  .restaurant-top { flex-wrap: wrap; }
+  .restaurant-card p { font-size: 12px; }
+  .restaurant-pill { font-size: 10px; }
+  .menu-photo-grid { grid-template-columns: 1fr; }
+  .menu-photo-grid .photo-open img { height: 130px; }
+  .order-list strong { font-size: 13px; }
+  .order-list span { font-size: 11px; }
+  .drink-pair { padding: 10px; }
+  .drink-choice strong { font-size: 13px; }
+  .drink-choice .photo-open img { height: 175px; }
+  .food-links { gap: 7px; }
+  .food-links a { font-size: 10px; }
+  .food-links .reserve { padding: 8px; }
+  .order-copy { padding: 9px; font-size: 11px; }
+  #konbiniCards { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+  #konbiniCards .konbini-product-card { padding: 12px; }
+  .konbini-product-photo img { height: 160px; }
+  #konbiniCards .shopping-item strong { font-size: 13px; }
+  #konbiniCards .shopping-item small { font-size: 11px; }
+  .field-help { padding: 18px; }
+  .discovery-grid,
+  .hotelgrid,
+  .overnight-grid { gap: 20px; }
+  .discovery-copy { padding: 4px 17px 17px; }
+  .discovery-copy h3 { font-size: 18px; }
+  .overnight-copy { padding: 18px; }
+  .overnight-copy p { font-size: 12px; }
+  .store-photo-dialog { padding: 12px; }
+}
+@media (max-width:350px) {
+  .shopping-block .store-option-grid,
+  .restaurants,
+  #konbiniCards { grid-template-columns: minmax(0,1fr); }
+  .menu-photo-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .konbini-product-photo img { height: 200px; }
+}
+
+/* A restaurant includes a menu, drink pairing and practical notes. On a phone
+   it needs a full reading column; compact products and shops stay side by side. */
+@media (max-width:650px) {
+  .restaurants { grid-template-columns: minmax(0,1fr); gap: 24px; }
+  .restaurant-card { padding: 18px; }
+  .restaurant-card > .trip-photo { margin: -18px -18px 20px; }
+  .food-guide-card h3 { font-size: 18px; overflow-wrap: normal; }
+  .restaurant-card p { font-size: 13px; line-height: 1.9; }
+  .menu-photo-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .order-list strong { font-size: 14px; }
+  .order-list span { font-size: 12px; }
+  .food-links a { font-size: 12px; }
+  .food-links { gap: 14px; }
+  .drink-pair { padding: 14px; }
+  .drink-choice strong { font-size: 14px; }
+  .drink-choice .photo-open img { height: 210px; }
+  .order-copy { font-size: 12px; padding: 11px; }
+}
