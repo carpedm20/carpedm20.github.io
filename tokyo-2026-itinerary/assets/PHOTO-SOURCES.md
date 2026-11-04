@@ -529,3 +529,15 @@ Resized and encoded as WebP. Rights retained by source.
 ## Ariso Sushi — 2026-11-04
 
 - `menu-ariso-sushi`, `menu-ariso-counter`: [Ariso Sushi Edokoji official gallery](https://www.arisozushi.com/shop/edokoji/), photos 02/04; representative sushi and preparation, not a guaranteed set.
+
+## Drink photographs — 2026-11-04
+
+- `drink-braumeister`: 기린 브라우마이스터 — [Kirin City](https://www.kirincity.co.jp/). 기린 시티 공식 생맥주 사진.
+- `drink-kirin-dark`: 기린 이치방시보리 쿠로나마 — [Kirin City](https://www.kirincity.co.jp/). 기린 시티 공식 흑맥주 사진.
+- `drink-malts`: 프리미엄 몰츠 — [Denny’s Japan](https://www.dennys.jp/menu/alcohol/). 데니즈 공식 사진 · 생맥주와 병맥주 예시.
+- `drink-kaku`: 가쿠 하이볼 — [Denny’s Japan](https://www.dennys.jp/menu/alcohol/). 데니즈 공식 사진 · 메가와 일반 크기 비교.
+- `drink-lemon`: 고다와리 사카바 레몬사와 — [Denny’s Japan](https://www.dennys.jp/menu/alcohol/). 데니즈 공식 상품 예시 · 다른 식당의 잔과 제공 형태는 달라요.
+- `drink-black-label`: 삿포로 쿠로라벨 350ml — [Sapporo](https://www.sapporobeer.jp/product/beer/kurolabel/). 제조사 공식 캔 사진 · 편의점 재고는 점포마다 달라요.
+- `drink-asahi`: 아사히 슈퍼드라이 350ml — [Asahi](https://www.asahibeer.co.jp/brand/superdry/). 제조사 공식 캔 사진 · 편의점 재고는 점포마다 달라요.
+
+- `drink-kaoru`: [Ichimi Reirei official menu](https://www.ichimiringring.com/_files/ugd/a34baf_624637a5b15b4600838724e500c8c618.pdf), page1 photo and original transparency mask. Kaoru Ale brand photo; other venues may use different glasses.

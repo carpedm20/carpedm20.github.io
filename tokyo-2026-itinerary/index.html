@@ -57,7 +57,7 @@
 </style>
 <link rel="stylesheet" href="assets/visuals.css?v=314ed8dddb" />
 <link rel="stylesheet" href="assets/food-guide.css?v=449d925b8d" />
-<link rel="stylesheet" href="assets/travel-refinements.css?v=622f406114">
+<link rel="stylesheet" href="assets/travel-refinements.css?v=b7a705058e">
 </head>
 <body>
 <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden"><defs>
@@ -87,8 +87,8 @@
 </main></div></div>
 <nav class="mobile-nav" id="mobileNav"><button class="active" data-anchor="overview"><svg class="ic"><use href="#i-map"/></svg>개요</button><button data-anchor="schedule"><svg class="ic"><use href="#i-calendar"/></svg>일정</button><button data-anchor="mapSection"><svg class="ic"><use href="#i-map"/></svg>지도</button><button data-anchor="food"><svg class="ic"><use href="#i-coffee"/></svg>맛집·술</button><button data-anchor="hotel"><svg class="ic"><use href="#i-pin"/></svg>숙소</button></nav><div class="toast" id="toast" role="status"></div>
 <dialog id="photoDialog" class="photo-dialog" aria-labelledby="photoDialogTitle"><button type="button" id="photoDialogClose" class="photo-close" aria-label="사진 닫기">×</button><img id="photoDialogImage" alt=""><div class="photo-dialog-copy"><h3 id="photoDialogTitle"></h3><p id="photoDialogCaption"></p><a id="photoDialogCredit" target="_blank" rel="noopener"></a> <a id="photoDialogLicense" target="_blank" rel="noopener" hidden></a></div></dialog>
-<script src="assets/visuals.js?v=0ec2006ae1"></script>
-<script src="assets/food-guide.js?v=42d26f2f41"></script>
+<script src="assets/visuals.js?v=2ae49dd314"></script>
+<script src="assets/food-guide.js?v=0d292cad18"></script>
 <script>
 const GOOGLE_MAPS_API_KEY = 'AIzaSyB-K-mZmCrA5RYP1-lPNrtxvzrmCNhGQHk'; // Browser key restricted to carpedm20.github.io and Maps/Routes APIs.
  const $=(s)=>document.querySelector(s);const money=v=>'₩'+Math.round(v||0).toLocaleString('ko-KR');const icon=(id,cls='')=>`<svg class="ic ${cls}"><use href="#i-${id}"/></svg>`;const maps=q=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(q);const dir=(a,b,mode='transit')=>'https://www.google.com/maps/dir/?api=1&origin='+encodeURIComponent(a)+'&destination='+encodeURIComponent(b)+'&travelmode='+mode;const HOTEL='Sotetsu Fresa Inn Daimon, 2-6-2 Shibadaimon, Minato, Tokyo';
@@ -159,7 +159,11 @@ const days=[
     "cat": "쇼핑",
     "place": "Akihabara Radio Kaikan, 1-15-16 Sotokanda Tokyo",
     "end": "15:05",
-    "feature": 1
+    "feature": 1,
+    "gallery": [
+     "radio",
+     "akihabara"
+    ]
    },
    {
     "t": "15:15",
@@ -174,7 +178,11 @@ const days=[
      "mode": "walking",
      "min": "10~12분",
      "how": "도보"
-    }
+    },
+    "gallery": [
+     "mandarake",
+     "radio"
+    ]
    },
    {
     "t": "16:45",
@@ -207,7 +215,8 @@ const days=[
      "min": "경로 확인",
      "how": "도보 · 실제 경로 확인"
     },
-    "photo": "food-spice-palette"
+    "photo": "food-spice-palette",
+    "foodId": "spice-palette"
    },
    {
     "t": "20:00",
@@ -275,7 +284,11 @@ const days=[
     "place": "Tokyo Big Sight Tokyo",
     "end": "14:45",
     "feature": 1,
-    "book": "https://www2.comiket.co.jp/info-a/TAFO/C109TAFO/index.html"
+    "book": "https://www2.comiket.co.jp/info-a/TAFO/C109TAFO/index.html",
+    "gallery": [
+     "comiket",
+     "bigsight"
+    ]
    },
    {
     "t": "14:45",
@@ -283,7 +296,11 @@ const days=[
     "desc": "입장 구역과 촬영 규칙 확인. 사람이 너무 많으면 일찍 퇴장.",
     "cat": "행사",
     "place": "Tokyo Big Sight Tokyo",
-    "end": "16:00"
+    "end": "16:00",
+    "gallery": [
+     "cosplay",
+     "comiket"
+    ]
    },
    {
     "t": "16:15",
@@ -315,7 +332,8 @@ const days=[
      "min": "경로 확인",
      "how": "도보 · 실제 경로 확인"
     },
-    "photo": "food-kushikatsu-tanaka"
+    "photo": "food-kushikatsu-tanaka",
+    "foodId": "kushikatsu-tanaka-shimbashi"
    },
    {
     "t": "20:20",
@@ -368,7 +386,10 @@ const days=[
     "cat": "산책",
     "place": "Sumida River Terrace Kiyosumi Tokyo",
     "end": "12:45",
-    "feature": 1
+    "feature": 1,
+    "gallery": [
+     "sumida"
+    ]
    },
    {
     "t": "12:45",
@@ -392,7 +413,8 @@ const days=[
     "cat": "예약",
     "place": "HARMONY Royal Park Shiodome Tokyo",
     "end": "15:30",
-    "book": "https://www.tablecheck.com/en/shops/royalpark-shiodome-harmony/reserve"
+    "book": "https://www.tablecheck.com/en/shops/royalpark-shiodome-harmony/reserve",
+    "foodId": "harmony"
    },
    {
     "t": "16:00",
@@ -446,7 +468,11 @@ const days=[
     "place": "Kindal Harajuku, 4-29-3 Jingumae Tokyo",
     "end": "12:00",
     "feature": 1,
-    "book": "https://www.kind.co.jp/en/harajuku/"
+    "book": "https://www.kind.co.jp/en/harajuku/",
+    "gallery": [
+     "kindal",
+     "kindal-racks"
+    ]
    },
    {
     "t": "12:10",
@@ -461,7 +487,11 @@ const days=[
      "mode": "walking",
      "min": "8~12분",
      "how": "도보"
-    }
+    },
+    "gallery": [
+     "ragtag",
+     "catstreet"
+    ]
    },
    {
     "t": "13:00",
@@ -471,7 +501,8 @@ const days=[
     "place": "PRETTY PORK FACTORY KATSUプリポー 東京都渋谷区神宮前6-31-21 ハラカド5階",
     "end": "14:00",
     "book": "https://prettyporkfactory.com/harajuku/",
-    "photo": "food-harakado"
+    "photo": "food-harakado",
+    "foodId": "harakado"
    },
    {
     "t": "14:00",
@@ -486,7 +517,11 @@ const days=[
      "mode": "walking",
      "min": "10~15분",
      "how": "도보"
-    }
+    },
+    "gallery": [
+     "catstreet",
+     "shibuya"
+    ]
    },
    {
     "t": "15:30",
@@ -502,7 +537,11 @@ const days=[
      "mode": "walking",
      "min": "15~20분",
      "how": "도보"
-    }
+    },
+    "gallery": [
+     "kindal-racks",
+     "shibuya"
+    ]
    },
    {
     "t": "18:30",
@@ -519,7 +558,8 @@ const days=[
      "min": "경로 확인",
      "how": "도보 · 실제 경로 확인"
     },
-    "photo": "food-kirin"
+    "photo": "food-kirin",
+    "foodId": "kirin-shibuya"
    },
    {
     "t": "20:30",
@@ -581,7 +621,11 @@ const days=[
     "place": "Gotanda TOC Building Tokyo",
     "end": "11:20",
     "feature": 1,
-    "book": "https://www.enjoytokyo.jp/event/2089530/"
+    "book": "https://www.enjoytokyo.jp/event/2089530/",
+    "gallery": [
+     "fleamarket",
+     "gotanda"
+    ]
    },
    {
     "t": "11:30",
@@ -629,7 +673,8 @@ const days=[
     "place": "ありそ鮨し 江戸小路店 羽田空港第3ターミナル",
     "end": "15:00",
     "photo": "menu-ariso-sushi",
-    "book": "https://tokyo-haneda.com/shop_and_dine/detail/tenant_00053.html"
+    "book": "https://tokyo-haneda.com/shop_and_dine/detail/tenant_00053.html",
+    "foodId": "ariso-haneda"
    },
    {
     "t": "19:30",
@@ -1139,7 +1184,7 @@ function renderMapList(){const indexes=visibleDayIndexes();$('#mapListTitle').te
  }
 let selectedHotel=getStore('tokyo-hotel',0),day=0,showCompleted=true,done=getStore('tokyo-check',{});
 function getStore(k,f){try{return JSON.parse(localStorage.getItem(k))??f}catch{return f}}function save(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch{}}function toast(s){const el=$('#toast');el.textContent=s;el.classList.add('visible');clearTimeout(window.__toastTimer);window.__toastTimer=setTimeout(()=>el.classList.remove('visible'),2200)}
-function renderDays(){const r=$('#dayTabs');r.innerHTML=days.map((d,i)=>`<button class="day-tab ${i===day?'active':''}" role="tab" aria-selected="${i===day}" data-day="${i}"><span class="tab-date">DAY ${String(i+1).padStart(2,'0')} / ${d.date}</span><strong>${d.tab}</strong><span class="tab-sub">${d.sub}</span></button>`).join('');r.querySelectorAll('[data-day]').forEach(b=>b.onclick=()=>{day=+b.dataset.day;renderDays();if(mapDay!==-1)setMapDay(day,{fromSchedule:true});document.querySelector('#schedule').scrollIntoView({behavior:'smooth',block:'start'})});const d=days[day];renderDayVisual();renderDayFood();$('#dayHead').innerHTML=`<div><h3>${d.head}</h3><p>${d.desc}</p></div><span class="crowd ${d.crowd}"><span class="dot"></span>${d.crowdText}</span>`;$('#tripTransit').textContent=d.transit;$('#tripRouteNote').innerHTML=`${icon('train','sm')}<span>${d.tip}</span>`;$('#tripWarning').textContent=d.warning;$('#timeline').innerHTML=d.stops.map((s,i)=>{const checked=done[day+'-'+i]||false;return `<div class="stop ${s.feature?'featured':''} ${checked?'done':''}" data-stop="${i}"><div class="stop-time">${s.t}</div><div class="rail"><span></span></div><div class="stop-body"><div class="stop-title"><input class="checker" type="checkbox" aria-label="${s.title} 완료" data-check="${i}" ${checked?'checked':''}/><strong>${s.title}</strong><span class="mini-badge ${s.cat==='확인'?'warning':s.cat==='예약'?'book':''}">${s.cat}</span></div><div class="stop-summary">${s.desc}${s.end?` <span style="color:#b8b1a5">· ~${s.end}</span>`:''}</div>${s.leg?`<a class="leg" target="_blank" rel="noopener" href="${dir(s.leg.from,s.leg.to,s.leg.mode)}">${icon(s.leg.mode==='walking'?'walk':'train','sm')}<b>${s.leg.min}</b> · ${s.leg.how} ${icon('out','sm')}</a>`:''}${photoFigure(stopPhoto(s),true)}<div class="stop-actions">${s.place?`<a target="_blank" rel="noopener" href="${maps(s.place)}">${icon('pin','sm')}지도에서 보기</a>`:''}${s.book?`<a class="booklink" target="_blank" rel="noopener" href="${s.book}">${icon('out','sm')} ${s.cat==='예약'?'예약 페이지':'공식 확인'}</a>`:''}</div></div></div>`}).join('');$('#timeline').querySelectorAll('[data-check]').forEach(el=>el.onchange=e=>{done[day+'-'+e.target.dataset.check]=e.target.checked;save('tokyo-check',done);renderDays()});const count=d.stops.filter((_,i)=>done[day+'-'+i]).length;$('#dayProgress').innerHTML=`${icon('check','sm')} ${count} / ${d.stops.length} 완료`}
+function renderDays(){const r=$('#dayTabs');r.innerHTML=days.map((d,i)=>`<button class="day-tab ${i===day?'active':''}" role="tab" aria-selected="${i===day}" data-day="${i}"><span class="tab-date">DAY ${String(i+1).padStart(2,'0')} / ${d.date}</span><strong>${d.tab}</strong><span class="tab-sub">${d.sub}</span></button>`).join('');r.querySelectorAll('[data-day]').forEach(b=>b.onclick=()=>{day=+b.dataset.day;renderDays();if(mapDay!==-1)setMapDay(day,{fromSchedule:true});document.querySelector('#schedule').scrollIntoView({behavior:'smooth',block:'start'})});const d=days[day];renderDayVisual();renderDayFood();$('#dayHead').innerHTML=`<div><h3>${d.head}</h3><p>${d.desc}</p></div><span class="crowd ${d.crowd}"><span class="dot"></span>${d.crowdText}</span>`;$('#tripTransit').textContent=d.transit;$('#tripRouteNote').innerHTML=`${icon('train','sm')}<span>${d.tip}</span>`;$('#tripWarning').textContent=d.warning;$('#timeline').innerHTML=d.stops.map((s,i)=>{const checked=done[day+'-'+i]||false;return `<div class="stop ${s.feature?'featured':''} ${checked?'done':''}" data-stop="${i}"><div class="stop-time">${s.t}</div><div class="rail"><span></span></div><div class="stop-body"><div class="stop-title"><input class="checker" type="checkbox" aria-label="${s.title} 완료" data-check="${i}" ${checked?'checked':''}/><strong>${s.title}</strong><span class="mini-badge ${s.cat==='확인'?'warning':s.cat==='예약'?'book':''}">${s.cat}</span></div><div class="stop-summary">${s.desc}${s.end?` <span style="color:#b8b1a5">· ~${s.end}</span>`:''}</div>${s.leg?`<a class="leg" target="_blank" rel="noopener" href="${dir(s.leg.from,s.leg.to,s.leg.mode)}">${icon(s.leg.mode==='walking'?'walk':'train','sm')}<b>${s.leg.min}</b> · ${s.leg.how} ${icon('out','sm')}</a>`:''}${renderTimelinePhotos(s)}<div class="stop-actions">${s.place?`<a target="_blank" rel="noopener" href="${maps(s.place)}">${icon('pin','sm')}지도에서 보기</a>`:''}${s.book?`<a class="booklink" target="_blank" rel="noopener" href="${s.book}">${icon('out','sm')} ${s.cat==='예약'?'예약 페이지':'공식 확인'}</a>`:''}</div></div></div>`}).join('')+renderTimelineSnacks();$('#timeline').querySelectorAll('[data-check]').forEach(el=>el.onchange=e=>{done[day+'-'+e.target.dataset.check]=e.target.checked;save('tokyo-check',done);renderDays()});const count=d.stops.filter((_,i)=>done[day+'-'+i]).length;$('#dayProgress').innerHTML=`${icon('check','sm')} ${count} / ${d.stops.length} 완료`}
 function renderHotels(){$('#hotels').innerHTML=hotels.map((h,i)=>`<article class="hotel-card ${selectedHotel===i?'selected':''}"><div class="hotel-photo-grid">${photoFigure(i===0?'daimon':'super1')}${photoFigure(i===0?'daimon-twin':'super2')}</div><div class="hotel-header"><span class="restaurant-pill">${i===0?'BEST LOCATION':'BEST VALUE'}</span><span class="mini-badge">4박 · 2인 1실</span></div><h3>${h.name}</h3><div class="place" style="color:#817f78;font-size:11px">${icon('pin','sm')} ${h.area}</div><p>${h.desc}</p><div class="hotel-bottom"><button class="hotel-select" data-select="${i}">${selectedHotel===i?'✓ 선택한 숙소':'이 호텔 선택'}</button><a href="${maps(h.name+' Tokyo')}" target="_blank" rel="noopener">위치 보기 ${icon('out','sm')}</a></div></article>`).join('');$('#hotels').querySelectorAll('[data-select]').forEach(b=>b.onclick=()=>{selectedHotel=+b.dataset.select;save('tokyo-hotel',selectedHotel);renderHotels();renderDays();syncHotelMap();toast('지도에서 호텔 위치를 변경했습니다. 예상 이동시간은 기본 호텔 기준입니다')})}
 function navTo(anchor){document.querySelector('#'+anchor).scrollIntoView({behavior:'smooth',block:'start'});document.querySelectorAll('[data-anchor]').forEach(b=>b.classList.toggle('active',b.dataset.anchor===anchor))}document.querySelectorAll('[data-anchor]').forEach(b=>b.onclick=()=>navTo(b.dataset.anchor));$('#copyBtn').onclick=async()=>{try{await navigator.clipboard.writeText(location.href);toast('웹사이트 주소를 복사했습니다')}catch{toast('주소창의 URL을 복사해 주세요')}};$('#printBtn').onclick=()=>window.print();$('#sourceLinks').innerHTML=sourceLinks.map(([name,url])=>`<a href="${url}" target="_blank" rel="noopener">${name} ${icon('out','sm')}</a>`).join('');renderDays();renderFoods();renderHotels();initRouteExplorer();renderVisualJourney();renderKonbini();
 </script>

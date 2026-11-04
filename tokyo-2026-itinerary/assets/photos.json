@@ -799,5 +799,77 @@
     "caption": "에도코지점 공식 조리 사진 · 특정 세트 구성은 아니에요.",
     "source": "https://www.arisozushi.com/shop/edokoji/",
     "credit": "ありそ鮨し · 江戸小路店 공식 사진"
+  },
+  "drink-braumeister": {
+    "src": "assets/photos/drink-braumeister.webp",
+    "title": "기린 브라우마이스터",
+    "caption": "기린 시티 공식 생맥주 사진. 음료 부분을 발췌했어요.",
+    "source": "https://www.kirincity.co.jp/",
+    "credit": "Kirin City · 공식 음료 사진",
+    "width": 230,
+    "height": 400
+  },
+  "drink-kirin-dark": {
+    "src": "assets/photos/drink-kirin-dark.webp",
+    "title": "기린 이치방시보리 쿠로나마",
+    "caption": "기린 시티 공식 흑맥주 사진. 음료 부분을 발췌했어요.",
+    "source": "https://www.kirincity.co.jp/",
+    "credit": "Kirin City · 공식 음료 사진",
+    "width": 230,
+    "height": 400
+  },
+  "drink-malts": {
+    "src": "assets/photos/drink-malts.webp",
+    "title": "프리미엄 몰츠",
+    "caption": "데니즈 공식 사진 · 생맥주와 병맥주 예시.",
+    "source": "https://www.dennys.jp/menu/alcohol/",
+    "credit": "Denny’s Japan · 공식 음료 사진",
+    "width": 640,
+    "height": 350
+  },
+  "drink-kaku": {
+    "src": "assets/photos/drink-kaku.webp",
+    "title": "가쿠 하이볼",
+    "caption": "데니즈 공식 사진 · 메가와 일반 크기 비교.",
+    "source": "https://www.dennys.jp/menu/alcohol/",
+    "credit": "Denny’s Japan · 공식 음료 사진",
+    "width": 346,
+    "height": 346
+  },
+  "drink-lemon": {
+    "src": "assets/photos/drink-lemon.webp",
+    "title": "고다와리 사카바 레몬사와",
+    "caption": "데니즈 공식 상품 예시 · 다른 식당의 잔과 제공 형태는 달라요.",
+    "source": "https://www.dennys.jp/menu/alcohol/",
+    "credit": "Denny’s Japan · 공식 음료 사진",
+    "width": 692,
+    "height": 692
+  },
+  "drink-black-label": {
+    "src": "assets/photos/drink-black-label.webp",
+    "title": "삿포로 쿠로라벨 350ml",
+    "caption": "제조사 공식 캔 사진 · 편의점 재고는 점포마다 달라요.",
+    "source": "https://www.sapporobeer.jp/product/beer/kurolabel/",
+    "credit": "Sapporo · 공식 음료 사진",
+    "width": 781,
+    "height": 1000
+  },
+  "drink-asahi": {
+    "src": "assets/photos/drink-asahi.webp",
+    "title": "아사히 슈퍼드라이 350ml",
+    "caption": "제조사 공식 캔 사진 · 편의점 재고는 점포마다 달라요.",
+    "source": "https://www.asahibeer.co.jp/brand/superdry/",
+    "credit": "Asahi · 공식 음료 사진",
+    "width": 448,
+    "height": 946
+  },
+  "drink-kaoru": {
+    "src": "assets/photos/drink-kaoru.webp",
+    "width": 117,
+    "height": 332,
+    "title": "프리미엄 몰츠 카오루 에일",
+    "caption": "이치미 레이레이 공식 메뉴의 생맥주 사진 · 다른 식당의 잔과 제공 형태는 달라요.",
+    "source": "https://www.ichimiringring.com/_files/ugd/a34baf_624637a5b15b4600838724e500c8c618.pdf",
+    "credit": "一味玲玲 · 공식 메뉴 PDF"
   }
 }
