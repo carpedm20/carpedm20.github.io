@@ -1,0 +1,325 @@
+{
+  "yoke-aoyama": [
+    {
+      "src": "assets/photos/store-local-yoke-aoyama-1.webp",
+      "alt": "YOKE AOYAMA · 옷과 빛이 보이는 매장 내부",
+      "source": "https://yoketokyooo.com/pages/yoke-aoyama-flagship-store",
+      "credit": "YOKE · 공식 매장 사진",
+      "kind": "interior"
+    },
+    {
+      "src": "assets/photos/store-local-yoke-aoyama-2.webp",
+      "alt": "YOKE AOYAMA · 돌과 벽이 만드는 공간",
+      "source": "https://yoketokyooo.com/pages/yoke-aoyama-flagship-store",
+      "credit": "YOKE · 공식 매장 사진",
+      "kind": "interior"
+    },
+    {
+      "src": "assets/photos/store-local-yoke-aoyama-3.webp",
+      "alt": "YOKE AOYAMA · 의자와 소재 디테일",
+      "source": "https://yoketokyooo.com/pages/yoke-aoyama-flagship-store",
+      "credit": "YOKE · 공식 매장 사진",
+      "kind": "interior"
+    }
+  ],
+  "auralee-tokyo": [
+    {
+      "src": "assets/photos/store-local-auralee-tokyo-1.webp",
+      "alt": "AURALEE TOKYO · 유리 입구와 외관",
+      "source": "https://auralee.jp/store",
+      "credit": "AURALEE · 공식 매장 사진",
+      "kind": "exterior"
+    },
+    {
+      "src": "assets/photos/store-local-auralee-tokyo-2.webp",
+      "alt": "AURALEE TOKYO · 2023년 확장한 지하층 내부",
+      "source": "https://tokion.jp/2023/07/21/auralee-tokyo-isetan-shinjuku-mens/",
+      "credit": "AURALEE / TOKION · 2023년 매장 사진",
+      "kind": "interior"
+    }
+  ],
+  "aton-aoyama": [
+    {
+      "src": "assets/photos/store-local-aton-aoyama-1.webp",
+      "alt": "ATON AOYAMA · 옷과 콘크리트 공간",
+      "source": "https://aton-tokyo.com/pages/store-stockist",
+      "credit": "ATON · 공식 매장 사진",
+      "kind": "interior"
+    },
+    {
+      "src": "assets/photos/store-local-aton-aoyama-2.webp",
+      "alt": "ATON AOYAMA · 창가와 의류 행거 · 2018년 준공 사진",
+      "source": "https://architecturephoto.net/74157/",
+      "credit": "水崎浩志 / architecturephoto · 2018년 준공 사진",
+      "kind": "interior"
+    }
+  ],
+  "graphpaper-aoyama": [
+    {
+      "src": "assets/photos/store-local-graphpaper-aoyama-1.webp",
+      "alt": "Graphpaper AOYAMA · 의류와 흰색 진열대",
+      "source": "https://qui.tokyo/shop/graphpaper-aoyama",
+      "credit": "QUI · 매장 소개 사진",
+      "kind": "interior"
+    },
+    {
+      "src": "assets/photos/store-local-graphpaper-aoyama-2.webp",
+      "alt": "Graphpaper AOYAMA · 갤러리 같은 공간",
+      "source": "https://graphpaper-tokyo.com/pages/concept",
+      "credit": "Graphpaper · 공식 공간 사진",
+      "kind": "interior"
+    }
+  ],
+  "nepenthes-tokyo": [
+    {
+      "src": "assets/photos/store-local-nepenthes-tokyo-1.webp",
+      "alt": "NEPENTHES TOKYO · 간판과 식물이 보이는 외관",
+      "source": "https://nepenthes.co.jp/stores/",
+      "credit": "NEPENTHES · 공식 도쿄점 사진",
+      "kind": "exterior"
+    },
+    {
+      "src": "assets/photos/store-local-nepenthes-tokyo-2.webp",
+      "alt": "NEPENTHES TOKYO · 스테인드글라스와 매장 내부",
+      "source": "https://nepenthes.co.jp/stores/",
+      "credit": "NEPENTHES · 공식 도쿄점 사진",
+      "kind": "interior"
+    },
+    {
+      "src": "assets/photos/store-local-nepenthes-tokyo-3.webp",
+      "alt": "NEPENTHES TOKYO · 신발과 모자 진열",
+      "source": "https://nepenthes.co.jp/stores/",
+      "credit": "NEPENTHES · 공식 도쿄점 사진",
+      "kind": "store"
+    }
+  ],
+  "cc-store-harajuku": [
+    {
+      "src": "assets/photos/discover-cc.webp",
+      "source": "https://www.timeout.com/tokyo/shopping/where-the-cool-kids-go-23-tokyo-fashion-stores",
+      "credit": "Analicia Graca / Creative Direction: Jasmina Mitrovic / Time Out",
+      "alt": "CC STORE© · 의류와 그래픽이 있는 매장 내부",
+      "kind": "interior"
+    },
+    {
+      "src": "assets/photos/store-local-cc-store-harajuku-2.webp",
+      "alt": "CC STORE© · 매장 안의 두 운영자",
+      "source": "https://www.timeout.com/tokyo/shopping/cc-store",
+      "credit": "Analicia Graca / Creative Direction: Jasmina Mitrovic / Time Out",
+      "kind": "editorial"
+    },
+    {
+      "src": "assets/photos/store-local-cc-store-harajuku-3.webp",
+      "alt": "CC STORE© · 빈티지 소품과 운영자",
+      "source": "https://www.timeout.com/tokyo/shopping/cc-store",
+      "credit": "Analicia Graca / Creative Direction: Jasmina Mitrovic / Time Out",
+      "kind": "editorial"
+    }
+  ],
+  "bullpen-nishihara": [
+    {
+      "src": "assets/photos/store-local-bullpen-nishihara-1.webp",
+      "alt": "BULLPEN · 가구와 생활 도구가 있는 매장",
+      "source": "https://bullpen-shop.com/pages/about",
+      "credit": "BULLPEN · 공식 매장 사진",
+      "kind": "interior"
+    },
+    {
+      "src": "assets/photos/store-local-bullpen-nishihara-2.webp",
+      "alt": "BULLPEN · 유리잔과 소품 진열",
+      "source": "https://bullpen-shop.com/pages/about",
+      "credit": "BULLPEN · 공식 매장 사진",
+      "kind": "store"
+    }
+  ],
+  "ella-records": [
+    {
+      "src": "assets/photos/store-local-ella-records-1.webp",
+      "alt": "ELLA RECORDS 하타가야 · 입구와 외관",
+      "source": "https://ellarecords.jp/pages/ella-records",
+      "credit": "ELLA RECORDS · 공식 하타가야점 사진",
+      "kind": "exterior"
+    },
+    {
+      "src": "assets/photos/store-local-ella-records-2.webp",
+      "alt": "ELLA RECORDS 하타가야 · 창가와 매장 공간",
+      "source": "https://ellarecords.jp/pages/ella-records",
+      "credit": "ELLA RECORDS · 공식 하타가야점 사진",
+      "kind": "interior"
+    },
+    {
+      "src": "assets/photos/store-local-ella-records-3.webp",
+      "alt": "ELLA RECORDS 하타가야 · 레코드 듣는 모습",
+      "source": "https://ellarecords.jp/pages/ella-records",
+      "credit": "ELLA RECORDS · 공식 하타가야점 사진",
+      "kind": "editorial"
+    }
+  ],
+  "aelu-gallery": [
+    {
+      "src": "assets/photos/store-local-aelu-gallery-1.webp",
+      "alt": "AELU GALLERY · 도자기를 진열한 서가",
+      "source": "https://www.aelu.jp/",
+      "credit": "AELU · 공식 갤러리 사진",
+      "kind": "interior"
+    },
+    {
+      "src": "assets/photos/store-local-aelu-gallery-2.webp",
+      "alt": "AELU GALLERY · 의자와 도자기 디스플레이",
+      "source": "https://www.aelu.jp/",
+      "credit": "AELU · 공식 갤러리 사진",
+      "kind": "store"
+    }
+  ],
+  "roundabout-uehara": [
+    {
+      "src": "assets/photos/store-local-roundabout-uehara-1.webp",
+      "alt": "Roundabout · 생활 도구가 가득한 내부",
+      "source": "https://www.act-locally.com/spots/roundabout/",
+      "credit": "ACT LOCALLY · 2023년 매장 취재 사진",
+      "kind": "interior"
+    },
+    {
+      "src": "assets/photos/store-local-roundabout-uehara-2.webp",
+      "alt": "Roundabout · 지하 매장으로 내려가는 입구",
+      "source": "https://www.act-locally.com/spots/roundabout/",
+      "credit": "ACT LOCALLY · 2023년 매장 취재 사진",
+      "kind": "exterior"
+    },
+    {
+      "src": "assets/photos/store-local-roundabout-uehara-3.webp",
+      "alt": "Roundabout · 운영자와 매장 진열",
+      "source": "https://www.act-locally.com/spots/roundabout/",
+      "credit": "ACT LOCALLY · 2023년 매장 취재 사진",
+      "kind": "editorial"
+    }
+  ],
+  "so-books": [
+    {
+      "src": "assets/photos/store-local-so-books-1.webp",
+      "alt": "SO BOOKS · 사진집으로 가득한 매장 내부",
+      "source": "https://www.alkutokyo.jp/article0016/",
+      "credit": "Alku Tokyo / Let’s ENJOY TOKYO · 매장 취재 사진",
+      "kind": "interior"
+    },
+    {
+      "src": "assets/photos/store-local-so-books-2.webp",
+      "alt": "SO BOOKS · 상점 입구와 외관",
+      "source": "https://www.alkutokyo.jp/article0016/",
+      "credit": "Alku Tokyo / Let’s ENJOY TOKYO · 매장 취재 사진",
+      "kind": "exterior"
+    }
+  ],
+  "iegnim-uehara": [
+    {
+      "src": "assets/photos/store-local-iegnim-uehara-1.webp",
+      "alt": "IEGNIM · 우에하라 매장 외관",
+      "source": "https://www.act-locally.com/spots/newopen_2024/",
+      "credit": "IEGNIM / ACT LOCALLY",
+      "kind": "exterior"
+    },
+    {
+      "src": "assets/photos/store-local-iegnim-uehara-2.webp",
+      "alt": "IEGNIM · 테이블과 그릇 진열이 있는 내부",
+      "source": "https://iegnim.com/",
+      "credit": "IEGNIM · 공식 매장 사진",
+      "kind": "interior"
+    }
+  ],
+  "niceness-ebisu": [
+    {
+      "src": "assets/photos/store-local-niceness-ebisu-1.webp",
+      "alt": "NICENESS EBISU · 버건디 벽과 옷이 있는 내부",
+      "source": "https://www.fashionsnap.com/article/2025-06-20/niceness-ebisu-open/",
+      "credit": "FASHIONSNAP · 2025년 매장 취재 사진",
+      "kind": "interior"
+    },
+    {
+      "src": "assets/photos/store-local-niceness-ebisu-2.webp",
+      "alt": "NICENESS EBISU · 3층 건물 외관",
+      "source": "https://www.fashionsnap.com/article/2025-06-20/niceness-ebisu-open/",
+      "credit": "FASHIONSNAP · 2025년 매장 취재 사진",
+      "kind": "exterior"
+    }
+  ],
+  "salt-and-pepper": [
+    {
+      "src": "assets/photos/store-local-salt-and-pepper-1.webp",
+      "alt": "SALT AND PEPPER · 진과 옷을 함께 보는 내부",
+      "source": "https://www.timeout.jp/tokyo/ja/ショッピング/salt-and-pepper",
+      "credit": "Kaoru Hoshino / Time Out · 2025년 매장 사진",
+      "kind": "interior"
+    },
+    {
+      "src": "assets/photos/store-local-salt-and-pepper-2.webp",
+      "alt": "SALT AND PEPPER · 아트와 의류 디스플레이",
+      "source": "https://www.timeout.jp/tokyo/ja/ショッピング/salt-and-pepper",
+      "credit": "Kaoru Hoshino / Time Out · 2025년 매장 사진",
+      "kind": "interior"
+    }
+  ],
+  "post-ebisu": [
+    {
+      "src": "assets/photos/store-local-post-ebisu-1.webp",
+      "alt": "POST · 유리창 너머 서점 내부",
+      "source": "https://post-books.info/",
+      "credit": "POST · 공식 매장 사진",
+      "kind": "interior"
+    },
+    {
+      "src": "assets/photos/store-local-post-ebisu-2.webp",
+      "alt": "POST · 책을 펼쳐 둔 진열 테이블",
+      "source": "https://post-books.info/",
+      "credit": "POST · 공식 매장 사진",
+      "kind": "store"
+    }
+  ],
+  "cow-books": [
+    {
+      "src": "assets/photos/discover-cow.webp",
+      "source": "https://hypemaps.com/cities/tokyo/best-bookstores-comics-manga-print-shop-tokyo",
+      "credit": "Cow Books",
+      "alt": "COW BOOKS 나카메구로 · 책과 매장 공간",
+      "kind": "interior"
+    },
+    {
+      "src": "assets/photos/store-local-cow-books-2.webp",
+      "alt": "COW BOOKS 나카메구로 · 서가와 독서 공간 · 흑백 사진",
+      "source": "https://oceans.tokyo.jp/article/detail/25610",
+      "credit": "若木信吾 / OCEANS · 2020년 매장 취재 사진",
+      "kind": "interior"
+    }
+  ],
+  "dessin-nakameguro": [
+    {
+      "src": "assets/photos/store-local-dessin-nakameguro-1.webp",
+      "alt": "dessin · 창가와 책 진열",
+      "source": "https://dessinweb.jp/hpgen/HPB/entries/1.html",
+      "credit": "dessin · 공식 매장 사진",
+      "kind": "interior"
+    },
+    {
+      "src": "assets/photos/store-local-dessin-nakameguro-2.webp",
+      "alt": "dessin · 그림과 서가가 있는 매장 내부",
+      "source": "https://dessinweb.jp/hpgen/HPB/entries/1.html",
+      "credit": "dessin · 공식 매장 사진",
+      "kind": "interior"
+    }
+  ],
+  "travelers-nakameguro": [
+    {
+      "src": "assets/photos/store-local-travelers-nakameguro-1.webp",
+      "alt": "TRAVELER’S FACTORY 나카메구로 · 문구와 노트가 있는 내부",
+      "source": "https://www.timeout.com/tokyo/shopping/travelers-factory",
+      "credit": "TRAVELER’S FACTORY / Time Out",
+      "kind": "interior"
+    },
+    {
+      "src": "assets/photos/store-local-travelers-nakameguro-2.webp",
+      "alt": "TRAVELER’S FACTORY 나카메구로 · 파란 문과 건물 외관",
+      "source": "https://www.timeout.com/tokyo/shopping/travelers-factory",
+      "credit": "TRAVELER’S FACTORY / Time Out",
+      "kind": "exterior"
+    }
+  ]
+}

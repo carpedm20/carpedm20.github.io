@@ -1,0 +1,532 @@
+{
+  "akiba-radio-kaikan": [
+    {
+      "src": "assets/photos/radio.webp",
+      "width": 750,
+      "height": 1000,
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "alt": "라디오회관 건물 외관 · 2023년",
+      "source": "https://commons.wikimedia.org/wiki/File:Akihabara_Radio_Kaikan_Shopping_Building_(53416976349).jpg",
+      "credit": "Stephen Kelly / Wikimedia Commons",
+      "kind": "exterior",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Akihabara_Radio_Kaikan_Shopping_Building_%2853416976349%29.jpg/960px-Akihabara_Radio_Kaikan_Shopping_Building_%2853416976349%29.jpg"
+    },
+    {
+      "src": "assets/photos/store-other-radio-interior.webp",
+      "width": 1000,
+      "height": 750,
+      "alt": "라디오회관 6층 옐로 서브마린 본점 내부 · RPG숍과 다른 지점",
+      "source": "https://akihabara-radiokaikan.co.jp/shoplist/yellow-submarine/",
+      "credit": "秋葉原ラジオ会館 · 공식 매장 안내",
+      "kind": "interior",
+      "imageUrl": "https://akihabara-radiokaikan.co.jp/wp-ark/wp-content/uploads/2020/01/image-9.jpeg"
+    }
+  ],
+  "akiba-mandarake-complex": [
+    {
+      "src": "assets/photos/mandarake.webp",
+      "width": 750,
+      "height": 1000,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "alt": "만다라케 컴플렉스의 만화 서가",
+      "source": "https://commons.wikimedia.org/wiki/File:Interiors_of_Mandarake%2C_Akibahara.jpg",
+      "credit": "PhilaSiti / Wikimedia Commons",
+      "kind": "interior",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Interiors_of_Mandarake%2C_Akibahara.jpg/960px-Interiors_of_Mandarake%2C_Akibahara.jpg"
+    },
+    {
+      "src": "assets/photos/store-other-cmp-0.webp",
+      "width": 1000,
+      "height": 317,
+      "alt": "만다라케 컴플렉스 · 검은 외벽의 본관 건물",
+      "source": "https://www.mandarake.co.jp/dir/cmp/index-en.html",
+      "credit": "MANDARAKE · 공식 매장 사진",
+      "kind": "exterior",
+      "imageUrl": "https://www.mandarake.co.jp/dir/cmp/img/shop/cmp.jpg"
+    },
+    {
+      "src": "assets/photos/store-other-cmp-book07.webp",
+      "width": 282,
+      "height": 243,
+      "alt": "만다라케 컴플렉스 3층 서가 · 공식 안내 사진",
+      "source": "https://www.mandarake.co.jp/dir/cmp/index-en.html",
+      "credit": "MANDARAKE · 공식 매장 사진",
+      "kind": "interior",
+      "imageUrl": "https://www.mandarake.co.jp/dir/cmp/img/shop/cmp_uriba_07.jpg?20250903"
+    }
+  ],
+  "akiba-mandarake-complex2": [
+    {
+      "src": "assets/photos/store-other-cmp2-01.webp",
+      "width": 500,
+      "height": 500,
+      "alt": "만다라케 컴플렉스2 외관 · 본관과 별도 건물",
+      "source": "https://www.mandarake.co.jp/dir/cmp2/index-en.html",
+      "credit": "MANDARAKE · 공식 매장 사진",
+      "kind": "exterior",
+      "imageUrl": "https://www.mandarake.co.jp/dir/cmp2/assets/img/shop/01.jpg"
+    },
+    {
+      "src": "assets/photos/store-other-cmp2-02.webp",
+      "width": 500,
+      "height": 500,
+      "alt": "만다라케 컴플렉스2 진열장 사이 통로",
+      "source": "https://www.mandarake.co.jp/dir/cmp2/index-en.html",
+      "credit": "MANDARAKE · 공식 매장 사진",
+      "kind": "interior",
+      "imageUrl": "https://www.mandarake.co.jp/dir/cmp2/assets/img/shop/02.jpg"
+    },
+    {
+      "src": "assets/photos/store-other-cmp2-04.webp",
+      "width": 500,
+      "height": 500,
+      "alt": "만다라케 컴플렉스2 상품 진열 풍경",
+      "source": "https://www.mandarake.co.jp/dir/cmp2/index-en.html",
+      "credit": "MANDARAKE · 공식 매장 사진",
+      "kind": "interior",
+      "imageUrl": "https://www.mandarake.co.jp/dir/cmp2/assets/img/shop/04.jpg"
+    }
+  ],
+  "akiba-surugaya-games": [
+    {
+      "src": "assets/photos/store-other-surugaya-current-1.webp",
+      "width": 1000,
+      "height": 667,
+      "alt": "스루가야 게임관이 입점한 건물 · 2026년 9월 이전 후",
+      "source": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2145487.html",
+      "credit": "白倉甲一 / AKIBA PC Hotline! · 2026.09.25 촬영",
+      "kind": "exterior",
+      "imageUrl": "https://asset.watch.impress.co.jp/img/ah/docs/2145/487/suruga01.jpg"
+    },
+    {
+      "src": "assets/photos/store-other-surugaya-current-3.webp",
+      "width": 1000,
+      "height": 667,
+      "alt": "스루가야 아키하바라 게임관 간판 · 2층 입구 안내",
+      "source": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2145487.html",
+      "credit": "白倉甲一 / AKIBA PC Hotline! · 2026.09.25 촬영",
+      "kind": "exterior",
+      "imageUrl": "https://asset.watch.impress.co.jp/img/ah/docs/2145/487/suruga03.jpg"
+    }
+  ],
+  "akiba-recofan": [
+    {
+      "src": "assets/photos/store-other-reco-2.webp",
+      "width": 953,
+      "height": 714,
+      "alt": "RECOfan SEEKBASE점 입구와 음반 매대",
+      "source": "https://www.recofan.co.jp/map/SEEKBASE.html",
+      "credit": "RECOfan · 공식 SEEKBASE점 사진",
+      "kind": "interior",
+      "imageUrl": "https://www.recofan.co.jp/map/map_pic/SEEKBASE09.jpg"
+    },
+    {
+      "src": "assets/photos/store-other-reco-3.webp",
+      "width": 1000,
+      "height": 516,
+      "alt": "RECOfan SEEKBASE점 레코드 서가",
+      "source": "https://www.recofan.co.jp/map/SEEKBASE.html",
+      "credit": "RECOfan · 공식 SEEKBASE점 사진",
+      "kind": "interior",
+      "imageUrl": "https://www.recofan.co.jp/map/map_pic/akiba08.jpg"
+    },
+    {
+      "src": "assets/photos/store-other-reco-1.webp",
+      "width": 1000,
+      "height": 750,
+      "alt": "RECOfan SEEKBASE점 매장 전경",
+      "source": "https://www.recofan.co.jp/map/SEEKBASE.html",
+      "credit": "RECOfan · 공식 SEEKBASE점 사진",
+      "kind": "interior",
+      "imageUrl": "https://www.recofan.co.jp/map/map_pic/SEEKBASE05.jpg"
+    }
+  ],
+  "akiba-yellow-submarine-rpg": [
+    {
+      "src": "assets/photos/store-other-yellownew-3.webp",
+      "width": 1000,
+      "height": 750,
+      "alt": "옐로 서브마린 아키하바라 RPG숍 매장 내부",
+      "source": "https://yellowsubmarine.co.jp/shop/秋葉原rpgショップ/",
+      "credit": "Yellow Submarine · 공식 RPG숍 안내",
+      "kind": "interior",
+      "imageUrl": "https://yellowsubmarine.co.jp/wp/wp-content/uploads/2020/06/売り場1-1024x768.jpg"
+    },
+    {
+      "src": "assets/photos/store-other-yellownew-2.webp",
+      "width": 792,
+      "height": 1000,
+      "alt": "옐로 서브마린 RPG숍 · 6층 출입구",
+      "source": "https://yellowsubmarine.co.jp/shop/秋葉原rpgショップ/",
+      "credit": "Yellow Submarine · 공식 RPG숍 안내",
+      "kind": "interior",
+      "imageUrl": "https://yellowsubmarine.co.jp/wp/wp-content/uploads/2020/06/店舗入り口-1-811x1024.jpg"
+    },
+    {
+      "src": "assets/photos/store-other-yellownew-1.webp",
+      "width": 1000,
+      "height": 783,
+      "alt": "옐로 서브마린 RPG숍 플레이 스페이스",
+      "source": "https://yellowsubmarine.co.jp/shop/秋葉原rpgショップ/",
+      "credit": "Yellow Submarine · 공식 RPG숍 안내",
+      "kind": "interior",
+      "imageUrl": "https://yellowsubmarine.co.jp/wp/wp-content/uploads/2020/06/プレイスペース-4-1024x802.jpg"
+    }
+  ],
+  "akiba-shosen-base-lab": [
+    {
+      "src": "assets/photos/store-other-shosenarticle-0.webp",
+      "width": 960,
+      "height": 640,
+      "alt": "SHOSEN BASE LAB 출입구와 책 진열대 · 프리오픈 당시",
+      "source": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2148997.html",
+      "credit": "白倉甲一 / AKIBA PC Hotline! · 2026.10.10 촬영",
+      "kind": "interior",
+      "imageUrl": "https://asset.watch.impress.co.jp/img/ah/docs/2148/997/seek01_s.jpg"
+    },
+    {
+      "src": "assets/photos/store-other-shosenarticle-1.webp",
+      "width": 960,
+      "height": 640,
+      "alt": "SHOSEN BASE LAB 유리문 너머 서가 · 프리오픈 당시",
+      "source": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2148997.html",
+      "credit": "白倉甲一 / AKIBA PC Hotline! · 2026.10.10 촬영",
+      "kind": "exterior",
+      "imageUrl": "https://asset.watch.impress.co.jp/img/ah/docs/2148/997/seek02_s.jpg"
+    },
+    {
+      "src": "assets/photos/store-other-shosenarticle-2.webp",
+      "width": 960,
+      "height": 640,
+      "alt": "SHOSEN BASE LAB · SEEKBASE 입점 공간 외관",
+      "source": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2148997.html",
+      "credit": "白倉甲一 / AKIBA PC Hotline! · 2026.10.10 촬영",
+      "kind": "exterior",
+      "imageUrl": "https://asset.watch.impress.co.jp/img/ah/docs/2148/997/seek03_s.jpg"
+    }
+  ],
+  "akiba-ms": [
+    {
+      "src": "assets/photos/store-other-ms-facade.webp",
+      "width": 500,
+      "height": 500,
+      "alt": "M’s 아키하바라 건물 외관",
+      "source": "https://www.ms-online.co.jp/page/akihabara-store",
+      "credit": "大人のデパート エムズ · 공식 아키하바라점 사진",
+      "kind": "exterior",
+      "imageUrl": "https://www.ms-online.co.jp/static/special/storelist/akihabara/akihabara2025_0.jpg.webp"
+    },
+    {
+      "src": "assets/photos/store-other-ms-1f_1.webp",
+      "width": 540,
+      "height": 360,
+      "alt": "M’s 아키하바라 1층 매장 통로",
+      "source": "https://www.ms-online.co.jp/page/akihabara-store",
+      "credit": "大人のデパート エムズ · 공식 아키하바라점 사진",
+      "kind": "interior",
+      "imageUrl": "https://www.ms-online.co.jp/static/special/storelist/akihabara/akihabara2025-1f_1.jpg.webp"
+    },
+    {
+      "src": "assets/photos/store-other-ms-5f_2.webp",
+      "width": 540,
+      "height": 360,
+      "alt": "M’s 아키하바라 5층 의상 매대",
+      "source": "https://www.ms-online.co.jp/page/akihabara-store",
+      "credit": "大人のデパート エムズ · 공식 아키하바라점 사진",
+      "kind": "interior",
+      "imageUrl": "https://www.ms-online.co.jp/static/special/storelist/akihabara/akihabara2025-5f_2.jpg.webp"
+    }
+  ],
+  "akiba-love-merci": [
+    {
+      "src": "assets/photos/store-other-love2-0.webp",
+      "width": 563,
+      "height": 1000,
+      "alt": "러브메르시 아키하바라 입구 · 2022년 방문 사진",
+      "source": "https://ameblo.jp/mutsukimoe/entry-12724309992.html",
+      "credit": "睦月萌 · 매장 방문 기록, 2022년",
+      "kind": "exterior",
+      "imageUrl": "https://stat.ameba.jp/user_images/20220131/17/mutsukimoe/c7/1a/j/o0960170615068765578.jpg?caw=800"
+    },
+    {
+      "src": "assets/photos/store-other-love2-2.webp",
+      "width": 563,
+      "height": 1000,
+      "alt": "러브메르시 의상 매대 · 2022년 방문 사진",
+      "source": "https://ameblo.jp/mutsukimoe/entry-12724309992.html",
+      "credit": "睦月萌 · 매장 방문 기록, 2022년",
+      "kind": "interior",
+      "imageUrl": "https://stat.ameba.jp/user_images/20220131/17/mutsukimoe/9e/b1/j/o0960170615068776829.jpg?caw=800"
+    }
+  ],
+  "akiba-geestore": [
+    {
+      "src": "assets/photos/store-other-geenew-0.webp",
+      "width": 1000,
+      "height": 749,
+      "alt": "지스토어 아키바 · 오노덴 4층 캐릭터 의류 매장",
+      "source": "https://otaspoguide.com/2133/",
+      "credit": "ジーストア 제공 / オタスポガイド · 2022년",
+      "kind": "interior",
+      "imageUrl": "https://otaspoguide.com/cms/wp-content/uploads/2022/06/29-01-01-2.jpg"
+    },
+    {
+      "src": "assets/photos/store-other-geenew-2.webp",
+      "width": 667,
+      "height": 1000,
+      "alt": "지스토어가 입점한 오노덴 건물 입구 · 매장은 4층",
+      "source": "https://otaspoguide.com/2133/",
+      "credit": "西澤浩一 / オタスポガイド · 2022년",
+      "kind": "exterior",
+      "imageUrl": "https://otaspoguide.com/cms/wp-content/uploads/2022/06/29-01-03-1.jpg"
+    },
+    {
+      "src": "assets/photos/store-other-geenew-1.webp",
+      "width": 1000,
+      "height": 667,
+      "alt": "지스토어 아키바 4층 입구와 층별 매장 안내",
+      "source": "https://otaspoguide.com/2133/",
+      "credit": "西澤浩一 / オタスポガイド · 2022년",
+      "kind": "interior",
+      "imageUrl": "https://otaspoguide.com/cms/wp-content/uploads/2022/06/29-01-02-1.jpg"
+    }
+  ],
+  "akiba-cospa-atre": [
+    {
+      "src": "assets/photos/store-other-cospanew-1.webp",
+      "width": 600,
+      "height": 450,
+      "alt": "COSPA 아트레 아키하바라 매대 전경",
+      "source": "https://www.cospa.com/event/id/20124",
+      "credit": "COSPA · 공식 아트레 아키하바라점 사진",
+      "kind": "interior",
+      "imageUrl": "https://www.cospa.com/special/shoplist/shopimg/p_atre_12.jpg"
+    },
+    {
+      "src": "assets/photos/store-other-cospanew-2.webp",
+      "width": 600,
+      "height": 450,
+      "alt": "COSPA 아트레점 캐릭터 의류와 소품",
+      "source": "https://www.cospa.com/event/id/20124",
+      "credit": "COSPA · 공식 아트레 아키하바라점 사진",
+      "kind": "interior",
+      "imageUrl": "https://www.cospa.com/special/shoplist/shopimg/p_atre_13.jpg"
+    },
+    {
+      "src": "assets/photos/store-other-cospanew-3.webp",
+      "width": 600,
+      "height": 450,
+      "alt": "COSPA 아트레점 의류 진열 풍경",
+      "source": "https://www.cospa.com/event/id/20124",
+      "credit": "COSPA · 공식 아트레 아키하바라점 사진",
+      "kind": "interior",
+      "imageUrl": "https://www.cospa.com/special/shoplist/shopimg/p_atre_14.jpg"
+    }
+  ],
+  "akiba-donki": [
+    {
+      "src": "assets/photos/store-other-donkinew-1.webp",
+      "width": 370,
+      "height": 420,
+      "alt": "돈키호테 아키하바라점 건물 외관",
+      "source": "https://visit-chiyoda.tokyo/app/spot/detail/810",
+      "credit": "千代田区観光協会 / Visit Chiyoda",
+      "kind": "exterior",
+      "imageUrl": "https://visit-chiyoda.tokyo/app/upload/spot_image/9c8d82fefd1c8d8cdfceef805fb95c63.jpg"
+    },
+    {
+      "src": "assets/photos/store-other-donkinew-2.webp",
+      "width": 700,
+      "height": 525,
+      "alt": "돈키호테 아키하바라점 캐릭터 상품 매장",
+      "source": "https://visit-chiyoda.tokyo/app/spot/detail/810",
+      "credit": "千代田区観光協会 / Visit Chiyoda",
+      "kind": "interior",
+      "imageUrl": "https://visit-chiyoda.tokyo/app/upload/spot_image/510b32c0a9fa020033bc7efc28330565.png"
+    },
+    {
+      "src": "assets/photos/store-other-donkinew-3.webp",
+      "width": 700,
+      "height": 525,
+      "alt": "돈키호테 아키하바라점 상품 진열 풍경",
+      "source": "https://visit-chiyoda.tokyo/app/spot/detail/810",
+      "credit": "千代田区観光協会 / Visit Chiyoda",
+      "kind": "interior",
+      "imageUrl": "https://visit-chiyoda.tokyo/app/upload/spot_image/c57b26dc26e06bc6636a286a60831dd1.png"
+    }
+  ],
+  "east-twelvebooks": [
+    {
+      "src": "assets/photos/store-other-vdsarticle-3.webp",
+      "width": 1000,
+      "height": 667,
+      "alt": "SKAC twelvebooks의 높은 아트북 서가",
+      "source": "https://www.audio-technica.co.jp/always-listening/articles/skac/",
+      "credit": "Shintaro Yoshimatsu / Audio-Technica Always Listening · 2025년",
+      "kind": "interior",
+      "imageUrl": "https://www.audio-technica.co.jp/always-listening/wp/wp-content/uploads/2025/01/skac_04_l.webp"
+    },
+    {
+      "src": "assets/photos/store-other-vdsarticle-4.webp",
+      "width": 1000,
+      "height": 667,
+      "alt": "twelvebooks · 높은 선반이 있는 서점·창고 공간",
+      "source": "https://www.audio-technica.co.jp/always-listening/articles/skac/",
+      "credit": "Shintaro Yoshimatsu / Audio-Technica Always Listening · 2025년",
+      "kind": "interior",
+      "imageUrl": "https://www.audio-technica.co.jp/always-listening/wp/wp-content/uploads/2025/01/skac_01_l.webp"
+    },
+    {
+      "src": "assets/photos/store-other-vdsarticle-1.webp",
+      "width": 1000,
+      "height": 667,
+      "alt": "twelvebooks와 VDS가 입점한 SKAC 공용 외관",
+      "source": "https://www.audio-technica.co.jp/always-listening/articles/skac/",
+      "credit": "Shintaro Yoshimatsu / Audio-Technica Always Listening · 2025년",
+      "kind": "exterior",
+      "imageUrl": "https://www.audio-technica.co.jp/always-listening/wp/wp-content/uploads/2025/01/skac_02_l.webp"
+    }
+  ],
+  "east-vds": [
+    {
+      "src": "assets/photos/store-other-vdsarticle-10.webp",
+      "width": 1000,
+      "height": 667,
+      "alt": "VDS · 레코드를 살펴보는 매대 풍경",
+      "source": "https://www.audio-technica.co.jp/always-listening/articles/skac/",
+      "credit": "Shintaro Yoshimatsu / Audio-Technica Always Listening · 2025년",
+      "kind": "interior",
+      "imageUrl": "https://www.audio-technica.co.jp/always-listening/wp/wp-content/uploads/2025/01/skac_05_l.webp"
+    },
+    {
+      "src": "assets/photos/store-other-vdsarticle-23.webp",
+      "width": 1000,
+      "height": 667,
+      "alt": "VDS SKAC점 · 바이닐 매장 전경",
+      "source": "https://www.audio-technica.co.jp/always-listening/articles/skac/",
+      "credit": "Shintaro Yoshimatsu / Audio-Technica Always Listening · 2025년",
+      "kind": "interior",
+      "imageUrl": "https://www.audio-technica.co.jp/always-listening/wp/wp-content/uploads/2025/01/skac_24_l.webp"
+    },
+    {
+      "src": "assets/photos/store-other-vdsarticle-7.webp",
+      "width": 1000,
+      "height": 667,
+      "alt": "VDS · 청음용 스피커가 놓인 공간",
+      "source": "https://www.audio-technica.co.jp/always-listening/articles/skac/",
+      "credit": "Shintaro Yoshimatsu / Audio-Technica Always Listening · 2025년",
+      "kind": "interior",
+      "imageUrl": "https://www.audio-technica.co.jp/always-listening/wp/wp-content/uploads/2025/01/skac_08_l.webp"
+    }
+  ],
+  "east-eishindo": [
+    {
+      "src": "assets/photos/store-other-eishindo.webp",
+      "width": 1000,
+      "height": 750,
+      "alt": "에이신도 서점 외관 · BOOKS & RECORD 간판",
+      "source": "https://www.katsushika-kushouren.jp/store/s35025/",
+      "credit": "葛飾区商店街連合会",
+      "kind": "exterior",
+      "imageUrl": "https://www.katsushika-kushouren.jp/wp-content/uploads/s35025_1.jpg"
+    },
+    {
+      "src": "assets/photos/store-other-eishindoarticle-2.webp",
+      "width": 800,
+      "height": 600,
+      "alt": "에이신도 서점의 옛 잡화·만화 진열대",
+      "source": "https://ameblo.jp/kamebia/entry-12949351622.html",
+      "credit": "カメビア · 2025년 매장 방문 기록",
+      "kind": "interior",
+      "imageUrl": "https://stat.ameba.jp/user_images/20251208/00/kamebia/64/90/j/o1080081015727750558.jpg?caw=800"
+    }
+  ],
+  "east-kastori": [
+    {
+      "src": "assets/photos/store-other-kastori-new2.webp",
+      "width": 750,
+      "height": 422,
+      "alt": "카스토리 서점 · 이전 후 현재 매장 내부",
+      "source": "https://www.timeout.jp/tokyo/ja/ショッピング/kasutori-syoho",
+      "credit": "Yanni / Time Out Tokyo · 2023년 이전 후 매장",
+      "kind": "interior",
+      "imageUrl": "https://media.timeout.com/images/106064541/750/422/image.jpg"
+    },
+    {
+      "src": "assets/photos/store-other-kastori-new3.webp",
+      "width": 750,
+      "height": 422,
+      "alt": "카스토리 서점 · 노란 차양의 출입구",
+      "source": "https://www.timeout.jp/tokyo/ja/ショッピング/kasutori-syoho",
+      "credit": "Yanni / Time Out Tokyo · 2023년 이전 후 매장",
+      "kind": "exterior",
+      "imageUrl": "https://media.timeout.com/images/106064540/750/422/image.jpg"
+    },
+    {
+      "src": "assets/photos/store-other-kastori-new1.webp",
+      "width": 750,
+      "height": 422,
+      "alt": "카스토리 서점의 역사·문화 서가",
+      "source": "https://www.timeout.jp/tokyo/ja/ショッピング/kasutori-syoho",
+      "credit": "Yanni / Time Out Tokyo · 2023년 이전 후 매장",
+      "kind": "interior",
+      "imageUrl": "https://media.timeout.com/images/106064556/750/422/image.jpg"
+    }
+  ],
+  "east-kakimori": [
+    {
+      "src": "assets/photos/store-other-kaki-8.webp",
+      "width": 1000,
+      "height": 563,
+      "alt": "카키모리 미스지 매장 외관",
+      "source": "https://kakimori.com/pages/stores",
+      "credit": "Kakimori · 공식 매장 안내",
+      "kind": "exterior",
+      "imageUrl": "https://kakimori.com/cdn/shop/files/DSC4946_de2cbfcd-52af-4730-ae42-da92bf82d373.jpg?v=1686885125&width=1500"
+    },
+    {
+      "src": "assets/photos/store-other-kaki-10.webp",
+      "width": 1000,
+      "height": 668,
+      "alt": "카키모리 Inkstand · 잉크를 고르는 워크룸",
+      "source": "https://kakimori.com/pages/stores",
+      "credit": "Kakimori · 공식 매장 안내",
+      "kind": "interior",
+      "imageUrl": "https://kakimori.com/cdn/shop/files/DSC5350.jpg?v=1684910728&width=1500"
+    },
+    {
+      "src": "assets/photos/store-other-kaki-11.webp",
+      "width": 1000,
+      "height": 668,
+      "alt": "카키모리 Inkstand · 잉크 제작 풍경",
+      "source": "https://kakimori.com/pages/stores",
+      "credit": "Kakimori · 공식 매장 안내",
+      "kind": "interior",
+      "imageUrl": "https://kakimori.com/cdn/shop/files/DSC5466.jpg?v=1684910644&width=1500"
+    }
+  ],
+  "east-douguya-nobori": [
+    {
+      "src": "assets/photos/store-other-nobori-2.webp",
+      "width": 1000,
+      "height": 450,
+      "alt": "도구야 노보리 · 목재 창틀과 출입구",
+      "source": "https://nichijosahan.jp/shop/douguya_nobori",
+      "credit": "日常茶飯 · 매장 소개",
+      "kind": "exterior",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/558645fee4b04baa0307db5e/969d4b45-7eb7-4750-b343-350b4853d432/nobori%E5%A4%96%E8%A6%B320*9.jpg?format=2500w"
+    },
+    {
+      "src": "assets/photos/store-other-nobori-new.webp",
+      "width": 1000,
+      "height": 563,
+      "alt": "도구야 노보리 · 창밖에서 보는 매장 분위기, 2021년",
+      "source": "https://lohas-time.com/lifestyle/douguyanobori/",
+      "credit": "LOHAS TIME · 2021년 방문 사진",
+      "kind": "exterior",
+      "imageUrl": "https://lohas-time.com/wp-content/uploads/2021/11/IMG_2423-1024x576.jpg"
+    }
+  ]
+}
