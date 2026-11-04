@@ -1,0 +1,597 @@
+{
+  "foods": [
+    {
+      "id": "kamasho-kiyosumi",
+      "name": "후카가와 가마쇼 · 深川釜匠",
+      "area": "기요스미시라카와 · 산책 중",
+      "kind": "바지락밥 · 에도 지역 음식",
+      "days": [
+        2
+      ],
+      "why": "기요스미 산책 중 먹을 수 있는 지역 음식. 바지락을 듬뿍 넣은 밥으로 전날의 튀김과 맛을 바꿔요.",
+      "orders": [
+        {
+          "jp": "深川めし",
+          "ko": "바지락을 넣어 지은 밥 · 첫 선택"
+        },
+        {
+          "jp": "深川丼",
+          "ko": "바지락 국물을 부은 덮밥 · 국물 있는 대안"
+        }
+      ],
+      "hours": "화·목 11:00–15:00, 수·금·토·일·공휴일 11:00–20:00 안내. 월요일 휴무(공휴일 예외).",
+      "note": "1/1 특별영업 미확인. 기요스미 방문 전 전화 확인 후 고르는 후보이며, 휴무이면 시오도메 쪽 대안으로 이동해요. 현금 결제 준비.",
+      "url": "https://tabelog.com/tokyo/A1313/A131303/13033281/",
+      "menu": "https://tabelog.com/tokyo/A1313/A131303/13033281/dtlmenu/",
+      "query": "深川釜匠 東京都江東区白河2-1-13",
+      "sources": [
+        "https://koto-kanko.jp/fukagawameshi/introduction/detail.php?shop_id=FS0008",
+        "https://tabelog.com/tokyo/A1313/A131303/13033281/dtlmenu/"
+      ],
+      "photo": "food-extra-newyear-kamasho-rice",
+      "menuPhotos": [
+        "food-extra-newyear-kamasho-rice",
+        "food-extra-newyear-kamasho-shop"
+      ],
+      "drinks": {
+        "title": "바지락밥 + 담백한 사케",
+        "items": [
+          {
+            "jp": "日本酒",
+            "ko": "일본주 한 잔",
+            "why": "바지락의 감칠맛에 맞춘 추천. 차게 또는 따뜻하게 가능한지 물어봐요."
+          },
+          {
+            "jp": "ビール",
+            "ko": "맥주",
+            "why": "부담 없이 시원한 한 잔을 고르면 맥주. 브랜드는 현장 확인."
+          }
+        ],
+        "status": "일본주 취급 안내 확인 · 브랜드·맥주 판매는 현장 확인",
+        "source": "https://tabelog.com/tokyo/A1313/A131303/13033281/dtlmenu/"
+      },
+      "portion": "둘이 깊은 맛을 비교하려면 深川めし와 深川丼을 하나씩. 같은 날 다른 밥집까지 연달아 가지 않아요.",
+      "badge": "지역 음식",
+      "checkedDate": "2026.11.04"
+    },
+    {
+      "id": "toraji-param",
+      "name": "야키니쿠 토라지 PARAM · 카레타 시오도메",
+      "area": "시오도메 · 카레타 46층",
+      "kind": "야키니쿠 · 전망 식사",
+      "days": [
+        2
+      ],
+      "why": "본숙소로 돌아오는 길에 두툼한 소고기를 직접 구워 먹는 저녁. 작은 골목집보다는 전망과 편한 예약을 고르는 선택이에요.",
+      "orders": [
+        {
+          "jp": "ハラミ",
+          "ko": "하라미 · 소고기 안창살 계열"
+        },
+        {
+          "jp": "キムチ盛り合わせ",
+          "ko": "김치 모둠 · 고기 곁들임"
+        }
+      ],
+      "hours": "보통 점심 11:00–15:00, 저녁 평일 17:00–23:00·주말/공휴일 15:00–23:00. 시설 휴무에 따름.",
+      "note": "1/1 카레타 특별영업과 예약 가능 여부를 확인해요. 창가 좌석은 확정되지 않으며, 브랜드 공식 홈페이지는 조사 때 점검 중이어서 타베로그 매장 안내를 함께 연결했어요.",
+      "url": "https://tabelog.com/tokyo/A1301/A130103/13005671/",
+      "menu": "https://tabelog.com/tokyo/A1301/A130103/13005671/dtlmenu/",
+      "query": "焼肉トラジ PARAM カレッタ汐留店 東京都港区東新橋1-8-1 46F",
+      "sources": [
+        "https://www.ebisu-toraji.com/shop/tokyo23/minato/param/",
+        "https://www.caretta.jp/app/webroot/skyrestaurants/toraji.html",
+        "https://tabelog.com/tokyo/A1301/A130103/13005671/dtlmenu/"
+      ],
+      "photo": "food-extra-newyear-toraji-meat",
+      "menuPhotos": [
+        "food-extra-newyear-toraji-meat",
+        "food-extra-newyear-toraji-view"
+      ],
+      "drinks": {
+        "title": "소고기구이 + 생맥주",
+        "items": [
+          {
+            "jp": "生ビール",
+            "ko": "생맥주",
+            "why": "하라미를 구워 김치와 곁들이는 저녁의 첫 잔으로 추천."
+          },
+          {
+            "jp": "生レモンサワー",
+            "ko": "생 레몬사와",
+            "why": "양념 고기 뒤에 산뜻한 탄산이 당기면 선택."
+          }
+        ],
+        "status": "매장 공개 음료 메뉴 확인 · 당일 제공 재확인",
+        "source": "https://tabelog.com/tokyo/A1301/A130103/13005671/dtlmenu/drink/"
+      },
+      "portion": "하라미 1–2접시 + 김치 모둠부터 둘이 나눠 먹고 고기를 추가해요. 전날 우설을 골랐다면 오늘은 하라미로 바꿔요.",
+      "badge": "전망 · 체인",
+      "checkedDate": "2026.11.04"
+    },
+    {
+      "id": "kisoji-shimbashi",
+      "name": "기소지 신바시점 · 木曽路",
+      "area": "신바시 · 역 긴자 출구",
+      "kind": "샤브샤브 · 새해 예약 후보",
+      "days": [
+        2
+      ],
+      "why": "구이나 튀김 대신 따뜻한 육수에 고기와 채소를 익혀 먹어요. 천천히 앉아서 새해 식사를 하고 싶은 날의 선택이에요.",
+      "orders": [
+        {
+          "jp": "上しゃぶしゃぶ",
+          "ko": "와규 샤브샤브 · 기본 코스 후보"
+        },
+        {
+          "jp": "特しゃぶしゃぶ",
+          "ko": "상급 와규 샤브샤브 · 고기를 바꾸는 대안"
+        },
+        {
+          "jp": "きしめん・餅",
+          "ko": "기시멘·떡 · 코스 마무리 구성 확인"
+        }
+      ],
+      "hours": "평소 11:00–15:00, 저녁 평일 17:00–22:00·토/일/공휴일 17:00–21:30. 12/31–1/5는 별도 시간 운영.",
+      "note": "2026.10.1 리뉴얼. 공식 1/1–1/4 전석 서비스료 안내가 있으며, 연말연시 메뉴는 제한돼요. 신년회·복어 코스 일부는 1/1–1/6 판매 중단이므로 일반 샤브샤브 제공·자리부터 확인해요.",
+      "url": "https://tabelog.com/tokyo/A1301/A130103/13028515/",
+      "menu": "https://navi.kisoji.co.jp/shop/K217",
+      "query": "木曽路 新橋店 東京都港区新橋1-11-7 新橋センタープレイス B1",
+      "sources": [
+        "https://tabelog.com/tokyo/A1301/A130103/13028515/",
+        "https://navi.kisoji.co.jp/shop/K217"
+      ],
+      "photo": "food-extra-newyear-kisoji-shabu",
+      "menuPhotos": [
+        "food-extra-newyear-kisoji-shabu",
+        "food-extra-newyear-kisoji-room"
+      ],
+      "drinks": {
+        "title": "샤브샤브 + 병맥주",
+        "items": [
+          {
+            "jp": "瓶ビール",
+            "ko": "병맥주",
+            "why": "참깨소스와 소고기에 깔끔한 라거를 나눠 마셔요."
+          },
+          {
+            "jp": "日本酒",
+            "ko": "일본주",
+            "why": "고기보다 육수·채소의 담백함을 즐기면 한 잔."
+          }
+        ],
+        "status": "공식 음료 구성에 병맥주·일본주 확인 · 단품·브랜드 문의",
+        "source": "https://navi.kisoji.co.jp/shop/K217"
+      },
+      "portion": "코스는 1인 1개, 고기 등급은 둘이 같은 것으로 맞추면 주문이 편해요. 사진 속 고기·채소는 3인분 연출 예시입니다.",
+      "badge": "예약형 체인",
+      "checkedDate": "2026.11.04"
+    },
+    {
+      "id": "bubbys-shiodome",
+      "name": "Bubby’s 시오도메",
+      "area": "시오도메 시티센터 B2층",
+      "kind": "팬케이크 · 그릴 치즈 브런치",
+      "days": [
+        2
+      ],
+      "why": "달콤한 팬케이크와 치즈 샌드위치를 나눠 먹는 느린 브런치. 카페에서 오래 쉬고 싶은 새해 낮의 대안이에요.",
+      "orders": [
+        {
+          "jp": "ブルーベリーパンケーキ",
+          "ko": "블루베리 팬케이크 · 달콤한 쪽"
+        },
+        {
+          "jp": "グリルチーズサンドウィッチ＆トマトスープ",
+          "ko": "그릴 치즈 샌드위치 + 토마토 수프 · 짭짤한 쪽"
+        }
+      ],
+      "hours": "공식 안내 10:00–23:00(주문 22:00). 브런치는 토·일·공휴일, 시설 휴업일에 따름.",
+      "note": "1/1 시설 특별영업·브런치 메뉴 제공을 확인해요. 사진은 2025년 공통 메뉴 소개이며 당일 품절·변경 가능. 햄버거·치킨 대신 팬케이크와 치즈를 골라 다른 날짜와 맛을 나눠요.",
+      "url": "https://tabelog.com/tokyo/A1301/A130103/13157257/",
+      "menu": "https://bubbys.jp/locations/shiodome/",
+      "query": "Bubby’s 汐留 東京都港区東新橋1-5-2 汐留シティセンター B2F",
+      "sources": [
+        "https://bubbys.jp/locations/shiodome/",
+        "https://bubbys.jp/%E3%80%8Ebubbys-new-dishes%EF%BC%81%E3%80%8F%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A8%E3%83%BC%E3%82%AF%E3%83%88%E3%83%A9%E3%82%A4%E3%83%99%E3%83%83%E3%82%AB%E3%81%AB%E3%81%82%E3%82%8B%E3%83%90%E3%83%93-2/"
+      ],
+      "photo": "food-extra-newyear-bubbys-pancake",
+      "menuPhotos": [
+        "food-extra-newyear-bubbys-pancake",
+        "food-extra-newyear-bubbys-cheese"
+      ],
+      "drinks": {
+        "title": "그릴 치즈 + 생맥주 / 팬케이크 + 커피",
+        "items": [
+          {
+            "jp": "生ビール",
+            "ko": "생맥주",
+            "why": "치즈 샌드위치의 고소함과 맞춰 고르는 한 잔."
+          },
+          {
+            "jp": "コーヒー",
+            "ko": "따뜻한 커피",
+            "why": "블루베리 팬케이크를 주로 먹는다면 커피가 편해요."
+          }
+        ],
+        "status": "시설 공개 음료 안내 확인 · 맥주 브랜드·브런치 제공 여부 확인",
+        "source": "https://www.shiodome-cc.com/uploads/pdfs/shiodome/000002/000002/2b8192b1.pdf"
+      },
+      "portion": "팬케이크 1접시 + 그릴 치즈 샌드위치 1접시를 나눠 맛보기. 두 메뉴 모두 넉넉하니 파이 추가는 먹어 보고 결정해요.",
+      "badge": "브런치 체인",
+      "checkedDate": "2026.11.04"
+    },
+    {
+      "id": "hainan-shiodome",
+      "name": "싱가포르 하이난지판 · 시오도메점",
+      "area": "시오도메 시티센터 B1층",
+      "kind": "찐 닭고기밥 · 싱가포르 음식",
+      "days": [
+        2
+      ],
+      "why": "튀김을 쉬고 싶을 때 고르는 부드러운 찐 닭밥. 생강·칠리·간장 소스를 조금씩 바꿔 먹는 재미가 있어요.",
+      "orders": [
+        {
+          "jp": "海南鶏飯（蒸し）",
+          "ko": "하이난 찐 닭고기밥 · 메인"
+        },
+        {
+          "jp": "アチャー",
+          "ko": "싱가포르식 채소 피클 · 곁들임"
+        },
+        {
+          "jp": "空心菜（ガーリック）",
+          "ko": "마늘 공심채볶음 · 나눠 먹을 채소"
+        }
+      ],
+      "hours": "월–목 11:00–15:30/17:00–22:00, 금 저녁 17:30–22:45, 토·일·공휴일 11:00–15:30/17:00–21:00. 시설 휴무에 따름.",
+      "note": "1/1 시티센터 특별영업 확인 필수. 같은 상호의 다른 지점·다른 하이난 치킨집과 혼동하지 않도록 시오도메 B1층으로 찾아가요.",
+      "url": "https://tabelog.com/tokyo/A1301/A130103/13045651/",
+      "menu": "https://www.hainanchifan.com/shop/shiodome/",
+      "query": "シンガポール海南鶏飯 汐留シティセンター店 東京都港区東新橋1-5-2 B1F",
+      "sources": [
+        "https://tabelog.com/tokyo/A1301/A130103/13045651/",
+        "https://www.hainanchifan.com/shop/shiodome/"
+      ],
+      "photo": "food-extra-newyear-hainan-chicken",
+      "menuPhotos": [
+        "food-extra-newyear-hainan-chicken",
+        "food-extra-newyear-hainan-achar"
+      ],
+      "drinks": {
+        "title": "찐 닭밥 + 생 타이거",
+        "items": [
+          {
+            "jp": "生タイガー",
+            "ko": "타이거 생맥주",
+            "why": "생강·칠리 소스가 있는 닭밥에 산뜻한 라거."
+          },
+          {
+            "jp": "シンガポールスリング",
+            "ko": "싱가포르 슬링",
+            "why": "달콤한 과일 칵테일을 마시고 싶다면 대안."
+          }
+        ],
+        "status": "공식 매장 음료 메뉴 확인 · 당일 재고 확인",
+        "source": "https://hainanchifan-shiodome.owst.jp/"
+      },
+      "portion": "찐 닭밥 각 1접시 + 아차르 1접시를 나눠요. 치킨 한 마리 메뉴는 4–6인분이어서 둘이 주문할 때는 피하는 편이 좋아요.",
+      "badge": "동선 대안",
+      "checkedDate": "2026.11.04"
+    },
+    {
+      "id": "kinno-sundubu",
+      "name": "금의 순두부 · 金の純豆腐",
+      "area": "시오도메 시티센터 B1층",
+      "kind": "해물 순두부 · 돌솥비빔밥",
+      "days": [
+        2
+      ],
+      "why": "여행 중 익숙한 매콤한 밥이 생각날 때 들를 일본 현지의 한국 음식점. 차가운 산책 뒤 따뜻한 국물로 쉬어 가요.",
+      "orders": [
+        {
+          "jp": "海鮮純豆腐チゲ（ライス付き）",
+          "ko": "해물 순두부찌개 + 밥"
+        },
+        {
+          "jp": "石焼ビビンバ",
+          "ko": "돌솥비빔밥 · 국물보다 밥이 당길 때"
+        }
+      ],
+      "hours": "시설 안내 평일 11:00–22:00, 토·일·공휴일 11:00–15:00/17:00–22:00. 마지막 주문은 매장 확인.",
+      "note": "1/1 특별영업 미확인. 시설과 예약 사이트의 중간 휴식시간 표기가 달라 전화로 확인해요. 고평점 숨은 맛집 대신 가까운 익숙한 맛의 대안입니다.",
+      "url": "https://tabelog.com/tokyo/A1301/A130103/13279949/",
+      "menu": "https://www.hotpepper.jp/strJ003916019/food/",
+      "query": "金の純豆腐 東京都港区東新橋1-5-2 汐留シティセンター B1F",
+      "sources": [
+        "https://tabelog.com/tokyo/A1301/A130103/13279949/",
+        "https://www.hotpepper.jp/strJ003916019/food/"
+      ],
+      "photo": "food-extra-newyear-sundubu-menu",
+      "menuPhotos": [
+        "food-extra-newyear-sundubu-menu",
+        "food-extra-newyear-sundubu-food"
+      ],
+      "drinks": {
+        "title": "순두부 + 생맥주",
+        "items": [
+          {
+            "jp": "生ビール",
+            "ko": "생맥주",
+            "why": "돌솥밥과 매콤한 반찬에 시원한 한 잔."
+          },
+          {
+            "jp": "マッコリ",
+            "ko": "막걸리",
+            "why": "더 부드럽고 달큰한 술이 당기면 작은 잔부터 문의."
+          }
+        ],
+        "status": "시설 공개 음료 안내에 생맥주·막걸리 확인 · 브랜드·현행 제공 문의",
+        "source": "https://www.shiodome-cc.com/uploads/pdfs/shiodome/000002/000002/2b8192b1.pdf"
+      },
+      "portion": "순두부 1개와 돌솥비빔밥 1개를 골라 나눠 먹으면 국물과 밥을 둘 다 맛볼 수 있어요.",
+      "badge": "익숙한 맛 대안",
+      "checkedDate": "2026.11.04"
+    },
+    {
+      "id": "ootoya-fresa-shimbashi",
+      "name": "오오토야 프레사인 신바시점 · 大戸屋",
+      "area": "신바시 · 히비야 출구",
+      "kind": "생강 돼지고기 정식 · 일상 체인",
+      "days": [
+        2
+      ],
+      "why": "많이 걷고 돌아와 복잡하게 고르기 싫은 저녁. 생강 돼지고기와 밥·국이 함께 나오는 정식으로 편하게 먹어요.",
+      "orders": [
+        {
+          "jp": "すりおろし生しょうがの豚肩ロース生姜焼き",
+          "ko": "생강 돼지 어깨등심 구이 정식"
+        },
+        {
+          "jp": "五穀ご飯",
+          "ko": "오곡밥 · 밥 선택 화면에서 확인"
+        }
+      ],
+      "hours": "공식 매일 아침 06:30–10:00, 일반 메뉴 11:00–23:00(주문 22:30).",
+      "note": "1/1 특별영업은 별도 확인. 소테츠 프레사인 신바시 히비야구치 2층 지점이며, 여행 본숙소 다이몬 지점과 다른 건물입니다.",
+      "url": "https://tabelog.com/tokyo/A1301/A130103/13151824/",
+      "menu": "https://www.ootoya.com/menu_list/index/27371",
+      "query": "大戸屋 フレッサイン新橋店 東京都港区新橋1-14-3 2F",
+      "sources": [
+        "https://store.ootoya.com/detail/27371/",
+        "https://www.ootoya.com/menu_list/index/27371"
+      ],
+      "photo": "food-extra-newyear-ootoya-ginger",
+      "menuPhotos": [
+        "food-extra-newyear-ootoya-ginger"
+      ],
+      "drinks": {
+        "title": "생강 돼지고기 + 생맥주",
+        "items": [
+          {
+            "jp": "生ビール（中）",
+            "ko": "생맥주 중간 크기",
+            "why": "달짝지근한 생강 양념에 차가운 생맥주를 곁들여요.",
+            "photo": "food-extra-newyear-ootoya-beer"
+          },
+          {
+            "jp": "アサヒドライゼロ",
+            "ko": "아사히 드라이제로",
+            "why": "술 없이 맥주 느낌만 원하면 고르는 대안."
+          }
+        ],
+        "status": "해당 지점 공식 메뉴·음료 사진 확인",
+        "source": "https://www.ootoya.com/menu_list/index/27371"
+      },
+      "portion": "정식 각 1개면 충분해요. 맥주를 마셔도 튀김 반찬을 추가하기보다 메인과 밥을 먹는 구성이 좋아요.",
+      "badge": "일상 체인",
+      "checkedDate": "2026.11.04"
+    },
+    {
+      "id": "beside-seaside",
+      "name": "BESIDE SEASIDE · 비사이드 시사이드",
+      "area": "하마마쓰초 · 히노데 바닷가",
+      "kind": "파에야 · 바닷가 레스토랑",
+      "days": [
+        2
+      ],
+      "why": "본숙소 쪽에서 해안으로 조금 더 걸어 나가 바다를 보며 먹는 한 끼. 해산물 육수가 밴 파에야를 둘이 나눠요.",
+      "orders": [
+        {
+          "jp": "ビーシーミックスパエリア（Normale）",
+          "ko": "믹스 파에야 작은 크기 · 공식 1–2인분 안내"
+        },
+        {
+          "jp": "生ハム＆グリーンサラダ",
+          "ko": "생햄 그린 샐러드 · 파에야 곁들임"
+        }
+      ],
+      "hours": "평일 11:30–22:00, 토 11:00–22:00, 일·공휴일 11:00–21:00. 공휴일 점심에도 디너 단품 주문 안내.",
+      "note": "하마마쓰초역 남쪽 출구에서 도보 약 9분으로 원래 산책에 해안 쪽 우회가 생겨요. 1/1 영업 확인 후 방문하고, 파에야는 생쌀부터 익혀 시간이 걸리므로 도착해서 먼저 주문해요.",
+      "url": "https://tabelog.com/tokyo/A1314/A131401/13236902/",
+      "menu": "https://www.beside-seaside.tokyo/dinner/",
+      "query": "BESIDE SEASIDE 東京都港区海岸2-7-103 Hi-NODE 1F",
+      "sources": [
+        "https://www.beside-seaside.tokyo/dinner/",
+        "https://brands.balnibarbi.com/brands/restaurants/beside_seaside",
+        "https://www.beside-seaside.tokyo/dinner/dinner.pdf"
+      ],
+      "photo": "food-extra-newyear-beside-paella",
+      "menuPhotos": [
+        "food-extra-newyear-beside-paella"
+      ],
+      "drinks": {
+        "title": "파에야 + 라거 또는 드라이 화이트",
+        "items": [
+          {
+            "jp": "生ビール",
+            "ko": "생맥주",
+            "why": "짭짤한 파에야와 편하게 마실 첫 잔. 취급 브랜드를 확인해요."
+          },
+          {
+            "jp": "辛口の白ワイン",
+            "ko": "드라이 화이트와인",
+            "why": "해산물 풍미에 맞춰 잔 와인이 있는지 물어봐요."
+          }
+        ],
+        "status": "음식 궁합 추천 · 당일 음료 메뉴·브랜드 현장 확인",
+        "source": "https://www.beside-seaside.tokyo/dinner/"
+      },
+      "portion": "파에야 Normale 1개를 둘이 나누고 전채 1접시부터. 메인 고기까지 한꺼번에 주문하지 말고 양을 보고 추가해요.",
+      "badge": "해안 우회 · 예약 후보",
+      "checkedDate": "2026.11.04"
+    }
+  ],
+  "photos": {
+    "food-extra-newyear-kamasho-rice": {
+      "url": "https://koto-kanko.jp/img_data/shop_i-1008_1.jpg",
+      "title": "후카가와 가마쇼 · 바지락밥",
+      "caption": "에도 지역의 바지락 솥밥 · 관광협회에 게재된 매장 음식 사진",
+      "source": "https://koto-kanko.jp/fukagawameshi/introduction/detail.php?shop_id=FS0008",
+      "credit": "江東区観光協会 / 深川釜匠",
+      "src": "assets/photos/food-extra-newyear-kamasho-rice.webp",
+      "width": 428,
+      "height": 286
+    },
+    "food-extra-newyear-kamasho-shop": {
+      "url": "https://koto-kanko.jp/img_data/main-f_FS0008.jpg",
+      "title": "후카가와 가마쇼 외관",
+      "caption": "기요스미시라카와 산책 중 찾을 가게",
+      "source": "https://koto-kanko.jp/fukagawameshi/introduction/detail.php?shop_id=FS0008",
+      "credit": "江東区観光協会 / 深川釜匠",
+      "src": "assets/photos/food-extra-newyear-kamasho-shop.webp",
+      "width": 574,
+      "height": 381
+    },
+    "food-extra-newyear-toraji-meat": {
+      "url": "https://tblg.k-img.com/restaurant/images/Rvw/114384/320x320_square_114384603.jpg",
+      "title": "토라지 PARAM · 고기 모둠 예시",
+      "caption": "매장 소개용 음식 사진 · 실제 주문의 부위·구성은 메뉴 확인",
+      "source": "https://tabelog.com/tokyo/A1301/A130103/13005671/",
+      "credit": "焼肉トラジ PARAM / 食べログ 매장 소개",
+      "src": "assets/photos/food-extra-newyear-toraji-meat.webp",
+      "width": 320,
+      "height": 320
+    },
+    "food-extra-newyear-toraji-view": {
+      "url": "https://tblg.k-img.com/restaurant/images/Rvw/6070/320x320_square_6070893.jpg",
+      "title": "토라지 PARAM · 창가 좌석",
+      "caption": "카레타 시오도메 46층 매장 사진 · 창가 배정은 별도 확인",
+      "source": "https://tabelog.com/tokyo/A1301/A130103/13005671/",
+      "credit": "焼肉トラジ PARAM / 食べログ 매장 소개",
+      "src": "assets/photos/food-extra-newyear-toraji-view.webp",
+      "width": 320,
+      "height": 320
+    },
+    "food-extra-newyear-kisoji-shabu": {
+      "url": "https://d2n3qyzs5du0c3.cloudfront.net/images/menu/thumbnail/1/syabusyabu.jpg?v=402611113504",
+      "title": "기소지 · 샤브샤브",
+      "caption": "공식 메뉴 사진 · 고기·채소·기시멘은 3인분 연출 예시",
+      "source": "https://navi.kisoji.co.jp/shop/K217",
+      "credit": "木曽路 공식 메뉴",
+      "src": "assets/photos/food-extra-newyear-kisoji-shabu.webp",
+      "width": 528,
+      "height": 660
+    },
+    "food-extra-newyear-kisoji-room": {
+      "url": "https://d2n3qyzs5du0c3.cloudfront.net/images/shop/thumbnail/K217_1.jpg?v=002610105421",
+      "title": "기소지 신바시 · 실내",
+      "caption": "공식 매장 실내 사진 · 자리 유형은 예약할 때 확인",
+      "source": "https://navi.kisoji.co.jp/shop/K217",
+      "credit": "木曽路 신바시 공식 매장",
+      "src": "assets/photos/food-extra-newyear-kisoji-room.webp",
+      "width": 546,
+      "height": 546
+    },
+    "food-extra-newyear-bubbys-pancake": {
+      "url": "https://bubbys.jp/wp-content/uploads/2025/08/IMG_5503-1024x768.jpeg",
+      "title": "Bubby’s · 블루베리 팬케이크",
+      "caption": "2025년 공식 공통 메뉴 사진 · 시오도메 당일 제공 여부 확인",
+      "source": "https://bubbys.jp/%E3%80%8Ebubbys-new-dishes%EF%BC%81%E3%80%8F%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A8%E3%83%BC%E3%82%AF%E3%83%88%E3%83%A9%E3%82%A4%E3%83%99%E3%83%83%E3%82%AB%E3%81%AB%E3%81%82%E3%82%8B%E3%83%90%E3%83%93-2/",
+      "credit": "Bubby’s 공식 메뉴 소개",
+      "src": "assets/photos/food-extra-newyear-bubbys-pancake.webp",
+      "width": 900,
+      "height": 675
+    },
+    "food-extra-newyear-bubbys-cheese": {
+      "url": "https://bubbys.jp/wp-content/uploads/2025/08/IMG_5500-1024x777.jpeg",
+      "title": "Bubby’s · 그릴 치즈 샌드위치",
+      "caption": "토마토 수프에 찍어 먹는 치즈 샌드위치 · 공식 공통 메뉴 사진",
+      "source": "https://bubbys.jp/%E3%80%8Ebubbys-new-dishes%EF%BC%81%E3%80%8F%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A8%E3%83%BC%E3%82%AF%E3%83%88%E3%83%A9%E3%82%A4%E3%83%99%E3%83%83%E3%82%AB%E3%81%AB%E3%81%82%E3%82%8B%E3%83%90%E3%83%93-2/",
+      "credit": "Bubby’s 공식 메뉴 소개",
+      "src": "assets/photos/food-extra-newyear-bubbys-cheese.webp",
+      "width": 900,
+      "height": 683
+    },
+    "food-extra-newyear-hainan-chicken": {
+      "url": "https://www.hainanchifan.com/img/shop-menu/chicken-rice-steamed.jpg",
+      "title": "하이난지판 · 찐 닭고기밥",
+      "caption": "생강·칠리·다크 소이 소스와 먹는 찐 닭고기밥",
+      "source": "https://www.hainanchifan.com/shop/shiodome/",
+      "credit": "シンガポール海南鶏飯 공식 메뉴",
+      "src": "assets/photos/food-extra-newyear-hainan-chicken.webp",
+      "width": 800,
+      "height": 600
+    },
+    "food-extra-newyear-hainan-achar": {
+      "url": "https://www.hainanchifan.com/img/shop-menu/achar.jpg",
+      "title": "하이난지판 · 아차르 피클",
+      "caption": "닭고기밥 곁들임으로 고르는 새콤한 채소 피클",
+      "source": "https://www.hainanchifan.com/shop/shiodome/",
+      "credit": "シンガポール海南鶏飯 공식 메뉴",
+      "src": "assets/photos/food-extra-newyear-hainan-achar.webp",
+      "width": 800,
+      "height": 600
+    },
+    "food-extra-newyear-sundubu-menu": {
+      "url": "https://imgfp.hotp.jp/IMGH/11/09/P049901109/P049901109_238.jpg",
+      "title": "금의 순두부 · 해물 순두부찌개",
+      "caption": "매장 메뉴에 게재된 해물 순두부찌개 · 밥 포함 여부 확인",
+      "source": "https://www.hotpepper.jp/strJ003916019/food/",
+      "credit": "金の純豆腐 / ホットペッパー 매장 메뉴",
+      "src": "assets/photos/food-extra-newyear-sundubu-menu.webp",
+      "width": 238,
+      "height": 237
+    },
+    "food-extra-newyear-sundubu-food": {
+      "url": "https://www.shiodome-cc.com/uploads/images/resized/0x380/shiodome/000002/000002/fd015fb4.png",
+      "title": "금의 순두부 · 실내",
+      "caption": "시오도메 시티센터 지점의 실내 분위기",
+      "source": "https://www.shiodome-cc.com/shopguide/detail/?cd=000072",
+      "credit": "汐留シティセンター / 金の純豆腐",
+      "src": "assets/photos/food-extra-newyear-sundubu-food.webp",
+      "width": 507,
+      "height": 380
+    },
+    "food-extra-newyear-ootoya-ginger": {
+      "url": "https://www.ootoya.com/files/menu_img/1278.jpg?id=5100",
+      "title": "오오토야 · 생강 돼지고기 정식",
+      "caption": "프레사인 신바시점 공식 메뉴에 등록된 돼지고기 생강구이",
+      "source": "https://www.ootoya.com/menu_list/index/27371",
+      "credit": "大戸屋 공식 지점 메뉴",
+      "src": "assets/photos/food-extra-newyear-ootoya-ginger.webp",
+      "width": 750,
+      "height": 750
+    },
+    "food-extra-newyear-ootoya-beer": {
+      "url": "https://www.ootoya.com/files/menu_img/1444.jpg?id=5100",
+      "title": "오오토야 · 생맥주 중간 크기",
+      "caption": "프레사인 신바시점 공식 음료 사진 · 실제 잔·브랜드 확인",
+      "source": "https://www.ootoya.com/menu_list/index/27371",
+      "credit": "大戸屋 공식 지점 메뉴",
+      "src": "assets/photos/food-extra-newyear-ootoya-beer.webp",
+      "width": 750,
+      "height": 750
+    },
+    "food-extra-newyear-beside-paella": {
+      "url": "https://www.beside-seaside.tokyo/images/dinner/title-sp.jpg",
+      "title": "BESIDE SEASIDE · 파에야와 곁들임",
+      "caption": "공식 디너 연출 사진 · 가운데 파에야 외 요리는 별도 주문",
+      "source": "https://www.beside-seaside.tokyo/dinner/",
+      "credit": "BESIDE SEASIDE 공식 디너",
+      "src": "assets/photos/food-extra-newyear-beside-paella.webp",
+      "width": 750,
+      "height": 500
+    }
+  }
+}

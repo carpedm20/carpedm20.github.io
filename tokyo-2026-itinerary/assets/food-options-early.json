@@ -1,0 +1,1242 @@
+{
+  "foods": [
+    {
+      "id": "tanaka-soba-akihabara",
+      "name": "다나카 소바점 아키하바라 · 田中そば店",
+      "days": [
+        0
+      ],
+      "area": "아키하바라 · 만다라케에서 북쪽",
+      "kind": "맑은 돼지육수 라멘",
+      "why": "쇼핑 거리 안에서 따뜻한 한 그릇. 맑은 중화소바와 매운 미소를 하나씩 고르면 국물 맛을 비교하기 좋아요.",
+      "orders": [
+        {
+          "jp": "中華そば + 味付玉子",
+          "ko": "중화소바에 맛달걀 추가 · 담백한 첫 선택"
+        },
+        {
+          "jp": "山形辛味噌らーめん",
+          "ko": "야마가타 매운 미소 라멘 · 다른 국물 대안"
+        }
+      ],
+      "hours": "평소 11:00–21:00. 12/30 단축영업·휴무는 공식 확인.",
+      "note": "11/9–11/21 설비공사 후 11/22 재개 예정이라는 공식 공지가 있어요. 실제 재개와 12/30 영업을 확인해요. 좌석이 적어 줄이 길면 다른 후보로 이동.",
+      "url": "https://tabelog.com/tokyo/A1311/A131101/13137336/",
+      "menu": "https://www.tanaka-shoten.net/tanakasobaten",
+      "query": "田中そば店 秋葉原店 東京都千代田区外神田3-8-3",
+      "sources": [
+        "https://tanaka-shoten.net/shop/?id=0030006",
+        "https://www.tanaka-shoten.net/tanakasobaten",
+        "https://tabelog.com/tokyo/A1311/A131101/13137336/",
+        "https://tanaka-shoten.net/information/akihabara/"
+      ],
+      "photo": "food-extra-early-tanaka-shio",
+      "menuPhotos": [
+        "food-extra-early-tanaka-shio",
+        "food-extra-early-tanaka-negi"
+      ],
+      "drinks": {
+        "title": "라멘 + 가벼운 첫 잔",
+        "items": [
+          {
+            "jp": "ビール",
+            "ko": "맥주",
+            "why": "판매하면 작은 병을 둘이 나눠요. 국물까지 먹을 예정이면 물만으로도 충분해요."
+          }
+        ],
+        "status": "술 취급·브랜드 미확인 · 음식 궁합 제안",
+        "source": "https://tanaka-shoten.net/shop/?id=0030006"
+      },
+      "portion": "각자 라멘 한 그릇. 교자나 다른 면요리까지 연달아 넣지 않아요.",
+      "badge": "",
+      "score": "3.67",
+      "scoreDate": "2026-11-04"
+    },
+    {
+      "id": "kanda-matsuya",
+      "name": "간다 마츠야 · 神田まつや",
+      "days": [
+        0
+      ],
+      "area": "아키하바라 남쪽 · 스다초 도보 우회",
+      "kind": "수타 소바 · 오래된 목조 식당",
+      "why": "전자상가에서 남쪽으로 걸어 오래된 소바집 분위기로 전환. 찬 소바의 향과 따뜻한 닭고기 소바를 비교할 수 있어요.",
+      "orders": [
+        {
+          "jp": "もりそば",
+          "ko": "모리소바 · 메밀 향을 느끼는 차가운 소바"
+        },
+        {
+          "jp": "かしわ南ばん",
+          "ko": "가시와난반 · 닭고기와 대파가 든 따뜻한 소바"
+        }
+      ],
+      "hours": "관광협회 안내 평일 11:00–20:30, 토·공휴일 11:00–19:30. 주문 마감 30분 전 · 일요일 휴무. 최신 시간은 공식 확인.",
+      "note": "숨은 식당보다는 잘 알려진 노포예요. 연말 소바 수요로 대기가 길 수 있어요. 12/30 영업 확인 후, 줄이 길면 아키하바라의 다른 선택지로 이동.",
+      "url": "https://tabelog.com/tokyo/A1310/A131002/13000340/",
+      "menu": "http://www.kanda-matsuya.jp/",
+      "query": "神田まつや 東京都千代田区神田須田町1-13",
+      "sources": [
+        "http://www.kanda-matsuya.jp/",
+        "https://visit-chiyoda.tokyo/app/spot/detail/359"
+      ],
+      "photo": "food-extra-early-matsuya-mori",
+      "menuPhotos": [
+        "food-extra-early-matsuya-mori",
+        "food-extra-early-matsuya-kashiwa"
+      ],
+      "drinks": {
+        "title": "소바 + 따뜻한 사케",
+        "items": [
+          {
+            "jp": "日本酒（燗）",
+            "ko": "따뜻한 사케",
+            "why": "취급하면 작은 한 병을 나눠 소바 전에 천천히. 술 대신 따뜻한 차도 잘 맞아요."
+          }
+        ],
+        "status": "사케 종류·제공 방식 미확인 · 음식 궁합 제안",
+        "source": "http://www.kanda-matsuya.jp/"
+      },
+      "portion": "모리소바와 가시와난반을 1개씩. 소바만 먹고 쇼핑으로 돌아가기 좋은 선택지.",
+      "badge": "노포 · 대기 가능"
+    },
+    {
+      "id": "tamagoken-akihabara",
+      "name": "간다 다마고켄 아키하바라 · 神田たまごけん",
+      "days": [
+        0
+      ],
+      "area": "아키하바라 · 중앙도리 옆",
+      "kind": "오므라이스 · 달걀과 두 가지 소스",
+      "why": "부드러운 달걀에 토마토·하야시·버섯 크림을 비교하는 가벼운 양식 식사. 카레나 교자 말고 익숙한 맛이 당길 때 좋아요.",
+      "orders": [
+        {
+          "jp": "トマト＆ハヤシオムライス",
+          "ko": "토마토 & 하야시 오므라이스 · 한 접시에 두 소스"
+        },
+        {
+          "jp": "キノコクリームオムライス",
+          "ko": "버섯 크림 오므라이스 · 부드럽고 고소한 대안"
+        }
+      ],
+      "hours": "평소 11:00–21:00, 주문 마감 20:45. 12/30 특별영업 확인.",
+      "note": "매장 앞 안내에 따라 줄을 서고 QR 주문 여부를 확인해요. 사진은 아키하바라점 공식 메뉴이며 계절 한정 메뉴는 당일판을 봐요.",
+      "url": "https://tabelog.com/tokyo/A1311/A131101/13178900/",
+      "menu": "https://tamagoken.com/shop/akihabara/",
+      "query": "神田たまごけん 秋葉原店 東京都千代田区外神田3-14-3",
+      "sources": [
+        "https://tamagoken.com/shop/akihabara/"
+      ],
+      "photo": "food-extra-early-tamagoken-tomato",
+      "menuPhotos": [
+        "food-extra-early-tamagoken-tomato",
+        "food-extra-early-tamagoken-cream"
+      ],
+      "drinks": {
+        "title": "오므라이스 + 산뜻한 음료",
+        "items": [
+          {
+            "jp": "ウーロン茶",
+            "ko": "우롱차",
+            "why": "판매하면 식후 입맛을 산뜻하게. 이곳은 술보다 한 접시 식사 중심으로 골랐어요."
+          }
+        ],
+        "status": "음료 종류·알코올 취급 미확인 · 현장 확인",
+        "source": "https://tamagoken.com/shop/akihabara/"
+      },
+      "portion": "각자 한 접시. 토마토·하야시와 버섯 크림을 나눠 맛보면 소스가 겹치지 않아요.",
+      "badge": "일상 체인"
+    },
+    {
+      "id": "nakau-akihabara",
+      "name": "나카우 아키하바라 · なか卯",
+      "days": [
+        0
+      ],
+      "area": "스에히로초 · 쇼핑 거리 북쪽",
+      "kind": "오야코동 · 빠른 식사",
+      "why": "관광 맛집 대기보다 닭고기·달걀 덮밥으로 간단히 먹고 싶을 때. 작은 가게 탐방에 시간을 더 쓰는 실용적인 체인 선택지예요.",
+      "orders": [
+        {
+          "jp": "親子丼",
+          "ko": "오야코동 · 닭고기와 달걀 덮밥"
+        },
+        {
+          "jp": "とろたま親子丼",
+          "ko": "토로타마 오야코동 · 달걀을 더 얹는 대안"
+        }
+      ],
+      "hours": "공식 지점 안내 04:00–다음 날 03:00. 03:00–04:00은 영업하지 않아요. 연말 특별영업 별도 확인.",
+      "note": "북쪽 스에히로초 쪽 지점이에요. 둘 중 한 가지 덮밥을 고르고 매장 기기에서 양을 확인해요. 고평점 맛집 대신 빠른 식사 후보.",
+      "url": "https://tabelog.com/tokyo/A1311/A131101/13106533/",
+      "menu": "https://www.nakau.co.jp/jp/menu/category/1.html",
+      "query": "なか卯 秋葉原店 東京都台東区上野3-2-1",
+      "sources": [
+        "https://maps.nakau.co.jp/jp/detail/2404.html",
+        "https://www.nakau.co.jp/jp/menu/category/1.html",
+        "https://www.nakau.co.jp/jp/kodawari/"
+      ],
+      "photo": "food-extra-early-nakau-oyako",
+      "menuPhotos": [
+        "food-extra-early-nakau-oyako"
+      ],
+      "drinks": {
+        "title": "오야코동 + 차",
+        "items": [
+          {
+            "jp": "お茶",
+            "ko": "차",
+            "why": "달걀과 다시의 맛을 느끼며 간단히 먹어요. 맥주는 별도 취급이 확인되지 않았어요."
+          }
+        ],
+        "status": "알코올 취급 미확인 · 빠른 식사 후보",
+        "source": "https://maps.nakau.co.jp/jp/detail/2404.html"
+      },
+      "portion": "덮밥은 각자 작은 사이즈 또는 보통 하나. 토로타마는 기본 오야코동 대신 선택해요.",
+      "badge": "일상 체인"
+    },
+    {
+      "id": "unasho-akiba",
+      "name": "우나쇼 요도바시 아키바 · うな匠",
+      "days": [
+        0
+      ],
+      "area": "아키하바라역 · 요도바시 8층",
+      "kind": "장어 히츠마부시",
+      "why": "따뜻한 실내에서 장어를 세 가지 방식으로 먹는 식사. 그대로 → 고명 → 다시를 부어 맛을 바꾸는 재미가 있어요.",
+      "orders": [
+        {
+          "jp": "ひつまぶし",
+          "ko": "히츠마부시 · 장어를 고명·다시와 세 방식으로"
+        },
+        {
+          "jp": "うな重",
+          "ko": "우나주 · 국물을 붓지 않는 장어덮밥 대안"
+        }
+      ],
+      "hours": "요도바시 아키바 식당가 내 매장. 최신 주문 마감과 12/30 영업은 시설·공식 매장 안내 확인.",
+      "note": "아키하바라역 동쪽으로 건너가야 해요. 주문 후 굽는 시간과 대기를 확인하고, 히츠마부시를 고르면 직원 안내에 따라 나눠 먹어요.",
+      "url": "https://tabelog.com/tokyo/A1310/A131001/13019526/",
+      "menu": "https://www.jgroup.jp/brand/2100/",
+      "query": "うな匠 ヨドバシ秋葉原 東京都千代田区神田花岡町1-1 8F",
+      "sources": [
+        "https://www.jgroup.jp/brand/2100/",
+        "https://tabelog.com/tokyo/A1310/A131001/13019526/dtlmenu/"
+      ],
+      "photo": "food-extra-early-unasho-hitsumabushi",
+      "menuPhotos": [
+        "food-extra-early-unasho-hitsumabushi",
+        "food-extra-early-unasho-unaju"
+      ],
+      "drinks": {
+        "title": "장어 + 생맥주",
+        "items": [
+          {
+            "jp": "生ビール",
+            "ko": "생맥주",
+            "why": "판매하면 달콤한 장어 소스에 한 잔. 마지막 다시밥은 술 없이 맛보는 쪽을 추천해요."
+          },
+          {
+            "jp": "日本酒",
+            "ko": "사케",
+            "why": "장어의 구운 향과 천천히 즐기고 싶을 때 취급 여부를 물어봐요."
+          }
+        ],
+        "status": "술 종류·브랜드 미확인 · 음식 궁합 제안",
+        "source": "https://www.jgroup.jp/brand/2100/"
+      },
+      "portion": "히츠마부시 또는 우나주 중 각자 한 가지. 두 메뉴를 모두 추가하는 구성이 아니에요.",
+      "badge": ""
+    },
+    {
+      "id": "jbs-tokyo-udx",
+      "name": "JB’s TOKYO 아키하바라 UDX",
+      "days": [
+        0
+      ],
+      "area": "아키하바라 · UDX 2층",
+      "kind": "크래프트 버거 · 12/10 개점 예정",
+      "why": "직접 만든 빵과 소스, 철판에 눌러 굽는 쇠고기 패티. 여행 직전 새로 여는 매장을 구경하고 싶다면 추가할 후보예요.",
+      "orders": [
+        {
+          "jp": "100%バーガー",
+          "ko": "100% 버거 · 브랜드 대표 메뉴, UDX 판매 구성 확인"
+        },
+        {
+          "jp": "フライドポテト",
+          "ko": "감자튀김 · 둘이 나눌 사이드, 지점 메뉴 확인"
+        }
+      ],
+      "hours": "UDX 안내상 2026.12.10 개점 예정 · 예정 영업 11:00–23:00, 주문 마감 22:30. 개점 후 재확인.",
+      "note": "조사일에는 아직 개점 전이에요. 12/30에 실제 영업 중인지 확인한 뒤 선택해요. 본점 수상 이력을 새 UDX 지점 평점으로 표시하지 않았어요.",
+      "url": "https://udx.jp/jbstokyo/",
+      "menu": "https://www.jbs-burger.tokyo/home",
+      "query": "JB’s TOKYO 秋葉原UDX 東京都千代田区外神田4-14-1 2F",
+      "sources": [
+        "https://udx.jp/jbstokyo/",
+        "https://www.jbs-burger.tokyo/home",
+        "https://www.jbs-burger.tokyo/_files/ugd/fc5783_27250bd678814715b656defbfa5cb796.pdf"
+      ],
+      "photo": "food-extra-early-jb-burger",
+      "menuPhotos": [
+        "food-extra-early-jb-burger"
+      ],
+      "drinks": {
+        "title": "버거 + 라거 또는 콜라",
+        "items": [
+          {
+            "jp": "ビール",
+            "ko": "라거맥주",
+            "why": "새 지점에서 판매하면 구운 패티와 감자튀김에. 알코올을 안 팔면 콜라로 골라요."
+          },
+          {
+            "jp": "コーラ",
+            "ko": "콜라",
+            "why": "술 없이 버거를 먹고 바로 쇼핑을 이어갈 때."
+          }
+        ],
+        "status": "UDX 개점 전 · 음료·주류 판매 미확인",
+        "source": "https://udx.jp/jbstokyo/"
+      },
+      "portion": "버거 각자 하나 + 감자튀김 한 개를 나눠 먹기. 개점이 연기되면 다른 후보로 바로 전환해요.",
+      "badge": "2026.12.10 개점 예정"
+    },
+    {
+      "id": "shaoyangchun-akiba",
+      "name": "샤오양춘 요도바시 아키바 · 小陽春",
+      "days": [
+        0
+      ],
+      "area": "아키하바라역 · 요도바시 8층",
+      "kind": "대만 루로우판 · 차와 디저트",
+      "why": "달큰한 돼지고기와 달걀을 얹은 대만식 밥. 만두 없이 밥·오이·차로 구성하면 다른 날 일본식 식사와 결이 달라져요.",
+      "orders": [
+        {
+          "jp": "魯肉エッグ飯",
+          "ko": "루로우 에그밥 · 돼지고기 조림과 달걀"
+        },
+        {
+          "jp": "台湾おつまみきゅうり",
+          "ko": "대만식 오이 안주 · 밥 옆에 나눠 먹기"
+        },
+        {
+          "jp": "台湾かき氷",
+          "ko": "대만식 빙수 · 남는 배가 있을 때, 겨울 판매 확인"
+        }
+      ],
+      "hours": "시설 공식 안내 11:00–23:00, 주문 마감 22:30. 12/30 특별영업은 별도 확인.",
+      "note": "같은 날 교자 후보와 함께 방문하기보다 대체 식사로 골라요. 미니 루로우판이 포함된 정식과 단품의 구성은 달라요.",
+      "url": "https://tabelog.com/tokyo/A1310/A131001/13266856/",
+      "menu": "https://www.yodobashi-akiba.com/restaurant/yy_shao.html",
+      "query": "小陽春 ヨドバシAKIBA店 東京都千代田区神田花岡町1-1 8F",
+      "sources": [
+        "https://www.yodobashi-akiba.com/restaurant/yy_shao.html",
+        "https://tabelog.com/tokyo/A1310/A131001/13266856/dtlmenu/"
+      ],
+      "photo": "food-extra-early-shao-rice",
+      "menuPhotos": [
+        "food-extra-early-shao-rice",
+        "food-extra-early-shao-mango"
+      ],
+      "drinks": {
+        "title": "루로우판 + 대만맥주",
+        "items": [
+          {
+            "jp": "台湾ビール",
+            "ko": "대만맥주",
+            "why": "돼지고기 조림과 오이 안주를 고르면 가벼운 라거로."
+          },
+          {
+            "jp": "ジャスミン茶ハイ",
+            "ko": "재스민차 하이",
+            "why": "탄산보다 차 향이 좋다면 이쪽. 술이 들어간 음료예요."
+          }
+        ],
+        "status": "공개 메뉴에서 음료명 확인 · 당일 재고 확인",
+        "source": "https://www.yodobashi-akiba.com/restaurant/yy_shao.html"
+      },
+      "portion": "루로우 에그밥 각자 하나 + 오이 한 접시. 빙수는 둘이 나누고, 만두는 추가하지 않아도 충분해요.",
+      "badge": "실내 식사"
+    },
+    {
+      "id": "star-kebab-akiba",
+      "name": "스타케밥 아키바테라스 · スターケバブ",
+      "days": [
+        0
+      ],
+      "area": "아키하바라 · 전기상가 골목",
+      "kind": "터키 도네르 피타 · 작은 식사",
+      "why": "아키하바라 골목에서 고기와 채소가 든 피타 한 개. 일본식 덮밥 대신 향신료와 요거트 소스가 당기는 날의 가벼운 선택이에요.",
+      "orders": [
+        {
+          "jp": "ビーフピタ",
+          "ko": "비프 피타 · 쇠고기 도네르"
+        },
+        {
+          "jp": "チキンピタ",
+          "ko": "치킨 피타 · 쇠고기 대신 고르는 닭고기"
+        }
+      ],
+      "hours": "공식 안내 매일 11:00–22:00. 12/30 단축영업·품절 가능성은 확인.",
+      "note": "실내 12석 안내가 있어요. 소스는 주문할 때 고르고 맵기를 물어봐요. 포장하면 이동 중 먹기보다 앉을 장소를 먼저 정해요.",
+      "url": "https://tabelog.com/tokyo/A1311/A131101/13035196/",
+      "menu": "https://www.kebab.co.jp/menu/",
+      "query": "スターケバブ アキバテラス 東京都千代田区外神田3-10-7",
+      "sources": [
+        "https://www.kebab.co.jp/shops/akiba-terrace/",
+        "https://www.kebab.co.jp/",
+        "https://www.kebab.co.jp/menu-category/drink/"
+      ],
+      "photo": "food-extra-early-kebab-beef",
+      "menuPhotos": [
+        "food-extra-early-kebab-beef",
+        "food-extra-early-kebab-chicken"
+      ],
+      "drinks": {
+        "title": "케밥 + 터키 맥주",
+        "items": [
+          {
+            "jp": "トルコのビール（Efes）",
+            "ko": "에페스 필스너",
+            "why": "피타와 함께 나라까지 맞춰 보는 선택. 병맥주 재고는 당일 확인."
+          },
+          {
+            "jp": "生ビール（Asahi）",
+            "ko": "아사히 생맥주",
+            "why": "익숙하고 깔끔한 맥주가 좋다면. 구운 고기와 잘 맞아요.",
+            "photo": "drink-asahi"
+          },
+          {
+            "jp": "アイラン",
+            "ko": "아이란",
+            "why": "술을 안 마시면 짭짤한 요거트 음료. 달콤한 요구르트와 다른 맛이에요."
+          }
+        ],
+        "status": "공식 드링크 메뉴 확인 · 당일 재고 확인",
+        "source": "https://www.kebab.co.jp/menu-category/drink/"
+      },
+      "portion": "피타는 1인 1개. 맥주를 곁들이면 한 끼, 저녁 전이라면 하나를 나누는 간식으로 골라요.",
+      "badge": "골목 간식"
+    },
+    {
+      "id": "lion-ginza-seven",
+      "name": "비어홀 라이온 긴자 7초메 · 1층",
+      "days": [
+        1
+      ],
+      "area": "신바시에서 긴자 방향 도보 약 7–10분",
+      "kind": "가라아게 · 역사적인 비어홀",
+      "why": "코미케 뒤 바삭한 닭튀김에 제대로 따른 생맥주. 장식과 높은 천장도 구경할 만해서 식사 공간의 분위기까지 고르는 후보예요.",
+      "orders": [
+        {
+          "jp": "LIONチキンの唐揚げ",
+          "ko": "LION 치킨 가라아게 · 2개/4개 수량 확인"
+        },
+        {
+          "jp": "ビヤホールの煮込み",
+          "ko": "비어홀의 조림 · 맥주 옆에 따뜻한 안주"
+        }
+      ],
+      "hours": "평소 일–목 11:30–22:00, 금·토·공휴일 전날 11:30–22:30. 마지막 주문 30분 전. 12/31 영업은 확인.",
+      "note": "관광객도 찾는 알려진 곳이며 1층은 예약을 받지 않는 안내예요. 2층 레스토랑과 구분하고 대기 시간 확인. 연말연시 할증 안내도 있어요.",
+      "url": "https://tabelog.com/tokyo/A1301/A130101/13060180/",
+      "menu": "https://www.ginzalion.jp/shop/brand/lion/shop1.html",
+      "query": "ビヤホールライオン 銀座七丁目店 東京都中央区銀座7-9-20 1F",
+      "sources": [
+        "https://www.ginzalion.jp/shop/brand/lion/shop1.html",
+        "https://tabelog.com/tokyo/A1301/A130101/13060180/dtlmenu/",
+        "https://025.teny.co.jp/odekake/tokyo-trip-beerhalllion"
+      ],
+      "photo": "food-extra-early-lion-karaage",
+      "menuPhotos": [
+        "food-extra-early-lion-karaage",
+        "food-extra-early-lion-stew"
+      ],
+      "drinks": {
+        "title": "가라아게 + 쿠로라벨",
+        "items": [
+          {
+            "jp": "サッポロ生ビール黒ラベル",
+            "ko": "삿포로 쿠로라벨 생맥주",
+            "why": "바삭한 치킨에 첫 잔으로. 잔 크기는 메뉴판에서 골라요.",
+            "photo": "drink-black-label"
+          }
+        ],
+        "status": "매장 대표 맥주 확인 · 연말 메뉴 확인",
+        "source": "https://www.ginzalion.jp/shop/brand/lion/shop1.html"
+      },
+      "portion": "치킨 가라아게 작은 접시 + 조림 한 접시부터 둘이 나눠 먹기. 소시지는 다른 날짜 비어홀에 남겨둬요.",
+      "badge": "",
+      "score": "3.65",
+      "scoreDate": "2026-11-04"
+    },
+    {
+      "id": "oshio-hibiya",
+      "name": "텐푸라와 와인 오시오 히비야 · 大塩",
+      "days": [
+        1
+      ],
+      "area": "신바시에서 히비야 철길 쪽 도보 약 5–8분",
+      "kind": "해산물·채소 텐푸라 · 와인",
+      "why": "고기 튀김꼬치 대신 새우·흰살생선·채소의 가벼운 튀김옷. 오늘은 맥주보다 화이트와인을 마시고 싶을 때 특히 잘 맞아요.",
+      "orders": [
+        {
+          "jp": "海老 / 鱈ゆず塩",
+          "ko": "새우 또는 유자소금 대구 텐푸라 · 해산물부터"
+        },
+        {
+          "jp": "旬野菜3点盛り",
+          "ko": "제철 채소 텐푸라 3종 · 구성은 매장 확인"
+        },
+        {
+          "jp": "いくらカナッペ",
+          "ko": "연어알 카나페 · 작은 전채 선택"
+        }
+      ],
+      "hours": "공식 안내 월–목 11:30–22:00, 금 11:30–22:30, 토·일 12:00–22:00. 주문 마감·12/31 영업 확인.",
+      "note": "한꺼번에 여러 튀김 식당을 도는 코스가 아니라 쿠시카츠의 대안이에요. 좌석을 확인하고, 계절 생선과 채소는 당일 메뉴를 우선해요.",
+      "url": "https://tabelog.com/tokyo/A1301/A130103/13250016/",
+      "menu": "https://tenpuratowain-hibiya.foodre.jp/",
+      "query": "天ぷらとワイン大塩 日比谷店 東京都千代田区内幸町1-7-1",
+      "sources": [
+        "https://tenpuratowain-hibiya.foodre.jp/",
+        "https://tabelog.com/tokyo/A1301/A130103/13250016/"
+      ],
+      "photo": "food-extra-early-oshio-tempura",
+      "menuPhotos": [
+        "food-extra-early-oshio-tempura",
+        "food-extra-early-oshio-ikura"
+      ],
+      "drinks": {
+        "title": "텐푸라 + 드라이한 화이트",
+        "items": [
+          {
+            "jp": "白ワイン（グラス）",
+            "ko": "화이트와인 한 잔",
+            "why": "새우·대구·채소 튀김에 드라이한 종류로 직원에게 추천받기."
+          },
+          {
+            "jp": "クラフトビール",
+            "ko": "크래프트 맥주",
+            "why": "맥주가 좋다면 그날 탭의 가벼운 종류. 스타일을 먼저 물어봐요."
+          }
+        ],
+        "status": "공식 소개에서 와인·크래프트 맥주 확인 · 종류는 현장 확인",
+        "source": "https://tenpuratowain-hibiya.foodre.jp/"
+      },
+      "portion": "새우 2개 + 생선 2개 + 채소 모둠부터 둘이 나눠요. 카나페는 더 먹고 싶을 때 추가.",
+      "badge": "",
+      "score": "3.49",
+      "scoreDate": "2026-11-04"
+    },
+    {
+      "id": "otakou-shimbashi",
+      "name": "신바시 오타코 · 新橋お多幸",
+      "days": [
+        1
+      ],
+      "area": "신바시 · 역 서쪽 골목",
+      "kind": "간토식 오뎅 · 따뜻한 국물",
+      "why": "긴 야외 대기 뒤에는 튀김 대신 국물 밴 무·두부·달걀. 오래된 신바시 오뎅집에서 따뜻하게 쉬는 저녁 대안이에요.",
+      "orders": [
+        {
+          "jp": "大根・とうふ・たまご",
+          "ko": "무·두부·달걀 오뎅 · 서로 다른 식감"
+        },
+        {
+          "jp": "牛すじ",
+          "ko": "소 힘줄 오뎅 · 더 진한 맛 하나 추가"
+        }
+      ],
+      "hours": "평소 월–토 16:00–22:00, 주문 마감 21:15. 일·공휴일 휴무. 12/31 영업 별도 확인.",
+      "note": "공식 안내상 11–1월 예약은 4명 이상 코스만 가능. 두 사람은 당일 입장·대기 가능 여부를 먼저 문의해요. 지하 매장이에요.",
+      "url": "https://tabelog.com/tokyo/A1301/A130103/13007773/",
+      "menu": "https://otako.owst.jp/foods",
+      "query": "新橋お多幸 東京都港区新橋3-7-9 川辺ビルB1",
+      "sources": [
+        "https://www.shinbashi-otakou.com/",
+        "https://otako.owst.jp/foods",
+        "https://otako.owst.jp/drinks"
+      ],
+      "photo": "food-extra-early-otakou-oden",
+      "menuPhotos": [
+        "food-extra-early-otakou-oden",
+        "food-extra-early-otakou-daikon"
+      ],
+      "drinks": {
+        "title": "오뎅 + 사케 또는 쿠로라벨",
+        "items": [
+          {
+            "jp": "日本酒（燗）",
+            "ko": "따뜻한 사케",
+            "why": "무·두부에 한 병을 나눠 마시기. 온도와 양은 주문할 때 물어봐요."
+          },
+          {
+            "jp": "サッポロ生ビール黒ラベル",
+            "ko": "삿포로 쿠로라벨 생맥주",
+            "why": "차가운 첫 잔을 원하면 공식 음료 메뉴의 쿠로라벨.",
+            "photo": "drink-black-label"
+          }
+        ],
+        "status": "공식 음료 메뉴 확인 · 사케 종목·재고는 당일 확인",
+        "source": "https://otako.owst.jp/drinks"
+      },
+      "portion": "무·달걀·두부·소힘줄을 합쳐 6개 안팎부터 나눠요. 사진의 대형 모둠을 그대로 시킬 필요는 없어요.",
+      "badge": "2인 예약 제한"
+    },
+    {
+      "id": "hidebo-shimbashi",
+      "name": "히로시마야키 HIDE坊 신바시 본점",
+      "days": [
+        1
+      ],
+      "area": "신바시 · 가라스모리 출구 남쪽",
+      "kind": "히로시마 오코노미야키 · 철판요리",
+      "why": "양배추·면·달걀을 겹쳐 구워 바삭한 면까지 먹는 한 판. 교자와 다른 식감이고 철판 앞에서 만들어지는 모습도 볼 수 있어요.",
+      "orders": [
+        {
+          "jp": "HIDE坊新橋 本店スペシャル",
+          "ko": "본점 스페셜 · 면은 소바로 선택"
+        },
+        {
+          "jp": "山芋ステーキ",
+          "ko": "마 철판구이 · 한 판 옆에 나눠 먹는 반찬"
+        }
+      ],
+      "hours": "평일 11:30–14:00, 17:30–23:00. 토요일 17:30–22:00, 일·공휴일 휴무. 12/31 영업 확인.",
+      "note": "일본어 메뉴의 「そば」는 이 메뉴에서 볶음면을 뜻해요. 메밀소바집과 달라요. 밀가루·면이 들어가 양이 있어 한 판부터 나눠요.",
+      "url": "https://tabelog.com/tokyo/A1301/A130103/13007131/",
+      "menu": "https://hidebou-shinbashi.owst.jp/",
+      "query": "広島焼き HIDE坊 新橋本店 東京都港区新橋4-10-7 1F",
+      "sources": [
+        "https://hidebou-shinbashi.owst.jp/",
+        "https://tabelog.com/tokyo/A1301/A130103/13007131/"
+      ],
+      "photo": "food-extra-early-hidebo-okonomi",
+      "menuPhotos": [
+        "food-extra-early-hidebo-okonomi",
+        "food-extra-early-hidebo-yam"
+      ],
+      "drinks": {
+        "title": "히로시마야키 + 전용 앰버에일",
+        "items": [
+          {
+            "jp": "HIDE坊限定クラフトアンバーエール",
+            "ko": "HIDE坊 전용 크래프트 앰버에일",
+            "why": "달큰한 소스와 구운 면에 고소한 몰트 풍미. 다른 날 라거와도 다르게 골라요.",
+            "photo": "food-extra-early-hidebo-amber"
+          }
+        ],
+        "status": "공식 메뉴에 전용 앰버에일 확인 · 당일 재고 확인",
+        "source": "https://hidebou-shinbashi.owst.jp/"
+      },
+      "portion": "스페셜 한 판 + 마 철판구이 한 접시를 둘이 나누고 부족하면 추가해요.",
+      "badge": "",
+      "score": "3.47",
+      "scoreDate": "2026-11-04"
+    },
+    {
+      "id": "shinpachi-daimon",
+      "name": "신파치 식당 다이몬 · しんぱち食堂",
+      "days": [
+        1
+      ],
+      "area": "다이몬 · 메인 호텔 귀환 동선",
+      "kind": "생선구이 정식 · 일상 체인",
+      "why": "피곤해서 더 걷기 싫을 때 호텔 근처에서 생선·밥·미소국. 고등어와 홋케를 다르게 골라 담백한 저녁으로 끝내요.",
+      "orders": [
+        {
+          "jp": "さば文化干し定食",
+          "ko": "고등어 반건조 구이 정식"
+        },
+        {
+          "jp": "ほっけ定食",
+          "ko": "홋케 구이 정식 · 반 마리/한 마리 확인"
+        }
+      ],
+      "hours": "공식 안내 07:00–23:00, 마지막 주문 22:30. 12/31 특별영업은 확인.",
+      "note": "맥주는 정식 주문 손님에게만 판매하는 안내예요. 긴 술자리보다 식사 후 호텔로 쉬러 가는 선택지. 지점별 메뉴 차이는 있을 수 있어요.",
+      "url": "https://tabelog.com/tokyo/A1314/A131401/13203520/",
+      "menu": "https://www.shinpachi-shokudo.com/",
+      "query": "しんぱち食堂 大門店 東京都港区芝大門2-4-3",
+      "sources": [
+        "https://www.shinpachi-shokudo.com/"
+      ],
+      "photo": "food-extra-early-shinpachi-saba",
+      "menuPhotos": [
+        "food-extra-early-shinpachi-saba",
+        "food-extra-early-shinpachi-hokke"
+      ],
+      "drinks": {
+        "title": "생선구이 + 작은 생맥주",
+        "items": [
+          {
+            "jp": "生ビール",
+            "ko": "생맥주",
+            "why": "정식 주문자만 주문 가능. 짭짤한 생선구이에 한 잔, 브랜드는 현장 메뉴 확인."
+          }
+        ],
+        "status": "공식 메뉴에서 정식 주문자 대상 생맥주 확인",
+        "source": "https://www.shinpachi-shokudo.com/"
+      },
+      "portion": "각자 생선 정식 하나. 고등어와 홋케를 고르면 같은 정식을 두 개 시키는 것보다 비교하기 좋아요.",
+      "badge": "일상 체인"
+    },
+    {
+      "id": "churaumi-shimbashi",
+      "name": "추라우미 신바시 · 美ら海",
+      "days": [
+        1
+      ],
+      "area": "신바시 · 가라스모리 출구 쪽 4층",
+      "kind": "오키나와 라후테 · 우미부도",
+      "why": "도쿄에서 오키나와식 돼지고기 조림과 해초를 맛보는 저녁. 바삭한 튀김 대신 부드러운 고기·톡톡 터지는 우미부도로 식감을 바꿔요.",
+      "orders": [
+        {
+          "jp": "ラフティー",
+          "ko": "라후테 · 오키나와식 돼지고기 조림"
+        },
+        {
+          "jp": "海ぶどう",
+          "ko": "우미부도 · 바다포도, 둘이 나눌 차가운 안주"
+        },
+        {
+          "jp": "ジーマーミ豆腐",
+          "ko": "지마미도후 · 땅콩으로 만든 쫀득한 두부"
+        }
+      ],
+      "hours": "공식 안내 월–목·토·공휴일 17:00–22:30(주문 21:30), 금·공휴일 전날 17:00–23:00(주문 22:00). 영업일·12/31 시간은 예약 시 확인.",
+      "note": "흡연 가능 안내가 있어 냄새에 민감하면 다른 후보가 편해요. 4층 매장 위치를 확인하고 올라가요. 땅콩 두부는 땅콩 알레르기에 주의.",
+      "url": "https://tabelog.com/tokyo/A1301/A130103/13007524/",
+      "menu": "https://churaumi-shinbashi.foodre.jp/",
+      "query": "美ら海 新橋店 東京都港区新橋2-15-13 エレガンス新橋ビル4F",
+      "sources": [
+        "https://churaumi-shinbashi.foodre.jp/",
+        "https://tabelog.com/tokyo/A1301/A130103/13007524/"
+      ],
+      "photo": "food-extra-early-churaumi-rafute",
+      "menuPhotos": [
+        "food-extra-early-churaumi-rafute",
+        "food-extra-early-churaumi-umibudo"
+      ],
+      "drinks": {
+        "title": "라후테 + 아와모리",
+        "items": [
+          {
+            "jp": "泡盛 水割り",
+            "ko": "아와모리 미즈와리",
+            "why": "달큰한 돼지고기 조림에 물을 섞은 아와모리. 병 사진의 특정 종목 대신 그날 추천을 물어봐요.",
+            "photo": "food-extra-early-churaumi-awamori"
+          }
+        ],
+        "status": "공식 안내에서 아와모리 취급 확인 · 종목·잔술은 매장 확인",
+        "source": "https://churaumi-shinbashi.foodre.jp/"
+      },
+      "portion": "라후테 + 우미부도 + 지마미도후부터 나누고 밥이 필요한지 결정해요.",
+      "badge": "흡연 가능"
+    },
+    {
+      "id": "jukeifu-shimbashi",
+      "name": "주케이후 신바시 · 重慶府",
+      "days": [
+        1
+      ],
+      "area": "신바시 · 우치사이와이초 쪽",
+      "kind": "마파두부 · 사천요리",
+      "why": "한겨울 저녁에 얼얼한 마파두부와 밥이 당길 때. 교자는 빼고 두부·채소를 중심으로 고르면 첫날 교자 후보와도 겹치지 않아요.",
+      "orders": [
+        {
+          "jp": "麻婆豆腐",
+          "ko": "마파두부 · 맵기·산초 강도를 먼저 물어보기"
+        },
+        {
+          "jp": "季節の野菜炒め",
+          "ko": "계절 채소볶음 · 매운 메인 옆에"
+        },
+        {
+          "jp": "牛肉の水煮",
+          "ko": "쇠고기 수주육 · 마파두부 대신 고르는 매운 메인"
+        }
+      ],
+      "hours": "공식 평일 11:30–14:00, 17:00–22:30(주문 22:00). 주말·공휴일은 3인 이상 예약 시만 영업. 12/31 연말 영업 문의.",
+      "note": "연말에는 평일이어도 예약 영업으로 바뀔 수 있어 두 사람 방문 가능 여부를 먼저 전화로 확인해요. 공식 코스에서 확인한 메뉴로 단품 가능 여부도 문의.",
+      "url": "https://tabelog.com/tokyo/A1301/A130103/13009496/",
+      "menu": "https://jkf0899.com/course.php",
+      "query": "重慶府 新橋店 東京都港区新橋2-2-4 新橋パイオニアビル2 2F",
+      "sources": [
+        "https://jkf0899.com/access.php",
+        "https://jkf0899.com/course.php",
+        "https://jkf0899.com/dinner.php"
+      ],
+      "photo": "food-extra-early-jkf-beef",
+      "menuPhotos": [
+        "food-extra-early-jkf-beef",
+        "food-extra-early-jkf-dining"
+      ],
+      "drinks": {
+        "title": "사천요리 + 맥주",
+        "items": [
+          {
+            "jp": "ビール",
+            "ko": "맥주",
+            "why": "판매하는 라거를 골라 얼얼한 메인과 천천히. 술이 맵기를 없애주지는 않으니 맵기 자체를 조절해요."
+          },
+          {
+            "jp": "紹興酒",
+            "ko": "소흥주",
+            "why": "취급하면 따뜻하게 또는 상온으로 작은 잔을 나눠요."
+          }
+        ],
+        "status": "음료 종류·브랜드 미확인 · 음식 궁합 제안",
+        "source": "https://jkf0899.com/"
+      },
+      "portion": "매운 메인 하나 + 채소볶음 + 밥. 마파두부와 수주육을 둘 다 시키기보다는 하나를 골라요.",
+      "badge": "2인 방문 사전 문의"
+    },
+    {
+      "id": "butadaigaku-shimbashi",
+      "name": "부타다이가쿠 신바시 · 豚大学",
+      "days": [
+        1
+      ],
+      "area": "신바시역 바로 앞 · 뉴신바시빌딩 1층",
+      "kind": "직화 돼지고기 덮밥",
+      "why": "회장에 오래 있다 돌아온 날, 역 앞에서 든든한 밥 한 그릇. 간장 소스에 구운 돼지고기와 반숙달걀이라 튀김·교자를 반복하지 않아요.",
+      "orders": [
+        {
+          "jp": "豚丼（中）",
+          "ko": "부타동 중간 크기 · 기본 한 끼"
+        },
+        {
+          "jp": "豚丼セット",
+          "ko": "반숙달걀 + 미소국 추가 세트"
+        },
+        {
+          "jp": "さっぱり大学セット",
+          "ko": "파 + 반숙달걀 + 미소국 · 더 산뜻한 추가 세트"
+        }
+      ],
+      "hours": "공식 평일 07:00–21:45(마지막 주문), 토·일·공휴일 10:00–20:15(마지막 주문). 12/31 특별영업 확인.",
+      "note": "뉴신바시빌딩 1층. 큰 「대학원·석사·박사」 메뉴는 대식 도전용이라 기본 중간 크기부터. 공식 연말 휴무 공지가 올라오는지 확인해요.",
+      "url": "https://tabelog.com/tokyo/A1301/A130103/13130245/",
+      "menu": "https://butadaigaku.jp/",
+      "query": "豚大学 新橋校舎 東京都港区新橋2-16-1 ニュー新橋ビル1F",
+      "sources": [
+        "https://butadaigaku.jp/",
+        "https://tabelog.com/tokyo/A1301/A130103/13130245/"
+      ],
+      "photo": "food-extra-early-buta-don",
+      "menuPhotos": [
+        "food-extra-early-buta-don",
+        "food-extra-early-buta-set"
+      ],
+      "drinks": {
+        "title": "부타동 + 맥주",
+        "items": [
+          {
+            "jp": "ビール",
+            "ko": "맥주",
+            "why": "공식 메뉴에 있는 맥주 한 잔. 달큰하게 구운 돼지고기에 맞추고 브랜드·용량은 현장 확인."
+          }
+        ],
+        "status": "공식 메뉴의 맥주 확인 · 브랜드·용량은 미공개",
+        "source": "https://butadaigaku.jp/"
+      },
+      "portion": "각자 부타동 소/중 하나. 세트는 일반 또는 파 추가 중 하나만 골라요.",
+      "badge": "역 앞 빠른 식사",
+      "score": "3.49",
+      "scoreDate": "2026-11-04"
+    },
+    {
+      "id": "negishi-ginza-namiki",
+      "name": "네기시 긴자 나미키도리 · ねぎし",
+      "days": [
+        1
+      ],
+      "area": "긴자 3초메 · 신바시에서 추가 도보 약 20분",
+      "kind": "규탄 · 보리밥 · 토로로 정식",
+      "why": "소혀의 두께를 비교하고 보리밥에 갈아낸 마를 곁들이는 식사. 코미케 뒤에도 체력이 남아 긴자 쪽을 더 걸을 때의 선택지예요.",
+      "orders": [
+        {
+          "jp": "ねぎしセット",
+          "ko": "네기시 세트 · 얇게 썬 규탄 정식"
+        },
+        {
+          "jp": "しろたんセット",
+          "ko": "시로탄 세트 · 두툼한 규탄 정식"
+        }
+      ],
+      "hours": "공식 지점 안내 10:30–22:00, 주문 마감 21:30. 12/31 연말 영업 확인.",
+      "note": "신바시 바로 옆이 아니라 긴자 3초메라 도보를 더 해야 해요. 피곤하면 다이몬 생선구이가 편해요. 이 지점은 공식 「메뉴 B」 적용점.",
+      "url": "https://tabelog.com/tokyo/A1301/A130101/13131867/",
+      "menu": "https://www.negishi.co.jp/menu/lumine_menu.html",
+      "query": "ねぎし 銀座並木通り店 東京都中央区銀座3-2-12 銀座偕成ビルB1",
+      "sources": [
+        "https://www.negishi.co.jp/location/",
+        "https://www.negishi.co.jp/menu/lumine_menu.html",
+        "https://tabelog.com/tokyo/A1301/A130101/13131867/"
+      ],
+      "photo": "food-extra-early-negishi-tongue",
+      "menuPhotos": [
+        "food-extra-early-negishi-tongue",
+        "food-extra-early-negishi-sets"
+      ],
+      "drinks": {
+        "title": "규탄 + 차가운 맥주",
+        "items": [
+          {
+            "jp": "ビール",
+            "ko": "맥주",
+            "why": "취급하면 소금 간 구이에 작은 잔. 브랜드와 해당 지점 판매 여부는 현장 메뉴 확인."
+          }
+        ],
+        "status": "음료 종류·브랜드 미확인 · 음식 궁합 제안",
+        "source": "https://www.negishi.co.jp/menu/lumine_menu.html"
+      },
+      "portion": "정식은 각자 하나. 얇은 네기시와 두꺼운 시로탄을 하나씩 골라 식감을 비교해요.",
+      "badge": "일상 체인 · 긴자 우회"
+    }
+  ],
+  "photos": {
+    "food-extra-early-tanaka-shio": {
+      "src": "assets/photos/food-extra-early-tanaka-shio.webp",
+      "title": "다나카 소바 · 중화소바",
+      "caption": "공식 브랜드 메뉴 사진 · 아키하바라점의 당일 구성·토핑은 확인해요.",
+      "source": "https://www.tanaka-shoten.net/tanakasobaten",
+      "credit": "田中商店 / 田中そば店",
+      "width": 649,
+      "height": 493,
+      "url": "https://tanaka-shoten.net/01/wp-content/themes/tanaka/assets/images/top/menu_photo_03.png"
+    },
+    "food-extra-early-tanaka-negi": {
+      "src": "assets/photos/food-extra-early-tanaka-negi.webp",
+      "title": "다나카 소바 · 네기소바",
+      "caption": "공식 브랜드 메뉴 사진 · 파를 듬뿍 올린 네기소바로 매운 미소 사진과 달라요.",
+      "source": "https://www.tanaka-shoten.net/tanakasobaten",
+      "credit": "田中商店 / 田中そば店",
+      "width": 649,
+      "height": 493,
+      "url": "https://tanaka-shoten.net/01/wp-content/themes/tanaka/assets/images/top/menu_photo_04.png"
+    },
+    "food-extra-early-matsuya-mori": {
+      "src": "assets/photos/food-extra-early-matsuya-mori.webp",
+      "title": "간다 마츠야 · 모리소바",
+      "caption": "지요다구 관광협회 소개 사진 · 차가운 소바를 장에 찍어 먹어요.",
+      "source": "https://visit-chiyoda.tokyo/app/spot/detail/359",
+      "credit": "千代田区観光協会",
+      "width": 710,
+      "height": 555,
+      "url": "https://visit-chiyoda.tokyo/app/upload/images/01%2843%29.jpg"
+    },
+    "food-extra-early-matsuya-kashiwa": {
+      "src": "assets/photos/food-extra-early-matsuya-kashiwa.webp",
+      "title": "간다 마츠야 · 가시와난반 소바",
+      "caption": "지요다구 관광협회 소개 사진 · 닭고기가 들어간 따뜻한 국물.",
+      "source": "https://visit-chiyoda.tokyo/app/spot/detail/359",
+      "credit": "千代田区観光協会",
+      "width": 370,
+      "height": 280,
+      "url": "https://visit-chiyoda.tokyo/app/upload/images/02%2841%29.jpg"
+    },
+    "food-extra-early-tamagoken-tomato": {
+      "src": "assets/photos/food-extra-early-tamagoken-tomato.webp",
+      "title": "간다 다마고켄 · 토마토 & 하야시",
+      "caption": "아키하바라점 공식 메뉴 사진 · 두 소스가 반씩 놓인 오므라이스.",
+      "source": "https://tamagoken.com/shop/akihabara/",
+      "credit": "神田たまごけん",
+      "width": 1000,
+      "height": 667,
+      "url": "https://tamagoken.com/wp-content/uploads/2026/02/トマト＆ハヤシオムライス.png"
+    },
+    "food-extra-early-tamagoken-cream": {
+      "src": "assets/photos/food-extra-early-tamagoken-cream.webp",
+      "title": "간다 다마고켄 · 버섯 크림",
+      "caption": "아키하바라점 공식 메뉴 사진 · 현재 토핑·구성은 주문 시 확인해요.",
+      "source": "https://tamagoken.com/shop/akihabara/",
+      "credit": "神田たまごけん",
+      "width": 1000,
+      "height": 667,
+      "url": "https://tamagoken.com/wp-content/uploads/2026/02/cream.jpg"
+    },
+    "food-extra-early-nakau-oyako": {
+      "src": "assets/photos/food-extra-early-nakau-oyako.webp",
+      "title": "나카우 · 오야코동",
+      "caption": "브랜드 공식 대표 사진 · 아키하바라점의 실제 당일 제공 모습과는 다를 수 있어요.",
+      "source": "https://www.nakau.co.jp/jp/kodawari/",
+      "credit": "なか卯",
+      "width": 280,
+      "height": 280,
+      "url": "https://www.nakau.co.jp/jp/sp/assets/img/kodawari/photo_oyako.jpg"
+    },
+    "food-extra-early-unasho-hitsumabushi": {
+      "src": "assets/photos/food-extra-early-unasho-hitsumabushi.webp",
+      "title": "우나쇼 · 히츠마부시",
+      "caption": "브랜드 공식 사진 · 고명·국물·그릇은 당일 구성과 다를 수 있어요.",
+      "source": "https://www.jgroup.jp/brand/2100/",
+      "credit": "ジェイグループ / うな匠",
+      "width": 462,
+      "height": 308,
+      "url": "https://www.jgroup.jp/wp/wp-content/uploads/shop_13_522_1495785888_s1.jpg"
+    },
+    "food-extra-early-unasho-unaju": {
+      "src": "assets/photos/food-extra-early-unasho-unaju.webp",
+      "title": "우나쇼 · 장어덮밥",
+      "caption": "브랜드 공식 사진 · 히츠마부시 대신 장어와 밥에 집중하는 선택.",
+      "source": "https://www.jgroup.jp/brand/2100/",
+      "credit": "ジェイグループ / うな匠",
+      "width": 462,
+      "height": 308,
+      "url": "https://www.jgroup.jp/wp/wp-content/uploads/shop_13_2598_1495785888_s1.jpg"
+    },
+    "food-extra-early-jb-burger": {
+      "src": "assets/photos/food-extra-early-jb-burger.webp",
+      "title": "JB’s TOKYO · 버거와 감자튀김",
+      "caption": "UDX 공식 개점 안내의 홍보 사진 · 2026.12.10 개점 예정, 실제 지점 메뉴는 개점 뒤 확인해요.",
+      "source": "https://udx.jp/jbstokyo/",
+      "credit": "秋葉原UDX / JB’s TOKYO",
+      "width": 1000,
+      "height": 577,
+      "url": "https://udx.jp/wp-content/uploads/sites/10/2026/09/883c12c54ef070cfaeefb9e80c3fdd85.jpg"
+    },
+    "food-extra-early-shao-rice": {
+      "src": "assets/photos/food-extra-early-shao-rice.webp",
+      "title": "샤오양춘 · 미니 루로우판을 곁들인 정식",
+      "caption": "요도바시 공식 메뉴 사진 · 사진은 닭요리 정식 예시이며 루로우 에그밥 단품의 구성과 달라요.",
+      "source": "https://www.yodobashi-akiba.com/restaurant/yy_shao.html",
+      "credit": "ヨドバシAkiba / 小陽春",
+      "width": 300,
+      "height": 200,
+      "url": "https://www.yodobashi-akiba.com/restaurant/img/shop/shao_2sub1.jpg"
+    },
+    "food-extra-early-shao-mango": {
+      "src": "assets/photos/food-extra-early-shao-mango.webp",
+      "title": "샤오양춘 · 대만식 빙수",
+      "caption": "요도바시 공식 메뉴 사진 · 맛·토핑·겨울 판매 여부는 매장에서 확인해요.",
+      "source": "https://www.yodobashi-akiba.com/restaurant/yy_shao.html",
+      "credit": "ヨドバシAkiba / 小陽春",
+      "width": 300,
+      "height": 200,
+      "url": "https://www.yodobashi-akiba.com/restaurant/img/shop/shao_2sub3.jpg"
+    },
+    "food-extra-early-kebab-beef": {
+      "src": "assets/photos/food-extra-early-kebab-beef.webp",
+      "title": "스타케밥 · 비프 피타",
+      "caption": "가게 공식 메뉴 사진 · 실제 크기·소스·담음새는 주문에 따라 달라요.",
+      "source": "https://www.kebab.co.jp/",
+      "credit": "スターケバブ",
+      "width": 600,
+      "height": 450,
+      "url": "https://www.kebab.co.jp/wp-content/uploads/2026/08/beef-pita-600x450.webp"
+    },
+    "food-extra-early-kebab-chicken": {
+      "src": "assets/photos/food-extra-early-kebab-chicken.webp",
+      "title": "스타케밥 · 치킨 피타",
+      "caption": "가게 공식 메뉴 사진 · 쇠고기 피타와 다른 선택지.",
+      "source": "https://www.kebab.co.jp/",
+      "credit": "スターケバブ",
+      "width": 600,
+      "height": 450,
+      "url": "https://www.kebab.co.jp/wp-content/uploads/2026/08/chicken-pita-600x450.webp"
+    },
+    "food-extra-early-lion-karaage": {
+      "src": "assets/photos/food-extra-early-lion-karaage.webp",
+      "title": "긴자 라이온 · LION 치킨 가라아게",
+      "caption": "TeNY 취재 사진 · 2025년 소개된 음식으로 현재 수량·담음새는 확인해요.",
+      "source": "https://025.teny.co.jp/odekake/tokyo-trip-beerhalllion",
+      "credit": "TeNY / ゼロニィゴ",
+      "width": 1000,
+      "height": 563,
+      "url": "https://cdn.clipkit.co/tenants/1044/item_images/images/000/173/442/large/d27b00ae-be9d-4a63-ba56-2ce3cef72902.png?1748329717"
+    },
+    "food-extra-early-lion-stew": {
+      "src": "assets/photos/food-extra-early-lion-stew.webp",
+      "title": "긴자 라이온 · 비어홀의 조림",
+      "caption": "TeNY 취재 사진 · 가라아게 옆에 따뜻하게 나눠 먹는 조림 메뉴.",
+      "source": "https://025.teny.co.jp/odekake/tokyo-trip-beerhalllion",
+      "credit": "TeNY / ゼロニィゴ",
+      "width": 1000,
+      "height": 563,
+      "url": "https://cdn.clipkit.co/tenants/1044/item_images/images/000/173/441/large/111f4e39-714f-4dd7-a4da-b4fd961c84e4.png?1748329738"
+    },
+    "food-extra-early-oshio-tempura": {
+      "src": "assets/photos/food-extra-early-oshio-tempura.webp",
+      "title": "오시오 히비야 · 텐푸라 모둠",
+      "caption": "매장 공식 음식 사진 · 해산물·채소의 구성은 계절과 주문에 따라 달라요.",
+      "source": "https://tenpuratowain-hibiya.foodre.jp/",
+      "credit": "天ぷらとワイン大塩 日比谷店",
+      "width": 500,
+      "height": 500,
+      "url": "https://ximg.retty.me/crop/s500x500/q80/das/-/retty/img_ebisu/restaurant/100001554471/archive/3555552-67da8c2c2e91a.jpg"
+    },
+    "food-extra-early-oshio-ikura": {
+      "src": "assets/photos/food-extra-early-oshio-ikura.webp",
+      "title": "오시오 히비야 · 연어알 카나페",
+      "caption": "매장 공식 메뉴 사진 · 텐푸라 전 작은 안주로 고르는 선택지.",
+      "source": "https://tenpuratowain-hibiya.foodre.jp/",
+      "credit": "天ぷらとワイン大塩 日比谷店",
+      "width": 500,
+      "height": 500,
+      "url": "https://ximg.retty.me/crop/s500x500/q80/das/-/retty/img_ebisu/restaurant/100001554471/archive/3555549-67da8c2a4b339.jpg"
+    },
+    "food-extra-early-otakou-oden": {
+      "src": "assets/photos/food-extra-early-otakou-oden.webp",
+      "title": "오타코 · 오뎅 모둠 예시",
+      "caption": "공식 메뉴의 이미지 사진 · 사진 속 12품 구성은 두 사람의 권장 주문량과 달라요.",
+      "source": "https://otako.owst.jp/foods",
+      "credit": "新橋お多幸",
+      "width": 500,
+      "height": 500,
+      "url": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/u26qbua0/258388/qewf_w500h500.jpg"
+    },
+    "food-extra-early-otakou-daikon": {
+      "src": "assets/photos/food-extra-early-otakou-daikon.webp",
+      "title": "오타코 · 무 오뎅",
+      "caption": "공식 메뉴 사진 · 진한 국물이 밴 무를 먼저 골라봐요.",
+      "source": "https://otako.owst.jp/foods",
+      "credit": "新橋お多幸",
+      "width": 500,
+      "height": 500,
+      "url": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/u26qbua0/39884122/jvgx_w500h500.jpg"
+    },
+    "food-extra-early-hidebo-okonomi": {
+      "src": "assets/photos/food-extra-early-hidebo-okonomi.webp",
+      "title": "HIDE坊 · 신바시 본점 스페셜",
+      "caption": "매장 공식 메뉴 사진 · 바삭한 면을 품은 히로시마야키.",
+      "source": "https://hidebou-shinbashi.owst.jp/",
+      "credit": "広島焼き HIDE坊",
+      "width": 178,
+      "height": 238,
+      "url": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/yn1gvfj5/9237408/q6ak_w960h380.jpg"
+    },
+    "food-extra-early-hidebo-yam": {
+      "src": "assets/photos/food-extra-early-hidebo-yam.webp",
+      "title": "HIDE坊 · 마 철판구이",
+      "caption": "매장 공식 메뉴 사진 · 소스와 반찬 구성은 현장에서 확인해요.",
+      "source": "https://hidebou-shinbashi.owst.jp/",
+      "credit": "広島焼き HIDE坊",
+      "width": 500,
+      "height": 375,
+      "url": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/yn1gvfj5/15733988/cehc_w500h500.jpg"
+    },
+    "food-extra-early-hidebo-amber": {
+      "src": "assets/photos/food-extra-early-hidebo-amber.webp",
+      "title": "HIDE坊 전용 크래프트 앰버에일",
+      "caption": "매장 공식 드링크 소개 사진 · 그날 재고·잔 크기는 확인해요.",
+      "source": "https://hidebou-shinbashi.owst.jp/",
+      "credit": "広島焼き HIDE坊",
+      "width": 269,
+      "height": 380,
+      "url": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/yn1gvfj5/26514686/teif_w960h380.jpg"
+    },
+    "food-extra-early-shinpachi-saba": {
+      "src": "assets/photos/food-extra-early-shinpachi-saba.webp",
+      "title": "신파치 식당 · 고등어 정식",
+      "caption": "브랜드 공식 공통 메뉴 사진 · 다이몬점 구성·판매 여부는 확인해요.",
+      "source": "https://www.shinpachi-shokudo.com/",
+      "credit": "しんぱち食堂",
+      "width": 516,
+      "height": 344,
+      "url": "https://www.shinpachi-shokudo.com/common/img/index/pic_index_menu_fish03.png"
+    },
+    "food-extra-early-shinpachi-hokke": {
+      "src": "assets/photos/food-extra-early-shinpachi-hokke.webp",
+      "title": "신파치 식당 · 홋케 정식",
+      "caption": "브랜드 공식 공통 메뉴 사진 · 한 마리/반 마리 메뉴를 구분해요.",
+      "source": "https://www.shinpachi-shokudo.com/",
+      "credit": "しんぱち食堂",
+      "width": 516,
+      "height": 344,
+      "url": "https://www.shinpachi-shokudo.com/common/img/index/pic_index_menu_fish04.png"
+    },
+    "food-extra-early-churaumi-rafute": {
+      "src": "assets/photos/food-extra-early-churaumi-rafute.webp",
+      "title": "추라우미 · 라후테",
+      "caption": "매장 공식 메뉴 사진 · 푹 익힌 오키나와식 돼지고기 조림.",
+      "source": "https://churaumi-shinbashi.foodre.jp/",
+      "credit": "美ら海 新橋店",
+      "width": 500,
+      "height": 500,
+      "url": "https://ximg.retty.me/crop/s500x500/q80/das/-/retty/img_ebisu/restaurant/100000017165/archive/3509157-679b7b385cf92.jpg"
+    },
+    "food-extra-early-churaumi-umibudo": {
+      "src": "assets/photos/food-extra-early-churaumi-umibudo.webp",
+      "title": "추라우미 · 우미부도",
+      "caption": "매장 공식 메뉴 사진 · 톡톡 터지는 바다포도 반찬.",
+      "source": "https://churaumi-shinbashi.foodre.jp/",
+      "credit": "美ら海 新橋店",
+      "width": 500,
+      "height": 500,
+      "url": "https://ximg.retty.me/crop/s500x500/q80/das/-/retty/img_ebisu/restaurant/100000017165/archive/3509153-679b7b35e029f.jpg"
+    },
+    "food-extra-early-churaumi-awamori": {
+      "src": "assets/photos/food-extra-early-churaumi-awamori.webp",
+      "title": "추라우미 · 아와모리 병들",
+      "caption": "매장 공식 사진 · 촬영 당시 진열이며 현재 취급 종목·재고는 달라요.",
+      "source": "https://churaumi-shinbashi.foodre.jp/",
+      "credit": "美ら海 新橋店",
+      "width": 500,
+      "height": 500,
+      "url": "https://ximg.retty.me/crop/s500x500/q80/das/-/retty/img_ebisu/restaurant/100000017165/archive/3509120-679b7b20b31b1.jpg"
+    },
+    "food-extra-early-jkf-beef": {
+      "src": "assets/photos/food-extra-early-jkf-beef.webp",
+      "title": "주케이후 · 쇠고기 수주육",
+      "caption": "공식 메뉴 사진 · 마파두부 사진이 아닌 쇠고기 매운 국물요리 대안. 사진의 옛 가격은 현행 가격과 다를 수 있어요.",
+      "source": "https://jkf0899.com/course.php",
+      "credit": "重慶府 新橋店",
+      "width": 400,
+      "height": 406,
+      "url": "https://jkf0899.com/course_img/10.jpg"
+    },
+    "food-extra-early-jkf-dining": {
+      "src": "assets/photos/food-extra-early-jkf-dining.webp",
+      "title": "주케이후 신바시 · 식당 안",
+      "caption": "매장 공식 사진 · 두 사람이 나눠 먹는 사천요리 식당의 분위기.",
+      "source": "https://jkf0899.com/",
+      "credit": "重慶府 新橋店",
+      "width": 1000,
+      "height": 562,
+      "url": "https://jkf0899.com/common/nivo/images/03.jpg"
+    },
+    "food-extra-early-buta-don": {
+      "src": "assets/photos/food-extra-early-buta-don.webp",
+      "title": "부타다이가쿠 · 중간 크기 부타동",
+      "caption": "브랜드 공식 메뉴 사진 · 달큰한 소스를 발라 구운 돼지고기 덮밥.",
+      "source": "https://butadaigaku.jp/",
+      "credit": "豚大学",
+      "width": 608,
+      "height": 430,
+      "url": "https://butadaigaku.jp/wp/wp-content/themes/butadaigaku/img/bmenu_don_02.png"
+    },
+    "food-extra-early-buta-set": {
+      "src": "assets/photos/food-extra-early-buta-set.webp",
+      "title": "부타다이가쿠 · 반숙달걀과 미소국",
+      "caption": "브랜드 공식 세트 사진 · 덮밥에 추가하는 별도 세트 구성.",
+      "source": "https://butadaigaku.jp/",
+      "credit": "豚大学",
+      "width": 708,
+      "height": 480,
+      "url": "https://butadaigaku.jp/wp/wp-content/themes/butadaigaku/img/bmenu_set_01.png"
+    },
+    "food-extra-early-negishi-tongue": {
+      "src": "assets/photos/food-extra-early-negishi-tongue.webp",
+      "title": "네기시 · 규탄 부위와 두께 비교",
+      "caption": "공식 메뉴 B 이미지 · 같은 규탄도 얇고 두꺼운 부위의 식감이 달라요.",
+      "source": "https://www.negishi.co.jp/menu/lumine_menu.html",
+      "credit": "ねぎしフードサービス",
+      "width": 576,
+      "height": 1000,
+      "url": "https://www.negishi.co.jp/images/menu/menu_p3.png"
+    },
+    "food-extra-early-negishi-sets": {
+      "src": "assets/photos/food-extra-early-negishi-sets.webp",
+      "title": "네기시 · 규탄 정식 메뉴",
+      "caption": "긴자 나미키도리점 적용 공식 메뉴 B · 사진의 가격·구성은 개정될 수 있어요.",
+      "source": "https://www.negishi.co.jp/menu/lumine_menu.html",
+      "credit": "ねぎしフードサービス",
+      "width": 576,
+      "height": 1000,
+      "url": "https://www.negishi.co.jp/images/menu/menu_p4.png"
+    }
+  }
+}

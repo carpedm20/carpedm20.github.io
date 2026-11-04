@@ -12,3 +12,11 @@ Primary source https://sara-kinshicyo.jp/:
 - Actual images in each detail page: images/tokyo/kegon/room{number}_{01,02,03}.jpg. Downloaded as dayuse-{train,classroom,steampunk}-{1,2,3}.webp. Photos visually verified: theme area is image02 for205/505, images01–02 for601. No generatedroom photos.
 
 Planning sequence: 1/3 08:30checkout/baghold → 09:00departure → 10:00–13:00SARA → ~13:50bagpickup →14:10airport departure →~15:00HanedaT3 →16:00sushi →19:30flight assumption. These are planning estimates, not live train/flight bookings. If exact room is unavailable, do not consume the airport buffer waiting. The original flight time is still a planning assumption.
+
+
+## Expanded comparison · checked 2026-11-04
+- 10 options: 205, 505, 601, 401, 303, 203, 404, 703, 603, 702. All selectable in the single trip-plan panel, final-day 10:00–13:00 only.
+- No official room-level booking/popularity ranking was found; display numbering explicitly means editorial preference/theme order. The room-list order and room price tiers are not popularity.
+- Full official 43-room list: https://sara-kinshicyo.jp/#room ; correct time/rate anchor: https://sara-kinshicyo.jp/#price .
+- Every additional room has official detail at /{number}.php and images at /images/tokyo/kegon/room{number}_{01,02,03}.jpg. These were downloaded, visually inspected and stored as dayuse-{id}-{1,2,3}.webp.
+- 401 is a planetarium theme, not a spaceship. 303 is treasure hunting, not a confirmed desert/cowboy set. 203 shows Japanese art-panel decor; do not claim interactive hidden mechanisms. 702 has two bedrooms and official open-air/bathroom photos. Availability for the holiday is not confirmed.

@@ -1,0 +1,1261 @@
+{
+  "foods": [
+    {
+      "id": "ohno-harajuku",
+      "name": "로스트비프 오노 하라주쿠점 · ローストビーフ大野",
+      "area": "하라주쿠 · YM스퀘어 지하 1층",
+      "kind": "로스트비프 덮밥",
+      "days": [
+        3
+      ],
+      "why": "하라주쿠 쇼핑 사이에 얇게 썬 소고기와 달걀을 한 그릇으로. 돈카츠 대신 고르기 좋은 점심이에요.",
+      "orders": [
+        {
+          "jp": "黒毛和牛のローストビーフ丼定食",
+          "ko": "흑모와규 로스트비프 덮밥 정식 · 고기 맛을 우선할 때"
+        },
+        {
+          "jp": "ローストビーフ丼定食",
+          "ko": "기본 로스트비프 덮밥 정식 · 둘 중 하나를 선택"
+        }
+      ],
+      "hours": "통상 11:00–22:00, 주문 21:00. 예약 불가.",
+      "note": "2027년 1/2 연시 영업·메뉴는 아직 미확인. 방문 전 매장 공지를 확인해요. 유명 덮밥 체인이라 줄이 길면 다른 후보를 선택해요. 다케시타도리점과 다른 지점이에요.",
+      "url": "https://tabelog.com/tokyo/A1306/A130601/13195738/",
+      "menu": "https://roastbeef-ohno.com/news/nikunohi",
+      "query": "ローストビーフ大野 原宿店 神宮前4-31-10",
+      "sources": [
+        "https://tabelog.com/tokyo/A1306/A130601/13195738/",
+        "https://roastbeef-ohno.com/news/nikunohi",
+        "https://roastbeef-ohno.com/",
+        "https://roastbeef-ohno.com/shop/harajuku/"
+      ],
+      "photo": "food-extra-late-ohno",
+      "menuPhotos": [
+        "food-extra-late-ohno"
+      ],
+      "drinks": {
+        "title": "소고기 덮밥 + 몰트 라거",
+        "items": [
+          {
+            "jp": "ザ・プレミアム・モルツ",
+            "ko": "프리미엄 몰츠",
+            "why": "고기의 감칠맛과 달걀에 산뜻하게 곁들이기.",
+            "photo": "drink-malts"
+          }
+        ],
+        "status": "타베로그의 프리미엄 몰츠 취급 안내 확인 · 방문일 재확인",
+        "source": "https://tabelog.com/tokyo/A1306/A130601/13195738/"
+      },
+      "portion": "1인 1그릇. 와규와 기본을 하나씩 고르면 서로 비교하기 좋아요.",
+      "planAreas": [
+        "base",
+        "fashion"
+      ]
+    },
+    {
+      "id": "soffitta-shibuya",
+      "name": "라 소피타 · LA SOFFITTA",
+      "area": "시부야 · 우다가와초 16-12 · 2층",
+      "kind": "얇은 화덕 피자 · 이탈리안",
+      "days": [
+        3
+      ],
+      "why": "도쿄 쇼핑 후 잠깐 이탈리안으로 방향을 바꿔요. 토마토 피자와 치즈 피자를 나누면 튀김 저녁과 다른 맛이에요.",
+      "orders": [
+        {
+          "jp": "マルゲリータ ブッファラ",
+          "ko": "물소 모차렐라·바질·토마토 피자"
+        },
+        {
+          "jp": "フォルマッジ",
+          "ko": "치즈 4종 + 아카시아 꿀 피자"
+        },
+        {
+          "jp": "マリナーラ",
+          "ko": "마늘·오레가노·토마토 · 치즈 없이 가벼운 대안"
+        }
+      ],
+      "hours": "통상 11:00–23:00. 음식 주문 22:00, 음료 22:30.",
+      "note": "2027년 1/2 연시 영업·메뉴는 아직 미확인. 방문 전 매장 공지를 확인해요.",
+      "url": "https://tabelog.com/tokyo/A1303/A130301/13007485/",
+      "menu": "https://lasoffitta.jp/food/",
+      "query": "LA SOFFITTA 渋谷 宇田川町16-12",
+      "sources": [
+        "https://tabelog.com/tokyo/A1303/A130301/13007485/",
+        "https://lasoffitta.jp/food/",
+        "https://lasoffitta.jp/"
+      ],
+      "photo": "food-extra-late-soffitta",
+      "menuPhotos": [
+        "food-extra-late-soffitta"
+      ],
+      "drinks": {
+        "title": "피자 + 글라스 와인",
+        "items": [
+          {
+            "jp": "白ワイン（グラス）",
+            "ko": "드라이한 화이트와인",
+            "why": "모차렐라와 꿀 치즈 피자의 느끼함을 정리해요."
+          },
+          {
+            "jp": "赤ワイン（グラス）",
+            "ko": "가벼운 레드와인",
+            "why": "토마토 피자와 편하게 나누기."
+          }
+        ],
+        "status": "공식 와인 메뉴 확인 · 그날 글라스 와인 종류는 직원에게 확인",
+        "source": "https://lasoffitta.jp/drink/"
+      },
+      "portion": "둘이 피자 1장 + 다른 한 접시부터. 배가 고프면 서로 다른 피자 2장."
+    },
+    {
+      "id": "kabenoana-shibuya",
+      "name": "벽의 구멍 시부야 본점 · 壁の穴",
+      "area": "시부야 · 도겐자카 골목",
+      "kind": "일본식 다라코·성게 파스타",
+      "days": [
+        3
+      ],
+      "why": "카레·라멘과 다른 일본식 면 한 끼. 명란보다 순한 다라코 버터 파스타와 성게 파스타를 비교해 봐요.",
+      "orders": [
+        {
+          "jp": "極上元祖たらこスパゲッティ",
+          "ko": "다라코·버터 스파게티 · 첫 선택"
+        },
+        {
+          "jp": "うにのスパゲッティ",
+          "ko": "성게 소스 스파게티 · 바다 향을 좋아하면"
+        },
+        {
+          "jp": "あさりと納豆",
+          "ko": "바지락 + 낫토 파스타 · 낫토를 좋아할 때만"
+        }
+      ],
+      "hours": "시부야 본점 영업시간은 예약/매장 페이지에서 당일 확인.",
+      "note": "2027년 1/2 연시 영업·메뉴는 아직 미확인. 방문 전 매장 공지를 확인해요.",
+      "url": "https://tabelog.com/tokyo/A1303/A130301/13003362/",
+      "menu": "https://www.kabenoana.com/grandmenu",
+      "query": "壁の穴 渋谷本店 道玄坂2-25-17",
+      "sources": [
+        "https://tabelog.com/tokyo/A1303/A130301/13003362/",
+        "https://www.kabenoana.com/grandmenu"
+      ],
+      "photo": "food-extra-late-kabe-menu-final2",
+      "menuPhotos": [
+        "food-extra-late-kabe-menu-final2",
+        "food-extra-late-kabe-menu-final4"
+      ],
+      "drinks": {
+        "title": "다라코 파스타 + 화이트",
+        "items": [
+          {
+            "jp": "白ワイン（グラス）",
+            "ko": "화이트와인",
+            "why": "짭짤한 생선알·바지락과 잘 맞는 궁합. 판매 여부 확인."
+          },
+          {
+            "jp": "生ビール",
+            "ko": "생맥주",
+            "why": "버터 소스를 깔끔하게 마무리. 브랜드는 현장에서 확인."
+          }
+        ],
+        "status": "술 종류·브랜드는 방문일 메뉴 확인 · 음식 궁합 제안",
+        "source": "https://www.kabenoana.com/grandmenu"
+      },
+      "portion": "파스타는 1인 1접시. 다라코와 성게를 하나씩 골라 맛 비교."
+    },
+    {
+      "id": "cheese-stand-shibuya",
+      "name": "시부야 치즈 스탠드 · SHIBUYA CHEESE STAND",
+      "area": "오쿠시부야 · 가미야마초 5-8",
+      "kind": "매장에서 만드는 신선 치즈",
+      "days": [
+        3
+      ],
+      "why": "진한 고기 저녁 대신 갓 만든 모차렐라·리코타·부라타를 나누는 날. 작은 접시와 와인 중심으로 골라요.",
+      "orders": [
+        {
+          "jp": "出来たてモッツァレラ＆リコッタ",
+          "ko": "갓 만든 모차렐라 + 리코타 비교 접시"
+        },
+        {
+          "jp": "たっぷりトマトとブッラータ オレガノ添え",
+          "ko": "토마토·부라타·오레가노"
+        },
+        {
+          "jp": "自家製チーズ4種プレート",
+          "ko": "홈메이드 치즈 4종 · 종류를 비교하고 싶을 때"
+        }
+      ],
+      "hours": "통상 평일 12:00–22:00, 토·일 11:00–22:00. 주문 21:00. 월요일·연말연시 휴무.",
+      "note": "공식 안내에 연말연시 휴무가 있어 1/2 영업 확인이 된 경우에만 선택해요. 휴무면 시부야 피자·파스타 후보로 변경.",
+      "url": "https://cheese-stand.com/pages/shops",
+      "menu": "https://cheese-stand.favy.jp/menus",
+      "query": "SHIBUYA CHEESE STAND 神山町5-8",
+      "sources": [
+        "https://cheese-stand.com/pages/shops",
+        "https://cheese-stand.favy.jp/menus"
+      ],
+      "photo": "food-extra-late-cheese1",
+      "menuPhotos": [
+        "food-extra-late-cheese1",
+        "food-extra-late-cheesefood"
+      ],
+      "drinks": {
+        "title": "신선 치즈 + 화이트와인",
+        "items": [
+          {
+            "jp": "白ワイン（グラス）",
+            "ko": "화이트와인 한 잔",
+            "why": "산뜻한 신선 치즈·토마토와 맞춰 주문. 판매 여부부터 확인."
+          },
+          {
+            "jp": "スパークリングワイン",
+            "ko": "스파클링와인",
+            "why": "리코타와 부라타를 가볍게 즐기고 싶을 때."
+          }
+        ],
+        "status": "술 종류·브랜드는 방문일 메뉴 확인 · 음식 궁합 제안",
+        "source": "https://cheese-stand.com/pages/shops"
+      },
+      "portion": "둘이 신선 치즈 1접시 + 부라타 1접시부터. 치즈 중심의 가벼운 식사예요."
+    },
+    {
+      "id": "galettoria-shoto",
+      "name": "갈레토리아 · Galettoria",
+      "area": "시부야 쇼토 · 신센역 쪽",
+      "kind": "프랑스식 메밀 갈레트",
+      "days": [
+        3
+      ],
+      "why": "쇼토의 작은 집 같은 공간에서 짭짤한 메밀 갈레트. 달걀·햄·치즈 한 장 뒤에 달콤한 크레프를 나눠요.",
+      "orders": [
+        {
+          "jp": "卵・ハム・チーズのガレット",
+          "ko": "달걀·햄·치즈 메밀 갈레트 · 식사용"
+        },
+        {
+          "jp": "塩バターキャラメルクレープ",
+          "ko": "솔티드 버터 캐러멜 크레프 · 나눠 먹는 디저트"
+        }
+      ],
+      "hours": "통상 11:30–21:00, 주문 20:15. 화요일 휴무.",
+      "note": "2027년 1/2 연시 영업·메뉴는 아직 미확인. 방문 전 매장 공지를 확인해요. 시부야역에서 약 10분 도보로 잡는 선택 코스예요.",
+      "url": "https://tabelog.com/tokyo/A1303/A130301/13045560/",
+      "menu": "https://www.hotpepper.jp/strJ000796024/",
+      "query": "ガレットリア 渋谷区松濤1-26-1",
+      "sources": [
+        "https://tabelog.com/tokyo/A1303/A130301/13045560/",
+        "https://www.hotpepper.jp/strJ000796024/"
+      ],
+      "photo": "food-extra-late-galette1",
+      "menuPhotos": [
+        "food-extra-late-galette1",
+        "food-extra-late-galette2"
+      ],
+      "drinks": {
+        "title": "갈레트 + 사과주 또는 커피",
+        "items": [
+          {
+            "jp": "シードル",
+            "ko": "드라이한 사과주",
+            "why": "메밀·치즈와 잘 어울리는 궁합. 취급 여부부터 물어봐요."
+          },
+          {
+            "jp": "コーヒー",
+            "ko": "커피",
+            "why": "캐러멜 크레프와 함께 마실 무알코올 대안."
+          }
+        ],
+        "status": "술 종류·브랜드는 방문일 메뉴 확인 · 음식 궁합 제안",
+        "source": "https://www.hotpepper.jp/strJ000796024/"
+      },
+      "portion": "식사 갈레트는 1인 1장, 달콤한 크레프는 둘이 1장부터."
+    },
+    {
+      "id": "gyg-harajuku",
+      "name": "구스만 이 고메즈 라포레 하라주쿠 · GYG",
+      "area": "하라주쿠 · 라포레 2층 GOOD MEAL MARKET",
+      "kind": "부리토 · 멕시칸",
+      "days": [
+        3
+      ],
+      "why": "쇼핑 동선 안에서 빠르게 먹는 다른 맛. 일본식 덮밥 대신 또르티야·살사·과카몰레로 메뉴를 바꿔요.",
+      "orders": [
+        {
+          "jp": "ブリトー",
+          "ko": "부리토 · 치킨 또는 포크 속재료를 골라 주문"
+        },
+        {
+          "jp": "ナチョス",
+          "ko": "고기·치즈·살사 나초 · 둘이 나눌 사이드"
+        }
+      ],
+      "hours": "통상 11:00–20:00, 주문 19:45. 라포레 영업에 따름.",
+      "note": "2027년 1/2 연시 영업·메뉴는 아직 미확인. 방문 전 매장 공지를 확인해요. 저녁 늦게 가는 후보가 아니라 하라주쿠 구간의 점심·이른 저녁이에요.",
+      "url": "https://gyg.jp/locations/harajuku/",
+      "menu": "https://gyg.jp/menu/",
+      "query": "Guzman y Gomez ラフォーレ原宿 神宮前1-11-6",
+      "sources": [
+        "https://gyg.jp/locations/harajuku/",
+        "https://gyg.jp/menu/"
+      ],
+      "photo": "food-extra-late-gyg",
+      "menuPhotos": [
+        "food-extra-late-gyg",
+        "food-extra-late-gyg2"
+      ],
+      "drinks": {
+        "title": "살사·나초 + 라거",
+        "items": [
+          {
+            "jp": "メキシカンビール",
+            "ko": "멕시코 라거맥주",
+            "why": "살사와 토르티야 칩에 산뜻한 라거. 브랜드·판매 여부 확인."
+          },
+          {
+            "jp": "炭酸水",
+            "ko": "탄산수",
+            "why": "술 없이 먹고 싶을 때도 느끼함을 덜어줘요."
+          }
+        ],
+        "status": "술 종류·브랜드는 방문일 메뉴 확인 · 음식 궁합 제안",
+        "source": "https://gyg.jp/menu/"
+      },
+      "portion": "둘이 부리토 각 1개부터. 나초는 배가 남을 때만 추가.",
+      "planAreas": [
+        "base",
+        "fashion"
+      ]
+    },
+    {
+      "id": "lug-hatagaya",
+      "name": "LUG 하타가야",
+      "area": "하타가야 · 2-19-1",
+      "kind": "계절 채소·곡물 요리 · 크래프트비어",
+      "days": [
+        3
+      ],
+      "why": "하타가야 로컬 숍 코스를 골랐을 때 쉬어가는 식사. 현미·채소와 맥주를 골라 고기·튀김 위주 여행의 균형을 맞춰요.",
+      "orders": [
+        {
+          "jp": "玄米リゾット（当日の内容を確認）",
+          "ko": "현미 리소토 계열 · 계절 재료와 제공 시간 확인"
+        },
+        {
+          "jp": "季節野菜と穀物のプレート（当日の内容を確認）",
+          "ko": "채소·곡물 플레이트 계열 · 공식 브런치 사진 예시"
+        }
+      ],
+      "hours": "통상 08:00–24:00, 음식 주문 22:30. 월·화 휴무.",
+      "note": "2027년 1/2 연시 영업·메뉴는 아직 미확인. 방문 전 매장 공지를 확인해요. 메뉴는 계절에 따라 바뀌므로 사진 속 접시를 고정 메뉴로 보지 않아요. 하라주쿠 기본 코스에서는 별도 이동이 필요.",
+      "url": "https://tabelog.com/tokyo/A1318/A131807/13122023/",
+      "menu": "https://lug-hatagaya.com/",
+      "query": "LUG 幡ヶ谷2-19-1",
+      "sources": [
+        "https://tabelog.com/tokyo/A1318/A131807/13122023/",
+        "https://lug-hatagaya.com/"
+      ],
+      "photo": "food-extra-late-lug",
+      "menuPhotos": [
+        "food-extra-late-lug",
+        "food-extra-late-lug2"
+      ],
+      "drinks": {
+        "title": "곡물 요리 + 크래프트비어",
+        "items": [
+          {
+            "jp": "本日のクラフトビール",
+            "ko": "오늘의 크래프트비어",
+            "why": "리소토에는 너무 쓴 IPA보다 가벼운 페일에일·라거를 추천해 달라고 해요.",
+            "photo": "food-extra-late-lug3"
+          },
+          {
+            "jp": "ナチュラルワイン",
+            "ko": "내추럴와인",
+            "why": "채소 접시는 산뜻한 화이트·오렌지 계열을 직원과 골라요."
+          }
+        ],
+        "status": "공식 크래프트비어·와인 취급 확인 · 라인업 수시 변경",
+        "source": "https://lug-hatagaya.com/"
+      },
+      "portion": "식사 접시를 1인 1개씩 고르되 당일 분량을 확인. 술만 마시는 저녁과 브런치 메뉴는 구분해요.",
+      "planAreas": [
+        "local"
+      ]
+    },
+    {
+      "id": "roven-shibakoen",
+      "name": "비스트로 로벤 시바코엔 · Bistro Roven",
+      "area": "시바코엔 · 다이몬/하마마쓰초 도보 약 12분",
+      "kind": "양배추롤 · 프렌치 비스트로",
+      "days": [
+        3
+      ],
+      "why": "쇼핑을 마치고 메인 호텔 쪽으로 돌아와 먹는 저녁. 부드러운 양배추롤과 전채를 와인에 맞춰요.",
+      "orders": [
+        {
+          "jp": "鉄鍋ロールキャベツ",
+          "ko": "철판 양배추롤 · 소스는 당일 선택 확인"
+        },
+        {
+          "jp": "本日の前菜盛り合わせ",
+          "ko": "오늘의 전채 모둠 · 둘이 나누기"
+        }
+      ],
+      "hours": "통상 점심 11:30–14:30(주문 14:00), 저녁 17:30–22:00(주문 21:30). 불규칙 휴무·연말연시 휴무.",
+      "note": "연말연시 휴무가 공식 안내에 있어 1/2 영업·예약 확인이 된 경우만 선택. 2025년 3월 리뉴얼한 시바코엔점이에요.",
+      "url": "https://www.roven.jp/shibakoen/",
+      "menu": "https://www.menu-tokyo.jp/search/detail.php?lang=jp&lat=35.65299746&lng=139.75078948&shop_id=2600020",
+      "query": "Bistro Roven 芝公園 芝2-5-1",
+      "sources": [
+        "https://www.roven.jp/shibakoen/",
+        "https://www.menu-tokyo.jp/search/detail.php?lang=jp&lat=35.65299746&lng=139.75078948&shop_id=2600020"
+      ],
+      "photo": "food-extra-late-roven-shiba-more1",
+      "menuPhotos": [
+        "food-extra-late-roven-shiba-more1",
+        "food-extra-late-roven-shiba-more7"
+      ],
+      "drinks": {
+        "title": "양배추롤 + 레드와인",
+        "items": [
+          {
+            "jp": "赤ワイン（グラス）",
+            "ko": "레드와인 한 잔",
+            "why": "데미글라스 계열 소스라면 가벼운 레드부터 추천받아요."
+          },
+          {
+            "jp": "白ワイン（グラス）",
+            "ko": "화이트와인 한 잔",
+            "why": "전채·크림 계열 소스라면 드라이한 화이트."
+          }
+        ],
+        "status": "공식 와인 취급 확인 · 글라스 라인업은 당일 확인",
+        "source": "https://www.roven.jp/shibakoen/"
+      },
+      "portion": "둘이 양배추롤 2개 + 전채 1접시 정도로 시작. 호텔 복귀 동선에서 여유 있게 먹는 후보."
+    },
+    {
+      "id": "tsurutontan-haneda",
+      "name": "츠루톤탄 하네다공항점 · つるとんたん",
+      "area": "하네다 T3 · 4층 에도코지 · 보안검색 전",
+      "kind": "우동 · 크림/맑은 국물",
+      "days": [
+        4
+      ],
+      "why": "마지막 식사는 커다란 우동 그릇으로 따뜻하게. 크림과 맑은 국물 중 취향을 나눠 고를 수 있어요.",
+      "orders": [
+        {
+          "jp": "明太子クリームのおうどん",
+          "ko": "명란 크림 우동 · 크리미한 쪽"
+        },
+        {
+          "jp": "大判きつねのおうどん",
+          "ko": "유부 우동 · 맑은 국물 쪽"
+        }
+      ],
+      "hours": "통상 06:00–23:00, 주문 22:30.",
+      "note": "1/3 영업·메뉴는 당일 재확인. T3 보안검색 전 이용하고 항공사 체크인·보안검색 마감 시간을 우선해요. 줄이 길면 같은 층의 다른 식사 후보로 바꿔요. 사진의 가을 메뉴를 겨울 판매로 보지 않기.",
+      "url": "https://tabelog.com/tokyo/A1315/A131504/13117663/",
+      "menu": "https://www.tsurutontan.co.jp/menu/",
+      "query": "つるとんたん 羽田空港 第3ターミナル 4F",
+      "sources": [
+        "https://tabelog.com/tokyo/A1315/A131504/13117663/",
+        "https://www.tsurutontan.co.jp/menu/",
+        "https://tokyo-haneda.com/shop_and_dine/detail/tenant_00087.html",
+        "https://allabout.co.jp/gm/gc/512191/",
+        "https://tabelog.com/tokyo/A1315/A131504/13117663/dtlrvwlst/?type=0",
+        "https://4travel.jp/dm_shisetsu/11209727"
+      ],
+      "photo": "food-extra-late-udon-autumn",
+      "menuPhotos": [
+        "food-extra-late-udon-autumn",
+        "food-extra-late-udon-shop-final0"
+      ],
+      "drinks": {
+        "title": "우동 + 가벼운 한 잔",
+        "items": [
+          {
+            "jp": "生ビール",
+            "ko": "생맥주",
+            "why": "명란 크림에는 작은 잔부터. 브랜드·판매 여부 확인."
+          },
+          {
+            "jp": "温かいお茶",
+            "ko": "따뜻한 차",
+            "why": "맑은 국물 우동과 비행 전 쉬어가는 무알코올 선택."
+          }
+        ],
+        "status": "술 종류·브랜드는 방문일 메뉴 확인 · 음식 궁합 제안",
+        "source": "https://www.tsurutontan.co.jp/shop/haneda/"
+      },
+      "portion": "우동은 1인 1그릇. 추가 면은 처음부터 늘리지 말고 메뉴·분량을 보고 선택."
+    },
+    {
+      "id": "ogura-haneda",
+      "name": "긴자 오구라 하네다공항점 · 銀座おぐ羅",
+      "area": "하네다 T3 · 4층 에도코지 · 보안검색 전",
+      "kind": "다시차즈케 · 육수를 부어 먹는 밥",
+      "days": [
+        4
+      ],
+      "why": "회덮밥과도 다른 따뜻한 마무리. 도미나 매실 밥에 육수를 부어 먹고, 기내식 전에는 가볍게 골라요.",
+      "orders": [
+        {
+          "jp": "だし茶漬けセット（漁師ダレ真鯛茶漬け）",
+          "ko": "어부식 소스 도미 다시차즈케 세트"
+        },
+        {
+          "jp": "だし茶漬けセット（紀州南高梅茶漬け）",
+          "ko": "기슈 난코바이 매실 다시차즈케 세트"
+        }
+      ],
+      "hours": "공항 안내는 24시간. 운영사에 단축 영업 안내도 남아 있어 오후 식사 가능 시간을 당일 확인.",
+      "note": "1/3 영업·메뉴는 당일 재확인. T3 보안검색 전 이용하고 항공사 체크인·보안검색 마감 시간을 우선해요. 오뎅 대신 차즈케를 고르면 앞 날짜와 음식이 겹치지 않아요.",
+      "url": "https://tabelog.com/tokyo/A1315/A131504/13117555/",
+      "menu": "https://www.menu-tokyo.jp/search/detail.php?lang=jp&lat=35.54546130&lng=139.76872220&shop_id=1900707",
+      "query": "銀座おぐ羅 羽田空港 第3ターミナル 4F",
+      "sources": [
+        "https://tabelog.com/tokyo/A1315/A131504/13117555/",
+        "https://www.menu-tokyo.jp/search/detail.php?lang=jp&lat=35.54546130&lng=139.76872220&shop_id=1900707",
+        "https://tokyo-haneda.com/shop_and_dine/detail/tenant_00068.html",
+        "https://www.univajapan.com/service/food/"
+      ],
+      "photo": "food-extra-late-ogurameal-final1",
+      "menuPhotos": [
+        "food-extra-late-ogurameal-final1",
+        "food-extra-late-ogurameal-final0"
+      ],
+      "drinks": {
+        "title": "도미 차즈케 + 사케 또는 차",
+        "items": [
+          {
+            "jp": "日本酒（小さいサイズ）",
+            "ko": "작은 사이즈 사케",
+            "why": "도미를 고르면 드라이한 사케를 소량 요청. 종류는 확인."
+          },
+          {
+            "jp": "温かいお茶",
+            "ko": "따뜻한 차",
+            "why": "매실 차즈케에는 술 없이 차로 마무리해도 좋아요."
+          }
+        ],
+        "status": "술 종류·브랜드는 방문일 메뉴 확인 · 음식 궁합 제안",
+        "source": "https://www.menu-tokyo.jp/search/detail.php?lang=jp&lat=35.54546130&lng=139.76872220&shop_id=1900707"
+      },
+      "portion": "차즈케 세트는 둘 중 하나를 1인 1개. 세트 반찬·국물은 현장 메뉴 확인."
+    },
+    {
+      "id": "nanrinka-haneda",
+      "name": "난린카 하네다공항점 · 南琳華",
+      "area": "하네다 T3 · 4층 에도코지 · 보안검색 전",
+      "kind": "슈마이 · 새우 중화요리",
+      "days": [
+        4
+      ],
+      "why": "군만두를 또 시키지 않고 찐 슈마이와 새우 요리로. 뜨거운 밥·수프를 추가하면 둘이 나누기 좋은 공항 중식이에요.",
+      "orders": [
+        {
+          "jp": "南国酒家 焼売",
+          "ko": "난고쿠슈카 찐 고기 슈마이 · 2개 단위"
+        },
+        {
+          "jp": "天然海老のマヨネーズソース",
+          "ko": "천연 새우 마요네즈 소스"
+        },
+        {
+          "jp": "ごはん・本日のスープ",
+          "ko": "밥 + 오늘의 수프 · 단품 요리에 곁들이기"
+        }
+      ],
+      "hours": "통상 11:00–21:30, 주문 21:00. 단축 영업 공지를 방문일 확인.",
+      "note": "1/3 영업·메뉴는 당일 재확인. T3 보안검색 전 이용하고 항공사 체크인·보안검색 마감 시간을 우선해요.",
+      "url": "https://nangokusyuka.co.jp/store/nanrinka.html",
+      "menu": "https://nangokusyuka.co.jp/dcms_media/other/HIA_grand_260910.pdf",
+      "query": "南琳華 羽田空港 第3ターミナル 4F",
+      "sources": [
+        "https://nangokusyuka.co.jp/store/nanrinka.html",
+        "https://nangokusyuka.co.jp/dcms_media/other/HIA_grand_260910.pdf",
+        "https://nangokusyuka.co.jp/store/nanrinka/nanrinka_menu.html"
+      ],
+      "photo": "food-extra-late-nan-shumai",
+      "menuPhotos": [
+        "food-extra-late-nan-shumai",
+        "food-extra-late-nan-shrimp"
+      ],
+      "drinks": {
+        "title": "슈마이·새우 + 아사히",
+        "items": [
+          {
+            "jp": "アサヒスーパードライ（生）",
+            "ko": "아사히 슈퍼드라이 생맥주",
+            "why": "새우 마요와 슈마이의 기름기를 깔끔하게 정리.",
+            "photo": "drink-asahi"
+          },
+          {
+            "jp": "アサヒ熟撰（瓶）",
+            "ko": "아사히 주쿠센 병맥주",
+            "why": "몰트 풍미를 좀 더 원하면 병맥주 대안."
+          }
+        ],
+        "status": "2026.09 공식 메뉴에 두 맥주 확인 · 방문일 재확인",
+        "source": "https://nangokusyuka.co.jp/dcms_media/other/HIA_grand_260910.pdf"
+      },
+      "portion": "둘이 슈마이 4개 + 새우 1접시 + 각자 밥·수프로 시작."
+    },
+    {
+      "id": "bairan-haneda",
+      "name": "바이란 하네다 에어포트가든점 · 梅蘭",
+      "area": "하네다 에어포트가든 · 1층 · 보안검색 전",
+      "kind": "겉이 바삭한 야키소바",
+      "days": [
+        4
+      ],
+      "why": "바삭하게 구운 면 안에 걸쭉한 속재료가 숨어 있는 한 접시. 일반 볶음면과 다른 식감을 고르고 싶을 때.",
+      "orders": [
+        {
+          "jp": "梅蘭焼きそばセット",
+          "ko": "바이란 야키소바 세트 · 공식 안내상 세트 판매"
+        },
+        {
+          "jp": "大海老のチリソース炒め",
+          "ko": "큰 새우 칠리소스 · 추가로 나눌 때만"
+        }
+      ],
+      "hours": "통상 11:00–22:00. 음식·주류 주문 21:20.",
+      "note": "1/3 영업·메뉴는 당일 재확인. T3 보안검색 전 이용하고 항공사 체크인·보안검색 마감 시간을 우선해요. T3 연결통로에서 가든 1층까지 이동하고 다시 돌아올 여유를 확보해요. 탑승 수속이 빠듯하면 T3 4층 후보로.",
+      "url": "https://bairan-tougen.jp/shop/haneda",
+      "menu": "https://bairan-tougen.jp/shop/haneda/news",
+      "query": "梅蘭 羽田エアポートガーデン店 羽田空港2-7-1",
+      "sources": [
+        "https://bairan-tougen.jp/shop/haneda",
+        "https://bairan-tougen.jp/shop/haneda/news"
+      ],
+      "photo": "food-extra-late-bairan-yakisoba",
+      "menuPhotos": [
+        "food-extra-late-bairan-yakisoba",
+        "food-extra-late-bairan-shrimp"
+      ],
+      "drinks": {
+        "title": "바삭한 면 + 맥주",
+        "items": [
+          {
+            "jp": "生ビール",
+            "ko": "생맥주",
+            "why": "짭짤한 소스와 바삭한 면에 깔끔한 라거. 브랜드는 현장 확인."
+          },
+          {
+            "jp": "ウーロン茶",
+            "ko": "우롱차",
+            "why": "음식 맛을 정리하는 무알코올 선택."
+          }
+        ],
+        "status": "술 종류·브랜드는 방문일 메뉴 확인 · 음식 궁합 제안",
+        "source": "https://bairan-tougen.jp/shop/haneda/news"
+      },
+      "portion": "1인 야키소바 세트 하나씩이면 충분할 수 있어요. 새우 요리는 배가 남을 때만 추가."
+    },
+    {
+      "id": "oedo-haneda",
+      "name": "오에도 푸드홀 · 大江戸フードホール",
+      "area": "하네다 에어포트가든 · 1층 · 보안검색 전",
+      "kind": "비프 스테이크 플레이트",
+      "days": [
+        4
+      ],
+      "why": "마지막 날 든든하게 먹고 싶으면 구운 스테이크 한 접시. 전날의 차가운 로스트비프 덮밥 대신 뜨거운 고기 플레이트를 고르는 대안이에요.",
+      "orders": [
+        {
+          "jp": "ビーフステーキプレート",
+          "ko": "비프 스테이크 플레이트 · 이 가게의 우선 선택"
+        },
+        {
+          "jp": "ローストビーフプレート",
+          "ko": "로스트비프 플레이트 · 1/2 오노를 먹지 않았을 때만 대체"
+        }
+      ],
+      "hours": "시설 안내 통상 11:00–22:00. 각 코너 주문 마감은 현장 확인.",
+      "note": "1/3 영업·메뉴는 당일 재확인. T3 보안검색 전 이용하고 항공사 체크인·보안검색 마감 시간을 우선해요. 가든 왕복 이동이 추가돼요. 예전 기사에 나오는 해산물 덮밥은 현재 판매를 확인하지 못해 주문 후보에서 제외.",
+      "url": "https://www.menu-tokyo.jp/search/detail.php?lang=jp&lat=35.54443430&lng=139.76456060&shop_id=2300543",
+      "menu": "https://www.menu-tokyo.jp/search/detail.php?lang=jp&lat=35.54443430&lng=139.76456060&shop_id=2300543",
+      "query": "大江戸フードホール 羽田エアポートガーデン",
+      "sources": [
+        "https://www.menu-tokyo.jp/search/detail.php?lang=jp&lat=35.54443430&lng=139.76456060&shop_id=2300543",
+        "https://travel.rakuten.co.jp/mytrip/howto/hanedagardengourmet-shopping-guide",
+        "https://www.shopping-sumitomo-rd.com/pdf/facility/notice/19/notice.pdf"
+      ],
+      "photo": "food-extra-late-oedo1",
+      "menuPhotos": [
+        "food-extra-late-oedo1",
+        "food-extra-late-oedo0"
+      ],
+      "drinks": {
+        "title": "스테이크 + 라거 또는 레드",
+        "items": [
+          {
+            "jp": "生ビール",
+            "ko": "생맥주",
+            "why": "뜨거운 스테이크를 편하게 먹을 때. 코너별 판매 확인."
+          },
+          {
+            "jp": "赤ワイン",
+            "ko": "레드와인",
+            "why": "고기 중심 식사에 한 잔을 원하면 취급 여부 확인."
+          }
+        ],
+        "status": "술 종류·브랜드는 방문일 메뉴 확인 · 음식 궁합 제안",
+        "source": "https://www.menu-tokyo.jp/search/detail.php?lang=jp&lat=35.54443430&lng=139.76456060&shop_id=2300543"
+      },
+      "portion": "1인 플레이트 하나. 전날 로스트비프를 골랐다면 이곳에서는 스테이크만 선택하거나 다른 공항 메뉴로 바꾸기."
+    },
+    {
+      "id": "itoen-haneda",
+      "name": "사료 이토엔 · 茶寮 伊藤園",
+      "area": "하네다 T3 · 4층 에도코지 · 보안검색 전",
+      "kind": "말차 디저트 · 식후 휴식",
+      "days": [
+        4
+      ],
+      "why": "식사를 대신하는 집이 아니라 마지막 달콤한 휴식. 팥만 고집하지 않고 말차·호지차·소프트크림을 비교해요.",
+      "orders": [
+        {
+          "jp": "抹茶ソフトクリーム",
+          "ko": "말차 소프트크림 · 차 향 중심"
+        },
+        {
+          "jp": "抹茶ソフトあんみつ",
+          "ko": "말차 소프트 안미츠 · 팥·시라타마까지"
+        },
+        {
+          "jp": "ほうじ茶ソフトクリーム",
+          "ko": "호지차 소프트크림 · 구수한 볶은 차 대안"
+        }
+      ],
+      "hours": "공항 안내 08:00–22:00. 소프트·안미츠 제공 시간은 음료 영업시간과 다를 수 있어요.",
+      "note": "1/3 영업·메뉴는 당일 재확인. T3 보안검색 전 이용하고 항공사 체크인·보안검색 마감 시간을 우선해요. 식후 디저트 후보예요. 같은 날 카디널까지 두 카페를 모두 방문할 필요는 없어요.",
+      "url": "https://tokyo-haneda.com/shop_and_dine/detail/tenant_00075.html",
+      "menu": "https://www.itoen.jp/shoplist/",
+      "query": "茶寮 伊藤園 羽田空港 第3ターミナル 4F",
+      "sources": [
+        "https://tokyo-haneda.com/shop_and_dine/detail/tenant_00075.html",
+        "https://www.itoen.jp/shoplist/",
+        "https://mayurin2018.hatenablog.com/entry/itoen2026"
+      ],
+      "photo": "food-extra-late-itoen-soft",
+      "menuPhotos": [
+        "food-extra-late-itoen-soft",
+        "food-extra-late-itoen-anmitsu"
+      ],
+      "drinks": {
+        "title": "차 디저트 + 따뜻한 차",
+        "items": [
+          {
+            "jp": "会席ほうじ茶",
+            "ko": "따뜻한 호지차",
+            "why": "말차 아이스크림과 겹치지 않게 구수한 차를 골라요."
+          },
+          {
+            "jp": "抹茶ラテ",
+            "ko": "말차 라테",
+            "why": "달달한 디저트와 함께 차 향을 더 느끼고 싶을 때."
+          }
+        ],
+        "status": "차 전문점의 무알코올 추천 · 하네다 메뉴판에서 당일 선택",
+        "source": "https://www.itoen.jp/shoplist/"
+      },
+      "portion": "둘이 소프트 1개 또는 안미츠 1개 + 따뜻한 차부터. 식사 뒤에 쉬어가는 디저트 옵션이에요."
+    },
+    {
+      "id": "konga-haneda",
+      "name": "오니기리 콘가 T3점 · おにぎり こんが",
+      "area": "하네다 T3 · 4층 오코노미요코초 · 보안검색 전",
+      "kind": "갓 쥔 오니기리 · 빠른 한 끼",
+      "days": [
+        4
+      ],
+      "why": "식당 줄이 길면 따뜻한 주먹밥으로 전환. 국물을 곁들여 가볍게 먹거나 수속 전에 포장하기 좋아요.",
+      "orders": [
+        {
+          "jp": "卵黄の醤油漬け＋肉そぼろ",
+          "ko": "간장에 절인 노른자 + 고기 소보로"
+        },
+        {
+          "jp": "しゃけ",
+          "ko": "연어 오니기리 · 기본 선택"
+        },
+        {
+          "jp": "明太クリームチーズ",
+          "ko": "명란 크림치즈 · 진한 속재료 대안"
+        }
+      ],
+      "hours": "통상 07:30–20:30. 매진·포장 대기는 당일 확인.",
+      "note": "1/3 영업·메뉴는 당일 재확인. T3 보안검색 전 이용하고 항공사 체크인·보안검색 마감 시간을 우선해요. T2에도 같은 이름의 매장이 있으니 T3점을 찾아요. 주문 후 바로 먹는 편이 좋아요.",
+      "url": "https://tokyo-haneda.com/shop_and_dine/detail/tenant_00577.html",
+      "menu": "https://map.yahoo.co.jp/v3/place/bni1WMGCgAM/menu",
+      "query": "おにぎりこんが 羽田空港国際線ターミナル店 第3ターミナル4F",
+      "sources": [
+        "https://tokyo-haneda.com/shop_and_dine/detail/tenant_00577.html",
+        "https://map.yahoo.co.jp/v3/place/bni1WMGCgAM/menu",
+        "https://ure.pia.co.jp/articles/-/1818163"
+      ],
+      "photo": "food-extra-late-konga2",
+      "menuPhotos": [
+        "food-extra-late-konga2"
+      ],
+      "drinks": {
+        "title": "오니기리 + 차",
+        "items": [
+          {
+            "jp": "緑茶",
+            "ko": "녹차",
+            "why": "짭짤한 노른자·연어 속재료에 깔끔한 기본 선택."
+          },
+          {
+            "jp": "とうふ汁",
+            "ko": "두부 미소국",
+            "why": "술 대신 따뜻한 국물을 곁들여 한 끼로. 판매 여부 확인."
+          }
+        ],
+        "status": "녹차·두부국 메뉴 기록 확인 · 술 주문을 전제로 하지 않아요",
+        "source": "https://map.yahoo.co.jp/v3/place/bni1WMGCgAM/menu"
+      },
+      "portion": "우선 1인 1~2개. 두 사람이 노른자·연어·명란치즈로 서로 다른 속을 골라요."
+    },
+    {
+      "id": "cardinal-haneda",
+      "name": "카페 카디널 · CAFE CARDINAL",
+      "area": "하네다 T3 · 4층 에도코지 · 보안검색 전",
+      "kind": "수프·페이스트리 · 가벼운 식사",
+      "days": [
+        4
+      ],
+      "why": "큰 식사보다 수프와 빵 정도가 좋을 때. 앉아서 커피를 마시며 마지막 짐과 탑승 시간을 정리해요.",
+      "orders": [
+        {
+          "jp": "コーンポタージュスープ",
+          "ko": "옥수수 포타주 수프"
+        },
+        {
+          "jp": "クロワッサン",
+          "ko": "크루아상 · 수프와 가볍게"
+        },
+        {
+          "jp": "ガトーショコラ",
+          "ko": "가토 쇼콜라 · 식사 후 디저트로 고를 때"
+        }
+      ],
+      "hours": "통상 24시간. 음식별 제공·매진 시간은 별도 확인.",
+      "note": "1/3 영업·메뉴는 당일 재확인. T3 보안검색 전 이용하고 항공사 체크인·보안검색 마감 시간을 우선해요. 가벼운 식사·카페 후보이며 메인 식사와 크기가 달라요. 공항 페이지에 2027/3/31까지 주문 시 제시하는 쿠폰이 안내돼 있으니 조건 확인.",
+      "url": "https://tabelog.com/tokyo/A1315/A131504/13117358/",
+      "menu": "https://tabelog.com/tokyo/A1315/A131504/13117358/dtlmenu/",
+      "query": "CAFE CARDINAL 羽田空港 第3ターミナル4F",
+      "sources": [
+        "https://tabelog.com/tokyo/A1315/A131504/13117358/",
+        "https://tabelog.com/tokyo/A1315/A131504/13117358/dtlmenu/",
+        "https://tokyo-haneda.com/shop_and_dine/detail/tenant_00054.html"
+      ],
+      "photo": "food-extra-late-cardfinal21",
+      "menuPhotos": [
+        "food-extra-late-cardfinal21",
+        "food-extra-late-cardfinal11"
+      ],
+      "drinks": {
+        "title": "가벼운 식사 + 커피",
+        "items": [
+          {
+            "jp": "コーヒー",
+            "ko": "아메리카노/드립 커피",
+            "why": "크루아상·가토 쇼콜라의 단맛에 맞춰요."
+          },
+          {
+            "jp": "デカフェ",
+            "ko": "디카페인 커피",
+            "why": "비행 중 쉬고 싶다면 디카페인 대응 여부를 직원에게 확인."
+          }
+        ],
+        "status": "커피·공항 디카페인 대응 안내 확인 · 원두·추가요금은 현장 확인",
+        "source": "https://miyoshi-grp.com/cardinal/en_us/restaurant/cafecardinal/"
+      },
+      "portion": "수프 1개 + 크루아상 1개가 가벼운 한 끼. 가토 쇼콜라는 배가 남으면 둘이 1개."
+    },
+    {
+      "id": "hyakuzen-haneda",
+      "name": "니혼노슌 햐쿠젠 · 日本の旬 百膳",
+      "area": "하네다 T3 · 4층 에도코지 · 보안검색 전",
+      "kind": "일본식 모둠 정식 · 작은 요리 여러 가지",
+      "days": [
+        4
+      ],
+      "why": "마지막 한 끼를 한 종류로 정하기 어렵다면 생선회·조림·채소 등 작은 요리가 나오는 정식. 둘이 다른 구성을 고르기 좋아요.",
+      "orders": [
+        {
+          "jp": "日本の特選 百膳",
+          "ko": "일본의 특선 햐쿠젠 · 회·조림·튀김·밥의 모둠 정식"
+        },
+        {
+          "jp": "松花堂弁当",
+          "ko": "쇼카도 도시락 · 여러 작은 요리를 칸칸이 담은 정식"
+        }
+      ],
+      "hours": "매장 공식 11:00–23:00(주문 22:00). 공항 페이지는 08:00 개점 표기가 있어 아침 시간은 재확인.",
+      "note": "1/3 영업·메뉴는 당일 재확인. T3 보안검색 전 이용하고 항공사 체크인·보안검색 마감 시간을 우선해요. 연결된 공식 메뉴는 2023 표기 자료라 사진과 요리는 참고 후보예요. 당일 메뉴·재료 변경을 확인한 뒤 주문.",
+      "url": "https://www.hyakuzen.jp/",
+      "menu": "https://www.hyakuzen.jp/images/menu/menu.pdf",
+      "query": "日本の旬 百膳 羽田空港 第3ターミナル4F",
+      "sources": [
+        "https://www.hyakuzen.jp/",
+        "https://www.hyakuzen.jp/images/menu/menu.pdf",
+        "https://www.hyakuzen.jp/menu.php",
+        "https://www.hyakuzen.jp/access.php",
+        "https://tokyo-haneda.com/shop_and_dine/detail/tenant_00081.html"
+      ],
+      "photo": "food-extra-late-hyakuzen-set",
+      "menuPhotos": [
+        "food-extra-late-hyakuzen-set",
+        "food-extra-late-hyakuzen-bento"
+      ],
+      "drinks": {
+        "title": "모둠 정식 + 작은 사케",
+        "items": [
+          {
+            "jp": "日本酒（グラス）",
+            "ko": "사케 잔술",
+            "why": "회와 조림을 함께 먹을 때 작은 잔으로 추천 요청."
+          },
+          {
+            "jp": "生ビール",
+            "ko": "생맥주",
+            "why": "튀김·조림까지 편하게 먹을 기본 선택. 브랜드는 현장 확인."
+          }
+        ],
+        "status": "술 종류·브랜드는 방문일 메뉴 확인 · 음식 궁합 제안",
+        "source": "https://www.hyakuzen.jp/images/menu/drink.pdf"
+      },
+      "portion": "정식은 1인 1개. 두 정식을 모두 추가하지 말고 각자 원하는 구성을 골라요."
+    }
+  ],
+  "photos": {
+    "food-extra-late-ohno": {
+      "src": "assets/photos/food-extra-late-ohno.webp",
+      "title": "오노 · 로스트비프 덮밥",
+      "caption": "공식 덮밥 사진. 고기·밥 양과 소스는 주문 메뉴에 따라 달라져요.",
+      "source": "https://roastbeef-ohno.com/",
+      "credit": "공식 매장 사진",
+      "width": 960,
+      "height": 600,
+      "url": "https://storage.googleapis.com/production-os-assets/assets/e3336638-e04d-4c64-a4d2-847092b6baa8"
+    },
+    "food-extra-late-soffitta": {
+      "src": "assets/photos/food-extra-late-soffitta.webp",
+      "title": "라 소피타 · 화덕 피자",
+      "caption": "공식 피자 예시. 사진은 치즈 계열이며 마르게리타와 토핑이 달라요.",
+      "source": "https://lasoffitta.jp/food/",
+      "credit": "공식 매장 사진",
+      "width": 640,
+      "height": 542,
+      "url": "https://lasoffitta.jp/wp-content/themes/chiocciol/images/top/img_food.jpg"
+    },
+    "food-extra-late-kabe-menu-final2": {
+      "src": "assets/photos/food-extra-late-kabe-menu-final2.webp",
+      "title": "벽의 구멍 · 다라코 스파게티",
+      "caption": "공식 메뉴의 다라코 파스타 사진. 메뉴·가격은 방문일 다시 확인.",
+      "source": "https://www.kabenoana.com/grandmenu",
+      "credit": "공식 메뉴 사진",
+      "width": 340,
+      "height": 244,
+      "url": "https://www.kabenoana.com/wp/wp-content/uploads/2025/12/89f408a802f3f06413218cb14164dd2a-725x1024.jpg"
+    },
+    "food-extra-late-kabe-menu-final4": {
+      "src": "assets/photos/food-extra-late-kabe-menu-final4.webp",
+      "title": "벽의 구멍 · 성게 스파게티",
+      "caption": "공식 메뉴의 성게 파스타 사진.",
+      "source": "https://www.kabenoana.com/grandmenu",
+      "credit": "공식 메뉴 사진",
+      "width": 320,
+      "height": 205,
+      "url": "https://www.kabenoana.com/wp/wp-content/uploads/2025/12/db241a009ff3d37a6f104930dff555bc-725x1024.jpg"
+    },
+    "food-extra-late-cheese1": {
+      "src": "assets/photos/food-extra-late-cheese1.webp",
+      "title": "SHIBUYA CHEESE STAND",
+      "caption": "가미야마초의 매장 외관. 인근 & CHEESE STAND와 구분해요.",
+      "source": "https://cheese-stand.com/pages/shops",
+      "credit": "공식 매장 사진",
+      "width": 540,
+      "height": 304,
+      "url": "https://cheese-stand.com/cdn/shop/files/01.png?v=1743661962"
+    },
+    "food-extra-late-cheesefood": {
+      "src": "assets/photos/food-extra-late-cheesefood.webp",
+      "title": "CHEESE STAND · 부라타 제품 예시",
+      "caption": "브랜드의 무화과잎 부라타 상품 사진. 매장 접시·당일 판매를 보장하는 사진은 아니에요.",
+      "source": "https://cheese-stand.com/products/fig-leaf-burrata",
+      "credit": "공식 제품 사진",
+      "width": 1100,
+      "height": 1100,
+      "url": "https://cdn.shopify.com/s/files/1/0606/8558/2576/files/shopify_2_05187dde-0a4f-4fc5-a198-025577b829e5.png?v=1755752582"
+    },
+    "food-extra-late-galette1": {
+      "src": "assets/photos/food-extra-late-galette1.webp",
+      "title": "갈레토리아 · 달걀·햄·치즈 갈레트",
+      "caption": "매장 제공 메뉴 사진. 메밀 반죽의 짭짤한 갈레트.",
+      "source": "https://www.hotpepper.jp/strJ000796024/",
+      "credit": "Hot Pepper · 매장 제공 사진",
+      "width": 368,
+      "height": 276,
+      "url": "https://imgfp.hotp.jp/IMGH/49/90/P012434990/P012434990_368.jpg"
+    },
+    "food-extra-late-galette2": {
+      "src": "assets/photos/food-extra-late-galette2.webp",
+      "title": "갈레토리아 · 솔티드 버터 캐러멜 크레프",
+      "caption": "매장 제공 디저트 사진. 식사 후 둘이 나눠 먹기.",
+      "source": "https://www.hotpepper.jp/strJ000796024/",
+      "credit": "Hot Pepper · 매장 제공 사진",
+      "width": 168,
+      "height": 125,
+      "url": "https://imgfp.hotp.jp/IMGH/49/92/P012434992/P012434992_168.jpg"
+    },
+    "food-extra-late-gyg": {
+      "src": "assets/photos/food-extra-late-gyg.webp",
+      "title": "GYG · 부리토",
+      "caption": "공식 부리토 사진. 속재료는 주문할 때 고릅니다.",
+      "source": "https://gyg.jp/menu/",
+      "credit": "공식 매장 사진",
+      "width": 1100,
+      "height": 597,
+      "url": "https://gyg.jp/img/menu/menu_burritos.jpg"
+    },
+    "food-extra-late-gyg2": {
+      "src": "assets/photos/food-extra-late-gyg2.webp",
+      "title": "GYG · 나초",
+      "caption": "공식 나초 사진. 토핑·구성은 선택에 따라 달라져요.",
+      "source": "https://gyg.jp/menu/",
+      "credit": "공식 매장 사진",
+      "width": 1100,
+      "height": 597,
+      "url": "https://gyg.jp/img/menu/menu_nachos.jpg"
+    },
+    "food-extra-late-lug": {
+      "src": "assets/photos/food-extra-late-lug.webp",
+      "title": "LUG · 현미 리소토 예시",
+      "caption": "공식 브런치 음식 사진. 계절에 따라 재료·판매 시간이 달라져요.",
+      "source": "https://lug-hatagaya.com/",
+      "credit": "공식 매장 사진",
+      "width": 1100,
+      "height": 825,
+      "url": "https://lug-hatagaya.com/images/food/brunch_risotto.jpg"
+    },
+    "food-extra-late-lug2": {
+      "src": "assets/photos/food-extra-late-lug2.webp",
+      "title": "LUG · 곡물·채소 플레이트 예시",
+      "caption": "공식 브런치 음식 사진. 당일 메뉴에서 같은 종류가 있는지 확인.",
+      "source": "https://lug-hatagaya.com/",
+      "credit": "공식 매장 사진",
+      "width": 1000,
+      "height": 1000,
+      "url": "https://lug-hatagaya.com/images/food/brunch_grain.jpg"
+    },
+    "food-extra-late-lug3": {
+      "src": "assets/photos/food-extra-late-lug3.webp",
+      "title": "LUG · 크래프트비어",
+      "caption": "공식 매장 맥주 사진. 탭·브랜드는 수시로 바뀝니다.",
+      "source": "https://lug-hatagaya.com/",
+      "credit": "공식 매장 사진",
+      "width": 1100,
+      "height": 733,
+      "url": "https://lug-hatagaya.com/images/drink/drink_beer.jpg"
+    },
+    "food-extra-late-roven-shiba-more1": {
+      "src": "assets/photos/food-extra-late-roven-shiba-more1.webp",
+      "title": "Roven 시바코엔 · 양배추롤",
+      "caption": "시바코엔점 공식 철판 양배추롤 사진.",
+      "source": "https://www.roven.jp/shibakoen/",
+      "credit": "공식 매장 사진",
+      "width": 1100,
+      "height": 733,
+      "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/sa316f2529b392d6c/image/i9359da0fbd6a1103/version/1769569335/image.png"
+    },
+    "food-extra-late-roven-shiba-more7": {
+      "src": "assets/photos/food-extra-late-roven-shiba-more7.webp",
+      "title": "Roven 시바코엔 · 전채 플레이트",
+      "caption": "공식 전채 사진. 당일 전채 재료는 달라져요.",
+      "source": "https://www.roven.jp/shibakoen/",
+      "credit": "공식 매장 사진",
+      "width": 660,
+      "height": 370,
+      "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/sa316f2529b392d6c/image/i5d6d4dbb378640da/version/1769569442/image.jpg"
+    },
+    "food-extra-late-udon-autumn": {
+      "src": "assets/photos/food-extra-late-udon-autumn.webp",
+      "title": "츠루톤탄 · 크림 우동 스타일 예시",
+      "caption": "2026 가을 한정 공식 사진: 고르곤졸라·호두·쌀누룩 포타주 우동. 1/3 판매 메뉴가 아니며 아래 명란 우동과도 다른 메뉴예요.",
+      "source": "https://www.tsurutontan.co.jp/menu/",
+      "credit": "공식 매장 사진",
+      "width": 1100,
+      "height": 733,
+      "url": "https://www.tsurutontan.co.jp/content/uploads/2026/08/26aki-11.jpg"
+    },
+    "food-extra-late-udon-shop-final0": {
+      "src": "assets/photos/food-extra-late-udon-shop-final0.webp",
+      "title": "츠루톤탄 · 하네다점",
+      "caption": "하네다 T3 4층의 공식 매장 사진. 큰 그릇 우동을 앉아서 먹는 후보.",
+      "source": "https://www.tsurutontan.co.jp/shop/haneda/",
+      "credit": "공식 매장 사진",
+      "width": 1100,
+      "height": 733,
+      "url": "https://www.tsurutontan.co.jp/content/uploads/2020/01/tsurutontan_0001-2.jpg"
+    },
+    "food-extra-late-ogurameal-final1": {
+      "src": "assets/photos/food-extra-late-ogurameal-final1.webp",
+      "title": "오구라 · 도미 다시차즈케",
+      "caption": "매장이 EAT Tokyo에 공개한 도미 차즈케 사진.",
+      "source": "https://www.menu-tokyo.jp/search/detail.php?lang=jp&lat=35.54546130&lng=139.76872220&shop_id=1900707",
+      "credit": "EAT Tokyo · 매장 등록 사진",
+      "width": 900,
+      "height": 675,
+      "url": "https://www.menu-tokyo.jp/menupage/1900707/images/cook/220240.png?rnd=1803954330"
+    },
+    "food-extra-late-ogurameal-final0": {
+      "src": "assets/photos/food-extra-late-ogurameal-final0.webp",
+      "title": "오구라 · 매실 다시차즈케",
+      "caption": "매장이 EAT Tokyo에 공개한 기슈 난코바이 차즈케 사진.",
+      "source": "https://www.menu-tokyo.jp/search/detail.php?lang=jp&lat=35.54546130&lng=139.76872220&shop_id=1900707",
+      "credit": "EAT Tokyo · 매장 등록 사진",
+      "width": 900,
+      "height": 675,
+      "url": "https://www.menu-tokyo.jp/menupage/1900707/images/cook/220239.png?rnd=1814860217"
+    },
+    "food-extra-late-nan-shumai": {
+      "src": "assets/photos/food-extra-late-nan-shumai.webp",
+      "title": "난린카 · 난고쿠슈카 슈마이",
+      "caption": "2026.09 공식 메뉴의 슈마이 사진. 찐 고기 슈마이로 교자와 다른 선택.",
+      "source": "https://nangokusyuka.co.jp/dcms_media/other/HIA_grand_260910.pdf",
+      "credit": "공식 메뉴 PDF · 사진 부분",
+      "width": 292,
+      "height": 205,
+      "url": "https://nangokusyuka.co.jp/dcms_media/other/HIA_grand_260910.pdf"
+    },
+    "food-extra-late-nan-shrimp": {
+      "src": "assets/photos/food-extra-late-nan-shrimp.webp",
+      "title": "난린카 · 새우 마요네즈",
+      "caption": "2026.09 공식 메뉴의 새우 요리 사진.",
+      "source": "https://nangokusyuka.co.jp/dcms_media/other/HIA_grand_260910.pdf",
+      "credit": "공식 메뉴 PDF · 사진 부분",
+      "width": 325,
+      "height": 243,
+      "url": "https://nangokusyuka.co.jp/dcms_media/other/HIA_grand_260910.pdf"
+    },
+    "food-extra-late-bairan-yakisoba": {
+      "src": "assets/photos/food-extra-late-bairan-yakisoba.webp",
+      "title": "바이란 · 바삭한 야키소바",
+      "caption": "하네다점 공식 메뉴 사진. 겉을 구운 면 안에 소스와 속재료가 들어 있어요.",
+      "source": "https://bairan-tougen.jp/shop/haneda/news",
+      "credit": "공식 매장 사진",
+      "width": 640,
+      "height": 427,
+      "url": "https://bairan-tougen.jp/images/shop/tokyo/01/yakisoba_01.jpg"
+    },
+    "food-extra-late-bairan-shrimp": {
+      "src": "assets/photos/food-extra-late-bairan-shrimp.webp",
+      "title": "바이란 · 큰 새우 칠리소스",
+      "caption": "공식 하네다점 추천 요리 사진.",
+      "source": "https://bairan-tougen.jp/shop/haneda/news",
+      "credit": "공식 매장 사진",
+      "width": 640,
+      "height": 427,
+      "url": "https://bairan-tougen.jp/images/shop/tokyo/01/osusume03.jpg"
+    },
+    "food-extra-late-oedo1": {
+      "src": "assets/photos/food-extra-late-oedo1.webp",
+      "title": "오에도 푸드홀 · 스테이크 플레이트",
+      "caption": "2023 취재 사진. 현재도 비프 스테이크 플레이트가 메뉴에 있지만 고기·곁들임은 달라질 수 있어요.",
+      "source": "https://travel.rakuten.co.jp/mytrip/howto/hanedagardengourmet-shopping-guide",
+      "credit": "Rakuten Travel · 취재 사진",
+      "width": 760,
+      "height": 507,
+      "url": "https://travel.rakuten.co.jp/mytrip/sites/mytrip/files/styles/1cal_image/public/2023-02/hanedagarden_gourmet-shopping-guide_04.jpg?itok=fzwuvf2s"
+    },
+    "food-extra-late-oedo0": {
+      "src": "assets/photos/food-extra-late-oedo0.webp",
+      "title": "오에도 푸드홀 · 입구",
+      "caption": "하네다 에어포트가든의 푸드홀 입구. 2023 취재 사진.",
+      "source": "https://travel.rakuten.co.jp/mytrip/howto/hanedagardengourmet-shopping-guide",
+      "credit": "Rakuten Travel · 취재 사진",
+      "width": 760,
+      "height": 507,
+      "url": "https://travel.rakuten.co.jp/mytrip/sites/mytrip/files/styles/1cal_image/public/2023-02/hanedagarden_gourmet-shopping-guide_03.jpg?itok=iQCa5Blj"
+    },
+    "food-extra-late-itoen-soft": {
+      "src": "assets/photos/food-extra-late-itoen-soft.webp",
+      "title": "이토엔 · 말차 소프트크림",
+      "caption": "브랜드 공식 메뉴 사진. 하네다 매장의 용기·장식은 달라질 수 있어요.",
+      "source": "https://www.itoen.jp/shoplist/",
+      "credit": "이토엔 공식 메뉴 사진",
+      "width": 400,
+      "height": 400,
+      "url": "https://www.itoen.jp/shoplist/img/shop2_item2_img_2305@2x.webp"
+    },
+    "food-extra-late-itoen-anmitsu": {
+      "src": "assets/photos/food-extra-late-itoen-anmitsu.webp",
+      "title": "이토엔 · 말차 소프트 안미츠",
+      "caption": "브랜드 공식 메뉴 사진. 팥·시라타마와 말차를 함께 먹는 디저트.",
+      "source": "https://www.itoen.jp/shoplist/",
+      "credit": "이토엔 공식 메뉴 사진",
+      "width": 400,
+      "height": 400,
+      "url": "https://www.itoen.jp/shoplist/img/shop2_item4_img_2305@2x.webp"
+    },
+    "food-extra-late-konga2": {
+      "src": "assets/photos/food-extra-late-konga2.webp",
+      "title": "콘가 · 속을 가득 넣은 오니기리",
+      "caption": "하네다공항 공식 소개 사진. 속재료는 주문 메뉴와 다를 수 있어요.",
+      "source": "https://tokyo-haneda.com/shop_and_dine/detail/tenant_00577.html",
+      "credit": "하네다공항 공식 사진",
+      "width": 690,
+      "height": 424,
+      "url": "https://tokyo-haneda.com/site_resource/shop_and_dine/img/00577/shop/000013118.jpg"
+    },
+    "food-extra-late-cardfinal21": {
+      "src": "assets/photos/food-extra-late-cardfinal21.webp",
+      "title": "카페 카디널 · 콘 포타주",
+      "caption": "공식 사이트가 소개하는 옥수수 포타주 이미지.",
+      "source": "https://miyoshi-grp.com/cardinal/en_us/restaurant/cafecardinal/",
+      "credit": "공식 매장 사진",
+      "width": 750,
+      "height": 500,
+      "url": "https://miyoshi-grp.com/cardinal/wp-content/uploads/sites/2/2024/10/drink_menu-2.jpg"
+    },
+    "food-extra-late-cardfinal11": {
+      "src": "assets/photos/food-extra-late-cardfinal11.webp",
+      "title": "카페 카디널 · 좌석",
+      "caption": "공식 매장 사진. 보안검색 전에 앉아 쉬는 가벼운 식사 후보.",
+      "source": "https://miyoshi-grp.com/cardinal/en_us/restaurant/cafecardinal/",
+      "credit": "공식 매장 사진",
+      "width": 1000,
+      "height": 1000,
+      "url": "https://miyoshi-grp.com/cardinal/wp-content/uploads/sites/2/2024/10/cafecardinal-16_gallery.jpg"
+    },
+    "food-extra-late-hyakuzen-set": {
+      "src": "assets/photos/food-extra-late-hyakuzen-set.webp",
+      "title": "일본의 특선 햐쿠젠",
+      "caption": "공식 사이트가 연결한 메뉴의 대표 정식 사진. 메뉴는 2023 표기이며 현재 구성·가격 재확인.",
+      "source": "https://www.hyakuzen.jp/images/menu/menu.pdf",
+      "credit": "공식 메뉴 PDF · 사진 부분",
+      "width": 843,
+      "height": 519,
+      "url": "https://www.hyakuzen.jp/images/menu/menu.pdf"
+    },
+    "food-extra-late-hyakuzen-bento": {
+      "src": "assets/photos/food-extra-late-hyakuzen-bento.webp",
+      "title": "햐쿠젠 · 쇼카도 도시락",
+      "caption": "공식 메뉴의 여러 작은 요리가 담긴 쇼카도 도시락. 방문일 구성 확인.",
+      "source": "https://www.hyakuzen.jp/images/menu/menu.pdf",
+      "credit": "공식 메뉴 PDF · 사진 부분",
+      "width": 884,
+      "height": 584,
+      "url": "https://www.hyakuzen.jp/images/menu/menu.pdf"
+    }
+  }
+}
