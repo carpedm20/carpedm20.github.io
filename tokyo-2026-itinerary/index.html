@@ -81,6 +81,7 @@
 <link rel="stylesheet" href="assets/cafe-menu-photos.css?v=d2d50403f1">
 <link rel="stylesheet" href="assets/street-snacks.css?v=becac388eb">
 <link rel="stylesheet" href="assets/hover-minimap.css?v=0fe1ebc5bc">
+<link rel="stylesheet" href="assets/orb-trail.css?v=dca68f275c">
 </head>
 <body class="editorial-page">
 <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden"><defs>
@@ -1494,5 +1495,6 @@ function renderHotels(){$('#hotels').innerHTML=hotels.map((h,i)=>`<article class
 function navTo(anchor){document.querySelector('#'+anchor).scrollIntoView({behavior:'smooth',block:'start'});document.querySelectorAll('[data-anchor]').forEach(b=>b.classList.toggle('active',b.dataset.anchor===anchor))}document.querySelectorAll('[data-anchor]').forEach(b=>b.onclick=()=>navTo(b.dataset.anchor));$('#copyBtn').onclick=async()=>{try{await navigator.clipboard.writeText(location.href);toast('웹사이트 주소를 복사했습니다')}catch{toast('주소창의 URL을 복사해 주세요')}};$('#printBtn').onclick=()=>window.print();$('#sourceLinks').innerHTML=sourceLinks.map(([name,url])=>`<a href="${url}" target="_blank" rel="noopener">${name} ${icon('out','sm')}</a>`).join('');renderDays();renderFoods();renderHotels();initRouteExplorer();renderVisualJourney();renderKonbini();renderDiscoveryGuide();renderOvernightGuide();renderPlanPanel();attachPlanPanel();refreshPlanViews();window.addEventListener('resize',()=>{const p=document.querySelector('#tripPlanPanel');const desired=matchMedia('(max-width:760px)').matches?'mobilePlanSlot':'sidebarPlanSlot';if(p.parentElement.id!==desired)attachPlanPanel()});
 </script>
 <script src="assets/hover-minimap.js?v=6203c12b66"></script>
+<script src="assets/orb-trail.js?v=3119dc9309"></script>
 </body>
 </html>
