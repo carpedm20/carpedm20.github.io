@@ -1,0 +1,209 @@
+[
+  {
+    "key": "yoke",
+    "title": "YOKE AOYAMA",
+    "intro": "미술관처럼 공간만 보고 나오지 말고, 신발·가방·니트·스카프·셔츠를 하나씩 비교해 봐요.",
+    "where": "아오야마 플래그십 · 같은 계열의 옷을 반복하기보다 소재와 형태를 비교",
+    "source": "https://yoketokyooo.com/pages/stockists",
+    "items": [
+      {
+        "id": "yoke-reproduction-of-found-german-trainer-1",
+        "title": "REPRODUCTION OF FOUND × YOKE 저먼 트레이너",
+        "desc": "먼저 신어볼 신발. 평소 신는 바지 밑단과 함께 보고, 발볼·뒤꿈치가 들뜨지 않는지 걸어봐요.",
+        "check": "브랜드 공식 카탈로그 예시 · 아오야마 매장 색상·사이즈·재고는 방문 전 확인",
+        "source": "https://yoketokyooo.com/products/reproduction-of-found-german-trainer-1",
+        "image": "https://cdn.shopify.com/s/files/1/0923/1692/6323/files/20260323_yoke304810.jpg?v=1782057998",
+        "credit": "YOKE 공식 상품 사진",
+        "src": "assets/photos/guide-fashion-yoke-reproduction-of-found-german-trainer-1.webp",
+        "width": 567,
+        "height": 850
+      },
+      {
+        "id": "yoke-knitpottery-knit-pottery-bag-small",
+        "title": "KNITPOTTERY × YOKE 니트 포터리 백 Small",
+        "desc": "도자기 같은 입체 실루엣의 작은 니트 가방. 휴대폰·지갑이 들어가는지와 손잡이를 잡았을 때 형태를 확인해요.",
+        "check": "브랜드 공식 카탈로그 예시 · 아오야마 매장 색상·사이즈·재고는 방문 전 확인",
+        "source": "https://yoketokyooo.com/products/knitpottery-knit-pottery-bag-small",
+        "image": "https://cdn.shopify.com/s/files/1/0923/1692/6323/files/20260323_yoke301836.jpg?v=1782057851",
+        "credit": "YOKE 공식 상품 사진",
+        "src": "assets/photos/guide-fashion-yoke-knitpottery-knit-pottery-bag-small.webp",
+        "width": 567,
+        "height": 850
+      },
+      {
+        "id": "yoke-distorted-cable-knit-cardigan",
+        "title": "Distorted Cable-Knit Cardigan",
+        "desc": "케이블 무늬의 비틀린 선을 보는 가디건. 정면뿐 아니라 옆모습과 단추를 열었을 때의 실루엣을 비교해요.",
+        "check": "브랜드 공식 카탈로그 예시 · 아오야마 매장 색상·사이즈·재고는 방문 전 확인",
+        "source": "https://yoketokyooo.com/products/distorted-cable-knit-cardigan",
+        "image": "https://cdn.shopify.com/s/files/1/0923/1692/6323/files/20260323_yoke304740.jpg?v=1782058818",
+        "credit": "YOKE 공식 상품 사진",
+        "src": "assets/photos/guide-fashion-yoke-distorted-cable-knit-cardigan.webp",
+        "width": 567,
+        "height": 850
+      },
+      {
+        "id": "yoke-baby-alpaca-blend-boucle-yarn-distressed-gradient-scarf",
+        "title": "알파카 혼방 그라데이션 스카프",
+        "desc": "옷 한 벌 대신 색감을 가져오기 좋은 후보. 얼굴에 대 보고 피부에 닿는 느낌과 코트 위 볼륨을 확인해요.",
+        "check": "브랜드 공식 카탈로그 예시 · 아오야마 매장 색상·사이즈·재고는 방문 전 확인",
+        "source": "https://yoketokyooo.com/products/baby-alpaca-blend-boucle-yarn-distressed-gradient-scarf",
+        "image": "https://cdn.shopify.com/s/files/1/0923/1692/6323/files/20260323_yoke306368.jpg?v=1782062354",
+        "credit": "YOKE 공식 상품 사진",
+        "src": "assets/photos/guide-fashion-yoke-baby-alpaca-blend-boucle-yarn-distressed-gradient-scarf.webp",
+        "width": 567,
+        "height": 850
+      },
+      {
+        "id": "yoke-lambs-wool-sculptural-wired-knit-shirt-1",
+        "title": "Lambs Wool Sculptural Wired Knit Shirt",
+        "desc": "니트 셔츠의 형태와 표면감을 가까이 보는 후보. 소매 길이·어깨선·관리 방법을 매장에서 물어봐요.",
+        "check": "브랜드 공식 카탈로그 예시 · 아오야마 매장 색상·사이즈·재고는 방문 전 확인",
+        "source": "https://yoketokyooo.com/products/lambs-wool-sculptural-wired-knit-shirt-1",
+        "image": "https://cdn.shopify.com/s/files/1/0923/1692/6323/files/20260323_yoke301613_443e6c81-543b-4a3c-aba8-563f1359d3fa.jpg?v=1789432909",
+        "credit": "YOKE 공식 상품 사진",
+        "src": "assets/photos/guide-fashion-yoke-lambs-wool-sculptural-wired-knit-shirt-1.webp",
+        "width": 567,
+        "height": 850
+      }
+    ]
+  },
+  {
+    "key": "niceness",
+    "title": "NICENESS EBISU",
+    "intro": "이곳에서는 원단·가공·착용감 차이를 보는 다섯 가지를 골라요. 같은 브랜드여도 모자·부츠·바지·재킷·니트의 인상이 달라요.",
+    "where": "에비스 플래그십 · 공식 상품의 매장 취급처 표기를 참고",
+    "source": "https://www.niceness.jp/store",
+    "items": [
+      {
+        "id": "niceness-basho",
+        "title": "BASHO 하프집 니트",
+        "desc": "스웨트 같은 편안한 형태의 캐시미어·울 니트. 지퍼를 목까지 올렸을 때와 열었을 때 인상이 달라지는지 봐요.",
+        "check": "공식 제품 페이지에 NICENESS EBISU 취급처 표기 · 방문일 사이즈·재고는 미확인",
+        "source": "https://www.niceness.jp/ja/products/basho",
+        "image": "https://cdn.shopify.com/s/files/1/0536/8922/1288/files/IMG_322242.jpg?v=1783381916&width=100&height=125&crop=center",
+        "credit": "NICENESS 공식 상품 사진",
+        "src": "assets/photos/guide-fashion-niceness-basho.webp",
+        "width": 100,
+        "height": 125
+      },
+      {
+        "id": "niceness-strick",
+        "title": "STRICK 보아 헌터 캡",
+        "desc": "귀까지 덮는 겨울 모자. 귀 덮개를 올리거나 내린 모습과 안감의 촉감, 머리 둘레를 확인해요.",
+        "check": "공식 제품 페이지에 NICENESS EBISU 취급처 표기 · 방문일 사이즈·재고는 미확인",
+        "source": "https://www.niceness.jp/ja/products/strick",
+        "image": "https://cdn.shopify.com/s/files/1/0536/8922/1288/files/IMG_326762.jpg?v=1783381146&width=100&height=125&crop=center",
+        "credit": "NICENESS 공식 상품 사진",
+        "src": "assets/photos/guide-fashion-niceness-strick.webp",
+        "width": 100,
+        "height": 125
+      },
+      {
+        "id": "niceness-dylan-2",
+        "title": "DYLAN 소가죽 알프스 부츠",
+        "desc": "운동화와 다른 무게감의 가죽 부츠. 양쪽을 신고 잠깐 걸으며 굽 무게와 발등 압박을 확인해요.",
+        "check": "브랜드 공식 카탈로그 예시 · 에비스 매장 취급·재고는 방문 전 확인",
+        "source": "https://www.niceness.jp/ja/products/dylan-2",
+        "image": "https://cdn.shopify.com/s/files/1/0536/8922/1288/files/IMG_332132.jpg?v=1783374056&width=100&height=125&crop=center",
+        "credit": "NICENESS 공식 상품 사진",
+        "src": "assets/photos/guide-fashion-niceness-dylan-2.webp",
+        "width": 100,
+        "height": 125
+      },
+      {
+        "id": "niceness-geoff",
+        "title": "GEOFF 멜턴 라이딩 재킷",
+        "desc": "짧은 재킷의 비율을 비교할 후보. 앉았을 때 앞판이 뜨는지, 안에 니트를 입을 여유가 있는지 봐요.",
+        "check": "공식 제품 페이지에 NICENESS EBISU 취급처 표기 · 방문일 사이즈·재고는 미확인",
+        "source": "https://www.niceness.jp/ja/products/geoff",
+        "image": "https://cdn.shopify.com/s/files/1/0536/8922/1288/files/IMG_322942.jpg?v=1783382298&width=100&height=125&crop=center",
+        "credit": "NICENESS 공식 상품 사진",
+        "src": "assets/photos/guide-fashion-niceness-geoff.webp",
+        "width": 100,
+        "height": 125
+      },
+      {
+        "id": "niceness-adamson",
+        "title": "ADAMSON 에이징 몰스킨 팬츠",
+        "desc": "데님과 다른 표면감의 팬츠. 자연스러운 가공 흔적과 원단 두께를 보고, 허리·허벅지·밑단을 모두 비교해요.",
+        "check": "공식 제품 페이지에 NICENESS EBISU 취급처 표기 · 방문일 사이즈·재고는 미확인",
+        "source": "https://www.niceness.jp/ja/products/adamson",
+        "image": "https://cdn.shopify.com/s/files/1/0536/8922/1288/files/IMG_319082.jpg?v=1783377897&width=100&height=125&crop=center",
+        "credit": "NICENESS 공식 상품 사진",
+        "src": "assets/photos/guide-fashion-niceness-adamson.webp",
+        "width": 100,
+        "height": 125
+      }
+    ]
+  },
+  {
+    "key": "cc",
+    "title": "CC STORE©",
+    "intro": "같은 잡지 세 권보다 매거진·포스터·티셔츠·벨트·키홀더를 비교해요. 과거 굿즈는 사진을 취향 참고로 보고 현장의 새 상품을 물어보세요.",
+    "where": "하라주쿠 · COMET 계열 상품과 빈티지를 함께 보는 곳",
+    "source": "https://www.timeout.com/tokyo/shopping/cc-store",
+    "items": [
+      {
+        "id": "cc-143239671",
+        "title": "COMET ISSUE 06 · 문화와 디자인 매거진",
+        "desc": "한 권을 산다면 표지보다 목차를 먼저 봐요. 2026년 봄호는 아트·디자인·패션·음악을 다루므로 둘이 취향이 겹치는 페이지를 찾아봐요.",
+        "check": "발행사 공식 카탈로그 · CC STORE 현장 재고 미확인",
+        "source": "https://cometmag.base.shop/items/143239671",
+        "image": "https://baseec-img-mng.akamaized.net/images/item/origin/9c27dcd6e51d0637ac7065a5bcd6e443.jpg?imformat=generic&q=90&im=Resize,width=1200,type=normal",
+        "credit": "COMET MAGAZINE 공식 상품 사진",
+        "src": "assets/photos/guide-fashion-cc-143239671.webp",
+        "width": 708,
+        "height": 850
+      },
+      {
+        "id": "cc-136746672",
+        "title": "COMET POSTER MAGAZINE 01",
+        "desc": "페이지를 A1 포스터로 활용하는 판형. 집 벽에 걸 이미지가 있는지 보고, 접힌 자국과 운반 크기를 확인해요.",
+        "check": "공식 온라인 품절 · 재입고·새 디자인 문의용 예시, CC STORE 재고 미확인",
+        "source": "https://cometmag.base.shop/items/136746672",
+        "image": "https://baseec-img-mng.akamaized.net/images/item/origin/da662473440a2ac0c06b93454871006a.jpg?imformat=generic&q=90&im=Resize,width=1200,type=normal",
+        "credit": "COMET MAGAZINE 공식 상품 사진",
+        "src": "assets/photos/guide-fashion-cc-136746672.webp",
+        "width": 708,
+        "height": 850
+      },
+      {
+        "id": "cc-98122382",
+        "title": "COMET × YAMEPI 그래픽 티셔츠",
+        "desc": "잡지의 그래픽 취향을 실제로 입는 선택지. 프린트와 원단 상태, 넥 늘어남과 실측을 살펴봐요.",
+        "check": "공식 온라인 품절 · 재입고·새 디자인 문의용 예시, CC STORE 재고 미확인",
+        "source": "https://cometmag.base.shop/items/98122382",
+        "image": "https://baseec-img-mng.akamaized.net/images/item/origin/f9ce1ca15e1edcfcefecd78b19bc4b6c.jpg?imformat=generic&q=90&im=Resize,width=1200,type=normal",
+        "credit": "COMET MAGAZINE 공식 상품 사진",
+        "src": "assets/photos/guide-fashion-cc-98122382.webp",
+        "width": 850,
+        "height": 850
+      },
+      {
+        "id": "cc-97905765",
+        "title": "COMET × YeYan 로고 벨트",
+        "desc": "옷보다 작은 스트리트 액세서리. 길이를 줄일 수 있는지, 버클 두께가 평소 바지와 맞는지 확인해요.",
+        "check": "공식 온라인 품절 · 재입고·새 디자인 문의용 예시, CC STORE 재고 미확인",
+        "source": "https://cometmag.base.shop/items/97905765",
+        "image": "https://baseec-img-mng.akamaized.net/images/item/origin/3d05118850a7de379b25e85914d86fb2.jpg?imformat=generic&q=90&im=Resize,width=1200,type=normal",
+        "credit": "COMET MAGAZINE 공식 상품 사진",
+        "src": "assets/photos/guide-fashion-cc-97905765.webp",
+        "width": 850,
+        "height": 850
+      },
+      {
+        "id": "cc-97575243",
+        "title": "COMET 로고 키홀더",
+        "desc": "가방이나 열쇠에 달 소품. 고리 크기와 무게를 보고, 매장에 새 디자인이 있으면 함께 비교해요.",
+        "check": "공식 온라인 품절 · 재입고·새 디자인 문의용 예시, CC STORE 재고 미확인",
+        "source": "https://cometmag.base.shop/items/97575243",
+        "image": "https://baseec-img-mng.akamaized.net/images/item/origin/3f2c667ad0b68eb56a1c77b88fe09979.jpg?imformat=generic&q=90&im=Resize,width=1200,type=normal",
+        "credit": "COMET MAGAZINE 공식 상품 사진",
+        "src": "assets/photos/guide-fashion-cc-97575243.webp",
+        "width": 850,
+        "height": 850
+      }
+    ]
+  }
+]

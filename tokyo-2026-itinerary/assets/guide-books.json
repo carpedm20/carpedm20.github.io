@@ -1,0 +1,260 @@
+[
+  {
+    "key": "cow",
+    "title": "COW BOOKS",
+    "intro": "책 한 권만 보는 곳이 아니라, 독서 생활을 집에 가져오는 쇼핑. 달력·그림책·가방·옷·모자를 서로 다르게 비교해요.",
+    "where": "나카메구로 강변 COW BOOKS · 원서와 오리지널 상품 진열",
+    "source": "https://cowbooks.stores.jp/",
+    "items": [
+      {
+        "id": "guide-cow-calendar",
+        "title": "야나기모토 후미 · 2027 판화 달력",
+        "desc": "새해 여행과 딱 맞는 종이 기념품. 매달 그림 한 장을 바꿔 책상 옆에 두고, 사용 후 마음에 드는 그림을 작은 액자에 넣어도 좋아요.",
+        "check": "공식 예약 상품 · 11월 말 발송 예정 안내. 방문 시 판매·재고 확인",
+        "source": "https://cowbooks.official.ec/items/163676406",
+        "src": "assets/photos/guide-books-cow-calendar.webp",
+        "width": 800,
+        "height": 800,
+        "credit": "COW BOOKS 공식 상품 사진"
+      },
+      {
+        "id": "guide-cow-book",
+        "title": "A RAIN DOG · 작은 판화 그림책",
+        "desc": "개와 페인트공의 일상을 담은 손바닥 크기의 책. 일본어를 다 읽기보다 판화의 표정·인쇄·장정을 보고 고르기 좋은 후보.",
+        "check": "공식 등록 도서 · 서명·판쇄·현장 재고는 확인",
+        "source": "https://cowbooks.official.ec/items/151756668",
+        "src": "assets/photos/guide-books-cow-book.webp",
+        "width": 800,
+        "height": 800,
+        "credit": "COW BOOKS 공식 상품 사진"
+      },
+      {
+        "id": "guide-cow-tote",
+        "title": "COW BOOKS Bucket Shoulder Tote",
+        "desc": "책을 넣고도 바닥이 넉넉한 버킷형 가방. 인디고·올리브·블랙 중 평소 아우터와 맞는 색을 보고, 직접 어깨에 걸쳐 끈 길이를 비교해요.",
+        "check": "공식 브랜드 상품 · 나카메구로 재고·색상 확인",
+        "source": "https://cowbooks.official.ec/items/153352182",
+        "src": "assets/photos/guide-books-cow-tote.webp",
+        "width": 800,
+        "height": 800,
+        "credit": "COW BOOKS 공식 상품 사진"
+      },
+      {
+        "id": "guide-cow-tee",
+        "title": "Book Vendor 로고 티셔츠",
+        "desc": "책방 이름을 여행 기념으로 입는 방법. 프린트 질감과 네크라인을 보고, 내 티셔츠의 실측과 비교해서 사이즈를 골라요.",
+        "check": "공식 브랜드 상품 · 사진은 해당 컬러 예시, 현장 사이즈 확인",
+        "source": "https://cowbooks.official.ec/items/151375271",
+        "src": "assets/photos/guide-books-cow-tee.webp",
+        "width": 800,
+        "height": 800,
+        "credit": "COW BOOKS 공식 상품 사진"
+      },
+      {
+        "id": "guide-cow-cap",
+        "title": "COW BOOKS Jet Cap",
+        "desc": "크로스스티치 로고 와펜이 포인트인 캡. 거울 앞에서 챙 길이·깊이를 보고, 둘이 번갈아 써 보며 잘 어울리는 쪽으로 골라요.",
+        "check": "공식 브랜드 상품 · 현장 재고·색상 확인",
+        "source": "https://cowbooks.official.ec/items/151375287",
+        "src": "assets/photos/guide-books-cow-cap.webp",
+        "width": 800,
+        "height": 800,
+        "credit": "COW BOOKS 공식 상품 사진"
+      }
+    ]
+  },
+  {
+    "key": "ella",
+    "title": "ELLA RECORDS",
+    "intro": "다섯 장을 다 사기보다 서로 다른 소리를 청음하고 한 장을 고르는 시간. 온라인 전용 재고와 하타가야점 재고가 다르므로, 사진은 음반·장르를 설명할 참고로 보여줘요.",
+    "where": "하타가야 ELLA RECORDS · 일본 음악·재즈·7인치 선반, 가능하면 청음",
+    "source": "https://ellarecords.jp/",
+    "items": [
+      {
+        "id": "guide-ella-city-pop",
+        "title": "Harry & Mac · Road To Louisiana",
+        "desc": "호소노 하루오미와 구보타 마코토의 음반을 취향의 출발점으로. 비슷한 일본 팝·루츠 음악을 직원에게 추천받고, 오비와 가사지 유무를 살펴봐요.",
+        "check": "ELLA 온라인 카탈로그의 장르·음반 예시 · 하타가야점은 별도 재고. 같은 음반 보유를 뜻하지 않아요.",
+        "source": "https://ellarecords.jp/products/20260506-onl-y0019046",
+        "src": "assets/photos/guide-books-ella-city-pop.webp",
+        "width": 800,
+        "height": 795,
+        "credit": "ELLA ONLINE 공식 음반 사진"
+      },
+      {
+        "id": "guide-ella-japanese-jazz",
+        "title": "일본 재즈 LP · Electronics",
+        "desc": "하라 노부오와 Sharp & Flats의 빅밴드 재즈 예시. 뻔한 재즈 명반 대신 일본 연주자의 레코드를 청음해 보고 한 장 골라요.",
+        "check": "ELLA 온라인 카탈로그의 장르·음반 예시 · 하타가야점은 별도 재고. 같은 음반 보유를 뜻하지 않아요.",
+        "source": "https://ellarecords.jp/products/20260826-onl-y0020203",
+        "src": "assets/photos/guide-books-ella-japanese-jazz.webp",
+        "width": 800,
+        "height": 784,
+        "credit": "ELLA ONLINE 공식 음반 사진"
+      },
+      {
+        "id": "guide-ella-ecm",
+        "title": "Steve Reich · Music for 18 Musicians",
+        "desc": "반복되는 소리와 미니멀한 표지를 좋아한다면 ECM 선반을 살펴봐요. 작품명·연주 버전·판본을 확인하고 재생면 상태를 비교해요.",
+        "check": "ELLA 온라인 카탈로그의 장르·음반 예시 · 하타가야점은 별도 재고. 같은 음반 보유를 뜻하지 않아요.",
+        "source": "https://ellarecords.jp/products/20260726-onl-y0019691",
+        "src": "assets/photos/guide-books-ella-ecm.webp",
+        "width": 800,
+        "height": 800,
+        "credit": "ELLA ONLINE 공식 음반 사진"
+      },
+      {
+        "id": "guide-ella-ambient",
+        "title": "Enya · 초기 앨범 / 조용한 음반 찾기",
+        "desc": "호텔에서 쉬던 분위기를 집에서도 듣고 싶을 때. 앰비언트·뉴에이지 쪽에서 편안한 음반을 부탁하고, 표지만 보고 사기보다 몇 곡 들어봐요.",
+        "check": "ELLA 온라인 카탈로그의 장르·음반 예시 · 하타가야점은 별도 재고. 같은 음반 보유를 뜻하지 않아요.",
+        "source": "https://ellarecords.jp/products/20260808-onl-y0019802",
+        "src": "assets/photos/guide-books-ella-ambient.webp",
+        "width": 800,
+        "height": 792,
+        "credit": "ELLA ONLINE 공식 음반 사진"
+      },
+      {
+        "id": "guide-ella-7inch",
+        "title": "Junior Tucker · Don’t U Touch My Baby",
+        "desc": "작고 가벼운 7인치 레게 싱글 예시. B면과 회전수도 확인하고, 집 턴테이블에서 필요한 어댑터가 있는지 생각해요.",
+        "check": "ELLA 온라인 카탈로그의 장르·음반 예시 · 하타가야점은 별도 재고. 같은 음반 보유를 뜻하지 않아요.",
+        "source": "https://ellarecords.jp/products/20260916-onl-d7001240",
+        "src": "assets/photos/guide-books-ella-7inch.webp",
+        "width": 800,
+        "height": 793,
+        "credit": "ELLA ONLINE 공식 음반 사진"
+      }
+    ]
+  },
+  {
+    "key": "skac",
+    "title": "SKAC · twelvebooks",
+    "intro": "창고 같은 공간에서 아트북뿐 아니라 종이 구조물·엽서·활동책·아티스트 오브제를 비교해요. 무조건 무거운 책을 사기보다, 두 사람이 오래 쓰거나 볼 한 가지를 찾는 코스.",
+    "where": "가메아리 SKAC 안 twelvebooks · 디자인·머천다이즈·아트 도서",
+    "source": "https://twelve-books.com/pages/about",
+    "items": [
+      {
+        "id": "guide-skac-this-book-is-a-camera",
+        "title": "THIS BOOK IS A CAMERA · 카메라가 되는 책",
+        "desc": "펼치면 핀홀 카메라가 되는 종이 구조물. 보는 책보다 손으로 조립하는 디자인이 좋다면 우선순위. 구성품과 설명 언어를 확인해요.",
+        "check": "SKAC 입점 twelvebooks 공식 카탈로그 · 현장 전시·판매 재고 확인",
+        "source": "https://twelve-books.com/products/this-book-is-a-camera-a-pop-up-book-camera-kelli-anderson",
+        "src": "assets/photos/guide-books-skac-this-book-is-a-camera.webp",
+        "width": 800,
+        "height": 753,
+        "credit": "twelvebooks 공식 상품 사진"
+      },
+      {
+        "id": "guide-skac-offline-activities",
+        "title": "OFFLINE ACTIVITIES · 둘이 해볼 활동책",
+        "desc": "떼어 쓰는 작은 쿠폰 같은 형식의 52가지 활동. 여행 후에도 둘이 한 가지씩 해볼 아이디어를 찾아보고, 실제 페이지를 넘겨 난이도를 봐요.",
+        "check": "SKAC 입점 twelvebooks 공식 카탈로그 · 현장 전시·판매 재고 확인",
+        "source": "https://twelve-books.com/products/offline-activities-by-tamara-shopsin-jason-fulford",
+        "src": "assets/photos/guide-books-skac-offline-activities.webp",
+        "width": 800,
+        "height": 753,
+        "credit": "twelvebooks 공식 상품 사진"
+      },
+      {
+        "id": "guide-skac-making-marie-antoinette-postcards",
+        "title": "마리 앙투아네트 촬영 현장 엽서 18장",
+        "desc": "소피아 코폴라 영화의 의상·세트·촬영 순간을 작은 인쇄물로. 한두 장은 편지에, 나머지는 집 벽이나 책상에 두기 좋아요.",
+        "check": "SKAC 입점 twelvebooks 공식 카탈로그 · 현장 전시·판매 재고 확인",
+        "source": "https://twelve-books.com/products/making-marie-antoinette-postcards-by-andrew-durham",
+        "src": "assets/photos/guide-books-skac-making-marie-antoinette-postcards.webp",
+        "width": 800,
+        "height": 753,
+        "credit": "twelvebooks 공식 상품 사진"
+      },
+      {
+        "id": "guide-skac-mind-the-step",
+        "title": "Lawrence Weiner · MIND THE STEP 타일",
+        "desc": "문장이 작품이 되는 세라믹 오브제. 15cm 정사각형 크기와 무게를 확인하고, 구매한다면 깨지지 않게 포장받아요.",
+        "check": "SKAC 입점 twelvebooks 공식 카탈로그 · 현장 전시·판매 재고 확인",
+        "source": "https://twelve-books.com/products/mind-the-step-glazed-ceramic-tile-by-lawrence-weiner",
+        "src": "assets/photos/guide-books-skac-mind-the-step.webp",
+        "width": 800,
+        "height": 753,
+        "credit": "twelvebooks 공식 상품 사진"
+      },
+      {
+        "id": "guide-skac-noguchi-to-asawa",
+        "title": "NOGUCHI TO ASAWA · 전후 미국의 디자인",
+        "desc": "이사무 노구치와 루스 아사와를 중심으로 미술·디자인을 보는 책. 익숙한 형태를 누가 어떻게 만들었는지, 도판과 장정을 비교해요.",
+        "check": "SKAC 입점 twelvebooks 공식 카탈로그 · 현장 전시·판매 재고 확인",
+        "source": "https://twelve-books.com/products/noguchi-to-asawa-designing-postwar-america",
+        "src": "assets/photos/guide-books-skac-noguchi-to-asawa.webp",
+        "width": 800,
+        "height": 753,
+        "credit": "twelvebooks 공식 상품 사진"
+      }
+    ]
+  },
+  {
+    "key": "salt",
+    "title": "SALT AND PEPPER",
+    "intro": "예쁜 서점이라기보다 작가의 출판물과 작은 패션을 함께 고르는 곳. 진·전시 토트·데님·패턴 셔츠·레터링 양말로 취향을 넓혀 봐요.",
+    "where": "에비스 SALT AND PEPPER · 진 테이블과 전시 굿즈, VAINL ARCHIVE 의류",
+    "source": "https://sandp.stores.jp/",
+    "items": [
+      {
+        "id": "guide-salt-tote",
+        "title": "Ajile le cercle × Aki Yamamoto 전시 토트",
+        "desc": "두 작가의 그림을 합친 그래픽이 들어간 가방. 앞뒤 그림, 안쪽 포켓과 손잡이를 보고 골라요. COW의 두꺼운 책가방과 다른, 그림 자체가 주인공인 토트예요.",
+        "check": "2026년 10월 매장 전시 제작 상품 · 전시는 종료, 남은 상품 재고 확인",
+        "source": "https://sandp.stores.jp/items/6ae82eb741698e4c56f85896",
+        "src": "assets/photos/guide-books-salt-tote.webp",
+        "width": 600,
+        "height": 800,
+        "credit": "SALT AND PEPPER 공식 블로그 사진",
+        "photoSource": "https://b.houyhnhnm.jp/salt_and_pepper/2026/10/17/117235/"
+      },
+      {
+        "id": "guide-salt-denim",
+        "title": "VAINL ARCHIVE · 26AW 데님",
+        "desc": "브랜드가 소개한 오카야마 제작 데님. 바지의 통과 밑단이 신발 위에 떨어지는 모양을 입어 보고, 빈티지와 다른 새 데님의 실루엣을 비교해요.",
+        "check": "매장 공식 2026년 10월 입고 소개 · 사진은 시즌 착장, 모델·사이즈는 현장 확인",
+        "source": "https://b.houyhnhnm.jp/salt_and_pepper/2026/10/15/117221/",
+        "src": "assets/photos/guide-books-salt-denim.webp",
+        "width": 534,
+        "height": 800,
+        "credit": "SALT AND PEPPER / VAINL ARCHIVE 시즌 사진"
+      },
+      {
+        "id": "guide-salt-shirt",
+        "title": "VAINL ARCHIVE · 스트라이프 카모 셔츠",
+        "desc": "가까이 보면 무늬가 다르게 읽히는 프린트 셔츠. 티셔츠 위에 걸쳐 보고, 패턴 크기와 옷깃 모양이 마음에 드는지 확인해요.",
+        "check": "매장 공식 26AW 소개 · 사진은 시즌 착장, 현장 재고 확인",
+        "source": "https://b.houyhnhnm.jp/salt_and_pepper/2026/10/15/117221/",
+        "src": "assets/photos/guide-books-salt-shirt.webp",
+        "width": 534,
+        "height": 800,
+        "credit": "SALT AND PEPPER / VAINL ARCHIVE 시즌 사진"
+      },
+      {
+        "id": "guide-salt-socks",
+        "title": "MY LOADS ARE LIGHT · TEXT 양말",
+        "desc": "로고 문장이 보이는 일본산 오가닉 코튼 양말. 책이나 그림이 부담스러우면 작은 패션 소품으로. 사진 속 머스터드 외 현장 색과 발 사이즈를 확인해요.",
+        "check": "SALT 공식 취급 기록 · 온라인 품절 표시. 사진은 동일 모델의 Stacks Bookstore 상품 사진",
+        "source": "https://sandp.stores.jp/items/69e5c1c36fd73716afa3f17c",
+        "src": "assets/photos/guide-books-salt-socks.webp",
+        "width": 800,
+        "height": 800,
+        "credit": "Stacks Bookstore · MY LOADS ARE LIGHT 상품 사진",
+        "photoSource": "https://www.stacksbookstore.com/items/142400354"
+      },
+      {
+        "id": "guide-salt-zine",
+        "title": "Kyle Thomas · Day Glow 아티스트 진",
+        "desc": "연필·수채화 드로잉을 작은 독립 출판물로 보는 선택. 귀엽지만 묘한 분위기의 작품이 취향에 맞는지 살펴보고, 그 작가의 다른 진도 함께 물어봐요.",
+        "check": "SALT 공식 발행 진 · 사진은 전시 그래픽 예시이며 실제 책 표지가 아닙니다. 현장 재고 확인",
+        "source": "https://b.houyhnhnm.jp/salt_and_pepper/2026/07/28/116645/",
+        "src": "assets/photos/guide-books-salt-zine.webp",
+        "width": 640,
+        "height": 800,
+        "credit": "SALT AND PEPPER · Kyle Thomas 전시 그래픽"
+      }
+    ]
+  }
+]

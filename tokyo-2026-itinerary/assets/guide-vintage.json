@@ -1,0 +1,140 @@
+[
+  {
+    "key": "kindal",
+    "title": "Kindal Harajuku",
+    "intro": "트랙팬츠·모즈 코트·코튼 니트·셔츠·코듀로이로 소재와 실루엣을 비교해요.",
+    "where": "하라주쿠 지점 · 아래는 공식 온라인 상품을 활용한 탐색 기준이며 지점 보유 목록이 아닙니다.",
+    "source": "https://www.kind.co.jp/harajuku/",
+    "items": [
+      {
+        "id": "kindal-8106000109308",
+        "title": "Needles NS243 트랙팬츠",
+        "desc": "스포츠웨어 한 벌을 빈티지로 고르는 후보. 옆선 테이프·무릎 늘어남·밑단 끌림을 보고, 니트나 재킷과 함께 입어봐요.",
+        "check": "공식 온라인 중고 상품의 스타일 예시 · 하라주쿠 지점 재고 미확인, 비슷한 상품을 찾아봐요",
+        "source": "https://shop.kind.co.jp/products/8106000109308",
+        "image": "https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8106000109308_1.jpg?v=1793765444",
+        "src": "assets/photos/guide-vintage-kindal-8106000109308.webp",
+        "width": 850,
+        "height": 850,
+        "credit": "Kindal 공식 온라인 상품 사진"
+      },
+      {
+        "id": "kindal-8020001540963",
+        "title": "Acne Studios 모즈 코트",
+        "desc": "겨울 여행 겉옷의 다른 선택지. 안에 입은 옷 위에 걸쳐 어깨와 팔 움직임, 지퍼·안감 상태를 확인해요.",
+        "check": "공식 온라인 중고 상품의 스타일 예시 · 하라주쿠 지점 재고 미확인, 비슷한 상품을 찾아봐요",
+        "source": "https://shop.kind.co.jp/products/8020001540963",
+        "image": "https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8020001540963_1.jpg?v=1793765443",
+        "src": "assets/photos/guide-vintage-kindal-8020001540963.webp",
+        "width": 850,
+        "height": 850,
+        "credit": "Kindal 공식 온라인 상품 사진"
+      },
+      {
+        "id": "kindal-8006002414205",
+        "title": "Ralph Lauren 90s 코튼 니트",
+        "desc": "울 니트보다 다른 질감을 비교할 오래된 코튼 니트. 목·소매 시보리의 늘어남과 세탁 후 뒤틀림을 봐요.",
+        "check": "공식 온라인 중고 상품의 스타일 예시 · 하라주쿠 지점 재고 미확인, 비슷한 상품을 찾아봐요",
+        "source": "https://shop.kind.co.jp/products/8006002414205",
+        "image": "https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8006002414205_1.jpg?v=1793761850",
+        "src": "assets/photos/guide-vintage-kindal-8006002414205.webp",
+        "width": 850,
+        "height": 850,
+        "credit": "Kindal 공식 온라인 상품 사진"
+      },
+      {
+        "id": "kindal-8006002414182",
+        "title": "FDMTL 긴소매 셔츠",
+        "desc": "일본 브랜드의 셔츠 디테일을 가까이 보는 후보. 앞뒤 원단과 단추, 봉제 상태를 보고 실제 어깨 폭을 확인해요.",
+        "check": "공식 온라인 중고 상품의 스타일 예시 · 하라주쿠 지점 재고 미확인, 비슷한 상품을 찾아봐요",
+        "source": "https://shop.kind.co.jp/products/8006002414182",
+        "image": "https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8006002414182_1.jpg?v=1793761847",
+        "src": "assets/photos/guide-vintage-kindal-8006002414182.webp",
+        "width": 850,
+        "height": 850,
+        "credit": "Kindal 공식 온라인 상품 사진"
+      },
+      {
+        "id": "kindal-8006002416193",
+        "title": "Levi’s 80s 517 코듀로이 팬츠",
+        "desc": "청바지 대신 골이 있는 원단과 부츠컷 비율을 비교해요. 실제 허리 치수·밑위·밑단 수선 흔적을 확인하세요.",
+        "check": "공식 온라인 중고 상품의 스타일 예시 · 하라주쿠 지점 재고 미확인, 비슷한 상품을 찾아봐요",
+        "source": "https://shop.kind.co.jp/products/8006002416193",
+        "image": "https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8006002416193_1.jpg?v=1793761845",
+        "src": "assets/photos/guide-vintage-kindal-8006002416193.webp",
+        "width": 850,
+        "height": 850,
+        "credit": "Kindal 공식 온라인 상품 사진"
+      }
+    ]
+  },
+  {
+    "key": "ragtag",
+    "title": "RAGTAG Harajuku",
+    "intro": "앞 매장에서 옷을 봤다면 여기서는 선글라스·지갑·헤어 소품·가방·신발로 바꿔 봐요.",
+    "where": "하라주쿠 지점 · 아래는 공식 온라인 상품을 활용한 탐색 기준이며 지점 보유 목록이 아닙니다.",
+    "source": "https://www.ragtag.jp/english/",
+    "items": [
+      {
+        "id": "ragtag-4500426o0074",
+        "title": "GUCCI GG 3525/K/S 선글라스",
+        "desc": "옷 대신 얼굴에 맞는 액세서리를 골라요. 렌즈 흠집·힌지 유격·코받침과 착용 시 기울어짐을 확인해요.",
+        "check": "공식 온라인 중고 상품의 스타일 예시 · 하라주쿠 지점 재고 미확인, 비슷한 상품을 찾아봐요",
+        "source": "https://ragtag-global.com/products/4500426o0074",
+        "image": "https://cdn.shopify.com/s/files/1/0643/3128/4739/files/4500426o0074_1.jpg?v=1793752429",
+        "src": "assets/photos/guide-vintage-ragtag-4500426o0074.webp",
+        "width": 500,
+        "height": 600,
+        "credit": "RAGTAG GLOBAL 공식 온라인 상품 사진"
+      },
+      {
+        "id": "ragtag-4500826o0009",
+        "title": "BOTTEGA VENETA 지갑",
+        "desc": "작은 가죽 소품의 손맛을 비교해요. 모서리 마모, 카드 슬롯 늘어남, 안쪽 상태와 여닫는 느낌을 확인해요.",
+        "check": "공식 온라인 중고 상품의 스타일 예시 · 하라주쿠 지점 재고 미확인, 비슷한 상품을 찾아봐요",
+        "source": "https://ragtag-global.com/products/4500826o0009",
+        "image": "https://cdn.shopify.com/s/files/1/0643/3128/4739/files/4500826o0009_1.jpg?v=1793752310",
+        "src": "assets/photos/guide-vintage-ragtag-4500826o0009.webp",
+        "width": 500,
+        "height": 600,
+        "credit": "RAGTAG GLOBAL 공식 온라인 상품 사진"
+      },
+      {
+        "id": "ragtag-4500126o0014",
+        "title": "CHANEL 헤어 액세서리",
+        "desc": "둘 중 머리에 쓰는 소품을 좋아한다면 작은 포인트로 볼 후보. 고정 장치와 장식의 빠짐·변색을 체크해요.",
+        "check": "공식 온라인 중고 상품의 스타일 예시 · 하라주쿠 지점 재고 미확인, 비슷한 상품을 찾아봐요",
+        "source": "https://ragtag-global.com/products/4500126o0014",
+        "image": "https://cdn.shopify.com/s/files/1/0643/3128/4739/files/4500126o0014_1.jpg?v=1793752260",
+        "src": "assets/photos/guide-vintage-ragtag-4500126o0014.webp",
+        "width": 500,
+        "height": 600,
+        "credit": "RAGTAG GLOBAL 공식 온라인 상품 사진"
+      },
+      {
+        "id": "ragtag-4502726o0006",
+        "title": "COACH 숄더백",
+        "desc": "매일 들 가방을 중고로 보는 선택지. 휴대폰·지갑을 넣었을 때 크기, 끈 길이, 모서리와 안감 상태를 확인해요.",
+        "check": "공식 온라인 중고 상품의 스타일 예시 · 하라주쿠 지점 재고 미확인, 비슷한 상품을 찾아봐요",
+        "source": "https://ragtag-global.com/products/4502726o0006",
+        "image": "https://cdn.shopify.com/s/files/1/0643/3128/4739/files/4502726o0006_1.jpg?v=1793752227",
+        "src": "assets/photos/guide-vintage-ragtag-4502726o0006.webp",
+        "width": 500,
+        "height": 600,
+        "credit": "RAGTAG GLOBAL 공식 온라인 상품 사진"
+      },
+      {
+        "id": "ragtag-0597626o0001",
+        "title": "SPALWART 스니커즈",
+        "desc": "낯선 신발 브랜드를 실제로 신어보는 후보. 밑창 마모·뒤꿈치 안감·접착 부분과 발볼을 함께 확인해요.",
+        "check": "공식 온라인 중고 상품의 스타일 예시 · 하라주쿠 지점 재고 미확인, 비슷한 상품을 찾아봐요",
+        "source": "https://ragtag-global.com/products/0597626o0001",
+        "image": "https://cdn.shopify.com/s/files/1/0643/3128/4739/files/0597626o0001_1.jpg?v=1793752470",
+        "src": "assets/photos/guide-vintage-ragtag-0597626o0001.webp",
+        "width": 500,
+        "height": 600,
+        "credit": "RAGTAG GLOBAL 공식 온라인 상품 사진"
+      }
+    ]
+  }
+]

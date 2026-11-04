@@ -1,0 +1,233 @@
+[
+  {
+    "key": "comiket",
+    "title": "코미케 자유 탐방",
+    "intro": "캐릭터 피규어보다 작가가 직접 만든 책·음악·인쇄물에 집중하는 다섯 가지 탐색 아이디어예요. 실제 참가 서클은 12/31 카탈로그 확인 후 골라요.",
+    "where": "12/31 참가 서클의 실제 판매표에서 선택 · 아래는 확정 상품·부스 목록이 아님",
+    "source": "https://www.comiket.co.jp/FAQ.html",
+    "items": [
+      {
+        "id": "comiket-1",
+        "title": "오리지널 일러스트북",
+        "desc": "표지보다 펼쳐 둔 견본을 먼저 보고, 그림체가 마음에 드는 작가의 얇은 A5/B5 책 한 권을 골라요. 페이지 수와 인쇄 색감을 확인하세요.",
+        "check": "당일 참가·판매 여부 미확인 · 서클 카탈로그와 작가 공지를 보고 고를 종류 제안",
+        "source": "https://www.comiket.co.jp/FAQ.html",
+        "credit": "공식 행사·매장 안내를 바탕으로 한 탐색 아이디어 · 상품 사진 없음",
+        "kind": "category"
+      },
+      {
+        "id": "comiket-2",
+        "title": "여행·동네 관찰 진",
+        "desc": "동네 산책, 식당 기록, 철도나 건축처럼 둘이 관심 있는 주제를 찾아봐요. 일본어가 많으면 사진·지도 비중을 먼저 확인해요.",
+        "check": "당일 참가·판매 여부 미확인 · 서클 카탈로그와 작가 공지를 보고 고를 종류 제안",
+        "source": "https://www.comiket.co.jp/FAQ.html",
+        "credit": "공식 행사·매장 안내를 바탕으로 한 탐색 아이디어 · 상품 사진 없음",
+        "kind": "category"
+      },
+      {
+        "id": "comiket-3",
+        "title": "인디 음악 CD·다운로드 카드",
+        "desc": "가능한 부스에서는 QR 미리듣기나 음원 소개를 확인해요. CD인지 다운로드 코드인지, 사용할 서비스와 기간이 있는지 물어봐요.",
+        "check": "당일 참가·판매 여부 미확인 · 서클 카탈로그와 작가 공지를 보고 고를 종류 제안",
+        "source": "https://www.comiket.co.jp/FAQ.html",
+        "credit": "공식 행사·매장 안내를 바탕으로 한 탐색 아이디어 · 상품 사진 없음",
+        "kind": "category"
+      },
+      {
+        "id": "comiket-4",
+        "title": "활자·그래픽 엽서 세트",
+        "desc": "책 대신 가벼운 인쇄물을 고르는 선택지. 종이 질감과 뒷면을 보고, 집에 붙이거나 실제로 보낼 크기로 골라요.",
+        "check": "당일 참가·판매 여부 미확인 · 서클 카탈로그와 작가 공지를 보고 고를 종류 제안",
+        "source": "https://www.comiket.co.jp/FAQ.html",
+        "credit": "공식 행사·매장 안내를 바탕으로 한 탐색 아이디어 · 상품 사진 없음",
+        "kind": "category"
+      },
+      {
+        "id": "comiket-5",
+        "title": "작가 그림 스티커",
+        "desc": "노트북이나 여행 노트에 붙일 작은 기념품. 낱장인지 시트인지, 방수 재질인지 확인하고 좋아하는 그림만 골라요.",
+        "check": "당일 참가·판매 여부 미확인 · 서클 카탈로그와 작가 공지를 보고 고를 종류 제안",
+        "source": "https://www.comiket.co.jp/FAQ.html",
+        "credit": "공식 행사·매장 안내를 바탕으로 한 탐색 아이디어 · 상품 사진 없음",
+        "kind": "category"
+      }
+    ]
+  },
+  {
+    "key": "catstreet",
+    "title": "캣스트리트 주변 빈티지 산책",
+    "intro": "앞에서 옷과 가방을 봤다면 여기서는 패턴과 일본 빈티지 직물로 시선을 바꿔요. 주변 CHICAGO에 들를 때 써볼 탐색 기준입니다.",
+    "where": "캣스트리트 주변 CHICAGO 등 빈티지 매장에 들르는 경우 · 각 지점 재고·영업 확인",
+    "source": "https://www.chicago.co.jp/",
+    "items": [
+      {
+        "id": "catstreet-1",
+        "title": "빈티지 프린트 스카프",
+        "desc": "벽면이나 소품 코너에서 색 조합이 좋은 한 장을 찾아봐요. 가장자리 올풀림과 얼룩을 보고 목·가방 손잡이에 대어 비교해요.",
+        "check": "매장의 중고·일본 전통 의류 취급에 맞춘 종류 제안 · 특정 지점에 이 품목이 있다는 뜻은 아님",
+        "source": "https://www.chicago.co.jp/",
+        "credit": "공식 행사·매장 안내를 바탕으로 한 탐색 아이디어 · 상품 사진 없음",
+        "kind": "category"
+      },
+      {
+        "id": "catstreet-2",
+        "title": "페이즐리 반다나",
+        "desc": "스카프보다 작은 면 사각천을 찾는 선택지. 프린트 뒷면과 모서리 마모, 실제 크기를 확인해요.",
+        "check": "매장의 중고·일본 전통 의류 취급에 맞춘 종류 제안 · 특정 지점에 이 품목이 있다는 뜻은 아님",
+        "source": "https://www.chicago.co.jp/",
+        "credit": "공식 행사·매장 안내를 바탕으로 한 탐색 아이디어 · 상품 사진 없음",
+        "kind": "category"
+      },
+      {
+        "id": "catstreet-3",
+        "title": "패턴 넥타이",
+        "desc": "큰 옷을 사지 않고 패턴을 가져오는 방법. 폭과 길이, 매듭이 지는 부분의 마모·얼룩을 확인해요.",
+        "check": "매장의 중고·일본 전통 의류 취급에 맞춘 종류 제안 · 특정 지점에 이 품목이 있다는 뜻은 아님",
+        "source": "https://www.chicago.co.jp/",
+        "credit": "공식 행사·매장 안내를 바탕으로 한 탐색 아이디어 · 상품 사진 없음",
+        "kind": "category"
+      },
+      {
+        "id": "catstreet-4",
+        "title": "하오리 · 일본 빈티지 겉옷",
+        "desc": "CHICAGO의 일본 전통 의류 취급을 참고해 살펴볼 종류. 코트처럼 덧입었을 때 소매 길이와 어깨 폭, 안감 상태를 봐요.",
+        "check": "매장의 중고·일본 전통 의류 취급에 맞춘 종류 제안 · 특정 지점에 이 품목이 있다는 뜻은 아님",
+        "source": "https://www.chicago.co.jp/",
+        "credit": "공식 행사·매장 안내를 바탕으로 한 탐색 아이디어 · 상품 사진 없음",
+        "kind": "category"
+      },
+      {
+        "id": "catstreet-5",
+        "title": "오비 · 직물 활용 후보",
+        "desc": "허리띠로 착용하거나 직물 작업용으로 보고 싶을 때만 고르는 선택지. 길이·폭과 접힌 자리의 변색을 확인하고 사용법을 물어봐요.",
+        "check": "매장의 중고·일본 전통 의류 취급에 맞춘 종류 제안 · 특정 지점에 이 품목이 있다는 뜻은 아님",
+        "source": "https://www.chicago.co.jp/",
+        "credit": "공식 행사·매장 안내를 바탕으로 한 탐색 아이디어 · 상품 사진 없음",
+        "kind": "category"
+      }
+    ]
+  },
+  {
+    "key": "flea",
+    "title": "MOTTAINAI 플리마켓",
+    "intro": "진열대에서 실제로 만났을 때 고를 다섯 가지 보물찾기 기준. 1/3 고탄다 행사 개최와 출점 구성을 먼저 확인하고, 없으면 찾느라 시간을 쓰지 않아요.",
+    "where": "고탄다 행사 확정 시 현장 부스에서만 확인 · 확정 출점·판매품 목록 아님",
+    "source": "https://www.mottainai.info/jp/event/fleama/",
+    "items": [
+      {
+        "id": "flea-1",
+        "title": "작은 일본 도자기 접시",
+        "desc": "가벼운 접시 한 장이면 집에서도 여행을 떠올리기 좋아요. 이가 나간 곳·금·바닥 상태를 보고 완충 포장을 부탁해요.",
+        "check": "출점·물건 종류·상태 미확인 · 일반적인 중고 장터 탐색 아이디어이며 행사 측 판매 보장 아님",
+        "source": "https://www.mottainai.info/jp/event/fleama/",
+        "credit": "공식 행사·매장 안내를 바탕으로 한 탐색 아이디어 · 상품 사진 없음",
+        "kind": "category"
+      },
+      {
+        "id": "flea-2",
+        "title": "쇼와풍 패턴 유리컵",
+        "desc": "프린트나 색이 예쁜 작은 컵을 찾는 기준. 입구의 깨짐과 프린트 벗겨짐을 손과 눈으로 확인해요.",
+        "check": "출점·물건 종류·상태 미확인 · 일반적인 중고 장터 탐색 아이디어이며 행사 측 판매 보장 아님",
+        "source": "https://www.mottainai.info/jp/event/fleama/",
+        "credit": "공식 행사·매장 안내를 바탕으로 한 탐색 아이디어 · 상품 사진 없음",
+        "kind": "category"
+      },
+      {
+        "id": "flea-3",
+        "title": "데누구이 · 면 직물",
+        "desc": "일상에서 쓰거나 작은 벽걸이로 활용할 한 장. 얼룩·냄새·치수와 세탁 여부를 확인해요.",
+        "check": "출점·물건 종류·상태 미확인 · 일반적인 중고 장터 탐색 아이디어이며 행사 측 판매 보장 아님",
+        "source": "https://www.mottainai.info/jp/event/fleama/",
+        "credit": "공식 행사·매장 안내를 바탕으로 한 탐색 아이디어 · 상품 사진 없음",
+        "kind": "category"
+      },
+      {
+        "id": "flea-4",
+        "title": "소형 필름카메라",
+        "desc": "작동 확인이 가능한 경우에만 살펴볼 후보. 셔터·필름 감기·배터리실을 직접 보고, 장식용과 실사용품을 구분해요.",
+        "check": "출점·물건 종류·상태 미확인 · 일반적인 중고 장터 탐색 아이디어이며 행사 측 판매 보장 아님",
+        "source": "https://www.mottainai.info/jp/event/fleama/",
+        "credit": "공식 행사·매장 안내를 바탕으로 한 탐색 아이디어 · 상품 사진 없음",
+        "kind": "category"
+      },
+      {
+        "id": "flea-5",
+        "title": "일본 우표·종이 수집품",
+        "desc": "가벼운 여행 기록을 남기고 싶을 때 보는 소품. 사용한 우표인지, 장수와 상태가 어떤지 확인하고 마음에 드는 도안으로 골라요.",
+        "check": "출점·물건 종류·상태 미확인 · 일반적인 중고 장터 탐색 아이디어이며 행사 측 판매 보장 아님",
+        "source": "https://www.mottainai.info/jp/event/fleama/",
+        "credit": "공식 행사·매장 안내를 바탕으로 한 탐색 아이디어 · 상품 사진 없음",
+        "kind": "category"
+      }
+    ]
+  },
+  {
+    "key": "jinnan",
+    "title": "시부야 신난 · Kindal",
+    "intro": "앞 매장과 겹치지 않게 목걸이·브로치·서스펜더·챙 모자부터 보고, 마지막으로 긴 실루엣을 비교해요.",
+    "where": "Kindal 시부야 신난점 · JINNAN CAFE 건물 3층, 엘리베이터 입장 · 사진은 온라인 카탈로그 예시",
+    "source": "https://www.kind.co.jp/shibuyajinnan/",
+    "items": [
+      {
+        "id": "jinnan-8045001458629",
+        "title": "GOTHIC YOHJI YAMAMOTO 스네이크 앵커 목걸이",
+        "desc": "상의보다 금속 디테일에 집중할 후보. 체인 잠금·변색·피부에 닿는 무게와 목선 길이를 확인해요.",
+        "check": "Kindal 공식 온라인 중고 상품 예시 · 신난 지점 재고 미확인, 비슷한 스타일 탐색용",
+        "source": "https://shop.kind.co.jp/products/8045001458629",
+        "image": "https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8045001458629_1.jpg?v=1793708565",
+        "credit": "Kindal 공식 온라인 상품 사진",
+        "src": "assets/photos/guide-other-jinnan-8045001458629.webp",
+        "width": 850,
+        "height": 850
+      },
+      {
+        "id": "jinnan-8045001458612",
+        "title": "Y’s 체인 엔젤 칼라 핀 브로치",
+        "desc": "코트·셔츠에 작은 장식을 더하는 선택지. 핀 끝과 잠금장치가 안전하게 맞물리는지, 옷감에 자국을 남기는지 봐요.",
+        "check": "Kindal 공식 온라인 중고 상품 예시 · 신난 지점 재고 미확인, 비슷한 스타일 탐색용",
+        "source": "https://shop.kind.co.jp/products/8045001458612",
+        "image": "https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8045001458612_1.jpg?v=1793708565",
+        "credit": "Kindal 공식 온라인 상품 사진",
+        "src": "assets/photos/guide-other-jinnan-8045001458612.webp",
+        "width": 850,
+        "height": 850
+      },
+      {
+        "id": "jinnan-8045001458605",
+        "title": "YOHJI YAMAMOTO 스트라이프 서스펜더",
+        "desc": "벨트와 다른 실루엣을 만드는 소품. 길이 조절과 집게 탄성, 평소 바지에 연결 가능한지 확인해요.",
+        "check": "Kindal 공식 온라인 중고 상품 예시 · 신난 지점 재고 미확인, 비슷한 스타일 탐색용",
+        "source": "https://shop.kind.co.jp/products/8045001458605",
+        "image": "https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8045001458605_1.jpg?v=1793708565",
+        "credit": "Kindal 공식 온라인 상품 사진",
+        "src": "assets/photos/guide-other-jinnan-8045001458605.webp",
+        "width": 850,
+        "height": 850
+      },
+      {
+        "id": "jinnan-8045001458636",
+        "title": "Yohji Yamamoto 울·나일론 햇",
+        "desc": "비니나 캡 대신 챙 모자의 형태를 비교해요. 머리 둘레와 챙의 각도, 안쪽 땀받이 상태를 확인해요.",
+        "check": "Kindal 공식 온라인 중고 상품 예시 · 신난 지점 재고 미확인, 비슷한 스타일 탐색용",
+        "source": "https://shop.kind.co.jp/products/8045001458636",
+        "image": "https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8045001458636_1.jpg?v=1793708566",
+        "credit": "Kindal 공식 온라인 상품 사진",
+        "src": "assets/photos/guide-other-jinnan-8045001458636.webp",
+        "width": 850,
+        "height": 850
+      },
+      {
+        "id": "jinnan-8006002416063",
+        "title": "CITYSHOP 롱 스커트",
+        "desc": "액세서리를 본 뒤 옷 한 벌을 더 고른다면 긴 실루엣으로 전환해 봐요. 허리·지퍼와 걸을 때 움직임, 밑단 수선 흔적을 확인해요.",
+        "check": "Kindal 공식 온라인 중고 상품 예시 · 신난 지점 재고 미확인, 비슷한 스타일 탐색용",
+        "source": "https://shop.kind.co.jp/products/8006002416063",
+        "image": "https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8006002416063_1.jpg?v=1793761844",
+        "credit": "Kindal 공식 온라인 상품 사진",
+        "src": "assets/photos/guide-other-jinnan-8006002416063.webp",
+        "width": 850,
+        "height": 850
+      }
+    ]
+  }
+]
