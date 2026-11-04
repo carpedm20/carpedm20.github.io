@@ -1,0 +1,1002 @@
+# Ten diverse merchandise photographs per vintage store
+
+Researched 2026-11-04. 16 stores × 10 records = 160 item/photo references. Existing relevant records are retained; 115 newly saved images are official retailer catalogs except the explicitly credited 2023 BRUTUS Archives coverage. No record asserts branch availability.
+
+Method: official Shopify product feeds (Kindal, RAGTAG, SULLEN, Archive Store); BASE product cards (BerBerJin and DAMMIT); official CHICAGO category images; Flamingo official product cards; official weekend tokyo STORES listings; KLD official product pages; official JAM and Second Street Yahoo! storefronts. Max 800px WebP for new files, decoded and dimension-checked. Four contact sheets visually inspected.
+
+Archives: eight historical official/onsite editorial references, plus two clearly labeled manufacturer shape/material comparisons (KINTO bowl and glass pitcher). The KINTO records explicitly say Archives handling, sale and stock are all unconfirmed. They are not represented as Archives inventory. Archives pictures dated 2020–2023 are not current stock evidence. Its linked public online catalog was unavailable, so we did not fabricate products.
+
+COLLECTIVE: BerBerJin online items are same-retailer style examples; COLLECTIVE handling and stock unconfirmed. weekend tokyo sold-out examples carry explicit sold-out labels. CHICAGO traditional garments are categories, not a specific stocked item.
+
+## kindal-harajuku — 10
+
+- Needles NS243 트랙팬츠
+  - Local: `assets/photos/guide-vintage-kindal-8106000109308.webp`
+  - Source: https://shop.kind.co.jp/products/8106000109308
+  - Image: https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8106000109308_1.jpg?v=1793765444
+  - Credit: Kindal 공식 온라인 상품 사진
+  - Check: 공식 온라인 중고 상품의 스타일 예시 · 하라주쿠 지점 재고 미확인, 비슷한 상품을 찾아봐요
+- Acne Studios 모즈 코트
+  - Local: `assets/photos/guide-vintage-kindal-8020001540963.webp`
+  - Source: https://shop.kind.co.jp/products/8020001540963
+  - Image: https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8020001540963_1.jpg?v=1793765443
+  - Credit: Kindal 공식 온라인 상품 사진
+  - Check: 공식 온라인 중고 상품의 스타일 예시 · 하라주쿠 지점 재고 미확인, 비슷한 상품을 찾아봐요
+- Ralph Lauren 90s 코튼 니트
+  - Local: `assets/photos/guide-vintage-kindal-8006002414205.webp`
+  - Source: https://shop.kind.co.jp/products/8006002414205
+  - Image: https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8006002414205_1.jpg?v=1793761850
+  - Credit: Kindal 공식 온라인 상품 사진
+  - Check: 공식 온라인 중고 상품의 스타일 예시 · 하라주쿠 지점 재고 미확인, 비슷한 상품을 찾아봐요
+- FDMTL 긴소매 셔츠
+  - Local: `assets/photos/guide-vintage-kindal-8006002414182.webp`
+  - Source: https://shop.kind.co.jp/products/8006002414182
+  - Image: https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8006002414182_1.jpg?v=1793761847
+  - Credit: Kindal 공식 온라인 상품 사진
+  - Check: 공식 온라인 중고 상품의 스타일 예시 · 하라주쿠 지점 재고 미확인, 비슷한 상품을 찾아봐요
+- Levi’s 80s 517 코듀로이 팬츠
+  - Local: `assets/photos/guide-vintage-kindal-8006002416193.webp`
+  - Source: https://shop.kind.co.jp/products/8006002416193
+  - Image: https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8006002416193_1.jpg?v=1793761845
+  - Credit: Kindal 공식 온라인 상품 사진
+  - Check: 공식 온라인 중고 상품의 스타일 예시 · 하라주쿠 지점 재고 미확인, 비슷한 상품을 찾아봐요
+- J.L-A.L EYRE 머플러
+  - Local: `assets/photos/store-ten-kindal-harajuku-products-8054000263561.webp`
+  - Source: https://shop.kind.co.jp/products/8054000263561
+  - Image: https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8054000263561_1.jpg?v=1793783439
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- HYEIN SEO 시드 참 실크·리넨 캡
+  - Local: `assets/photos/store-ten-kindal-harajuku-products-8054000263554.webp`
+  - Source: https://shop.kind.co.jp/products/8054000263554
+  - Image: https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8054000263554_1.jpg?v=1793783440
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Hermès 리버서블 가죽 벨트
+  - Local: `assets/photos/store-ten-kindal-harajuku-products-8009002467196.webp`
+  - Source: https://shop.kind.co.jp/products/8009002467196
+  - Image: https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8009002467196_1.jpg?v=1793779847
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- COMME des GARÇONS PVC 아트 토트
+  - Local: `assets/photos/store-ten-kindal-harajuku-products-8039001802650.webp`
+  - Source: https://shop.kind.co.jp/products/8039001802650
+  - Image: https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8039001802650_1.jpg?v=1793779846
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- GUCCI 장식 슈즈 519278
+  - Local: `assets/photos/store-ten-kindal-harajuku-products-8078000628434.webp`
+  - Source: https://shop.kind.co.jp/products/8078000628434
+  - Image: https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8078000628434_1.jpg?v=1793779853
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+## ragtag-harajuku — 10
+
+- GUCCI GG 3525/K/S 선글라스
+  - Local: `assets/photos/guide-vintage-ragtag-4500426o0074.webp`
+  - Source: https://ragtag-global.com/products/4500426o0074
+  - Image: https://cdn.shopify.com/s/files/1/0643/3128/4739/files/4500426o0074_1.jpg?v=1793752429
+  - Credit: RAGTAG GLOBAL 공식 온라인 상품 사진
+  - Check: 공식 온라인 중고 상품의 스타일 예시 · 하라주쿠 지점 재고 미확인, 비슷한 상품을 찾아봐요
+- BOTTEGA VENETA 지갑
+  - Local: `assets/photos/guide-vintage-ragtag-4500826o0009.webp`
+  - Source: https://ragtag-global.com/products/4500826o0009
+  - Image: https://cdn.shopify.com/s/files/1/0643/3128/4739/files/4500826o0009_1.jpg?v=1793752310
+  - Credit: RAGTAG GLOBAL 공식 온라인 상품 사진
+  - Check: 공식 온라인 중고 상품의 스타일 예시 · 하라주쿠 지점 재고 미확인, 비슷한 상품을 찾아봐요
+- CHANEL 헤어 액세서리
+  - Local: `assets/photos/guide-vintage-ragtag-4500126o0014.webp`
+  - Source: https://ragtag-global.com/products/4500126o0014
+  - Image: https://cdn.shopify.com/s/files/1/0643/3128/4739/files/4500126o0014_1.jpg?v=1793752260
+  - Credit: RAGTAG GLOBAL 공식 온라인 상품 사진
+  - Check: 공식 온라인 중고 상품의 스타일 예시 · 하라주쿠 지점 재고 미확인, 비슷한 상품을 찾아봐요
+- COACH 숄더백
+  - Local: `assets/photos/guide-vintage-ragtag-4502726o0006.webp`
+  - Source: https://ragtag-global.com/products/4502726o0006
+  - Image: https://cdn.shopify.com/s/files/1/0643/3128/4739/files/4502726o0006_1.jpg?v=1793752227
+  - Credit: RAGTAG GLOBAL 공식 온라인 상품 사진
+  - Check: 공식 온라인 중고 상품의 스타일 예시 · 하라주쿠 지점 재고 미확인, 비슷한 상품을 찾아봐요
+- SPALWART 스니커즈
+  - Local: `assets/photos/guide-vintage-ragtag-0597626o0001.webp`
+  - Source: https://ragtag-global.com/products/0597626o0001
+  - Image: https://cdn.shopify.com/s/files/1/0643/3128/4739/files/0597626o0001_1.jpg?v=1793752470
+  - Credit: RAGTAG GLOBAL 공식 온라인 상품 사진
+  - Check: 공식 온라인 중고 상품의 스타일 예시 · 하라주쿠 지점 재고 미확인, 비슷한 상품을 찾아봐요
+- sacai 니트
+  - Local: `assets/photos/store-ten-ragtag-harajuku-products-0357926o0012.webp`
+  - Source: https://ragtag-global.com/products/0357926o0012
+  - Image: https://cdn.shopify.com/s/files/1/0643/3128/4739/files/0357926o0012_1.jpg?v=1793752417
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- HYKE 베스트
+  - Local: `assets/photos/store-ten-ragtag-harajuku-products-0351826o0019.webp`
+  - Source: https://ragtag-global.com/products/0351826o0019
+  - Image: https://cdn.shopify.com/s/files/1/0643/3128/4739/files/0351826o0019_1.jpg?v=1793752410
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- TIFFANY & CO. 링
+  - Local: `assets/photos/store-ten-ragtag-harajuku-products-4800726o0063.webp`
+  - Source: https://ragtag-global.com/products/4800726o0063
+  - Image: https://cdn.shopify.com/s/files/1/0643/3128/4739/files/4800726o0063_1.jpg?v=1793752185
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- DANTON 아우터
+  - Local: `assets/photos/store-ten-ragtag-harajuku-products-0143626y0038.webp`
+  - Source: https://ragtag-global.com/products/0143626y0038
+  - Image: https://cdn.shopify.com/s/files/1/0643/3128/4739/files/0143626y0038_1.jpg?v=1793752563
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Timberland 부츠
+  - Local: `assets/photos/store-ten-ragtag-harajuku-products-3505726o0003.webp`
+  - Source: https://ragtag-global.com/products/3505726o0003
+  - Image: https://cdn.shopify.com/s/files/1/0643/3128/4739/files/3505726o0003_1.jpg?v=1793752475
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+## berberjin-harajuku — 10
+
+- 80s Levi’s 액션 슬랙스
+  - Local: `assets/photos/store-item-berberjin-harajuku-slacks.webp`
+  - Source: https://berberjin.theshop.jp/items/164933428
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/4d2dc2638330ceab2813bbf06baa1637.jpg?imformat=generic&q=90&im=Resize,width=640,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 매장 판매·재고 미확인
+- 80s Levi’s 501 레드라인 데님
+  - Local: `assets/photos/store-item-berberjin-harajuku-denim.webp`
+  - Source: https://berberjin.theshop.jp/items/164926685
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/630e05cd374bd01da261635aec74bcdf.jpg?imformat=generic&q=90&im=Resize,width=640,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 매장 판매·재고 미확인
+- Tony Lama 웨스턴 부츠
+  - Local: `assets/photos/store-ten-berberjin-harajuku-items-164917614.webp`
+  - Source: https://berberjin.theshop.jp/items/164917614
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/11e15b5058cce98a7a7cb3bf7ef3a50b.jpg?imformat=generic&q=90&im=Resize,width=640,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- KING KOLE 블랙 샴브레이 셔츠
+  - Local: `assets/photos/store-ten-berberjin-harajuku-items-163686188.webp`
+  - Source: https://berberjin.theshop.jp/items/163686188
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/3c5844a2b42b2fe1f64edff4b9aa63af.jpg?imformat=generic&q=90&im=Resize,width=640,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Eddie Bauer 다운 재킷
+  - Local: `assets/photos/store-ten-berberjin-harajuku-items-164833830.webp`
+  - Source: https://berberjin.theshop.jp/items/164833830
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/eaebaf4f6dbf5ee47c9d694d1ac3a966.jpg?imformat=generic&q=90&im=Resize,width=640,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- GERRY 플리스 풀오버
+  - Local: `assets/photos/store-ten-berberjin-harajuku-items-164834871.webp`
+  - Source: https://berberjin.theshop.jp/items/164834871
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/8b2f73c1730aef3f143290c0616216db.jpg?imformat=generic&q=90&im=Resize,width=640,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- POLO Ralph Lauren 코튼 니트
+  - Local: `assets/photos/store-ten-berberjin-harajuku-items-164834536.webp`
+  - Source: https://berberjin.theshop.jp/items/164834536
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/eb3e8e6f0d22977d14bf1a8400ad6595.jpg?imformat=generic&q=90&im=Resize,width=640,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Fruit of the Loom 포켓 티셔츠
+  - Local: `assets/photos/store-ten-berberjin-harajuku-items-164835528.webp`
+  - Source: https://berberjin.theshop.jp/items/164835528
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/b399295870631efa69f0fb7af27dcced.jpg?imformat=generic&q=90&im=Resize,width=640,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- 60s 코위찬 니트
+  - Local: `assets/photos/store-ten-berberjin-harajuku-items-164818369.webp`
+  - Source: https://berberjin.theshop.jp/items/164818369
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/cd1b88f46cdecba647bec32a725d1719.jpg?imformat=generic&q=90&im=Resize,width=640,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- L.L.Bean 피싱 베스트
+  - Local: `assets/photos/store-ten-berberjin-harajuku-items-164808446.webp`
+  - Source: https://berberjin.theshop.jp/items/164808446
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/aebafa05ba860e973f571c621750d1f6.jpg?imformat=generic&q=90&im=Resize,width=640,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+## berberjin-collective — 10
+
+- 90s 포토 프린트 티셔츠
+  - Local: `assets/photos/store-item-berberjin-collective-photo-tee.webp`
+  - Source: https://berberjin.theshop.jp/items/164918776
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/19dd1f2a85f53684ce3a089e22cb5ed0.jpg?imformat=generic&q=90&im=Resize,width=640,type=normal
+  - Credit: BerBerJin 공식 온라인 상품 사진
+  - Check: BerBerJin 온라인 취향 예시 · COLLECTIVE 취급·재고 미확인
+- 70s 캐시미어 니트
+  - Local: `assets/photos/store-item-berberjin-collective-cashmere.webp`
+  - Source: https://berberjin.theshop.jp/items/164918273
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/a49b7e24c26cc83a829675b89d9dcd40.jpg?imformat=generic&q=90&im=Resize,width=640,type=normal
+  - Credit: BerBerJin 공식 온라인 상품 사진
+  - Check: BerBerJin 온라인 취향 예시 · COLLECTIVE 취급·재고 미확인
+- 00s 캐시미어 카라 니트
+  - Local: `assets/photos/store-ten-berberjin-collective-items-164917824.webp`
+  - Source: https://berberjin.theshop.jp/items/164917824
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/a96558f6c9be8dd5b8fd8d57e6b30b20.jpg?imformat=generic&q=90&im=Resize,width=640,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: BerBerJin 공식 온라인 취향 예시 · COLLECTIVE 취급·재고 미확인
+- L.L.Bean 나일론 풀오버
+  - Local: `assets/photos/store-ten-berberjin-collective-items-164835887.webp`
+  - Source: https://berberjin.theshop.jp/items/164835887
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/dec93b7c553f18ffce5f31e320d68727.jpg?imformat=generic&q=90&im=Resize,width=640,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: BerBerJin 공식 온라인 취향 예시 · COLLECTIVE 취급·재고 미확인
+- Levi’s 505 블랙 진
+  - Local: `assets/photos/store-ten-berberjin-collective-items-164834092.webp`
+  - Source: https://berberjin.theshop.jp/items/164834092
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/d8b6e9956bedeb4e4c4f78ddef9e88b4.jpg?imformat=generic&q=90&im=Resize,width=640,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: BerBerJin 공식 온라인 취향 예시 · COLLECTIVE 취급·재고 미확인
+- Ralph Lauren 코튼 재킷
+  - Local: `assets/photos/store-ten-berberjin-collective-items-164834947.webp`
+  - Source: https://berberjin.theshop.jp/items/164834947
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/6b5aade5393c441e5db00269c3ea0479.jpg?imformat=generic&q=90&im=Resize,width=640,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: BerBerJin 공식 온라인 취향 예시 · COLLECTIVE 취급·재고 미확인
+- Rolling Stones 밴드 티셔츠
+  - Local: `assets/photos/store-ten-berberjin-collective-items-164817878.webp`
+  - Source: https://berberjin.theshop.jp/items/164817878
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/d78f126f55a45cbad10f9562239bd5a6.jpg?imformat=generic&q=90&im=Resize,width=640,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: BerBerJin 공식 온라인 취향 예시 · COLLECTIVE 취급·재고 미확인
+- Levi’s 커스텀 501 데님
+  - Local: `assets/photos/store-ten-berberjin-collective-items-164819023.webp`
+  - Source: https://berberjin.theshop.jp/items/164819023
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/b6601c11be1a6093b7f29d5a6176ae6b.jpg?imformat=generic&q=90&im=Resize,width=640,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: BerBerJin 공식 온라인 취향 예시 · COLLECTIVE 취급·재고 미확인
+- WOOLRICH 울 재킷
+  - Local: `assets/photos/store-ten-berberjin-collective-items-164803802.webp`
+  - Source: https://berberjin.theshop.jp/items/164803802
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/3928e98e0cf87bf0546a3c0500047855.jpg?imformat=generic&q=90&im=Resize,width=640,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: BerBerJin 공식 온라인 취향 예시 · COLLECTIVE 취급·재고 미확인
+- FIVE BROTHER 플란넬 셔츠
+  - Local: `assets/photos/store-ten-berberjin-collective-items-164803524.webp`
+  - Source: https://berberjin.theshop.jp/items/164803524
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/57db6f7498b7a7fdcddf088afa3e4f88.jpg?imformat=generic&q=90&im=Resize,width=640,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: BerBerJin 공식 온라인 취향 예시 · COLLECTIVE 취급·재고 미확인
+## chicago-jingumae — 10
+
+- 빈티지 프린트 스카프
+  - Local: `assets/photos/category-catstreet-scarf.webp`
+  - Source: https://www.chicago.co.jp/
+  - Image: 
+  - Credit: てんとうむし · 판매점 상품 사진
+  - Check: 매장의 중고·일본 전통 의류 취급에 맞춘 종류 제안 · 특정 지점에 이 품목이 있다는 뜻은 아님
+- 페이즐리 반다나
+  - Local: `assets/photos/category-catstreet-bandana.webp`
+  - Source: https://www.chicago.co.jp/
+  - Image: 
+  - Credit: Feeet · 판매점 상품 사진
+  - Check: 매장의 중고·일본 전통 의류 취급에 맞춘 종류 제안 · 특정 지점에 이 품목이 있다는 뜻은 아님
+- 패턴 넥타이
+  - Local: `assets/photos/category-catstreet-tie.webp`
+  - Source: https://www.chicago.co.jp/
+  - Image: 
+  - Credit: RushOut · 판매점 상품 사진
+  - Check: 매장의 중고·일본 전통 의류 취급에 맞춘 종류 제안 · 특정 지점에 이 품목이 있다는 뜻은 아님
+- 하오리 · 일본 빈티지 겉옷
+  - Local: `assets/photos/category-catstreet-haori.webp`
+  - Source: https://www.chicago.co.jp/
+  - Image: 
+  - Credit: KIMONO OFF · 판매점 상품 사진
+  - Check: 매장의 중고·일본 전통 의류 취급에 맞춘 종류 제안 · 특정 지점에 이 품목이 있다는 뜻은 아님
+- 오비 · 직물 활용 후보
+  - Local: `assets/photos/category-catstreet-obi.webp`
+  - Source: https://www.chicago.co.jp/
+  - Image: 
+  - Credit: きもの和總 · 판매점 상품 사진
+  - Check: 매장의 중고·일본 전통 의류 취급에 맞춘 종류 제안 · 특정 지점에 이 품목이 있다는 뜻은 아님
+- 여성 기모노
+  - Local: `assets/photos/store-ten-chicago-jingumae-kimono.webp`
+  - Source: https://www.chicago.co.jp/kimono.html#kimono
+  - Image: https://www.chicago.co.jp/img/kimono2.JPG
+  - Credit: CHICAGO 공식 기모노·일본 의복 사진
+  - Check: CHICAGO 공식 상품군 예시 · 진구마에점 개별 상품·재고 미확인
+- 남성 기모노
+  - Local: `assets/photos/store-ten-chicago-jingumae-kimonomens.webp`
+  - Source: https://www.chicago.co.jp/kimono.html#kimonomens
+  - Image: https://www.chicago.co.jp/img/kimonomens.JPG
+  - Credit: CHICAGO 공식 기모노·일본 의복 사진
+  - Check: CHICAGO 공식 상품군 예시 · 진구마에점 개별 상품·재고 미확인
+- 유카타
+  - Local: `assets/photos/store-ten-chicago-jingumae-yukata.webp`
+  - Source: https://www.chicago.co.jp/kimono.html#yukata
+  - Image: https://www.chicago.co.jp/img/yukata.JPG
+  - Credit: CHICAGO 공식 기모노·일본 의복 사진
+  - Check: CHICAGO 공식 상품군 예시 · 진구마에점 개별 상품·재고 미확인
+- 핫피 축제 재킷
+  - Local: `assets/photos/store-ten-chicago-jingumae-happi.webp`
+  - Source: https://www.chicago.co.jp/kimono.html#happi
+  - Image: https://www.chicago.co.jp/img/happi.JPG
+  - Credit: CHICAGO 공식 기모노·일본 의복 사진
+  - Check: CHICAGO 공식 상품군 예시 · 진구마에점 개별 상품·재고 미확인
+- 진베이 상하의
+  - Local: `assets/photos/store-ten-chicago-jingumae-jinbei.webp`
+  - Source: https://www.chicago.co.jp/kimono.html#jinbei
+  - Image: https://www.chicago.co.jp/img/jinbei.JPG
+  - Credit: CHICAGO 공식 기모노·일본 의복 사진
+  - Check: CHICAGO 공식 상품군 예시 · 진구마에점 개별 상품·재고 미확인
+## flamingo-harajuku — 10
+
+- 리버스위브 스웨트 취향
+  - Local: `assets/photos/store-item-flamingo-harajuku-reverseweave.webp`
+  - Source: https://www.flamingo-online.jp/
+  - Image: https://flamingo.itembox.cloud/item/img/pickupitem-04.jpg?t=20261103105625
+  - Credit: FLAMINGO 공식 카테고리 사진
+  - Check: 공식 상품군 예시 · 하라주쿠점 개별 상품·재고 미확인
+- 랄프 로렌 셔츠 취향
+  - Local: `assets/photos/store-item-flamingo-harajuku-ralph-shirt.webp`
+  - Source: https://www.flamingo-online.jp/
+  - Image: https://flamingo.itembox.cloud/item/img/pickupitem-01.jpg?t=20261103105625
+  - Credit: FLAMINGO 공식 카테고리 사진
+  - Check: 공식 상품군 예시 · 하라주쿠점 개별 상품·재고 미확인
+- LACOSTE V넥 스쿨 니트
+  - Local: `assets/photos/store-ten-flamingo-harajuku-c-all-mens-m-tops-m-sweater-k20261028k003.webp`
+  - Source: https://www.flamingo-online.jp/c/all/mens/m-tops/m-sweater/k20261028k003
+  - Image: https://flamingo.itembox.cloud/product/359/000000035922/000000035922-01.jpg?size=m&w=NDAw&t=20261030143026
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Levi’s 70505 데님 재킷
+  - Local: `assets/photos/store-ten-flamingo-harajuku-c-all-mens-m-outer-m-denim-jacket-k20261028k017.webp`
+  - Source: https://www.flamingo-online.jp/c/all/mens/m-outer/m-denim-jacket/k20261028k017
+  - Image: https://flamingo.itembox.cloud/product/359/000000035921/000000035921-01.jpg?size=m&w=NDAw&t=20261030143030
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Brian Mac Neil 모헤어 카디건
+  - Local: `assets/photos/store-ten-flamingo-harajuku-c-all-mens-m-tops-m-cardigan-k20261028k008.webp`
+  - Source: https://www.flamingo-online.jp/c/all/mens/m-tops/m-cardigan/k20261028k008
+  - Image: https://flamingo.itembox.cloud/product/359/000000035920/000000035920-01.jpg?size=m&w=NDAw&t=20261030143024
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- L.L.Bean 마운틴 파카
+  - Local: `assets/photos/store-ten-flamingo-harajuku-c-all-mens-m-outer-m-nylon-jacket-k20261028k021.webp`
+  - Source: https://www.flamingo-online.jp/c/all/mens/m-outer/m-nylon-jacket/k20261028k021
+  - Image: https://flamingo.itembox.cloud/product/359/000000035919/000000035919-01.jpg?size=m&w=NDAw&t=20261030143034
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- BOTANY 체크 울 셔츠
+  - Local: `assets/photos/store-ten-flamingo-harajuku-c-all-mens-m-tops-m-longsleeve-shirt-k20261028k013.webp`
+  - Source: https://www.flamingo-online.jp/c/all/mens/m-tops/m-longsleeve-shirt/k20261028k013
+  - Image: https://flamingo.itembox.cloud/product/359/000000035918/000000035918-01.jpg?size=m&w=NDAw&t=20261030143032
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- PENNEY’S 스웨이드 재킷
+  - Local: `assets/photos/store-ten-flamingo-harajuku-c-all-mens-m-outer-m-cotton-jacket-k20261028k019.webp`
+  - Source: https://www.flamingo-online.jp/c/all/mens/m-outer/m-cotton-jacket/k20261028k019
+  - Image: https://flamingo.itembox.cloud/product/359/000000035914/000000035914-01.jpg?size=m&w=NDAw&t=20261030143031
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- FAFATT 와이드 코듀로이 팬츠
+  - Local: `assets/photos/store-ten-flamingo-harajuku-c-all-mens-m-bottom-m-pants-765-41.webp`
+  - Source: https://www.flamingo-online.jp/c/all/mens/m-bottom/m-pants/765-41
+  - Image: https://flamingo.itembox.cloud/product/359/000000035900/000000035900-01.jpg?size=m&w=NDAw&t=20261030110229
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- FAFATT 벨루어 멕시칸 후디
+  - Local: `assets/photos/store-ten-flamingo-harajuku-c-all-mens-m-outer-m-cotton-jacket-766-11.webp`
+  - Source: https://www.flamingo-online.jp/c/all/mens/m-outer/m-cotton-jacket/766-11
+  - Image: https://flamingo.itembox.cloud/product/358/000000035893/000000035893-01.jpg?size=m&w=NDAw&t=20261030110231
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+## weekend-tokyo — 10
+
+- Hermès 오렌지 폴로 셔츠
+  - Local: `assets/photos/store-item-weekend-tokyo-hermes-polo.webp`
+  - Source: https://weekendtokyo.com/items/6a4cacdf613f7d5f063d1ffa
+  - Image: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/production/5f3471dc7df28165dc7ba496/ed516335-105c-41b5-9955-7829019b8988/fit=cover,w=924,h=660
+  - Credit: weekend tokyo 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 매장 판매·재고 미확인
+- Maison Margiela 더스트 백팩
+  - Local: `assets/photos/store-item-weekend-tokyo-margiela-backpack.webp`
+  - Source: https://weekendtokyo.com/items/6a4cacbbf6dd2159192f589f
+  - Image: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/production/5f3471dc7df28165dc7ba496/399c3509-9aef-4829-a24f-8087938d882f/fit=cover,w=924,h=660
+  - Credit: weekend tokyo 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 매장 판매·재고 미확인
+- MM6 × Salomon 테트라 보틀
+  - Local: `assets/photos/store-ten-weekend-tokyo-items-6a4cabbb7c869150b43e97aa.webp`
+  - Source: https://weekendtokyo.com/items/6a4cabbb7c869150b43e97aa
+  - Image: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/production/5f3471dc7df28165dc7ba496/7c56027c-0a3e-4b32-8714-ff2684283d3f/fit=cover,w=924,h=660
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 판매 기록 · 조사 시 품절 · 비슷한 취향 탐색용, 방문 매장 재고 미확인
+- Dior ATELIER 티셔츠
+  - Local: `assets/photos/store-ten-weekend-tokyo-items-6a437cb72630761cda99a4e1.webp`
+  - Source: https://weekendtokyo.com/items/6a437cb72630761cda99a4e1
+  - Image: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/5f3471dc7df28165dc7ba496/2115857ec719bda0c158.jpeg/fit=cover,w=924,h=660
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- COMME des GARÇONS 2023 슬리브리스
+  - Local: `assets/photos/store-ten-weekend-tokyo-items-6a437c3f9d5f2b154fbbb768.webp`
+  - Source: https://weekendtokyo.com/items/6a437c3f9d5f2b154fbbb768
+  - Image: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/5f3471dc7df28165dc7ba496/15be4eeae4dfbde172ef.jpeg/fit=cover,w=924,h=660
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Giorgio Armani 블루 셔츠
+  - Local: `assets/photos/store-ten-weekend-tokyo-items-6a437bacc232b015c23f9b9f.webp`
+  - Source: https://weekendtokyo.com/items/6a437bacc232b015c23f9b9f
+  - Image: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/5f3471dc7df28165dc7ba496/6c086d14efcb74f7cddb.jpeg/fit=cover,w=924,h=660
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- OMEGA 드레스 워치
+  - Local: `assets/photos/store-ten-weekend-tokyo-items-6a3a3750e99ff9153bd63236.webp`
+  - Source: https://weekendtokyo.com/items/6a3a3750e99ff9153bd63236
+  - Image: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/5f3471dc7df28165dc7ba496/d31cc6fdefbf04948ba7.jpeg/fit=cover,w=924,h=660
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 판매 기록 · 조사 시 품절 · 비슷한 취향 탐색용, 방문 매장 재고 미확인
+- LOEWE 아나그램 가죽 숄더백
+  - Local: `assets/photos/store-ten-weekend-tokyo-items-6a3a36bb589ed613498fcbb7.webp`
+  - Source: https://weekendtokyo.com/items/6a3a36bb589ed613498fcbb7
+  - Image: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/5f3471dc7df28165dc7ba496/85ec522ec1064ffad1d5.jpeg/fit=cover,w=924,h=660
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 판매 기록 · 조사 시 품절 · 비슷한 취향 탐색용, 방문 매장 재고 미확인
+- BOTTEGA VENETA 2025 가죽 로퍼
+  - Local: `assets/photos/store-ten-weekend-tokyo-items-6a3a37c0941bd6159eb589a1.webp`
+  - Source: https://weekendtokyo.com/items/6a3a37c0941bd6159eb589a1
+  - Image: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/5f3471dc7df28165dc7ba496/a94e2865e4ebf6034d7a.jpeg/fit=cover,w=924,h=660
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Hermès Her Line PM 토트
+  - Local: `assets/photos/store-ten-weekend-tokyo-items-6a3a3725646cf115983c94e2.webp`
+  - Source: https://weekendtokyo.com/items/6a3a3725646cf115983c94e2
+  - Image: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/5f3471dc7df28165dc7ba496/5d47a9f121dfb1834040.jpeg/fit=cover,w=924,h=660
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+## dammit-tokyo — 10
+
+- Jean Paul GAULTIER 벨루어 톱
+  - Local: `assets/photos/store-item-dammit-tokyo-gaultier.webp`
+  - Source: https://dammit.fashionstore.jp/items/59957595
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/ed01911695ac2ea308dfa61c8664dc43.jpg?imformat=generic&q=90&im=Resize,width=500,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 매장 판매·재고 미확인
+- Trois 실버 도그태그 목걸이
+  - Local: `assets/photos/store-item-dammit-tokyo-silver-necklace.webp`
+  - Source: https://dammit.fashionstore.jp/items/100094649
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/6e13dd46d0cf0eae62337b4debe381d7.jpg?imformat=generic&q=90&im=Resize,width=500,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 매장 판매·재고 미확인
+- WALK OF MEDAL POUND / FIDGET
+  - Local: `assets/photos/store-ten-dammit-tokyo-items-118340529.webp`
+  - Source: https://dammit.fashionstore.jp/items/118340529
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/5175297926081bbec9bd84b16ec63f07.jpg?imformat=generic&q=90&im=Resize,width=500,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- 1 Rue Erik Satie 여행 사진집
+  - Local: `assets/photos/store-ten-dammit-tokyo-items-68328050.webp`
+  - Source: https://dammit.fashionstore.jp/items/68328050
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/0e1e7cd220dbd738899ffef6578893cf.jpg?imformat=generic&q=90&im=Resize,width=500,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Mickey 90s 케미컬 핑크 티셔츠
+  - Local: `assets/photos/store-ten-dammit-tokyo-items-93042935.webp`
+  - Source: https://dammit.fashionstore.jp/items/93042935
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/496368128bf3127c22a63fa3556ff6f2.jpg?imformat=generic&q=90&im=Resize,width=500,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Patagonia 카무플라주 재킷
+  - Local: `assets/photos/store-ten-dammit-tokyo-items-161517032.webp`
+  - Source: https://dammit.fashionstore.jp/items/161517032
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/75eb4976b90fbb5a0165b2b07a5dabd9.jpg?imformat=generic&q=90&im=Resize,width=500,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Clarks Kessell Craft 가죽 구두
+  - Local: `assets/photos/store-ten-dammit-tokyo-items-161517044.webp`
+  - Source: https://dammit.fashionstore.jp/items/161517044
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/69438b450dcc07293868f83a5b42ccb8.jpg?imformat=generic&q=90&im=Resize,width=500,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- DIESEL 가죽 벨트
+  - Local: `assets/photos/store-ten-dammit-tokyo-items-161516996.webp`
+  - Source: https://dammit.fashionstore.jp/items/161516996
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/386bfbe87b1b56e8ad0fc1086c69bcfc.jpg?imformat=generic&q=90&im=Resize,width=500,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Desigual 패치워크 가죽 숄더백
+  - Local: `assets/photos/store-ten-dammit-tokyo-items-161516998.webp`
+  - Source: https://dammit.fashionstore.jp/items/161516998
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/a0be8cd8610023098bea62bc5b51ced5.jpg?imformat=generic&q=90&im=Resize,width=500,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Issey Miyake A-POC 주름 니트 튜닉
+  - Local: `assets/photos/store-ten-dammit-tokyo-items-111643312.webp`
+  - Source: https://dammit.fashionstore.jp/items/111643312
+  - Image: https://baseec-img-mng.akamaized.net/images/item/origin/1a5b9e3df525c8b63d7e4501a8611eed.jpg?imformat=generic&q=90&im=Resize,width=500,type=normal
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+## kindal-jinnan — 10
+
+- GOTHIC YOHJI YAMAMOTO 스네이크 앵커 목걸이
+  - Local: `assets/photos/guide-other-jinnan-8045001458629.webp`
+  - Source: https://shop.kind.co.jp/products/8045001458629
+  - Image: https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8045001458629_1.jpg?v=1793708565
+  - Credit: Kindal 공식 온라인 상품 사진
+  - Check: Kindal 공식 온라인 중고 상품 예시 · 신난 지점 재고 미확인, 비슷한 스타일 탐색용
+- Y’s 체인 엔젤 칼라 핀 브로치
+  - Local: `assets/photos/guide-other-jinnan-8045001458612.webp`
+  - Source: https://shop.kind.co.jp/products/8045001458612
+  - Image: https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8045001458612_1.jpg?v=1793708565
+  - Credit: Kindal 공식 온라인 상품 사진
+  - Check: Kindal 공식 온라인 중고 상품 예시 · 신난 지점 재고 미확인, 비슷한 스타일 탐색용
+- YOHJI YAMAMOTO 스트라이프 서스펜더
+  - Local: `assets/photos/guide-other-jinnan-8045001458605.webp`
+  - Source: https://shop.kind.co.jp/products/8045001458605
+  - Image: https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8045001458605_1.jpg?v=1793708565
+  - Credit: Kindal 공식 온라인 상품 사진
+  - Check: Kindal 공식 온라인 중고 상품 예시 · 신난 지점 재고 미확인, 비슷한 스타일 탐색용
+- Yohji Yamamoto 울·나일론 햇
+  - Local: `assets/photos/guide-other-jinnan-8045001458636.webp`
+  - Source: https://shop.kind.co.jp/products/8045001458636
+  - Image: https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8045001458636_1.jpg?v=1793708566
+  - Credit: Kindal 공식 온라인 상품 사진
+  - Check: Kindal 공식 온라인 중고 상품 예시 · 신난 지점 재고 미확인, 비슷한 스타일 탐색용
+- CITYSHOP 롱 스커트
+  - Local: `assets/photos/guide-other-jinnan-8006002416063.webp`
+  - Source: https://shop.kind.co.jp/products/8006002416063
+  - Image: https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8006002416063_1.jpg?v=1793761844
+  - Credit: Kindal 공식 온라인 상품 사진
+  - Check: Kindal 공식 온라인 중고 상품 예시 · 신난 지점 재고 미확인, 비슷한 스타일 탐색용
+- PRADA 숄더백
+  - Local: `assets/photos/store-ten-kindal-jinnan-products-8009002467189.webp`
+  - Source: https://shop.kind.co.jp/products/8009002467189
+  - Image: https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8009002467189_1.jpg?v=1793779850
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- CHANEL 라인스톤 선글라스
+  - Local: `assets/photos/store-ten-kindal-jinnan-products-8009002465604.webp`
+  - Source: https://shop.kind.co.jp/products/8009002465604
+  - Image: https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8009002465604_1.jpg?v=1793779854
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- TISSOT PRX 25mm 손목시계
+  - Local: `assets/photos/store-ten-kindal-jinnan-products-8040001373668.webp`
+  - Source: https://shop.kind.co.jp/products/8040001373668
+  - Image: https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8040001373668_1.jpg?v=1793779850
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- eLLa V넥 니트 카디건
+  - Local: `assets/photos/store-ten-kindal-jinnan-products-8078000628762.webp`
+  - Source: https://shop.kind.co.jp/products/8078000628762
+  - Image: https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8078000628762_1.jpg?v=1793779846
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Barbour 왁스 쇼트 재킷
+  - Local: `assets/photos/store-ten-kindal-jinnan-products-8009002255519.webp`
+  - Source: https://shop.kind.co.jp/products/8009002255519
+  - Image: https://cdn.shopify.com/s/files/1/0585/3010/3347/files/8009002255519_1.jpg?v=1793779907
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+## kld-tokyo — 10
+
+- YASHIKI 헨리넥 니트
+  - Local: `assets/photos/store-item-kld-tokyo-yashiki-knit.webp`
+  - Source: https://store.kld-c.jp/products/wxb9838uxw82
+  - Image: https://img.myshopline.com/image/store/1774415092045/original-wxb9838uxw82-1.jpg?h=800&w=800
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 매장 판매·재고 미확인
+- COMME des GARÇONS 나일론 백팩
+  - Local: `assets/photos/store-item-kld-tokyo-cdg-backpack.webp`
+  - Source: https://store.kld-c.jp/products/etzqrri3w6vg
+  - Image: https://img.myshopline.com/image/store/1774415092045/original-etzqrri3w6vg-1.jpg?h=800&w=800
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 매장 판매·재고 미확인
+- MITTAN 헴프 재킷
+  - Local: `assets/photos/store-ten-kld-tokyo-products-yl9h4mryh0w5.webp`
+  - Source: https://store.kld-c.jp/products/yl9h4mryh0w5
+  - Image: https://img.myshopline.com/image/store/1774415092045/original-yl9h4mryh0w5-1.jpg?h=800&w=800
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Perfect Ribs 기본 티셔츠
+  - Local: `assets/photos/store-ten-kld-tokyo-products-yad1cuxyqxmn.webp`
+  - Source: https://store.kld-c.jp/products/yad1cuxyqxmn
+  - Image: https://img.myshopline.com/image/store/1774415092045/original-yad1cuxyqxmn-1.jpg?h=800&w=800
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- FIRMUM 반소매 셔츠
+  - Local: `assets/photos/store-ten-kld-tokyo-products-8zzkq2sq11k6.webp`
+  - Source: https://store.kld-c.jp/products/8zzkq2sq11k6
+  - Image: https://img.myshopline.com/image/store/1774415092045/original-8zzkq2sq11k6-1.jpg?h=800&w=800
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- AURALEE 울 리브 카디건
+  - Local: `assets/photos/store-ten-kld-tokyo-products-1rd29euzkbnr.webp`
+  - Source: https://store.kld-c.jp/products/1rd29euzkbnr
+  - Image: https://img.myshopline.com/image/store/1774415092045/original-1rd29euzkbnr-1.jpg?h=800&w=800
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- CLASS 니트 베스트
+  - Local: `assets/photos/store-ten-kld-tokyo-products-r29cwdv1fhuo.webp`
+  - Source: https://store.kld-c.jp/products/r29cwdv1fhuo
+  - Image: https://img.myshopline.com/image/store/1774415092045/original-r29cwdv1fhuo-1.jpg?h=800&w=800
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- KHOKI 타이다이 블루종
+  - Local: `assets/photos/store-ten-kld-tokyo-products-39jg1xt0la0k.webp`
+  - Source: https://store.kld-c.jp/products/39jg1xt0la0k
+  - Image: https://img.myshopline.com/image/store/1774415092045/original-39jg1xt0la0k-1.jpg?h=800&w=800
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- NICENESS 가죽 투턱 쇼츠
+  - Local: `assets/photos/store-ten-kld-tokyo-products-18yfcydk85z6.webp`
+  - Source: https://store.kld-c.jp/products/18yfcydk85z6
+  - Image: https://img.myshopline.com/image/store/1774415092045/original-18yfcydk85z6-1.jpg?h=800&w=800
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- NICENESS 가죽 턱 팬츠
+  - Local: `assets/photos/store-ten-kld-tokyo-products-b9vhlza64pfd.webp`
+  - Source: https://store.kld-c.jp/products/b9vhlza64pfd
+  - Image: https://img.myshopline.com/image/store/1774415092045/original-b9vhlza64pfd-1.jpg?h=800&w=800
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+## ragtag-shibuya — 10
+
+- nonnative 캐주얼 셔츠
+  - Local: `assets/photos/store-item-ragtag-shibuya-nonnative-shirt.webp`
+  - Source: https://ragtag-global.com/products/0480526y0083
+  - Image: https://cdn.shopify.com/s/files/1/0643/3128/4739/files/0480526y0083_1.jpg?v=1793752577
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 매장 판매·재고 미확인
+- N.HOOLYWOOD 재킷
+  - Local: `assets/photos/store-item-ragtag-shibuya-nhoolywood-jacket.webp`
+  - Source: https://ragtag-global.com/products/0304326y0150
+  - Image: https://cdn.shopify.com/s/files/1/0643/3128/4739/files/0304326y0150_1.jpg?v=1793752569
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 매장 판매·재고 미확인
+- MONCLER 다운 재킷
+  - Local: `assets/photos/store-ten-ragtag-shibuya-products-3502626o0092.webp`
+  - Source: https://ragtag-global.com/products/3502626o0092
+  - Image: https://cdn.shopify.com/s/files/1/0643/3128/4739/files/3502626o0092_1.jpg?v=1793752554
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- NIKE 스니커즈
+  - Local: `assets/photos/store-ten-ragtag-shibuya-products-3600226o0118.webp`
+  - Source: https://ragtag-global.com/products/3600226o0118
+  - Image: https://cdn.shopify.com/s/files/1/0643/3128/4739/files/3600226o0118_1.jpg?v=1793752495
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Jalan Sriwijaya 가죽 구두
+  - Local: `assets/photos/store-ten-ragtag-shibuya-products-0369526o0004.webp`
+  - Source: https://ragtag-global.com/products/0369526o0004
+  - Image: https://cdn.shopify.com/s/files/1/0643/3128/4739/files/0369526o0004_1.jpg?v=1793752464
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- LOUIS VUITTON 숄더백
+  - Local: `assets/photos/store-ten-ragtag-shibuya-products-4500226o0084.webp`
+  - Source: https://ragtag-global.com/products/4500226o0084
+  - Image: https://cdn.shopify.com/s/files/1/0643/3128/4739/files/4500226o0084_1.jpg?v=1793752383
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Salvatore Ferragamo 선글라스
+  - Local: `assets/photos/store-ten-ragtag-shibuya-products-4502626o0006.webp`
+  - Source: https://ragtag-global.com/products/4502626o0006
+  - Image: https://cdn.shopify.com/s/files/1/0643/3128/4739/files/4502626o0006_1.jpg?v=1793752325
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- GUCCI 지갑
+  - Local: `assets/photos/store-ten-ragtag-shibuya-products-4500426o0043.webp`
+  - Source: https://ragtag-global.com/products/4500426o0043
+  - Image: https://cdn.shopify.com/s/files/1/0643/3128/4739/files/4500426o0043_1.jpg?v=1793752304
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- TIFFANY & CO. 브레이슬릿
+  - Local: `assets/photos/store-ten-ragtag-shibuya-products-4800726o0051.webp`
+  - Source: https://ragtag-global.com/products/4800726o0051
+  - Image: https://cdn.shopify.com/s/files/1/0643/3128/4739/files/4800726o0051_1.jpg?v=1793752169
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- TIFFANY & CO. 목걸이
+  - Local: `assets/photos/store-ten-ragtag-shibuya-products-4800726o0049.webp`
+  - Source: https://ragtag-global.com/products/4800726o0049
+  - Image: https://cdn.shopify.com/s/files/1/0643/3128/4739/files/4800726o0049_1.jpg?v=1793752162
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+## archive-store-jinnan — 10
+
+- Archive Store · Maison Martin Margiela ⑭ 2008 A/W
+  - Local: `assets/photos/shop-mood-shibuya-archive-margiela.webp`
+  - Source: https://archivestore-official-ec.myshopify.com/products/maison-martin-margiela-2008-a-w-14
+  - Image: 
+  - Credit: Archive Store 공식 상품 사진
+  - Check: 공식 온라인/룩북 사진 · 시부야 매장 재고 미확인
+- Archive Store · COMME des GARCONS HOMME PLUS 2002 A/W
+  - Local: `assets/photos/shop-mood-shibuya-archive-cdg.webp`
+  - Source: https://archivestore-official-ec.myshopify.com/products/comme-des-garcons-homme-plus-2002-a-w
+  - Image: 
+  - Credit: Archive Store 공식 상품 사진
+  - Check: 공식 온라인/룩북 사진 · 시부야 매장 재고 미확인
+- Margiela 1999 A/W 아카이브 코트
+  - Local: `assets/photos/store-ten-archive-store-jinnan-products-maison-martin-margiela-1999-a-w-18.webp`
+  - Source: https://archivestore-official-ec.myshopify.com/products/maison-martin-margiela-1999-a-w-18
+  - Image: https://cdn.shopify.com/s/files/1/0511/8980/9346/files/50208-260617-0109_01.jpg?v=1792222043
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Margiela 2012 S/S 블랙 액세서리
+  - Local: `assets/photos/store-ten-archive-store-jinnan-products-maison-martin-margiela-2012-s-s-2.webp`
+  - Source: https://archivestore-official-ec.myshopify.com/products/maison-martin-margiela-2012-s-s-2
+  - Image: https://cdn.shopify.com/s/files/1/0511/8980/9346/files/35278-260617-0335_01.jpg?v=1792220016
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Margiela × Cutler and Gross 안경
+  - Local: `assets/photos/store-ten-archive-store-jinnan-products-martin-margiela-8-2010-a-w.webp`
+  - Source: https://archivestore-official-ec.myshopify.com/products/martin-margiela-8-2010-a-w
+  - Image: https://cdn.shopify.com/s/files/1/0511/8980/9346/files/35270-260617-0334_01.jpg?v=1792219946
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- UNDERCOVER 1994 A/W 울 재킷
+  - Local: `assets/photos/store-ten-archive-store-jinnan-products-undercover-1994-a-w-1.webp`
+  - Source: https://archivestore-official-ec.myshopify.com/products/undercover-1994-a-w-1
+  - Image: https://cdn.shopify.com/s/files/1/0511/8980/9346/products/1_6838f3cd-0d12-4322-90cb-704d2635e7f8.jpg?v=1742018722
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Margiela 2026 A/W 인디고 데님
+  - Local: `assets/photos/store-ten-archive-store-jinnan-products-maison-margiela-2026-a-w-3.webp`
+  - Source: https://archivestore-official-ec.myshopify.com/products/maison-margiela-2026-a-w-3
+  - Image: https://cdn.shopify.com/s/files/1/0511/8980/9346/files/10831-260904-0865_01.jpg?v=1792224325
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Jean Paul Gaultier FEMME 레드 톱
+  - Local: `assets/photos/store-ten-archive-store-jinnan-products-jean-paul-gaultier-60.webp`
+  - Source: https://archivestore-official-ec.myshopify.com/products/jean-paul-gaultier-60
+  - Image: https://cdn.shopify.com/s/files/1/0511/8980/9346/products/1_807e2d24-575b-4af0-9721-cac16e923609.jpg?v=1742018556
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Margiela 아티저널 코튼 벨트
+  - Local: `assets/photos/store-ten-archive-store-jinnan-products-15267-260425-0203.webp`
+  - Source: https://archivestore-official-ec.myshopify.com/products/15267-260425-0203
+  - Image: https://cdn.shopify.com/s/files/1/0511/8980/9346/files/1_e76e41eb-a520-4b35-a74f-632e84faae57.jpg?v=1791631567
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Margiela 2011 S/S 스커트
+  - Local: `assets/photos/store-ten-archive-store-jinnan-products-50832-260514-0100.webp`
+  - Source: https://archivestore-official-ec.myshopify.com/products/50832-260514-0100
+  - Image: https://cdn.shopify.com/s/files/1/0511/8980/9346/files/22-1_9e296e69-93f3-4634-9033-9d5003324b4d.jpg?v=1791630849
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+## sullen-tokyo — 10
+
+- SULLEN TOKYO · "PRADA SPORT" PARACHUTE JACKET
+  - Local: `assets/photos/shop-mood-shibuya-sullen-prada.webp`
+  - Source: https://sullentokyo.com/products/prada-sport-parachute-jacket
+  - Image: 
+  - Credit: SULLEN TOKYO 공식 상품 사진
+  - Check: 공식 온라인/룩북 사진 · 시부야 매장 재고 미확인
+- SULLEN TOKYO · "GUCCI" CABLE TURTLE KNIT SWEATER
+  - Local: `assets/photos/shop-mood-shibuya-sullen-gucci.webp`
+  - Source: https://sullentokyo.com/products/gucci-cable-turtle-knit-sweater
+  - Image: 
+  - Credit: SULLEN TOKYO 공식 상품 사진
+  - Check: 공식 온라인/룩북 사진 · 시부야 매장 재고 미확인
+- SULLEN TOKYO · CARGO FLARE TROUSERS
+  - Local: `assets/photos/shop-mood-shibuya-sullen-cargo.webp`
+  - Source: https://sullentokyo.com/products/cargo-flare-trousers
+  - Image: 
+  - Credit: SULLEN TOKYO 공식 상품 사진
+  - Check: 공식 온라인/룩북 사진 · 시부야 매장 재고 미확인
+- MINI SACK 숄더백
+  - Local: `assets/photos/store-ten-sullen-tokyo-products-mini-sack-shoulder-bag-black.webp`
+  - Source: https://sullentokyo.com/products/mini-sack-shoulder-bag-black
+  - Image: https://cdn.shopify.com/s/files/1/1123/8884/files/SHBSC012_MINI_SACK_SHOULDER_BAG_BLK1.jpg?v=1786680561
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- LUCAS 스트라이프 셔츠
+  - Local: `assets/photos/store-ten-sullen-tokyo-products-lucas-2-pockets-shirt-white-stripes.webp`
+  - Source: https://sullentokyo.com/products/lucas-2-pockets-shirt-white-stripes
+  - Image: https://cdn.shopify.com/s/files/1/1123/8884/files/670A3364.jpg?v=1793268570
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- PA.CO. 알파카 타이 스카프
+  - Local: `assets/photos/store-ten-sullen-tokyo-products-pa-co-alpaca-tie-scarf-grey.webp`
+  - Source: https://sullentokyo.com/products/pa-co-alpaca-tie-scarf-grey
+  - Image: https://cdn.shopify.com/s/files/1/1123/8884/files/SHFW26021-PA.CO_.-ALPACA-TIE-SCARF-GRY1_666ae0e1-e536-4c3e-a120-1ff1383704a7.webp?v=1793184308
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- METAL LOGO 스터드 캡
+  - Local: `assets/photos/store-ten-sullen-tokyo-products-metal-logo-studs.webp`
+  - Source: https://sullentokyo.com/products/metal-logo-studs
+  - Image: https://cdn.shopify.com/s/files/1/1123/8884/files/SHOOP-METAL-LOGO-STUDS-CAP-BLACK-02.webp?v=1793184179
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- METAL LOGO 목걸이
+  - Local: `assets/photos/store-ten-sullen-tokyo-products-metal-logo-necklace.webp`
+  - Source: https://sullentokyo.com/products/metal-logo-necklace
+  - Image: https://cdn.shopify.com/s/files/1/1123/8884/files/SHBSC022-METAL-LOGO-NECKLACE-1.webp?v=1793184625
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- PA.CO. 알파카 핑거리스 장갑
+  - Local: `assets/photos/store-ten-sullen-tokyo-products-pa-co-alpaca-mittens-black.webp`
+  - Source: https://sullentokyo.com/products/pa-co-alpaca-mittens-black
+  - Image: https://cdn.shopify.com/s/files/1/1123/8884/files/SHFW26020-PA.CO_.-ALPACA-MITTENS-BLK2.webp?v=1793184914
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- RANDOM STUDS 가죽 벨트
+  - Local: `assets/photos/store-ten-sullen-tokyo-products-random-studs-belt-brown.webp`
+  - Source: https://sullentokyo.com/products/random-studs-belt-brown
+  - Image: https://cdn.shopify.com/s/files/1/1123/8884/files/SHBSC019-2_RANDOM_STUDS_BELT_BRW1.webp?v=1793184795
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+## jam-shibuya — 10
+
+- Ralph Lauren 스윙톱 재킷
+  - Local: `assets/photos/store-item-jam-shibuya-ralph-jacket.webp`
+  - Source: https://jamtrading.jp/c/categories/outer/jacket/swing-top/eaa670822
+  - Image: https://jamtrading.itembox.cloud/product/024/000002802483/000002802483-01.jpg?size=m&t=20261029111235&w=NDAw
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 매장 판매·재고 미확인
+- 00s NIKE 로고 스웨트
+  - Local: `assets/photos/store-item-jam-shibuya-nike-sweat.webp`
+  - Source: https://jamtrading.jp/c/categories/tops/sweat/sweatshirt/eaa684034
+  - Image: https://jamtrading.itembox.cloud/product/041/000002804164/000002804164-01.jpg?size=m&t=20261104112315&w=NDAw
+  - Credit: 공식 온라인 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 매장 판매·재고 미확인
+- L.L.Bean 플란넬 체크 셔츠
+  - Local: `assets/photos/store-ten-jam-shibuya-jamtrading1-eaa681873-html.webp`
+  - Source: https://store.shopping.yahoo.co.jp/jamtrading1/eaa681873.html
+  - Image: https://item-shopping.c.yimg.jp/i/n/jamtrading1_eaa681873
+  - Credit: 古着屋JAM 공식 Yahoo! 매장 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- NIKE 빈티지 윈드브레이커
+  - Local: `assets/photos/store-ten-jam-shibuya-jamtrading1-eaa682460-html.webp`
+  - Source: https://store.shopping.yahoo.co.jp/jamtrading1/eaa682460.html
+  - Image: https://item-shopping.c.yimg.jp/i/n/jamtrading1_eaa682460
+  - Credit: 古着屋JAM 공식 Yahoo! 매장 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Ralph Lauren 코듀로이 팬츠
+  - Local: `assets/photos/store-ten-jam-shibuya-jamtrading1-eaa685836-html.webp`
+  - Source: https://store.shopping.yahoo.co.jp/jamtrading1/eaa685836.html
+  - Image: https://item-shopping.c.yimg.jp/i/n/jamtrading1_eaa685836
+  - Credit: 古着屋JAM 공식 Yahoo! 매장 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Brooks Brothers 스트라이프 럭비 셔츠
+  - Local: `assets/photos/store-ten-jam-shibuya-jamtrading1-eaa673229-html.webp`
+  - Source: https://store.shopping.yahoo.co.jp/jamtrading1/eaa673229.html
+  - Image: https://item-shopping.c.yimg.jp/i/n/jamtrading1_eaa673229
+  - Credit: 古着屋JAM 공식 Yahoo! 매장 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Patagonia Half Mass 메신저백
+  - Local: `assets/photos/store-ten-jam-shibuya-jamtrading1-gaa008236-html.webp`
+  - Source: https://store.shopping.yahoo.co.jp/jamtrading1/gaa008236.html
+  - Image: https://item-shopping.c.yimg.jp/i/n/jamtrading1_gaa008236
+  - Credit: 古着屋JAM 공식 Yahoo! 매장 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- La Regale 빈티지 비즈 핸드백
+  - Local: `assets/photos/store-ten-jam-shibuya-jamtrading1-gaa007700-html.webp`
+  - Source: https://store.shopping.yahoo.co.jp/jamtrading1/gaa007700.html
+  - Image: https://item-shopping.c.yimg.jp/i/n/jamtrading1_gaa007700
+  - Credit: 古着屋JAM 공식 Yahoo! 매장 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- L.L.Bean BOAT AND TOTE
+  - Local: `assets/photos/store-ten-jam-shibuya-jamtrading1-gaa008188-html.webp`
+  - Source: https://store.shopping.yahoo.co.jp/jamtrading1/gaa008188.html
+  - Image: https://item-shopping.c.yimg.jp/i/n/jamtrading1_gaa008188
+  - Credit: 古着屋JAM 공식 Yahoo! 매장 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- Patagonia Black Hole 웨이스트백
+  - Local: `assets/photos/store-ten-jam-shibuya-jamtrading1-gaa007372-html.webp`
+  - Source: https://store.shopping.yahoo.co.jp/jamtrading1/gaa007372.html
+  - Image: https://item-shopping.c.yimg.jp/i/n/jamtrading1_gaa007372
+  - Credit: 古着屋JAM 공식 Yahoo! 매장 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+## 2ndstreet-jinnan — 10
+
+- Supreme 핸드 크로셰 니트
+  - Local: `assets/photos/store-item-2ndstreet-jinnan-supreme-knit.webp`
+  - Source: https://store.shopping.yahoo.co.jp/ssol-shopping/2332874443804.html
+  - Image: https://item-shopping.c.yimg.jp/i/n/ssol-shopping_2332874443804
+  - Credit: 세컨드스트리트 공식 Yahoo! 매장 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 매장 판매·재고 미확인
+- MITTAN 리넨 니트
+  - Local: `assets/photos/store-item-2ndstreet-jinnan-mittan-linen.webp`
+  - Source: https://store.shopping.yahoo.co.jp/ssol-shopping/2350060091943.html
+  - Image: https://item-shopping.c.yimg.jp/i/n/ssol-shopping_2350060091943
+  - Credit: 세컨드스트리트 공식 Yahoo! 매장 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 매장 판매·재고 미확인
+- adidas 베이지 슈즈 JS4998
+  - Local: `assets/photos/store-ten-2ndstreet-jinnan-ssol-shopping-2343303582728-html.webp`
+  - Source: https://store.shopping.yahoo.co.jp/ssol-shopping/2343303582728.html
+  - Image: https://item-shopping.c.yimg.jp/i/n/ssol-shopping_2343303582728
+  - Credit: 세컨드스트리트 공식 Yahoo! 매장 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- THE NORTH FACE 봄버 스웨트
+  - Local: `assets/photos/store-ten-2ndstreet-jinnan-ssol-shopping-2334384297397-html.webp`
+  - Source: https://store.shopping.yahoo.co.jp/ssol-shopping/2334384297397.html
+  - Image: https://item-shopping.c.yimg.jp/i/n/ssol-shopping_2334384297397
+  - Credit: 세컨드스트리트 공식 Yahoo! 매장 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- CASIO WAVECEPTOR 태양광 시계
+  - Local: `assets/photos/store-ten-2ndstreet-jinnan-ssol-shopping-2341596996567-html.webp`
+  - Source: https://store.shopping.yahoo.co.jp/ssol-shopping/2341596996567.html
+  - Image: https://item-shopping.c.yimg.jp/i/n/ssol-shopping_2341596996567
+  - Credit: 세컨드스트리트 공식 Yahoo! 매장 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- MAISON SPECIAL 가죽 재킷
+  - Local: `assets/photos/store-ten-2ndstreet-jinnan-ssol-shopping-2343140673054-html.webp`
+  - Source: https://store.shopping.yahoo.co.jp/ssol-shopping/2343140673054.html
+  - Image: https://item-shopping.c.yimg.jp/i/n/ssol-shopping_2343140673054
+  - Credit: 세컨드스트리트 공식 Yahoo! 매장 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- THE NORTH FACE ANTARCTICA 파카
+  - Local: `assets/photos/store-ten-2ndstreet-jinnan-ssol-shopping-2320204528086-html.webp`
+  - Source: https://store.shopping.yahoo.co.jp/ssol-shopping/2320204528086.html
+  - Image: https://item-shopping.c.yimg.jp/i/n/ssol-shopping_2320204528086
+  - Credit: 세컨드스트리트 공식 Yahoo! 매장 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- WIM TRANS-CARRY 2WAY 여행 가방
+  - Local: `assets/photos/store-ten-2ndstreet-jinnan-ssol-shopping-2338766754829-html.webp`
+  - Source: https://store.shopping.yahoo.co.jp/ssol-shopping/2338766754829.html
+  - Image: https://item-shopping.c.yimg.jp/i/n/ssol-shopping_2338766754829
+  - Credit: 세컨드스트리트 공식 Yahoo! 매장 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- MERRELL 정글목 스웨이드 슈즈
+  - Local: `assets/photos/store-ten-2ndstreet-jinnan-ssol-shopping-2320099083585-html.webp`
+  - Source: https://store.shopping.yahoo.co.jp/ssol-shopping/2320099083585.html
+  - Image: https://item-shopping.c.yimg.jp/i/n/ssol-shopping_2320099083585
+  - Credit: 세컨드스트리트 공식 Yahoo! 매장 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+- adidas HANDBALL SPEZIAL 로퍼
+  - Local: `assets/photos/store-ten-2ndstreet-jinnan-ssol-shopping-2343603775158-html.webp`
+  - Source: https://store.shopping.yahoo.co.jp/ssol-shopping/2343603775158.html
+  - Image: https://item-shopping.c.yimg.jp/i/n/ssol-shopping_2343603775158
+  - Credit: 세컨드스트리트 공식 Yahoo! 매장 상품 사진
+  - Check: 공식 온라인 상품 예시 · 방문 지점 취급·판매·재고 미확인
+## archives-skwat-parco — 10
+
+- 화석·광물 오브제 서랍
+  - Local: `assets/photos/store-item-archives-skwat-parco-nature.webp`
+  - Source: https://circus-co.com/projects/archives-shibuya-parco/
+  - Image: https://circus-co.com/wordpress/wp-content/uploads/2022/11/DSC01949.jpg
+  - Credit: CIRCUS / Archives 공식 전시 사진 · 2022년
+  - Check: 2022년 공식 매장 전시 예시 · 현재 진열·판매·재고 미확인
+- 빈티지 주얼리 서랍
+  - Local: `assets/photos/store-item-archives-skwat-parco-jewelry.webp`
+  - Source: https://circus-co.com/projects/archives-shibuya-parco/
+  - Image: https://circus-co.com/wordpress/wp-content/uploads/2022/11/DSC01948.jpg
+  - Credit: CIRCUS / Archives 공식 전시 사진 · 2022년
+  - Check: 2022년 공식 매장 전시 예시 · 현재 진열·판매·재고 미확인
+- 인도 칸타 자수 퀼트
+  - Local: `assets/photos/store-ten-archives-skwat-parco-kantha.webp`
+  - Source: https://brutus.jp/post-194815/#kantha
+  - Image: https://media.brutus.jp/wp-content/uploads/2023/02/979_p088-089_PARCO_01.jpg
+  - Credit: BRUTUS Archives 현장 취재 · Photo: Jun Nakagawa · 2023년
+  - Check: 2023년 Archives 취재에 실린 판매 유형 · 같은 개체의 현재 진열·판매·재고 미확인
+- 홋카이도 목조 곰
+  - Local: `assets/photos/store-ten-archives-skwat-parco-wood-bear.webp`
+  - Source: https://brutus.jp/post-194815/#wood-bear
+  - Image: https://media.brutus.jp/wp-content/uploads/2023/02/979_p088-089_PARCO_03.jpg
+  - Credit: BRUTUS Archives 현장 취재 · Photo: Jun Nakagawa · 2023년
+  - Check: 2023년 Archives 취재에 실린 판매 유형 · 같은 개체의 현재 진열·판매·재고 미확인
+- 서독 Fat Lava 빈티지 화병
+  - Local: `assets/photos/store-ten-archives-skwat-parco-fat-lava.webp`
+  - Source: https://brutus.jp/post-194815/#fat-lava
+  - Image: https://media.brutus.jp/wp-content/uploads/2023/02/979_p088-089_PARCO_04.jpg
+  - Credit: BRUTUS Archives 현장 취재 · Photo: Jun Nakagawa · 2023년
+  - Check: 2023년 Archives 취재에 실린 판매 유형 · 같은 개체의 현재 진열·판매·재고 미확인
+- 암모나이트·나무 단면 화석
+  - Local: `assets/photos/store-ten-archives-skwat-parco-fossil.webp`
+  - Source: https://brutus.jp/post-194815/#fossil
+  - Image: https://media.brutus.jp/wp-content/uploads/2023/02/979_p088-089_PARCO_05.jpg
+  - Credit: BRUTUS Archives 현장 취재 · Photo: Jun Nakagawa · 2023년
+  - Check: 2023년 Archives 취재에 실린 판매 유형 · 같은 개체의 현재 진열·판매·재고 미확인
+- 벽에 거는 장식 오브제
+  - Local: `assets/photos/store-ten-archives-skwat-parco-wall-deco.webp`
+  - Source: https://archives-object.com/view/wall-deco/
+  - Image: https://archives-object.com/wp-content/uploads/2020/11/DSC00196.jpg
+  - Credit: Archives 공식 WALL DECO 컬렉션 사진 · 2020년
+  - Check: Archives의 2020년 공식 컬렉션 이미지 · PARCO 지점 취급·판매·재고 미확인
+- 짜임을 보는 바구니 오브제
+  - Local: `assets/photos/store-ten-archives-skwat-parco-basket.webp`
+  - Source: https://shibuya.parco.jp/feature/detail/?id=6679&p=1&pv=on#basket
+  - Image: https://shibuya.parco.jp/cmsR5/parco/shibuya/images/store/storage/feature_ini_skwat_26.jpg
+  - Credit: 시부야 PARCO 공식 Archives 취재 · Photo: Sachiko Saito · 2023년
+  - Check: 2023년 Archives 매장 진열 장면 속 바구니 참고 · 판매 여부와 현재 재고 미확인
+- 도자기 볼 형태 참고 · KINTO MUI
+  - Local: `assets/photos/store-ten-archives-skwat-parco-ceramic-bowl-reference.webp`
+  - Source: https://kinto-usa.com/products/21176
+  - Image: https://cdn.shopify.com/s/files/1/0146/0862/9808/files/21176_t_001_51799fb0-aa71-472a-aea5-5d84a888dc5b.jpg?v=1770747680
+  - Credit: KINTO 공식 제조사 사진 · Archives 판매 상품 사진 아님
+  - Check: 소재·형태 비교용 제조사 예시 · Archives의 KINTO 취급·판매·재고 모두 미확인
+- 작은 유리 피처 형태 참고 · KINTO CAST
+  - Local: `assets/photos/store-ten-archives-skwat-parco-glass-vase-reference.webp`
+  - Source: https://kinto-usa.com/products/8485
+  - Image: https://cdn.shopify.com/s/files/1/0146/0862/9808/products/8485.jpg?v=1550833312
+  - Credit: KINTO 공식 제조사 사진 · Archives 판매 상품 사진 아님
+  - Check: 소재·형태 비교용 제조사 예시 · Archives의 KINTO 취급·판매·재고 모두 미확인

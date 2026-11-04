@@ -1,0 +1,799 @@
+# Ten merchandise visuals per store: Akihabara and eastern Tokyo
+
+Checked 2026-11-04. 18 stores × 10 visuals = 180 entries; 134 newly collected images. Original catalog/retailer images downloaded locally; no generated product photography. Exact visit-day inventory is not promised.
+
+## Source and floor distinctions
+
+- Radio Kaikan additions are Yellow Submarine chain catalog games; the building’s 6F tenant is the context, not a claim of local stock. RPG shop gets a separate selection.
+- Mandarake Complex is the main building: 3F vintage books and analog records, 4F doujin music. Complex2 is separate: 3F games, 4–5F CD/DVD/Blu-ray, 6F small collectibles. New items predominantly use actual historical branch sales photos. Dates remain historical, not future events. Sunny is explicitly a publisher cover example with title handling unverified.
+- Surugaya uses official chain catalog photos; the Akihabara Game branch inventory, game condition, compatibility and included materials remain unverified.
+- COSPA/COSPATIO use official catalog images. Reservations may be included; branch arrival dates and sizes are not claimed.
+- M’s additions show packaged body care and a plain eye mask. Love Merci is manufacturer examples only; its own audit explains the uncertain retailer handling.
+- Donki uses official private-label catalog images across winter accessories, clothing, travel accessories and skin-care supplies.
+- VDS uses its own 2026 historical record arrivals and speaker announcement, not a live inventory assertion.
+- Kakimori, twelvebooks, Kastori and Nobori use their own catalog photographs. Online and physical inventory can differ.
+- Supplementary research for RECOfan, SHOSEN BASE LAB and Eishindo is documented by the design helper audit; original source URLs are retained for every item.
+
+## Items and source links
+
+### akiba-radio-kaikan — 10 visuals
+
+- **Oink Games SCOUT · 작은 상자 카드게임** — [source](https://shop.oinkgames.com/en/products/scout-ja)
+  - Local: `assets/photos/guide-akiba-scout.webp` (480 × 480).
+  - Original: https://shop.oinkgames.com/cdn/shop/products/scout_ja_front_adb1275a-73b8-4b7e-b8df-8a75bea206ea_large.png?v=1657180201
+  - Disclosure: 인원수·언어·한국어 규칙 제공 여부를 먼저 확인해요. 해당 상품의 매장 재고는 미확인.
+- **KMC 하이퍼매트 · 단색 카드 슬리브** — [source](https://www.cardbarrier.com/standard/hyper-mat/aqua)
+  - Local: `assets/photos/guide-akiba-sleeves.webp` (800 × 489).
+  - Original: https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vWU9U2mjF09OhjVC1yjXtLM-zJPImoM-PQV9bkTwSMXMwCjTWB2sXF_AGX9ZlX7dcDkjojlU-xA-S1hA_kQrEprQlyLBZQEFygrS0izqy8uMSlYge6Lbramuzmig_gryeLZTEwypMBp1a1MjQDj3rwK-Mdt4L3HbVoY146EMuC2v6EJ-rLY0UOFGA8Af8CX1J7_8vzRO77AyUVJgTxwiQwkwOyM4g00F0N_8n9BRI=w1280
+  - Disclosure: 스탠더드/미니 규격과 매수를 확인해요. 사진은 제조사 제품 예시예요.
+- **그림이 마음에 드는 TCG 싱글 카드 1장** — [source](https://akihabara-radiokaikan.co.jp/shoplist/hobbystation/)
+  - Local: `assets/photos/guide-akiba-hobby.webp` (800 × 450).
+  - Original: https://akihabara-radiokaikan.co.jp/wp-ark/wp-content/uploads/2020/11/shop-test.jpg
+  - Disclosure: 카드 앞뒤의 흠집·휨·가격을 확인하고 보호 케이스에 넣어 받아요.
+- **작은 태피스트리 · 방에 거는 그림** — [source](https://akihabara-radiokaikan.co.jp/shoplist/k-books/)
+  - Local: `assets/photos/guide-akiba-kbooks.webp` (640 × 427).
+  - Original: https://akihabara-radiokaikan.co.jp/wp-ark/wp-content/uploads/2020/01/image-4.jpeg
+  - Disclosure: 펼친 크기·봉 포함 여부·구김을 확인해요. 작은 규격이 있는지 직원에게 물어봐요.
+- **TOMOCA 변환 젠더 · 짧은 오디오 케이블** — [source](https://akihabara-radiokaikan.co.jp/shoplist/tomoca-proshop/)
+  - Local: `assets/photos/guide-akiba-tomoca.webp` (300 × 175).
+  - Original: https://akihabara-radiokaikan.co.jp/wp-ark/wp-content/uploads/2020/01/image-3.jpeg
+  - Disclosure: 3.5/6.3mm, 입력·출력과 단자 규격을 확인해요. USB-C 변환은 호환 여부를 따로 물어봐요.
+- **해저탐험 딥판 · Oink Games** — [source](https://shop.yellowsubmarine.co.jp/products/detail/93599)
+  - Local: `assets/photos/store-ten-akiba-radio-kaikan-93599.webp` (375 × 638).
+  - Original: https://shop.yellowsubmarine.co.jp/html/upload/save_image/1031150005_67231ce5425d8.jpg
+  - Disclosure: 6F 옐로 서브마린: 체인 온라인 상품 예시 · 라디오회관 지점 재고·게임 인원 미확인
+- **하마가 오고 가고 · Oink Games** — [source](https://shop.yellowsubmarine.co.jp/products/detail/91557)
+  - Local: `assets/photos/store-ten-akiba-radio-kaikan-91557.webp` (430 × 600).
+  - Original: https://shop.yellowsubmarine.co.jp/html/upload/save_image/0328133504_6604f37834afe.jpg
+  - Disclosure: 6F 옐로 서브마린: 체인 온라인 상품 예시 · 라디오회관 지점 재고·게임 인원 미확인
+- **뗏목의 다섯 사람 · Oink Games** — [source](https://shop.yellowsubmarine.co.jp/products/detail/90599)
+  - Local: `assets/photos/store-ten-akiba-radio-kaikan-90599.webp` (500 × 490).
+  - Original: https://shop.yellowsubmarine.co.jp/html/upload/save_image/1104135847_6545cf87e9c3e.jpg
+  - Disclosure: 6F 옐로 서브마린: 체인 온라인 상품 예시 · 라디오회관 지점 재고·게임 인원 미확인
+- **휴도로 드롭 · Oink Games** — [source](https://shop.yellowsubmarine.co.jp/products/detail/90598)
+  - Local: `assets/photos/store-ten-akiba-radio-kaikan-90598.webp` (500 × 500).
+  - Original: https://shop.yellowsubmarine.co.jp/html/upload/save_image/1104140002_6545cfd291139.jpg
+  - Disclosure: 6F 옐로 서브마린: 체인 온라인 상품 예시 · 라디오회관 지점 재고·게임 인원 미확인
+- **나인타일 익스트림 · Oink Games** — [source](https://shop.yellowsubmarine.co.jp/products/detail/89094)
+  - Local: `assets/photos/store-ten-akiba-radio-kaikan-89094.webp` (572 × 600).
+  - Original: https://shop.yellowsubmarine.co.jp/html/upload/save_image/0509165206_6459fba642e5d.jpg
+  - Disclosure: 6F 옐로 서브마린: 체인 온라인 상품 예시 · 라디오회관 지점 재고·게임 인원 미확인
+
+### akiba-mandarake-complex — 10 visuals
+
+- **2000년대 점프 증간호 · 표지 그래픽** — [source](https://www.mandarake.co.jp/dir/cmp/vin/2026/09/25/2000.html)
+  - Local: `assets/photos/guide-akiba-jump.webp` (800 × 469).
+  - Original: https://www.mandarake.co.jp/dir/cmp/vin/assets_c/2026/09/5abee4cfbab70b7bb02fa84a53259f057372339e-thumb-1200x704-383554.jpg
+  - Disclosure: 표지 찢김·페이지 빠짐·부록 포함 여부를 확인해요. 소개된 개체의 현재 재고는 미확인.
+- **짧게 끝나는 일본어 만화 · 1권 또는 소세트** — [source](https://www.mandarake.co.jp/dir/cmp/)
+  - Local: `assets/photos/guide-akiba-cmp4.webp` (215 × 200).
+  - Original: https://www.mandarake.co.jp/dir/cmp/img/shop/cmp04.jpg?20250903
+  - Disclosure: 권수 누락·낙서·냄새를 살피고, 펼쳐 볼 수 있는지는 먼저 직원에게 물어봐요.
+- **동인 음악 CD · 재즈·전자음악 편곡 찾기** — [source](https://www.mandarake.co.jp/dir/cmp/deep/2026/08/24/4fcd-2.html)
+  - Local: `assets/photos/guide-akiba-indiecd.webp` (602 × 800).
+  - Original: https://www.mandarake.co.jp/dir/cmp/deep/assets_c/2026/08/PXL_20260824_005429035-thumb-3072x4080-382747.jpg
+  - Disclosure: CD 플레이어나 리핑 환경이 있는지 생각해요. 사진은 2026년 8월 공식 서가 소개예요.
+- **COMIC PACK · 만화가들의 창작·자전 에세이** — [source](https://www.mandarake.co.jp/dir/cmp/vin/2026/05/03/3vincomic-pack6.html)
+  - Local: `assets/photos/store-ten-akiba-mandarake-complex-comicpack.webp` (700 × 648).
+  - Original: https://www.mandarake.co.jp/dir/cmp/vin/up/2026/05/03/26e8e86b0518c476fff5ea5545040e014f86ee36.JPEG
+  - Disclosure: 본관 3F 빈티지 · 2025–26년 과거 판매 예시. 현재 개체·판본 재고 미확인; 희귀품은 가격·상태를 먼저 비교
+- **게임·애니메이션 · 아날로그 사운드트랙** — [source](https://www.mandarake.co.jp/dir/cmp/vin/2025/08/28/8303f-1400.html)
+  - Local: `assets/photos/store-ten-akiba-mandarake-complex-anime-vinyl.webp` (700 × 540).
+  - Original: https://www.mandarake.co.jp/dir/cmp/vin/assets_c/2025/08/7f45e83d542f125a27b215b749595bb545b4d799-thumb-700xauto-361546.jpg
+  - Disclosure: 본관 3F 빈티지 · 2025–26년 과거 판매 예시. 현재 개체·판본 재고 미확인; 희귀품은 가격·상태를 먼저 비교
+- **AKIRA·세일러문 · 첫 연재호 잡지** — [source](https://www.mandarake.co.jp/dir/cmp/vin/2025/08/22/8303f-1400akira.html)
+  - Local: `assets/photos/store-ten-akiba-mandarake-complex-debut-magazines.webp` (800 × 533).
+  - Original: https://www.mandarake.co.jp/dir/cmp/vin/up/2025/08/23/80c164e858065d24b09f92f8defaebcdabf66cc3.JPEG
+  - Disclosure: 본관 3F 빈티지 · 2025–26년 과거 판매 예시. 현재 개체·판본 재고 미확인; 희귀품은 가격·상태를 먼저 비교
+- **Fate / Extended Play · 아날로그 음반** — [source](https://www.mandarake.co.jp/dir/cmp/vin/2025/08/21/830pc.html)
+  - Local: `assets/photos/store-ten-akiba-mandarake-complex-fate-vinyl.webp` (702 × 692).
+  - Original: https://www.mandarake.co.jp/dir/cmp/vin/up/2025/08/21/fate.jpg
+  - Disclosure: 본관 3F 빈티지 · 2025–26년 과거 판매 예시. 현재 개체·판본 재고 미확인; 희귀품은 가격·상태를 먼저 비교
+- **Ado · 역광 한정 아날로그 음반** — [source](https://www.mandarake.co.jp/dir/cmp/vin/2025/08/21/830one-piece.html)
+  - Local: `assets/photos/store-ten-akiba-mandarake-complex-ado-vinyl.webp` (600 × 597).
+  - Original: https://www.mandarake.co.jp/dir/cmp/vin/assets_c/2025/08/1853db12cf4885daf4722c9615ca7d60fd630ce9-thumb-600xauto-361033.jpg
+  - Disclosure: 본관 3F 빈티지 · 2025–26년 과거 판매 예시. 현재 개체·판본 재고 미확인; 희귀품은 가격·상태를 먼저 비교
+- **힘내라 고에몽 · 게임 원작 만화** — [source](https://www.mandarake.co.jp/dir/cmp/vin/2025/04/27/3vingw53.html)
+  - Local: `assets/photos/store-ten-akiba-mandarake-complex-goemon.webp` (800 × 401).
+  - Original: https://www.mandarake.co.jp/dir/cmp/vin/assets_c/2025/04/PXL_20250426_110807509~2-thumb-3569x1790-354258.jpg
+  - Disclosure: 본관 3F 빈티지 · 2025–26년 과거 판매 예시. 현재 개체·판본 재고 미확인; 희귀품은 가격·상태를 먼저 비교
+- **마쓰모토 타이요 · Sunny 1권** — [source](https://e-comi.shogakukan.co.jp/books/091885570000d0000000)
+  - Local: `assets/photos/store-ten-akiba-mandarake-complex-sunny.webp` (240 × 340).
+  - Original: https://sbc.e-comi.shogakukan.co.jp/contents/091885570000d0000000/thumbnail/thumbnail.webp
+  - Disclosure: 본관 3F 만화 탐색용 출판사 표지 예시 · 이 작품 취급·재고 미확인. 사진은 전자판 표지로 종이책 판본이 다를 수 있어요
+
+### akiba-mandarake-complex2 — 10 visuals
+
+- **레트로 게임 1개 · 패키지까지 고르기** — [source](https://www.mandarake.co.jp/dir/cmp2/)
+  - Local: `assets/photos/guide-akiba-annex4.webp` (500 × 500).
+  - Original: https://www.mandarake.co.jp/dir/cmp2/assets/img/shop/04.jpg
+  - Disclosure: 기종·지역·언어·동작 상태·세이브 배터리를 확인해요. 사진은 별관 매장 진열 예시예요.
+- **애니메이션·음악 영상 Blu-ray · 북클릿 있는 판** — [source](https://www.mandarake.co.jp/dir/cmp2/)
+  - Local: `assets/photos/guide-akiba-annex3.webp` (500 × 500).
+  - Original: https://www.mandarake.co.jp/dir/cmp2/assets/img/shop/03.jpg
+  - Disclosure: 리전·자막·재생 기기와 디스크 수를 확인해요. 사진은 별관 진열 예시이며 특정 타이틀 재고 보장은 아니에요.
+- **게임보이 어드밴스 SP·미크로 · 휴대기기** — [source](https://www.mandarake.co.jp/dir/cmp2/game/2026/08/19/2-7.html)
+  - Local: `assets/photos/store-ten-akiba-mandarake-complex2-gba.webp` (800 × 669).
+  - Original: https://www.mandarake.co.jp/dir/cmp2/game/up/2026/08/05/PXL_20260731_095121832~2%20%281%29%20%281%29.jpg
+  - Disclosure: 별관 3F · 2025–26년 과거 판매 예시. 해당 개체·판본 현재 재고 미확인; 고가 수집품은 상태·재생환경부터 확인
+- **게임큐브 소프트 · 종이 슬리브 패키지** — [source](https://www.mandarake.co.jp/dir/cmp2/game/2026/08/15/2-5.html)
+  - Local: `assets/photos/store-ten-akiba-mandarake-complex2-gamecube.webp` (546 × 800).
+  - Original: https://www.mandarake.co.jp/dir/cmp2/game/up/2026/08/02/PXL_20260731_101844616~2%20%282%29.jpg
+  - Disclosure: 별관 3F · 2025–26년 과거 판매 예시. 해당 개체·판본 현재 재고 미확인; 고가 수집품은 상태·재생환경부터 확인
+- **패미컴 · 기믹!과 젯슨** — [source](https://www.mandarake.co.jp/dir/cmp2/game/2026/08/09/2-3.html)
+  - Local: `assets/photos/store-ten-akiba-mandarake-complex2-gimmick.webp` (800 × 610).
+  - Original: https://www.mandarake.co.jp/dir/cmp2/game/up/2026/08/02/PXL_20260801_025111773~2%20%281%29%20%281%29.jpg
+  - Disclosure: 별관 3F · 2025–26년 과거 판매 예시. 해당 개체·판본 현재 재고 미확인; 고가 수집품은 상태·재생환경부터 확인
+- **Meet the Feebles · 영화 DVD** — [source](https://www.mandarake.co.jp/dir/cmp2/ufo/2026/08/15/2-dvd5f.html)
+  - Local: `assets/photos/store-ten-akiba-mandarake-complex2-feebles.webp` (430 × 600).
+  - Original: https://www.mandarake.co.jp/dir/cmp2/ufo/up/2026/08/15/9ea237c294b05b3d6c2dd998d44b7372f70c422f.jpg
+  - Disclosure: 별관 5F · 2025–26년 과거 판매 예시. 해당 개체·판본 현재 재고 미확인; 고가 수집품은 상태·재생환경부터 확인
+- **SD 건담 월드 · 옛 캡슐 스티커** — [source](https://www.mandarake.co.jp/dir/cmp2/micro/2026/08/30/21sd-2.html)
+  - Local: `assets/photos/store-ten-akiba-mandarake-complex2-stickers.webp` (763 × 800).
+  - Original: https://www.mandarake.co.jp/dir/cmp2/micro/up/2026/08/30/PXL_20260830_031623223~2.jpg
+  - Disclosure: 별관 6F · 2025–26년 과거 판매 예시. 해당 개체·판본 현재 재고 미확인; 고가 수집품은 상태·재생환경부터 확인
+- **필살 시리즈 · 오리지널 사운드트랙 CD** — [source](https://www.mandarake.co.jp/dir/cmp2/ufo/2025/08/09/830-2ff-blu-raydvdcd.html)
+  - Local: `assets/photos/store-ten-akiba-mandarake-complex2-hissatsu.webp` (600 × 493).
+  - Original: https://www.mandarake.co.jp/dir/cmp2/ufo/up/2025/07/28/475e7d62ff711127850216677245646624389e84.jpg
+  - Disclosure: 별관 4–5F · 2025–26년 과거 판매 예시. 해당 개체·판본 현재 재고 미확인; 고가 수집품은 상태·재생환경부터 확인
+- **묘지의 키타로 · Blu-ray BOX** — [source](https://www.mandarake.co.jp/dir/cmp2/ufo/2025/08/09/830-2ff-blu-raydvdcd.html)
+  - Local: `assets/photos/store-ten-akiba-mandarake-complex2-kitaro.webp` (438 × 600).
+  - Original: https://www.mandarake.co.jp/dir/cmp2/ufo/up/2025/07/28/20d75122b66666da727083f8d52840033bfab9d1.jpg
+  - Disclosure: 별관 4–5F · 2025–26년 과거 판매 예시. 해당 개체·판본 현재 재고 미확인; 고가 수집품은 상태·재생환경부터 확인
+- **백사전 · Blu-ray BOX** — [source](https://www.mandarake.co.jp/dir/cmp2/ufo/2025/08/09/830-2ff-blu-raydvdcd.html)
+  - Local: `assets/photos/store-ten-akiba-mandarake-complex2-panda.webp` (600 × 541).
+  - Original: https://www.mandarake.co.jp/dir/cmp2/ufo/up/2025/07/28/e5e08f254954d0f089dbec004baece5094334acc.jpg
+  - Disclosure: 별관 4–5F · 2025–26년 과거 판매 예시. 해당 개체·판본 현재 재고 미확인; 고가 수집품은 상태·재생환경부터 확인
+
+### akiba-surugaya-games — 10 visuals
+
+- **게임보이 테트리스 · 패키지** — [source](https://www.suruga-ya.jp/product/detail/165000030)
+  - Local: `assets/photos/store-item-akiba-surugaya-games-tetris.webp` (329 × 384).
+  - Original: https://cdn.suruga-ya.jp/database/pics_webp/game/165000030.jpg.webp
+  - Disclosure: 공식 온라인 취급 상품 예시 · 이 지점의 방문일 재고는 미확인.
+- **게임보이 드루아가의 탑** — [source](https://www.suruga-ya.jp/product/detail/165000148)
+  - Local: `assets/photos/store-item-akiba-surugaya-games-druaga.webp` (329 × 384).
+  - Original: https://cdn.suruga-ya.jp/database/pics_webp/game/165000148.jpg.webp
+  - Disclosure: 공식 온라인 취급 상품 예시 · 이 지점의 방문일 재고는 미확인.
+- **별의 커비 · 게임보이** — [source](https://www.suruga-ya.jp/product/detail/165000297)
+  - Local: `assets/photos/store-ten-akiba-surugaya-games-165000297.webp` (329 × 384).
+  - Original: https://cdn.suruga-ya.jp/database/pics_webp/game/165000297.jpg.webp
+  - Disclosure: 체인 온라인 상품 예시 · 아키하바라 게임관 재고 미확인. 본체 호환·배터리·상자·설명서 상태 확인
+- **파라파 더 래퍼 · PSP** — [source](https://www.suruga-ya.jp/product/detail/177000512)
+  - Local: `assets/photos/store-ten-akiba-surugaya-games-177000512.webp` (225 × 384).
+  - Original: https://cdn.suruga-ya.jp/database/pics_webp/game/177000512.jpg.webp
+  - Disclosure: 체인 온라인 상품 예시 · 아키하바라 게임관 재고 미확인. 본체 호환·배터리·상자·설명서 상태 확인
+- **록맨 2 · 패미컴** — [source](https://www.suruga-ya.jp/product/detail/174000698)
+  - Local: `assets/photos/store-ten-akiba-surugaya-games-174000698.webp` (512 × 355).
+  - Original: https://cdn.suruga-ya.jp/database/pics_webp/game/174000698.jpg.webp
+  - Disclosure: 체인 온라인 상품 예시 · 아키하바라 게임관 재고 미확인. 본체 호환·배터리·상자·설명서 상태 확인
+- **게임보이 컬러 본체 · 블루** — [source](https://www.suruga-ya.jp/product/detail/165003023)
+  - Local: `assets/photos/store-ten-akiba-surugaya-games-165003023.webp` (358 × 512).
+  - Original: https://cdn.suruga-ya.jp/database/pics_webp/game/165003023.jpg.webp
+  - Disclosure: 체인 온라인 상품 예시 · 아키하바라 게임관 재고 미확인. 본체 호환·배터리·상자·설명서 상태 확인
+- **마계탑사 SaGa · 게임보이** — [source](https://www.suruga-ya.jp/product/detail/165000062)
+  - Local: `assets/photos/store-ten-akiba-surugaya-games-165000062.webp` (327 × 384).
+  - Original: https://cdn.suruga-ya.jp/database/pics_webp/game/165000062.jpg.webp
+  - Disclosure: 체인 온라인 상품 예시 · 아키하바라 게임관 재고 미확인. 본체 호환·배터리·상자·설명서 상태 확인
+- **포켓몬 카드 GB** — [source](https://www.suruga-ya.jp/product/detail/165000785)
+  - Local: `assets/photos/store-ten-akiba-surugaya-games-165000785.webp` (304 × 384).
+  - Original: https://cdn.suruga-ya.jp/database/pics_webp/game/165000785.jpg.webp
+  - Disclosure: 체인 온라인 상품 예시 · 아키하바라 게임관 재고 미확인. 본체 호환·배터리·상자·설명서 상태 확인
+- **드래곤 퀘스트 몬스터즈 2 · 이루의 모험** — [source](https://www.suruga-ya.jp/product/detail/165001153)
+  - Local: `assets/photos/store-ten-akiba-surugaya-games-165001153.webp` (303 × 384).
+  - Original: https://cdn.suruga-ya.jp/database/pics_webp/game/165001153.jpg.webp
+  - Disclosure: 체인 온라인 상품 예시 · 아키하바라 게임관 재고 미확인. 본체 호환·배터리·상자·설명서 상태 확인
+- **젤다의 전설 · 꿈꾸는 섬 DX** — [source](https://www.suruga-ya.jp/product/detail/165000780)
+  - Local: `assets/photos/store-ten-akiba-surugaya-games-165000780.webp` (304 × 384).
+  - Original: https://cdn.suruga-ya.jp/database/pics_webp/game/165000780.jpg.webp
+  - Disclosure: 체인 온라인 상품 예시 · 아키하바라 게임관 재고 미확인. 본체 호환·배터리·상자·설명서 상태 확인
+
+### akiba-recofan — 10 visuals
+
+- **타케우치 마리야 · VARIETY** — [source](https://www.mariyat.co.jp/discography/album/album2.html)
+  - Local: `assets/photos/store-item-akiba-recofan-variety.webp` (600 × 600).
+  - Original: https://www.mariyat.co.jp/discography/album/images/variety.jpg
+  - Disclosure: 아티스트 공식 재킷 이미지 · RECOfan 취급·재고 미확인. CD/LP, 발매판과 상태를 비교해요.
+- **타케우치 마리야 · REQUEST** — [source](https://www.mariyat.co.jp/discography/album/album2.html)
+  - Local: `assets/photos/store-item-akiba-recofan-request.webp` (600 × 600).
+  - Original: https://www.mariyat.co.jp/discography/album/images/request.jpg
+  - Disclosure: 아티스트 공식 재킷 이미지 · RECOfan 취급·재고 미확인. CD/LP, 발매판과 상태를 비교해요.
+- **EBONEE-WEBB · Disco Hanagasa Ondo · 민요와 펑크** — [source](https://lightintheattic.net/products/disco-hanagasa-ondo-soma-bon-uta-memphis-soul-meets-japanese-folk-songs)
+  - Local: `assets/photos/store-ten-akiba-recofan-3.webp` (800 × 800).
+  - Original: https://cdn.shopify.com/s/files/1/0080/6417/2096/files/4988003387778.jpg?v=1793039123
+  - Disclosure: 음반 유통사 재킷·판형 예시 · RECOfan 취급·재고 미확인. LP/CD·발매판·상태는 현장에서 비교해요.
+- **이시카와 아키라 & Count Buffalo · Okinawa · 재즈** — [source](https://lightintheattic.net/products/okinawa)
+  - Local: `assets/photos/store-ten-akiba-recofan-4.webp` (800 × 800).
+  - Original: https://cdn.shopify.com/s/files/1/0080/6417/2096/files/4988003387754.jpg?v=1793039105
+  - Disclosure: 음반 유통사 재킷·판형 예시 · RECOfan 취급·재고 미확인. LP/CD·발매판·상태는 현장에서 비교해요.
+- **CASIOPEA · Material · 퓨전 재즈** — [source](https://lightintheattic.net/products/material)
+  - Local: `assets/photos/store-ten-akiba-recofan-5.webp` (640 × 640).
+  - Original: https://cdn.shopify.com/s/files/1/0080/6417/2096/files/4524135342058.jpg?v=1793140955
+  - Disclosure: 음반 유통사 재킷·판형 예시 · RECOfan 취급·재고 미확인. LP/CD·발매판·상태는 현장에서 비교해요.
+- **사카모토 류이치 · Silk · 영화음악** — [source](https://lightintheattic.net/products/silk)
+  - Local: `assets/photos/store-ten-akiba-recofan-6.webp` (800 × 800).
+  - Original: https://cdn.shopify.com/s/files/1/0080/6417/2096/files/4988064672813.jpg?v=1792441553
+  - Disclosure: 음반 유통사 재킷·판형 예시 · RECOfan 취급·재고 미확인. LP/CD·발매판·상태는 현장에서 비교해요.
+- **마쓰바라 미키 · My Best 16 · 시티팝** — [source](https://lightintheattic.net/products/miki-matsubara-ga-erabu-my-best-16)
+  - Local: `assets/photos/store-ten-akiba-recofan-7.webp` (800 × 800).
+  - Original: https://cdn.shopify.com/s/files/1/0080/6417/2096/files/4524135340399.jpg?v=1790890132
+  - Disclosure: 음반 유통사 재킷·판형 예시 · RECOfan 취급·재고 미확인. LP/CD·발매판·상태는 현장에서 비교해요.
+- **히사이시 조 · 모노노케 히메 교향곡** — [source](https://lightintheattic.net/products/princess-mononoke-symphonic-suite)
+  - Local: `assets/photos/store-ten-akiba-recofan-8.webp` (800 × 800).
+  - Original: https://cdn.shopify.com/s/files/1/0080/6417/2096/files/4988008087819.jpg?v=1747852208
+  - Disclosure: 음반 유통사 재킷·판형 예시 · RECOfan 취급·재고 미확인. LP/CD·발매판·상태는 현장에서 비교해요.
+- **이노우에 다다오 · Dancing Shadows** — [source](https://lightintheattic.net/products/dancing-shadows)
+  - Local: `assets/photos/store-ten-akiba-recofan-9.webp` (500 × 500).
+  - Original: https://cdn.shopify.com/s/files/1/0080/6417/2096/files/tmp_2F1628267459172-hrfkxkkmcnf-0d5ffa4458289c8f4e445974063f3915_2FNAS2088.jpg?v=1690529929
+  - Disclosure: 음반 유통사 재킷·판형 예시 · RECOfan 취급·재고 미확인. LP/CD·발매판·상태는 현장에서 비교해요.
+- **이케다 노리요 · Dream in the Street** — [source](https://lightintheattic.net/products/dream-in-the-street)
+  - Local: `assets/photos/store-ten-akiba-recofan-10.webp` (800 × 796).
+  - Original: https://cdn.shopify.com/s/files/1/0080/6417/2096/files/4988008095210_85b42d0d-549b-4538-b368-1977072410f3.jpg?v=1743180949
+  - Disclosure: 음반 유통사 재킷·판형 예시 · RECOfan 취급·재고 미확인. LP/CD·발매판·상태는 현장에서 비교해요.
+
+### akiba-yellow-submarine-rpg — 10 visuals
+
+- **Oink Games · 루프하는 40** — [source](https://shop.yellowsubmarine.co.jp/products/detail/97779)
+  - Local: `assets/photos/store-item-akiba-yellow-submarine-rpg-loop40.webp` (436 × 500).
+  - Original: https://shop.yellowsubmarine.co.jp/html/upload/save_image/1023115451_6adacc7b656af.jpg
+  - Disclosure: 체인 공식 상품 예시 · RPG숍 재고 미확인. 인원수와 일본어 규칙을 확인해요.
+- **Oink Games · 매지컬 인사이더** — [source](https://shop.yellowsubmarine.co.jp/products/detail/97778)
+  - Local: `assets/photos/store-item-akiba-yellow-submarine-rpg-magical-insider.webp` (448 × 500).
+  - Original: https://shop.yellowsubmarine.co.jp/html/upload/save_image/1023115520_6adacc986d135.jpg
+  - Disclosure: 체인 공식 상품 예시 · RPG숍 재고 미확인. 여러 명이 함께하는 게임인지 인원수를 먼저 확인해요.
+- **바레타마 · ばれたま** — [source](https://shop.yellowsubmarine.co.jp/products/detail/97742)
+  - Local: `assets/photos/store-ten-akiba-yellow-submarine-rpg-97742.webp` (474 × 500).
+  - Original: https://shop.yellowsubmarine.co.jp/html/upload/save_image/1019125356_6ad59454d85a5.jpg
+  - Disclosure: 옐로 서브마린 공식 온라인 상품 · RPG숍 지점 재고 미확인. 필요 인원·일본어 규칙 확인
+- **카부란 · カブラン** — [source](https://shop.yellowsubmarine.co.jp/products/detail/97018)
+  - Local: `assets/photos/store-ten-akiba-yellow-submarine-rpg-97018.webp` (507 × 600).
+  - Original: https://shop.yellowsubmarine.co.jp/html/upload/save_image/0423160957_69e9c5c5d6f45.jpg
+  - Disclosure: 옐로 서브마린 공식 온라인 상품 · RPG숍 지점 재고 미확인. 필요 인원·일본어 규칙 확인
+- **유빙의 항로 · 流氷の航路** — [source](https://shop.yellowsubmarine.co.jp/products/detail/97017)
+  - Local: `assets/photos/store-ten-akiba-yellow-submarine-rpg-97017.webp` (481 × 600).
+  - Original: https://shop.yellowsubmarine.co.jp/html/upload/save_image/0423161012_69e9c5d4cdce6.jpg
+  - Disclosure: 옐로 서브마린 공식 온라인 상품 · RPG숍 지점 재고 미확인. 필요 인원·일본어 규칙 확인
+- **컴프레스 · コンプレス** — [source](https://shop.yellowsubmarine.co.jp/products/detail/97015)
+  - Local: `assets/photos/store-ten-akiba-yellow-submarine-rpg-97015.webp` (456 × 579).
+  - Original: https://shop.yellowsubmarine.co.jp/html/upload/save_image/0423160838_69e9c5769a926.jpg
+  - Disclosure: 옐로 서브마린 공식 온라인 상품 · RPG숍 지점 재고 미확인. 필요 인원·일본어 규칙 확인
+- **아열대 일본 · 亜熱帯日本** — [source](https://shop.yellowsubmarine.co.jp/products/detail/96119)
+  - Local: `assets/photos/store-ten-akiba-yellow-submarine-rpg-96119.webp` (600 × 591).
+  - Original: https://shop.yellowsubmarine.co.jp/html/upload/save_image/1022163251_68f888a328411.jpg
+  - Disclosure: 옐로 서브마린 공식 온라인 상품 · RPG숍 지점 재고 미확인. 필요 인원·일본어 규칙 확인
+- **코바야카와 · 小早川（2025年版）** — [source](https://shop.yellowsubmarine.co.jp/products/detail/96118)
+  - Local: `assets/photos/store-ten-akiba-yellow-submarine-rpg-96118.webp` (600 × 544).
+  - Original: https://shop.yellowsubmarine.co.jp/html/upload/save_image/1022162334_68f886766ad14.jpg
+  - Disclosure: 옐로 서브마린 공식 온라인 상품 · RPG숍 지점 재고 미확인. 필요 인원·일본어 규칙 확인
+- **노케테크 · ノッケテック** — [source](https://shop.yellowsubmarine.co.jp/products/detail/96117)
+  - Local: `assets/photos/store-ten-akiba-yellow-submarine-rpg-96117.webp` (600 × 566).
+  - Original: https://shop.yellowsubmarine.co.jp/html/upload/save_image/1022163314_68f888babdbcc.jpg
+  - Disclosure: 옐로 서브마린 공식 온라인 상품 · RPG숍 지점 재고 미확인. 필요 인원·일본어 규칙 확인
+- **베네치아의 선물 · ベネチアのおみやげ** — [source](https://shop.yellowsubmarine.co.jp/products/detail/93600)
+  - Local: `assets/photos/store-ten-akiba-yellow-submarine-rpg-93600.webp` (386 × 634).
+  - Original: https://shop.yellowsubmarine.co.jp/html/upload/save_image/1031145524_67231bcc31621.jpg
+  - Disclosure: 옐로 서브마린 공식 온라인 상품 · RPG숍 지점 재고 미확인. 필요 인원·일본어 규칙 확인
+
+### akiba-shosen-base-lab — 10 visuals
+
+- **세가 하드웨어의 역사 · セガハード戦記** — [source](https://www.shosen.co.jp/event/11107/)
+  - Local: `assets/photos/store-item-akiba-shosen-base-lab-sega.webp` (532 × 760).
+  - Original: https://www.shosen.co.jp/assets/uploads/2023/06/1687517779-989e1849dbbbce888bad19d3e75478c5.jpg
+  - Disclosure: 쇼센 체인의 과거 취급 도서 예시 · BASE LAB 입점·재고는 미확인. 게임 관련 서가에서 문의해요.
+- **셜록 홈즈의 요리책** — [source](https://publications.asahi.com/product/24748.html)
+  - Local: `assets/photos/store-item-akiba-shosen-base-lab-holmes-cookbook.webp` (313 × 442).
+  - Original: https://publications.asahi.com/uploads/cover_image_24748_5795cc1490.jpg
+  - Disclosure: 書泉 복간 프로젝트 소개 도서 · BASE LAB 취급·재고 미확인. 음식·취미 서가의 탐색 후보예요.
+- **미야자키 하야오 · 모노노케 히메 이미지보드집** — [source](https://shosen.tokyo/?pid=194307507)
+  - Local: `assets/photos/store-ten-akiba-shosen-base-lab-3.webp` (404 × 550).
+  - Original: https://img21.shop-pro.jp/PA01492/645/product/194307507.jpg?cmsp_timestamp=20261104103849
+  - Disclosure: 쇼센 공식 온라인 상품 예시 · BASE LAB 지점 취급·재고·특전 미확인 · 예약 상품 표지 예시, 출시·입고 여부는 출발 전 확인
+- **보석·광물의 모양을 보는 미네랄 핸드북** — [source](https://shosen.tokyo/?pid=194307499)
+  - Local: `assets/photos/store-ten-akiba-shosen-base-lab-4.webp` (333 × 550).
+  - Original: https://img21.shop-pro.jp/PA01492/645/product/194307499.jpg?cmsp_timestamp=20261104103843
+  - Disclosure: 쇼센 공식 온라인 상품 예시 · BASE LAB 지점 취급·재고·특전 미확인 · 예약 상품 표지 예시, 출시·입고 여부는 출발 전 확인
+- **노라네코 군단 · 새우 카레 레토르트** — [source](https://shosen.tokyo/?pid=190671105)
+  - Local: `assets/photos/store-ten-akiba-shosen-base-lab-5.webp` (427 × 550).
+  - Original: https://img21.shop-pro.jp/PA01492/645/product/190671105.jpg?cmsp_timestamp=20260225104516
+  - Disclosure: 쇼센 공식 온라인 식품 예시 · BASE LAB 지점 취급·재고·유통기한 미확인. 중간 매운맛의 새우 카레예요.
+- **2027 너무 열심인 고양이 사진 달력** — [source](https://shosen.tokyo/?pid=194304798)
+  - Local: `assets/photos/store-ten-akiba-shosen-base-lab-6.webp` (439 × 550).
+  - Original: https://img21.shop-pro.jp/PA01492/645/product/194304798.jpg?cmsp_timestamp=20261103175930
+  - Disclosure: 쇼센 공식 온라인 상품 예시 · BASE LAB 지점 취급·재고·특전 미확인
+- **에노덴 300형 · 엿보기 종이공작 키트** — [source](https://shosen.tokyo/?pid=194278550)
+  - Local: `assets/photos/store-ten-akiba-shosen-base-lab-7.webp` (550 × 413).
+  - Original: https://img21.shop-pro.jp/PA01492/645/product/194278550.jpg?cmsp_timestamp=20261102104838
+  - Disclosure: 쇼센 공식 온라인 상품 예시 · BASE LAB 지점 취급·재고·특전 미확인
+- **키지토라 아와세 · 고양이 카드게임** — [source](https://shosen.tokyo/?pid=194278549)
+  - Local: `assets/photos/store-ten-akiba-shosen-base-lab-8.webp` (440 × 550).
+  - Original: https://img21.shop-pro.jp/PA01492/645/product/194278549.jpg?cmsp_timestamp=20261102104837
+  - Disclosure: 쇼센 공식 온라인 상품 예시 · BASE LAB 지점 취급·재고·특전 미확인
+- **8bit 도라에몽 & 공략북 · 40주년 BOX** — [source](https://shosen.tokyo/?pid=190441791)
+  - Local: `assets/photos/store-ten-akiba-shosen-base-lab-9.webp` (550 × 367).
+  - Original: https://img21.shop-pro.jp/PA01492/645/product/190441791.jpg?cmsp_timestamp=20260206181852
+  - Disclosure: 쇼센 공식 온라인 상품 예시 · BASE LAB 지점 취급·재고·특전 미확인
+- **마법소녀의 마녀재판 · 크리에이터 아트북** — [source](https://shosen.tokyo/?pid=191479491)
+  - Local: `assets/photos/store-ten-akiba-shosen-base-lab-10.webp` (389 × 550).
+  - Original: https://img21.shop-pro.jp/PA01492/645/product/191479491.jpg?cmsp_timestamp=20260501180413
+  - Disclosure: 쇼센 공식 온라인 상품 예시 · BASE LAB 지점 취급·재고·특전 미확인
+
+### akiba-ms — 10 visuals
+
+- **사가미 오리지널 0.02 · 5개입** — [source](https://www.sagami-shop.com/smp/item/MC0059.html?mode=detail)
+  - Local: `assets/photos/guide-akiba-condom.webp` (600 × 600).
+  - Original: https://image1.shopserve.jp/sagami-shop.com/pic-labo/llimg/sagamioriginal002_5piece.jpg?t=20201006135312
+  - Disclosure: 포장에 적힌 사용법·소재·사용기한을 확인해요. 사진은 제조사 5개입 제품 예시예요.
+- **실키 러브 로션 · 145ml** — [source](https://www.ms-online.co.jp/lotion/recommended_women/TOY-0303001)
+  - Local: `assets/photos/guide-akiba-lube.webp` (800 × 800).
+  - Original: https://msonline-g.com/static/upload/save_image/04031229_642a480c9256f.jpg
+  - Disclosure: 성분·세척법·함께 쓸 제품과의 호환 표기를 확인해요.
+- **리퀴드 오나클린 · 150ml 전용 클리너** — [source](https://www.ms-online.co.jp/maintenance_bodycare/genre_onahole_lovedoll/TOY-3109067)
+  - Local: `assets/photos/guide-akiba-cleaner.webp` (800 × 800).
+  - Original: https://msonline-g.com/static/upload/save_image/07031456_5b3b10013a55a.jpg
+  - Disclosure: 용기 설명의 적용 소재·세척 방법을 확인하고, 헹굼이 필요한지 안내를 읽어요.
+- **SMVIP 패턴 안대 · 블랙 플라워/레오파드** — [source](https://www.ms-online.co.jp/sm_goods/eyemask/TOY-8109058)
+  - Local: `assets/photos/guide-akiba-eyemask.webp` (800 × 800).
+  - Original: https://msonline-g.com/static/upload/save_image/03291535_6242a8cf88c99.jpg
+  - Disclosure: 밴드 길이·안쪽 소재를 확인해요. 공식몰 일부 옵션은 품절/주문 취급 표시가 있어 대체 패턴도 함께 봐요.
+- **검정 방수 시트 · 접어서 보관하는 타입** — [source](https://www.ms-online.co.jp/soap_bus/sheet/TOY-8109128)
+  - Local: `assets/photos/guide-akiba-sheet.webp` (800 × 800).
+  - Original: https://msonline-g.com/static/upload/save_image/0716110215_6695d4a733833.jpg
+  - Disclosure: 치수·소재·세탁/건조 방법과 보관법을 확인해요. 사진은 제품 단독 이미지예요.
+- **MAPUTI · 바디 미스트 50ml** — [source](https://www.ms-online.co.jp/maintenance_bodycare/genre_bodycare/200301093)
+  - Local: `assets/photos/store-ten-akiba-ms-body-mist.webp` (800 × 800).
+  - Original: https://www.ms-online.co.jp/static/upload/save_image/0507132946_69fc153a3d469.jpg
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **Femimate · 케어·마사지 오일 30ml** — [source](https://www.ms-online.co.jp/maintenance_bodycare/genre_bodycare/070107003)
+  - Local: `assets/photos/store-ten-akiba-ms-massage-oil.webp` (800 × 800).
+  - Original: https://www.ms-online.co.jp/static/upload/save_image/0226174131_69a0073bdd312.jpg
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **로션 닦는 대형 웨트 시트 20매** — [source](https://www.ms-online.co.jp/maintenance_bodycare/genre_bodycare/200301091)
+  - Local: `assets/photos/store-ten-akiba-ms-wet-wipes.webp` (800 × 800).
+  - Original: https://www.ms-online.co.jp/static/upload/save_image/0321171529_67dd20213a111.jpg
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **SMVIP · PU 아이마스크** — [source](https://www.ms-online.co.jp/sm_goods/eyemask/TOY-8109155)
+  - Local: `assets/photos/store-ten-akiba-ms-pu-mask.webp` (800 × 800).
+  - Original: https://www.ms-online.co.jp/static/upload/save_image/1007162633_6ac5f4295ef76.jpg
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **MAPUTI · 바디 케어 크림 60g** — [source](https://www.ms-online.co.jp/maintenance_bodycare/genre_bodycare/150202071)
+  - Local: `assets/photos/store-ten-akiba-ms-body-cream.webp` (800 × 800).
+  - Original: https://www.ms-online.co.jp/static/upload/save_image/0410145426_69d89092c0cc0.jpg
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+
+### akiba-love-merci — 10 visuals
+
+- **사가미 오리지널 0.01 · 5개입** — [source](https://www.sagami-shop.com/)
+  - Local: `assets/photos/store-item-akiba-love-merci-sagami001.webp` (600 × 600).
+  - Original: https://image1.shopserve.jp/sagami-shop.com/pic-labo/llimg/sagamioriginal001_5p_2.jpg?t=20241031112525
+  - Disclosure: 제조사 제품 예시 · 러브메르시 취급·재고 미확인. 소재·사이즈·사용기한을 확인해요.
+- **iroha · 폼 타입 케어 워시** — [source](https://store.tenga.co.jp/shop/products/IIF-01)
+  - Local: `assets/photos/store-item-akiba-love-merci-iroha-wash.webp` (760 × 760).
+  - Original: https://d2w53g1q050m78.cloudfront.net/storetengacojp/ec_assets/33fd2d5388392aa2da3fe3865df99cb577c32e6c-original.jpg?1763521537
+  - Disclosure: 제조사 제품 예시 · 러브메르시 취급·재고 미확인. 베르가모트·비터오렌지 향, 외용 제품 설명을 확인해요.
+- **iroha 휴대용 케어 물티슈** — [source](https://store.tenga.co.jp/shop/products/IIS-01)
+  - Local: `assets/photos/store-ten-akiba-love-merci-iis-01.webp` (800 × 800).
+  - Original: https://d2w53g1q050m78.cloudfront.net/storetengacojp/ec_assets/6efaaed5e7838f72355baf9e7d6d1cb99e132cb1-original.jpg?1769502710
+  - Disclosure: 제조사 제품 예시 · 러브메르시 취급·판매·재고 모두 미확인
+- **iroha MOIST GEL 윤활 젤** — [source](https://store.tenga.co.jp/shop/products/IMG-01J)
+  - Local: `assets/photos/store-ten-akiba-love-merci-img-01j.webp` (800 × 800).
+  - Original: https://d2w53g1q050m78.cloudfront.net/storetengacojp/ec_assets/d77476d0f3701200a92dfa4a48a0f9fad9905b3c-original.jpg?1769502882
+  - Disclosure: 제조사 제품 예시 · 러브메르시 취급·판매·재고 모두 미확인
+- **iroha 소품용 클리너** — [source](https://store.tenga.co.jp/shop/products/ICL-01)
+  - Local: `assets/photos/store-ten-akiba-love-merci-icl-01.webp` (800 × 800).
+  - Original: https://d2w53g1q050m78.cloudfront.net/storetengacojp/ec_assets/d537e660b6077c74acf99c5ee10aabfde66cf93b-original.jpg?1769490107
+  - Disclosure: 제조사 제품 예시 · 러브메르시 취급·판매·재고 모두 미확인
+- **iroha WHITE MILK 케어 밀크** — [source](https://store.tenga.co.jp/shop/products/IIM-21)
+  - Local: `assets/photos/store-ten-akiba-love-merci-iim-21.webp` (800 × 800).
+  - Original: https://d2w53g1q050m78.cloudfront.net/storetengacojp/ec_assets/bc2f0a49e1a86147a3ec016bfd1abb8c6bad60a5-original.jpg?1741245034
+  - Disclosure: 제조사 제품 예시 · 러브메르시 취급·판매·재고 모두 미확인
+- **CARESSA 소품·선물 파우치 M** — [source](https://store.tenga.co.jp/shop/products/PM-016)
+  - Local: `assets/photos/store-ten-akiba-love-merci-pm-016.webp` (800 × 800).
+  - Original: https://d2w53g1q050m78.cloudfront.net/storetengacojp/ec_assets/5507dab51666c47dafe55ac486859fea5e491945-original.jpg?1705910470
+  - Disclosure: 제조사 제품 예시 · 러브메르시 취급·판매·재고 모두 미확인
+- **CARESSA 충전식 핫 스톤** — [source](https://store.tenga.co.jp/shop/products/CAA-001)
+  - Local: `assets/photos/store-ten-akiba-love-merci-caa-001.webp` (800 × 800).
+  - Original: https://d2w53g1q050m78.cloudfront.net/storetengacojp/ec_assets/b48f1e8274bdbfcae665c8b05d44944cdf82f1ab-original.jpg?1769155538
+  - Disclosure: 제조사 제품 예시 · 러브메르시 취급·판매·재고 모두 미확인
+- **CARESSA 접는 방수 매트 S** — [source](https://store.tenga.co.jp/shop/products/CAF-001)
+  - Local: `assets/photos/store-ten-akiba-love-merci-caf-001.webp` (800 × 800).
+  - Original: https://d2w53g1q050m78.cloudfront.net/storetengacojp/ec_assets/6bcc534801d57c516c934bbe1ebd48da9c3b5f80-original.jpg?1769135265
+  - Disclosure: 제조사 제품 예시 · 러브메르시 취급·판매·재고 모두 미확인
+- **오카모토 003 히알루론산 · 1개입** — [source](https://shop.okamoto-condoms.com/shopdetail/000000000689)
+  - Local: `assets/photos/store-ten-akiba-love-merci-okamoto003.webp` (180 × 180).
+  - Original: https://makeshop-multi-images.akamaized.net/GMOH000431/itemimages/0000000006892_Kj5ma4b.jpg
+  - Disclosure: 제조사 포장 예시 · 러브메르시 취급·판매·재고 모두 미확인
+
+### akiba-geestore — 10 visuals
+
+- **COSPATIO · 토끼 귀 헤어밴드** — [source](https://www.cospa.com/cospatio/detail/id/00000071159)
+  - Local: `assets/photos/store-item-akiba-geestore-bunny-ears.webp` (350 × 500).
+  - Original: https://www.cospa.com/images/items/pc/148260.jpg
+  - Disclosure: 공식 브랜드 소품 예시 · 아키바점 색상·재고 미확인. 헤어밴드 고정 방식과 착용감을 확인해요.
+- **COSPATIO · 고양이 귀 헤어밴드** — [source](https://www.cospa.com/cospatio/detail/id/00000065204)
+  - Local: `assets/photos/store-item-akiba-geestore-cat-ears.webp` (350 × 500).
+  - Original: https://www.cospa.com/images/items/pc/131365.jpg
+  - Disclosure: 공식 브랜드 소품 예시 · 온라인 품절 표시, 아키바점 재고도 미확인. 비슷한 액세서리 탐색용이에요.
+- **래빗하우스 · 카페 유니폼 베스트 세트** — [source](https://www.cospa.com/cospatio/detail/id/00000146478)
+  - Local: `assets/photos/store-ten-akiba-geestore-00000146478.webp` (800 × 800).
+  - Original: https://www.cospa.com/images/items/pc/202606/xoXigWxygaxC.jpg
+  - Disclosure: 공식 브랜드 카탈로그 예시 · 예약 상품 포함, 아키바 지점 입고·사이즈 미확인
+- **쿠죠 미야코 · 캐릭터 후디** — [source](https://www.cospa.com/cospatio/detail/id/00000146232)
+  - Local: `assets/photos/store-ten-akiba-geestore-00000146232.webp` (800 × 800).
+  - Original: https://www.cospa.com/images/items/pc/202606/Sxyi3jCx7acv.jpg
+  - Disclosure: 공식 브랜드 카탈로그 예시 · 예약 상품 포함, 아키바 지점 입고·사이즈 미확인
+- **Summer Pockets · 니트 베스트** — [source](https://www.cospa.com/cospatio/detail/id/00000145733)
+  - Local: `assets/photos/store-ten-akiba-geestore-00000145733.webp` (800 × 800).
+  - Original: https://www.cospa.com/images/items/pc/202605/0DBr9hDzr0Q9.jpg
+  - Disclosure: 공식 브랜드 카탈로그 예시 · 예약 상품 포함, 아키바 지점 입고·사이즈 미확인
+- **안치오 · 코스튬 망토** — [source](https://www.cospa.com/cospatio/detail/id/00000145523)
+  - Local: `assets/photos/store-ten-akiba-geestore-00000145523.webp` (800 × 800).
+  - Original: https://www.cospa.com/images/items/pc/202605/RGuVwaM3z4OZ.jpg
+  - Disclosure: 공식 브랜드 카탈로그 예시 · 예약 상품 포함, 아키바 지점 입고·사이즈 미확인
+- **프라우다 · 판처 재킷 세트** — [source](https://www.cospa.com/cospatio/detail/id/00000145514)
+  - Local: `assets/photos/store-ten-akiba-geestore-00000145514.webp` (800 × 800).
+  - Original: https://www.cospa.com/images/items/pc/202605/1xzBPJD7y4Ua.jpg
+  - Disclosure: 공식 브랜드 카탈로그 예시 · 예약 상품 포함, 아키바 지점 입고·사이즈 미확인
+- **아리사카 마시로 · 카디건** — [source](https://www.cospa.com/cospatio/detail/id/00000145483)
+  - Local: `assets/photos/store-ten-akiba-geestore-00000145483.webp` (800 × 800).
+  - Original: https://www.cospa.com/images/items/pc/202604/On0YCmc7oosS.jpg
+  - Disclosure: 공식 브랜드 카탈로그 예시 · 예약 상품 포함, 아키바 지점 입고·사이즈 미확인
+- **쿠나하마 · 코스튬 스카프** — [source](https://www.cospa.com/cospatio/detail/id/00000145482)
+  - Local: `assets/photos/store-ten-akiba-geestore-00000145482.webp` (800 × 800).
+  - Original: https://www.cospa.com/images/items/pc/202604/DpPw0E1g9Htu.jpg
+  - Disclosure: 공식 브랜드 카탈로그 예시 · 예약 상품 포함, 아키바 지점 입고·사이즈 미확인
+- **브로치 장식 · 크로스 타이** — [source](https://www.cospa.com/cospatio/detail/id/00000145075)
+  - Local: `assets/photos/store-ten-akiba-geestore-00000145075.webp` (800 × 800).
+  - Original: https://www.cospa.com/images/items/pc/202604/5LhwXhG1n47S.jpg
+  - Disclosure: 공식 브랜드 카탈로그 예시 · 예약 상품 포함, 아키바 지점 입고·사이즈 미확인
+
+### akiba-cospa-atre — 10 visuals
+
+- **COSPA · 아스카 숄더 토트** — [source](https://www.cospa.com/cospa/detail/id/00000032688)
+  - Local: `assets/photos/store-item-akiba-cospa-atre-asuka-tote.webp` (500 × 500).
+  - Original: https://www.cospa.com/images/items/pc/45986.jpg
+  - Disclosure: 공식 온라인 취급 상품 예시 · 이 지점의 방문일 재고는 미확인.
+- **COSPA · 미사토 고무 키링** — [source](https://www.cospa.com/cospa/detail/id/00000113853)
+  - Local: `assets/photos/store-item-akiba-cospa-atre-misato-charm.webp` (760 × 760).
+  - Original: https://www.cospa.com/images/items/pc/202204/7kXjdicgCxO0.jpg
+  - Disclosure: 공식 온라인 취급 상품 예시 · 이 지점의 방문일 재고는 미확인.
+- **카이지 · 안경·화면 클리너 천** — [source](https://www.cospa.com/cospa/detail/id/00000148929)
+  - Local: `assets/photos/store-ten-akiba-cospa-atre-00000148929.webp` (800 × 800).
+  - Original: https://www.cospa.com/images/items/pc/202610/e8vRIzDmn5vj.jpg
+  - Disclosure: 공식 브랜드 카탈로그 예시 · 예약 상품 포함, 아키바 지점 입고·사이즈 미확인
+- **카이지 · 생맥주 잔** — [source](https://www.cospa.com/cospa/detail/id/00000148926)
+  - Local: `assets/photos/store-ten-akiba-cospa-atre-00000148926.webp` (800 × 674).
+  - Original: https://www.cospa.com/images/items/pc/202610/j2r6JbQNqn3W.jpg
+  - Disclosure: 공식 브랜드 카탈로그 예시 · 예약 상품 포함, 아키바 지점 입고·사이즈 미확인
+- **카이지 · 만화 말풍선 접시** — [source](https://www.cospa.com/cospa/detail/id/00000148925)
+  - Local: `assets/photos/store-ten-akiba-cospa-atre-00000148925.webp` (800 × 800).
+  - Original: https://www.cospa.com/images/items/pc/202610/D0OXyXlDdhHV.jpg
+  - Disclosure: 공식 브랜드 카탈로그 예시 · 예약 상품 포함, 아키바 지점 입고·사이즈 미확인
+- **원피스 · 해적기 티셔츠** — [source](https://www.cospa.com/cospa/detail/id/00000148801)
+  - Local: `assets/photos/store-ten-akiba-cospa-atre-00000148801.webp` (800 × 800).
+  - Original: https://www.cospa.com/images/items/pc/202609/uLw6M4WBsU0F.jpg
+  - Disclosure: 공식 브랜드 카탈로그 예시 · 예약 상품 포함, 아키바 지점 입고·사이즈 미확인
+- **북두의 권 · 쟈기 아크릴 키링** — [source](https://www.cospa.com/cospa/detail/id/00000148793)
+  - Local: `assets/photos/store-ten-akiba-cospa-atre-00000148793.webp` (800 × 800).
+  - Original: https://www.cospa.com/images/items/pc/202609/FhUbKINW9CHy.jpg
+  - Disclosure: 공식 브랜드 카탈로그 예시 · 예약 상품 포함, 아키바 지점 입고·사이즈 미확인
+- **란마 · P짱 캔배지** — [source](https://www.cospa.com/cospa/detail/id/00000148725)
+  - Local: `assets/photos/store-ten-akiba-cospa-atre-00000148725.webp` (800 × 800).
+  - Original: https://www.cospa.com/images/items/pc/202609/sHS4yVilFO4o.jpg
+  - Disclosure: 공식 브랜드 카탈로그 예시 · 예약 상품 포함, 아키바 지점 입고·사이즈 미확인
+- **란마 · 샴푸 패스 케이스** — [source](https://www.cospa.com/cospa/detail/id/00000148717)
+  - Local: `assets/photos/store-ten-akiba-cospa-atre-00000148717.webp` (800 × 800).
+  - Original: https://www.cospa.com/images/items/pc/202609/Y8rLvIY8g2d1.jpg
+  - Disclosure: 공식 브랜드 카탈로그 예시 · 예약 상품 포함, 아키바 지점 입고·사이즈 미확인
+- **사이버 포뮬러 · 아스라다 스티커** — [source](https://www.cospa.com/cospa/detail/id/00000148318)
+  - Local: `assets/photos/store-ten-akiba-cospa-atre-00000148318.webp` (800 × 800).
+  - Original: https://www.cospa.com/images/items/pc/202608/RcgOvkF4xCot.jpg
+  - Disclosure: 공식 브랜드 카탈로그 예시 · 예약 상품 포함, 아키바 지점 입고·사이즈 미확인
+
+### akiba-donki — 10 visuals
+
+- **정열가격 · 슬라이드 뚜껑 텀블러** — [source](https://www.donki.com/j-kakaku/product/detail.php?item=4928)
+  - Local: `assets/photos/store-item-akiba-donki-tumbler.webp` (600 × 600).
+  - Original: https://www.donki.com/updata/products/1/jk1747099383-1-main.jpg
+  - Disclosure: 공식 온라인 취급 상품 예시 · 이 지점의 방문일 재고는 미확인.
+- **정열가격 · 여행용 가타피타 백팩** — [source](https://www.donki.com/j-kakaku/product/detail.php?item=4363)
+  - Local: `assets/photos/store-item-akiba-donki-backpack.webp` (600 × 600).
+  - Original: https://www.donki.com/updata/products/1/jk1712635560-1-main.jpg
+  - Disclosure: 공식 온라인 취급 상품 예시 · 이 지점의 방문일 재고는 미확인.
+- **겨울 산책용 · 넥워머** — [source](https://www.donki.com/j-kakaku/product/detail.php?item=5439)
+  - Local: `assets/photos/store-ten-akiba-donki-5439.webp` (150 × 150).
+  - Original: https://www.donki.com/updata/products/1/jk1791331899-1-sub.jpg
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **에어배리어 · 니트 비니** — [source](https://www.donki.com/j-kakaku/product/detail.php?item=5441)
+  - Local: `assets/photos/store-ten-akiba-donki-5441.webp` (150 × 150).
+  - Original: https://www.donki.com/updata/products/1/jk1791332116-1-sub.jpg
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **발수 스노 글러브** — [source](https://www.donki.com/j-kakaku/product/detail.php?item=5440)
+  - Local: `assets/photos/store-ten-akiba-donki-5440.webp` (150 × 150).
+  - Original: https://www.donki.com/updata/products/1/jk1791332494-1-sub.jpg
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **비행기·전철용 · 말랑 목베개** — [source](https://www.donki.com/j-kakaku/product/detail.php?item=5292)
+  - Local: `assets/photos/store-ten-akiba-donki-5292.webp` (150 × 150).
+  - Original: https://www.donki.com/updata/products/1/jk1779242501-1-sub.jpg
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **자동 개폐 · 접이식 우산 60cm** — [source](https://www.donki.com/j-kakaku/product/detail.php?item=5217)
+  - Local: `assets/photos/store-ten-akiba-donki-5217.webp` (150 × 150).
+  - Original: https://www.donki.com/updata/products/1/jk1773886946-1-sub.jpg
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **부분 시트 마스크 50매** — [source](https://www.donki.com/j-kakaku/product/detail.php?item=5377)
+  - Local: `assets/photos/store-ten-akiba-donki-5377.webp` (150 × 150).
+  - Original: https://www.donki.com/updata/products/1/jk1786321321-1-sub.jpg
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **메리노 울 · 긴소매 이너** — [source](https://www.donki.com/j-kakaku/product/detail.php?item=5451)
+  - Local: `assets/photos/store-ten-akiba-donki-5451.webp` (150 × 150).
+  - Original: https://www.donki.com/updata/products/1/jk1792050658-1-sub.jpg
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **캐시미어 혼방 · 크루 양말 2켤레** — [source](https://www.donki.com/j-kakaku/product/detail.php?item=5425)
+  - Local: `assets/photos/store-ten-akiba-donki-5425.webp` (150 × 150).
+  - Original: https://www.donki.com/updata/products/1/jk1790575018-1-sub.jpg
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+
+### east-twelvebooks — 10 visuals
+
+- **THIS BOOK IS A CAMERA · 카메라가 되는 책** — [source](https://twelve-books.com/products/this-book-is-a-camera-a-pop-up-book-camera-kelli-anderson)
+  - Local: `assets/photos/guide-books-skac-this-book-is-a-camera.webp` (800 × 753).
+  - Original: 
+  - Disclosure: SKAC 입점 twelvebooks 공식 카탈로그 · 현장 전시·판매 재고 확인
+- **OFFLINE ACTIVITIES · 둘이 해볼 활동책** — [source](https://twelve-books.com/products/offline-activities-by-tamara-shopsin-jason-fulford)
+  - Local: `assets/photos/guide-books-skac-offline-activities.webp` (800 × 753).
+  - Original: 
+  - Disclosure: SKAC 입점 twelvebooks 공식 카탈로그 · 현장 전시·판매 재고 확인
+- **마리 앙투아네트 촬영 현장 엽서 18장** — [source](https://twelve-books.com/products/making-marie-antoinette-postcards-by-andrew-durham)
+  - Local: `assets/photos/guide-books-skac-making-marie-antoinette-postcards.webp` (800 × 753).
+  - Original: 
+  - Disclosure: SKAC 입점 twelvebooks 공식 카탈로그 · 현장 전시·판매 재고 확인
+- **Lawrence Weiner · MIND THE STEP 타일** — [source](https://twelve-books.com/products/mind-the-step-glazed-ceramic-tile-by-lawrence-weiner)
+  - Local: `assets/photos/guide-books-skac-mind-the-step.webp` (800 × 753).
+  - Original: 
+  - Disclosure: SKAC 입점 twelvebooks 공식 카탈로그 · 현장 전시·판매 재고 확인
+- **NOGUCHI TO ASAWA · 전후 미국의 디자인** — [source](https://twelve-books.com/products/noguchi-to-asawa-designing-postwar-america)
+  - Local: `assets/photos/guide-books-skac-noguchi-to-asawa.webp` (800 × 753).
+  - Original: 
+  - Disclosure: SKAC 입점 twelvebooks 공식 카탈로그 · 현장 전시·판매 재고 확인
+- **후지와라 히로시 · A MAGAZINE** — [source](https://twelve-books.com/products/a-magazine-curated-by-hiroshi-fujiwara)
+  - Local: `assets/photos/store-ten-east-twelvebooks-a-magazine-curated-by-hiroshi-fujiwara.webp` (800 × 753).
+  - Original: https://cdn.shopify.com/s/files/1/1415/5034/files/00_39d028fd-41d6-4ab4-a5e4-68fb49a5fd35.jpg?v=1792463107
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **Josef Müller-Brockmann · 역 안내 그래픽** — [source](https://twelve-books.com/products/passenger-information-system-by-josef-muller-brockmann)
+  - Local: `assets/photos/store-ten-east-twelvebooks-passenger-information-system-by-josef-muller-brockmann.webp` (800 × 753).
+  - Original: https://cdn.shopify.com/s/files/1/1415/5034/files/00_f2c3b1cb-48f6-4368-930c-c997a7c59cf2.jpg?v=1791342959
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **DEKOTORA · 일본 장식 트럭 사진집** — [source](https://twelve-books.com/products/dekotora-by-julie-glassberg)
+  - Local: `assets/photos/store-ten-east-twelvebooks-dekotora-by-julie-glassberg.webp` (800 × 753).
+  - Original: https://cdn.shopify.com/s/files/1/1415/5034/files/dekotora_01.jpg?v=1793105342
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **A–Z OF RECORD SHOP BAGS · 레코드숍 봉투** — [source](https://twelve-books.com/products/a-z-of-record-shop-bags-by-jonny-trunk)
+  - Local: `assets/photos/store-ten-east-twelvebooks-a-z-of-record-shop-bags-by-jonny-trunk.webp` (800 × 753).
+  - Original: https://cdn.shopify.com/s/files/1/1415/5034/files/00_9ec41273-fd50-4cef-a734-984ca31edd82.jpg?v=1791346668
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **EDITION TAUBE · 북숍 쇼핑백** — [source](https://twelve-books.com/products/edition-taube-shopping-bag-2-0-black)
+  - Local: `assets/photos/store-ten-east-twelvebooks-edition-taube-shopping-bag-2-0-black.webp` (800 × 753).
+  - Original: https://cdn.shopify.com/s/files/1/1415/5034/files/04_0c085588-362f-440c-8ffb-1547c0445b11.jpg?v=1791944906
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+
+### east-vds — 10 visuals
+
+- **Sun Ra · Lanquidity LP** — [source](https://vinyldeliveryservice.com/2026/09/11/2026-09-12-jazz-japanese-groove-rock-%E6%96%B0%E7%9D%80%E6%94%BE%E5%87%BA/)
+  - Local: `assets/photos/store-item-east-vds-sun-ra.webp` (570 × 760).
+  - Original: https://vinyldeliveryservice.com/wp-content/uploads/2026/09/IMG_9745-768x1024.jpg
+  - Disclosure: 2026년 9월 과거 입고 예시 · 해당 중고 음반의 현재 재고·상태 미확인
+- **요시무라 히로시 · Music For Nine Post Cards LP** — [source](https://vinyldeliveryservice.com/2026/09/11/2026-09-12-jazz-japanese-groove-rock-%E6%96%B0%E7%9D%80%E6%94%BE%E5%87%BA/)
+  - Local: `assets/photos/store-item-east-vds-yoshimura.webp` (570 × 760).
+  - Original: https://vinyldeliveryservice.com/wp-content/uploads/2026/09/IMG_9729-768x1024.jpg
+  - Disclosure: 2026년 9월 과거 입고 예시 · 해당 중고 음반의 현재 재고·상태 미확인
+- **Sun Ra · Omniverse LP** — [source](https://vinyldeliveryservice.com/2026/09/11/2026-09-12-jazz-japanese-groove-rock-%E6%96%B0%E7%9D%80%E6%94%BE%E5%87%BA/)
+  - Local: `assets/photos/store-ten-east-vds-omniverse.webp` (600 × 800).
+  - Original: https://vinyldeliveryservice.com/wp-content/uploads/2026/09/IMG_9744-768x1024.jpg
+  - Disclosure: VDS 2026년 과거 입고 사진 · 같은 판본의 현재 재고·상태 미확인
+- **Arthur Doyle · Alabama Feeling LP** — [source](https://vinyldeliveryservice.com/2026/09/11/2026-09-12-jazz-japanese-groove-rock-%E6%96%B0%E7%9D%80%E6%94%BE%E5%87%BA/)
+  - Local: `assets/photos/store-ten-east-vds-alabama.webp` (600 × 800).
+  - Original: https://vinyldeliveryservice.com/wp-content/uploads/2026/09/IMG_9749-768x1024.jpg
+  - Disclosure: VDS 2026년 과거 입고 사진 · 같은 판본의 현재 재고·상태 미확인
+- **Oscilation Circuit · Série Réflexion 1 LP** — [source](https://vinyldeliveryservice.com/2026/09/11/2026-09-12-jazz-japanese-groove-rock-%E6%96%B0%E7%9D%80%E6%94%BE%E5%87%BA/)
+  - Local: `assets/photos/store-ten-east-vds-reflection.webp` (600 × 800).
+  - Original: https://vinyldeliveryservice.com/wp-content/uploads/2026/09/IMG_9728-768x1024.jpg
+  - Disclosure: VDS 2026년 과거 입고 사진 · 같은 판본의 현재 재고·상태 미확인
+- **미야모토 마사히토 · Swak LP** — [source](https://vinyldeliveryservice.com/2026/08/29/2026-08-29-japanese-groove%E6%96%B0%E7%9D%80%E6%94%BE%E5%87%BA/)
+  - Local: `assets/photos/store-ten-east-vds-swak.webp` (600 × 800).
+  - Original: https://vinyldeliveryservice.com/wp-content/uploads/2026/08/IMG_9593-1-768x1024.jpg
+  - Disclosure: VDS 2026년 과거 입고 사진 · 같은 판본의 현재 재고·상태 미확인
+- **미야자와 코스케 · Now Is Best LP** — [source](https://vinyldeliveryservice.com/2026/08/29/2026-08-29-japanese-groove%E6%96%B0%E7%9D%80%E6%94%BE%E5%87%BA/)
+  - Local: `assets/photos/store-ten-east-vds-now-is-best.webp` (600 × 800).
+  - Original: https://vinyldeliveryservice.com/wp-content/uploads/2026/08/IMG_9595-768x1024.jpg
+  - Disclosure: VDS 2026년 과거 입고 사진 · 같은 판본의 현재 재고·상태 미확인
+- **무라오카 미노루 · Bamboo LP** — [source](https://vinyldeliveryservice.com/2026/08/29/2026-08-29-japanese-groove%E6%96%B0%E7%9D%80%E6%94%BE%E5%87%BA/)
+  - Local: `assets/photos/store-ten-east-vds-bamboo.webp` (600 × 800).
+  - Original: https://vinyldeliveryservice.com/wp-content/uploads/2026/08/IMG_9599-768x1024.jpg
+  - Disclosure: VDS 2026년 과거 입고 사진 · 같은 판본의 현재 재고·상태 미확인
+- **모리야마 다케오 · East Plants LP** — [source](https://vinyldeliveryservice.com/2026/08/29/2026-08-29-japanese-groove%E6%96%B0%E7%9D%80%E6%94%BE%E5%87%BA/)
+  - Local: `assets/photos/store-ten-east-vds-east-plants.webp` (600 × 800).
+  - Original: https://vinyldeliveryservice.com/wp-content/uploads/2026/08/IMG_9601-768x1024.jpg
+  - Disclosure: VDS 2026년 과거 입고 사진 · 같은 판본의 현재 재고·상태 미확인
+- **Tornado small · 옻칠 무지향성 스피커** — [source](https://vinyldeliveryservice.com/2026/08/15/%E4%BA%94%E5%8A%A0%E9%9F%B3%E9%9F%BF%E7%A0%94%E7%A9%B6%E6%89%80%E3%80%8Ctornado-small%E3%80%8D/)
+  - Local: `assets/photos/store-ten-east-vds-tornado-speaker.webp` (800 × 534).
+  - Original: https://vinyldeliveryservice.com/wp-content/uploads/2026/08/DSC_6377-1024x683.jpeg
+  - Disclosure: VDS 공식 2026년 판매 소개 · 방문일 시청·주문·재고 미확인. 크기가 있어 배송·전원을 먼저 상담해요
+
+### east-eishindo — 10 visuals
+
+- **고치카메 · 첫 권 일본어판** — [source](https://www.shueisha.co.jp/books/items/contents.html?isbn=4-08-852811-5)
+  - Local: `assets/photos/store-item-east-eishindo-kochikame.webp` (318 × 500).
+  - Original: https://dosbg3xlm0x1t.cloudfront.net/images/items/9784088528113/500/9784088528113.jpg
+  - Disclosure: 가메아리를 배경으로 한 만화의 출판사 표지 예시 · 에이신도 취급·재고는 미확인.
+- **료상과 걷는 도쿄 시타마치** — [source](https://shinsho.shueisha.co.jp/kikan/0265-h/)
+  - Local: `assets/photos/store-item-east-eishindo-shitamachi.webp` (312 × 500).
+  - Original: https://shinsho.shueisha.co.jp/wp-content/ssdb_image_cache/22868/m_9784087202656.jpg
+  - Disclosure: 고치카메 그림과 도쿄 동네 이야기의 출판사 표지 예시 · 에이신도 취급·재고는 미확인.
+- **BRUTUS 724 · 라멘·소바·우동** — [source](https://magazineworld.jp/brutus/back/?show=9)
+  - Local: `assets/photos/store-ten-east-eishindo-3.webp` (450 × 620).
+  - Original: https://img.magazineworld.jp/products/2012-4910277510224-1-2.jpg
+  - Disclosure: 에이신도 온라인 과월호 목록에 있는 호수의 출판사 표지 예시 · 현재 매장 취급·재고·상태 미확인. 오래된 가게 정보는 여행 안내로 사용하지 않아요.
+- **BRUTUS 719 · 옛 미술을 찾아가는 여행** — [source](https://magazineworld.jp/brutus/back/?show=9)
+  - Local: `assets/photos/store-ten-east-eishindo-4.webp` (450 × 620).
+  - Original: https://img.magazineworld.jp/products/2011-4910277511115-1-2.jpg
+  - Disclosure: 에이신도 온라인 과월호 목록에 있는 호수의 출판사 표지 예시 · 현재 매장 취급·재고·상태 미확인. 오래된 가게 정보는 여행 안내로 사용하지 않아요.
+- **BRUTUS 723 · 변화하는 시대에 읽는 263권** — [source](https://magazineworld.jp/brutus/back/?show=9)
+  - Local: `assets/photos/store-ten-east-eishindo-5.webp` (450 × 620).
+  - Original: https://img.magazineworld.jp/products/2012-4910277530123-1-2.jpg
+  - Disclosure: 에이신도 온라인 과월호 목록에 있는 호수의 출판사 표지 예시 · 현재 매장 취급·재고·상태 미확인. 오래된 가게 정보는 여행 안내로 사용하지 않아요.
+- **BRUTUS 721 · 24명 영화감독의 시선** — [source](https://magazineworld.jp/brutus/back/?show=9)
+  - Local: `assets/photos/store-ten-east-eishindo-6.webp` (450 × 620).
+  - Original: https://img.magazineworld.jp/products/2011-4910277511214-1-2.jpg
+  - Disclosure: 에이신도 온라인 과월호 목록에 있는 호수의 출판사 표지 예시 · 현재 매장 취급·재고·상태 미확인. 오래된 가게 정보는 여행 안내로 사용하지 않아요.
+- **BRUTUS 725 · 함께 사는 집과 공간** — [source](https://magazineworld.jp/brutus/back/?show=9)
+  - Local: `assets/photos/store-ten-east-eishindo-7.webp` (450 × 620).
+  - Original: https://img.magazineworld.jp/products/2012-4910277530222-1-2.jpg
+  - Disclosure: 에이신도 온라인 과월호 목록에 있는 호수의 출판사 표지 예시 · 현재 매장 취급·재고·상태 미확인. 오래된 가게 정보는 여행 안내로 사용하지 않아요.
+- **BRUTUS 730 · 서양미술 총정리** — [source](https://magazineworld.jp/brutus/back/?show=9)
+  - Local: `assets/photos/store-ten-east-eishindo-8.webp` (450 × 620).
+  - Original: https://img.magazineworld.jp/products/2012-4910277510521-1-2.jpg
+  - Disclosure: 에이신도 온라인 과월호 목록에 있는 호수의 출판사 표지 예시 · 현재 매장 취급·재고·상태 미확인. 오래된 가게 정보는 여행 안내로 사용하지 않아요.
+- **예술신조 2012.10 · 시노야마 기신의 사진** — [source](https://www.shinchosha.co.jp/geishin/backnumber/20120925/)
+  - Local: `assets/photos/store-ten-east-eishindo-9.webp` (206 × 280).
+  - Original: https://www.shinchosha.co.jp/images_v2/issue/cover/1152/1152_l.jpg
+  - Disclosure: 에이신도 온라인 과월호 목록에 있는 호수의 출판사 표지 예시 · 출판사 품절. 현재 매장 재고·판쇄·상태 미확인.
+- **예술신조 2012.04 · 오토모 가쓰히로의 그림** — [source](https://www.shinchosha.co.jp/geishin/backnumber/20120324/)
+  - Local: `assets/photos/store-ten-east-eishindo-10.webp` (206 × 280).
+  - Original: https://www.shinchosha.co.jp/images_v2/issue/cover/1071/1071_l.jpg
+  - Disclosure: 에이신도 온라인 과월호 목록에 있는 호수의 출판사 표지 예시 · 출판사 품절. 현재 매장 재고·판쇄·상태 미확인.
+
+### east-kastori — 10 visuals
+
+- **KIKI · 나카무라 유곽의 건축·타일 사진집** — [source](https://kastoripub.stores.jp/items/67494df2dacada0631e62595)
+  - Local: `assets/photos/store-item-east-kastori-kikyouya.webp` (760 × 760).
+  - Original: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/544b03dcef3377ed4f001617/169bd519845f8d426552.jpg/fit=cover,w=920,h=920
+  - Disclosure: 공식 온라인 취급 상품 예시 · 이 지점의 방문일 재고는 미확인.
+- **遊廓の雑誌 · 역사·문화 저널** — [source](https://kastoripub.stores.jp/items/695f40877b0f722f95fd7f77)
+  - Local: `assets/photos/store-item-east-kastori-journal.webp` (760 × 760).
+  - Original: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/production/544b03dcef3377ed4f001617/359106c1-9a67-4353-8a8d-7456a7857026/fit=cover,w=920,h=920
+  - Disclosure: 공식 온라인 취급 상품 예시 · 이 지점의 방문일 재고는 미확인.
+- **가토 하루미 · 유곽의 삶과 기억** — [source](https://kastoripub.stores.jp/items/6a9d12c0ce75b2f88a8677a0)
+  - Local: `assets/photos/store-ten-east-kastori-memory.webp` (800 × 800).
+  - Original: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/production/544b03dcef3377ed4f001617/309ef7e3-d07e-445a-88bb-b2ac4ded9484/fit=cover,w=920,h=920
+  - Disclosure: 매장 공식 도서 표지 · 방문일 재고·판본 미확인. 일본어 역사·문화 자료
+- **사이토 야쿄 · 카스토리 잡지고** — [source](https://kastoripub.stores.jp/items/6a07f2f29797c7a925b9a4cd)
+  - Local: `assets/photos/store-ten-east-kastori-magazine-history.webp` (800 × 800).
+  - Original: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/544b03dcef3377ed4f001617/d3e78aab784be08ed968.jpg/fit=cover,w=920,h=920
+  - Disclosure: 매장 공식 도서 표지 · 방문일 재고·판본 미확인. 일본어 역사·문화 자료
+- **시몬 · 페미니즘 저널** — [source](https://kastoripub.stores.jp/items/69e1cd0600d7d518c0d55f66)
+  - Local: `assets/photos/store-ten-east-kastori-simone.webp` (800 × 800).
+  - Original: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/production/544b03dcef3377ed4f001617/a77bc46d-7cc4-4ae0-90de-77393105b0aa/fit=cover,w=920,h=920
+  - Disclosure: 매장 공식 도서 표지 · 방문일 재고·판본 미확인. 일본어 역사·문화 자료
+- **모토하시 노부히로 · 하나마치 언더그라운드** — [source](https://kastoripub.stores.jp/items/69abbfe1878cab8b210aceb8)
+  - Local: `assets/photos/store-ten-east-kastori-underground.webp` (800 × 800).
+  - Original: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/544b03dcef3377ed4f001617/11e11ec744b0b05cbc84.jpg/fit=cover,w=920,h=920
+  - Disclosure: 매장 공식 도서 표지 · 방문일 재고·판본 미확인. 일본어 역사·문화 자료
+- **쓰지 히로카즈 · 유녀의 중세사** — [source](https://kastoripub.stores.jp/items/69731143af9b6b3435a204c1)
+  - Local: `assets/photos/store-ten-east-kastori-medieval.webp` (800 × 800).
+  - Original: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/544b03dcef3377ed4f001617/d3c8a6b8dff80b753623.jpg/fit=cover,w=920,h=920
+  - Disclosure: 매장 공식 도서 표지 · 방문일 재고·판본 미확인. 일본어 역사·문화 자료
+- **마키시 기사코 · 어머니의 회고** — [source](https://kastoripub.stores.jp/items/6a8c0d2e27d5b238c5db17ff)
+  - Local: `assets/photos/store-ten-east-kastori-okinawa.webp` (800 × 800).
+  - Original: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/production/544b03dcef3377ed4f001617/dc407400-cb43-4f01-a878-acf34471b325/fit=cover,w=920,h=920
+  - Disclosure: 매장 공식 도서 표지 · 방문일 재고·판본 미확인. 일본어 역사·문화 자료
+- **아카리 · 이타코 유곽 탐방 진** — [source](https://kastoripub.stores.jp/items/677ca96c8168c301735183b8)
+  - Local: `assets/photos/store-ten-east-kastori-chiba.webp` (800 × 800).
+  - Original: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/production/544b03dcef3377ed4f001617/03533a0d-de11-4837-9c3b-2963cd2a2c57/fit=cover,w=920,h=920
+  - Disclosure: 매장 공식 도서 표지 · 방문일 재고·판본 미확인. 일본어 역사·문화 자료
+- **다나카 유코 · 게이샤와 일본 살롱 문화** — [source](https://kastoripub.stores.jp/items/69a3bfe7057a68408a75fdc9)
+  - Local: `assets/photos/store-ten-east-kastori-geisha.webp` (800 × 800).
+  - Original: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/544b03dcef3377ed4f001617/fb0d8b13cab1c17be75c.jpg/fit=cover,w=920,h=920
+  - Disclosure: 매장 공식 도서 표지 · 방문일 재고·판본 미확인. 일본어 역사·문화 자료
+
+### east-kakimori — 10 visuals
+
+- **카키모리 · 아이조메 미니 노트 커버** — [source](https://kakimori.com/products/kn09001)
+  - Local: `assets/photos/store-item-east-kakimori-mininote.webp` (760 × 760).
+  - Original: https://cdn.shopify.com/s/files/1/0405/6150/8515/files/P1023827.jpg?v=1792130936
+  - Disclosure: 공식 온라인 취급 상품 예시 · 이 지점의 방문일 재고는 미확인.
+- **Saki Tanaka · Sunny 편지지** — [source](https://kakimori.com/products/kl08502)
+  - Local: `assets/photos/store-item-east-kakimori-sunny-paper.webp` (760 × 760).
+  - Original: https://cdn.shopify.com/s/files/1/0405/6150/8515/files/P1023476_1.jpg?v=1792739655
+  - Disclosure: 공식 온라인 취급 상품 예시 · 이 지점의 방문일 재고는 미확인.
+- **IBAMOTO HONTEN · 소다 캔디 B6 노트** — [source](https://kakimori.com/products/b6aw03)
+  - Local: `assets/photos/store-ten-east-kakimori-b6aw03.webp` (800 × 800).
+  - Original: https://cdn.shopify.com/s/files/1/0405/6150/8515/files/P1012095.jpg?v=1759472018
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **Tomoko Murata · 그림 고무 스탬프** — [source](https://kakimori.com/products/kstm016)
+  - Local: `assets/photos/store-ten-east-kakimori-kstm016.webp` (800 × 800).
+  - Original: https://cdn.shopify.com/s/files/1/0405/6150/8515/files/P1035073_306ede05-9242-408c-8482-df02fc94862c.jpg?v=1792130741
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **VersaCraft · 천·종이용 잉크 패드** — [source](https://kakimori.com/products/tl155)
+  - Local: `assets/photos/store-ten-east-kakimori-tl155.webp` (800 × 800).
+  - Original: https://cdn.shopify.com/s/files/1/0405/6150/8515/files/P1035109_d37c45cc-1867-4dd1-b604-5cfdc8c83d09.jpg?v=1793064458
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **와시 · 접어 쓰는 미니 봉투** — [source](https://kakimori.com/products/ks08704)
+  - Local: `assets/photos/store-ten-east-kakimori-ks08704.webp` (800 × 800).
+  - Original: https://cdn.shopify.com/s/files/1/0405/6150/8515/files/P1035150.jpg?v=1792741668
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **Chika Higashi · Time 미니 레터 세트** — [source](https://kakimori.com/products/kl08002)
+  - Local: `assets/photos/store-ten-east-kakimori-kl08002.webp` (800 × 800).
+  - Original: https://cdn.shopify.com/s/files/1/0405/6150/8515/files/P1022833.jpg?v=1770369287
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **이세 삼나무 · 수제 샤프** — [source](https://kakimori.com/products/kp09501-10)
+  - Local: `assets/photos/store-ten-east-kakimori-kp09501-10.webp` (800 × 800).
+  - Original: https://cdn.shopify.com/s/files/1/0405/6150/8515/files/P1023872.jpg?v=1788500471
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **Buoy · 벚나무 데스크 볼펜과 스탠드** — [source](https://kakimori.com/products/kd10103)
+  - Local: `assets/photos/store-ten-east-kakimori-kd10103.webp` (800 × 800).
+  - Original: https://cdn.shopify.com/s/files/1/0405/6150/8515/files/P1024644_aee780c9-72ac-48f1-8567-84c731e9fc54.jpg?v=1787887757
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **월넛 · 펜 레스트** — [source](https://kakimori.com/products/kd09902)
+  - Local: `assets/photos/store-ten-east-kakimori-kd09902.webp` (800 × 800).
+  - Original: https://cdn.shopify.com/s/files/1/0405/6150/8515/files/P1024257.jpg?v=1787733096
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+
+### east-douguya-nobori — 10 visuals
+
+- **말 그림 자카드 플랫 파우치** — [source](https://fromafar.stores.jp/items/6a9262f3adce66000137de46)
+  - Local: `assets/photos/store-item-east-douguya-nobori-horse-pouch.webp` (760 × 760).
+  - Original: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/production/560b5e9e3bcba95f3000057b/30287891-4299-4961-a7d6-b024affa8cd4/fit=cover,w=920,h=920
+  - Disclosure: 공식 온라인 취급 상품 예시 · 이 지점의 방문일 재고는 미확인.
+- **작은 말 오너먼트 · 골드/실버** — [source](https://fromafar.stores.jp/items/6a4480f66d819c00019b73a9)
+  - Local: `assets/photos/store-item-east-douguya-nobori-horse-ornament.webp` (760 × 760).
+  - Original: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/production/560b5e9e3bcba95f3000057b/434cb881-ff82-460c-95b8-0f34bdf971ce/fit=cover,w=920,h=920
+  - Disclosure: 공식 온라인 취급 상품 예시 · 이 지점의 방문일 재고는 미확인.
+- **italesse · 알토 볼 텀블러** — [source](https://fromafar.stores.jp/items/5951defdf22a5b51ab00160f)
+  - Local: `assets/photos/store-ten-east-douguya-nobori-glass.webp` (800 × 800).
+  - Original: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/560b5e9e3bcba95f3000057b/71ca1671f28ffd5166a4.jpeg/fit=cover,w=920,h=920
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **SALUS · 일본산 기내식 커트러리** — [source](https://fromafar.stores.jp/items/5e1974ffd790db1d44353c9c)
+  - Local: `assets/photos/store-ten-east-douguya-nobori-cutlery.webp` (800 × 800).
+  - Original: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/560b5e9e3bcba95f3000057b/72dfec6c0f4aa30c4305.jpg/fit=cover,w=920,h=920
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **기소 · 옻칠 나무젓가락** — [source](https://fromafar.stores.jp/items/6a2684b343b44a00016b7ba2)
+  - Local: `assets/photos/store-ten-east-douguya-nobori-chopsticks.webp` (800 × 800).
+  - Original: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/560b5e9e3bcba95f3000057b/53c3448cb4630c6bb22d.png/fit=cover,w=920,h=920
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **amabro · MINI VASE 유리 화병** — [source](https://fromafar.stores.jp/items/6a4b80a06d151200014ab796)
+  - Local: `assets/photos/store-ten-east-douguya-nobori-vase.webp` (800 × 800).
+  - Original: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/production/560b5e9e3bcba95f3000057b/3dccd8f5-4a00-4cde-b37e-d1a78adbf79d/fit=cover,w=920,h=920
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **장식 손잡이 · 디자인 가위** — [source](https://fromafar.stores.jp/items/5e1956730cc8de60b5a73301)
+  - Local: `assets/photos/store-ten-east-douguya-nobori-scissors.webp` (800 × 800).
+  - Original: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/560b5e9e3bcba95f3000057b/3457fad66f8a18ea87be.jpg/fit=cover,w=920,h=920
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **쌀겨 · 작은 일본 양초 세트** — [source](https://fromafar.stores.jp/items/67b031657e6f3503658d5a7c)
+  - Local: `assets/photos/store-ten-east-douguya-nobori-candles.webp` (800 × 800).
+  - Original: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/560b5e9e3bcba95f3000057b/70784c32fb658d53c931.jpg/fit=cover,w=920,h=920
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **아오모리 히바 · 에센셜 오일 12ml** — [source](https://fromafar.stores.jp/items/674974020d04b90236f35a6c)
+  - Local: `assets/photos/store-ten-east-douguya-nobori-hiba.webp` (800 × 800).
+  - Original: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/560b5e9e3bcba95f3000057b/896ffa72c8f992a78102.jpg/fit=cover,w=920,h=920
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+- **amabro · 나무 동물 볼펜** — [source](https://fromafar.stores.jp/items/69c4ae6f3e49aa0001e3a702)
+  - Local: `assets/photos/store-ten-east-douguya-nobori-animal-pen.webp` (800 × 800).
+  - Original: https://imagedelivery.net/QondspN4HIUvB_R16-ddAQ/560b5e9e3bcba95f3000057b/1109e7495ee2f2f31f3f.png/fit=cover,w=920,h=920
+  - Disclosure: 공식 온라인 상품 예시 · 해당 지점 방문일 재고 미확인
+
+## Validation
+
+All local images were decoded and checked against recorded dimensions. New images were visually reviewed in contact sheets, including costumes, packaged care products and historical branch stock photographs. No explicit sexual imagery was added.
+
+Machine-readable integration file: `/tmp/store-ten-akiba-east.json`.
+
+Related source notes: `STORE-TEN-LOVEMERCI-SOURCES.md`, `STORE-TEN-DESIGN-EXTRA-SOURCES.md`, `STORE-ITEMS-AKIBA-EAST-SOURCES.md`, `STORE-ITEMS-DESIGN-SOURCES.md`.

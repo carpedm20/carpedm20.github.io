@@ -1,0 +1,54 @@
+# Love Merci: 10 distinct merchandise references
+
+2026-11-04. Store catalog could not be established from its official social account. All ten records explicitly label manufacturer examples and unconfirmed Love Merci handling, sale and stock. Only non-graphic packaging, skincare, cleaning supplies and accessories are shown. No stock claim. Eight added image files decoded and resized to max800px WebP.
+
+- 사가미 오리지널 0.01 · 5개입
+  - Source: https://www.sagami-shop.com/
+  - Image: https://image1.shopserve.jp/sagami-shop.com/pic-labo/llimg/sagamioriginal001_5p_2.jpg?t=20241031112525
+  - Local: `assets/photos/store-item-akiba-love-merci-sagami001.webp`
+  - Check: 제조사 제품 예시 · 러브메르시 취급·재고 미확인. 소재·사이즈·사용기한을 확인해요.
+- iroha · 폼 타입 케어 워시
+  - Source: https://store.tenga.co.jp/shop/products/IIF-01
+  - Image: https://d2w53g1q050m78.cloudfront.net/storetengacojp/ec_assets/33fd2d5388392aa2da3fe3865df99cb577c32e6c-original.jpg?1763521537
+  - Local: `assets/photos/store-item-akiba-love-merci-iroha-wash.webp`
+  - Check: 제조사 제품 예시 · 러브메르시 취급·재고 미확인. 베르가모트·비터오렌지 향, 외용 제품 설명을 확인해요.
+- iroha 휴대용 케어 물티슈
+  - Source: https://store.tenga.co.jp/shop/products/IIS-01
+  - Image: https://d2w53g1q050m78.cloudfront.net/storetengacojp/ec_assets/6efaaed5e7838f72355baf9e7d6d1cb99e132cb1-original.jpg?1769502710
+  - Local: `assets/photos/store-ten-akiba-love-merci-iis-01.webp`
+  - Check: 제조사 제품 예시 · 러브메르시 취급·판매·재고 모두 미확인
+- iroha MOIST GEL 윤활 젤
+  - Source: https://store.tenga.co.jp/shop/products/IMG-01J
+  - Image: https://d2w53g1q050m78.cloudfront.net/storetengacojp/ec_assets/d77476d0f3701200a92dfa4a48a0f9fad9905b3c-original.jpg?1769502882
+  - Local: `assets/photos/store-ten-akiba-love-merci-img-01j.webp`
+  - Check: 제조사 제품 예시 · 러브메르시 취급·판매·재고 모두 미확인
+- iroha 소품용 클리너
+  - Source: https://store.tenga.co.jp/shop/products/ICL-01
+  - Image: https://d2w53g1q050m78.cloudfront.net/storetengacojp/ec_assets/d537e660b6077c74acf99c5ee10aabfde66cf93b-original.jpg?1769490107
+  - Local: `assets/photos/store-ten-akiba-love-merci-icl-01.webp`
+  - Check: 제조사 제품 예시 · 러브메르시 취급·판매·재고 모두 미확인
+- iroha WHITE MILK 케어 밀크
+  - Source: https://store.tenga.co.jp/shop/products/IIM-21
+  - Image: https://d2w53g1q050m78.cloudfront.net/storetengacojp/ec_assets/bc2f0a49e1a86147a3ec016bfd1abb8c6bad60a5-original.jpg?1741245034
+  - Local: `assets/photos/store-ten-akiba-love-merci-iim-21.webp`
+  - Check: 제조사 제품 예시 · 러브메르시 취급·판매·재고 모두 미확인
+- CARESSA 소품·선물 파우치 M
+  - Source: https://store.tenga.co.jp/shop/products/PM-016
+  - Image: https://d2w53g1q050m78.cloudfront.net/storetengacojp/ec_assets/5507dab51666c47dafe55ac486859fea5e491945-original.jpg?1705910470
+  - Local: `assets/photos/store-ten-akiba-love-merci-pm-016.webp`
+  - Check: 제조사 제품 예시 · 러브메르시 취급·판매·재고 모두 미확인
+- CARESSA 충전식 핫 스톤
+  - Source: https://store.tenga.co.jp/shop/products/CAA-001
+  - Image: https://d2w53g1q050m78.cloudfront.net/storetengacojp/ec_assets/b48f1e8274bdbfcae665c8b05d44944cdf82f1ab-original.jpg?1769155538
+  - Local: `assets/photos/store-ten-akiba-love-merci-caa-001.webp`
+  - Check: 제조사 제품 예시 · 러브메르시 취급·판매·재고 모두 미확인
+- CARESSA 접는 방수 매트 S
+  - Source: https://store.tenga.co.jp/shop/products/CAF-001
+  - Image: https://d2w53g1q050m78.cloudfront.net/storetengacojp/ec_assets/6bcc534801d57c516c934bbe1ebd48da9c3b5f80-original.jpg?1769135265
+  - Local: `assets/photos/store-ten-akiba-love-merci-caf-001.webp`
+  - Check: 제조사 제품 예시 · 러브메르시 취급·판매·재고 모두 미확인
+- 오카모토 003 히알루론산 · 1개입
+  - Source: https://shop.okamoto-condoms.com/shopdetail/000000000689
+  - Image: https://makeshop-multi-images.akamaized.net/GMOH000431/itemimages/0000000006892_Kj5ma4b.jpg
+  - Local: `assets/photos/store-ten-akiba-love-merci-okamoto003.webp`
+  - Check: 제조사 포장 예시 · 러브메르시 취급·판매·재고 모두 미확인

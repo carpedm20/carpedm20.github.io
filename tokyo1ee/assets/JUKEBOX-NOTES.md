@@ -10,7 +10,7 @@ Titles, upload identities and thumbnail URLs verified using YouTube's public oEm
 
 The three-video queue repeats by default. Next wraps to the first entry; disabling repeat stops automatic progression after the third video. Controls and title/thumbnail/source URL follow the current video.
 
-Startup requests audible autoplay (`autoplay: 1` and `playVideo` on ready). If browser policy blocks it, the first real page click/tap or Enter/Space retries once, or the play button starts it. Scrolling and synthetic events do not unlock playback. Explicit pause cancels pending automatic startup; later interactions do not resume it.
+Startup requests audible autoplay (`autoplay: 1` and `playVideo` on ready). If browser policy blocks it, the first real page click/tap or Enter/Space retries once, or the play button starts it. Scrolling and synthetic events do not unlock playback. Explicit pause cancels pending automatic startup; later interactions do not resume it. Slow buffering keeps playback intent alive; only an explicit browser rejection or user pause cancels it.
 
 Primary technical references:
 - https://developers.google.com/youtube/iframe_api_reference

@@ -117,8 +117,8 @@
       clearTimeout(attemptTimeout);
       attemptTimeout = setTimeout(() => {
         if (!playing && wantsPlay) {
-          if (autoStartPending) blocked();
-          else { wantsPlay = false; setStatus('재생이 지연돼요 · ▶ 다시 시도 / YouTube ↗'); }
+          // Slow buffering is not a rejection: keep the requested playback alive.
+          setStatus(autoStartPending ? '화면을 터치해 음악 시작' : '불러오는 중… · 다음 곡 / YouTube ↗');
         }
       }, 10000);
     } catch (_) { fail('연결 오류 · 다시 시도 또는 YouTube ↗'); }

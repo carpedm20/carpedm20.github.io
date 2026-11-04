@@ -1,4 +1,4 @@
-const shoppingPicks=[...Object.values(venueGuides).flatMap(v=>v.items),...shopMoodExtraItems,...Object.values(storeShoppingItems).flat()];
+const shoppingPicks=[...Object.values(storeShoppingItems).flat(),...Object.values(venueGuides).flatMap(v=>v.items),...shopMoodExtraItems];
 const shoppingEscape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const clothingGuideKeys=new Set(['kindal','ragtag','jinnan','yoke','niceness','cc','salt','catstreet']);
 const shopMoodGuideKeys={
@@ -24,7 +24,7 @@ function shopMoodItemsForCluster(id){
 }
 function renderShoppingMood(items,label='옷 분위기'){
  const esc=shoppingEscape;const visible=items.filter(x=>x.src);if(!visible.length)return '';
- return `<section class="shopping-mood" aria-label="${esc(label)}"><div class="shopping-mood-heading"><strong>${esc(label)}</strong><span>가로로 넘겨보기 · 사진을 누르면 출처</span></div><div class="shop-mood-strip" tabindex="0" role="region" aria-label="${esc(label)} 사진 한 줄">${visible.map(x=>`<button class="shop-mood-photo" type="button" data-shopping-photo="${esc(x.id)}" data-mood-photo aria-label="${esc(x.title)} 사진 크게 보기"><img src="${esc(x.src)}" width="${x.width}" height="${x.height}" alt="${esc((x.sampleTitle||x.title)+' · '+x.credit)}" loading="lazy" decoding="async"><span aria-hidden="true">⤢</span></button>`).join('')}</div></section>`;
+ return `<section class="shopping-mood" aria-label="${esc(label)}"><div class="shopping-mood-heading"><strong>${esc(label)}</strong><span>${visible.length}가지 · 가로로 넘겨보기</span></div><div class="shop-mood-strip" tabindex="0" role="region" aria-label="${esc(label)} 사진 한 줄">${visible.map(x=>`<button class="shop-mood-photo" type="button" data-shopping-photo="${esc(x.id)}" data-mood-photo aria-label="${esc(x.title)} 사진 크게 보기"><img src="${esc(x.src)}" width="${x.width}" height="${x.height}" alt="${esc((x.sampleTitle||x.title)+' · '+x.credit)}" loading="lazy" decoding="async"><span aria-hidden="true">⤢</span></button>`).join('')}</div></section>`;
 }
 function renderShopItemTips(keys){
  const esc=shoppingEscape;const guides=keys.map(key=>venueGuides[key]).filter(Boolean);if(!guides.length)return '';
