@@ -91,7 +91,8 @@
   }
   function blocked() {
     if (playing) return;
-    clearTimeout(attemptTimeout); wantsPlay = false; setPlaying(false);
+    // A rejection is not a user pause. A successful retry may still arrive.
+    clearTimeout(attemptTimeout); setPlaying(false);
     setStatus(autoStartPending ? '화면을 터치하면 음악이 시작돼요' : '▶ 눌러 음악 시작');
   }
   function refreshTime() {
@@ -119,7 +120,7 @@
       attemptTimeout = setTimeout(() => {
         if (!playing && wantsPlay) {
           // Slow buffering is not a rejection: keep the requested playback alive.
-          setStatus(autoStartPending ? '화면을 터치해 음악 시작' : '불러오는 중… · 다음 곡 / YouTube ↗');
+          setStatus('불러오는 중… · ▶ 재시도 / YouTube ↗');
         }
       }, 10000);
     } catch (_) { fail('연결 오류 · 다시 시도 또는 YouTube ↗'); }
@@ -152,13 +153,20 @@
     try { player?.destroy(); } catch (_) { /* Already removed. */ }
     player = null; host.replaceChildren();
     try {
+      // Fetch the embed alongside the API instead of waiting for both API scripts.
+      // Only onReady requests playback, after the preferred volume is applied.
+      const mount = document.createElement('iframe');
+      const params = new URLSearchParams({ enablejsapi: 1, autoplay: 0, playsinline: 1, controls: 0, disablekb: 1, fs: 0, origin: location.origin });
+      mount.width = '200'; mount.height = '200'; mount.tabIndex = -1;
+      mount.title = '여행 주크박스 YouTube'; mount.setAttribute('aria-hidden', 'true');
+      mount.allow = 'autoplay; encrypted-media';
+      mount.referrerPolicy = 'strict-origin-when-cross-origin';
+      mount.src = `https://www.youtube.com/embed/${tracks[trackIndex].id}?${params}`;
+      host.append(mount);
       await loadApi();
       if (currentGeneration !== generation) return;
-      const mount = document.createElement('div'); host.append(mount);
       readyTimeout = setTimeout(() => { if (currentGeneration === generation && !ready) fail('연결이 지연돼요 · 다시 시도 / YouTube ↗'); }, 15000);
       player = new YT.Player(mount, {
-        width: 200, height: 200, videoId: tracks[trackIndex].id,
-        playerVars: { autoplay: 1, playsinline: 1, controls: 0, disablekb: 1, fs: 0, origin: location.origin },
         events: {
           onReady(event) {
             if (currentGeneration !== generation || failed) return;
@@ -172,7 +180,7 @@
             if (currentGeneration !== generation || failed) return;
             const state = event.data;
             if (state === 1) {
-              // A delayed response must not override an explicit pause or blocked playback.
+              // A delayed response must not override an explicit pause.
               if (!wantsPlay) { event.target.pauseVideo(); return; }
               autoStartPending = false;
               clearTimeout(attemptTimeout); setPlaying(true); setStatus('재생 중'); refreshTime();
@@ -198,8 +206,7 @@
   play.addEventListener('click', () => {
     if (failed) { connect(); return; }
     if (!ready) return;
-    autoStartPending = false;
-    if (playing || wantsPlay) { wantsPlay = false; clearTimeout(attemptTimeout); player.pauseVideo(); setPlaying(false); setStatus('일시정지'); }
+    if (playing) { autoStartPending = false; wantsPlay = false; clearTimeout(attemptTimeout); player.pauseVideo(); setPlaying(false); setStatus('일시정지'); }
     else requestPlay();
   });
   restart.addEventListener('click', () => { if (ready) { autoStartPending = false; player.seekTo(0, true); updateProgress(0); requestPlay(); } });
@@ -207,7 +214,6 @@
   function startOnInteraction(event) {
     if (!event.isTrusted || !autoStartPending || !ready || failed || playing || bar.contains(event.target)) return;
     if (event.type === 'keydown' && !['Enter', ' '].includes(event.key)) return;
-    autoStartPending = false;
     requestPlay();
   }
   document.addEventListener('click', startOnInteraction, true);
@@ -249,8 +255,13 @@
   function queueMeasure() { if (!requestFrame) requestFrame = requestAnimationFrame(measure); }
   if ('ResizeObserver' in window) {
     const observer = new ResizeObserver(queueMeasure); observer.observe(bar);
-    const nav = document.querySelector('.mobile-nav'); if (nav) observer.observe(nav);
+    // The jukebox starts before the rest of the page has been parsed.
+    document.addEventListener('DOMContentLoaded', () => {
+      const nav = document.querySelector('.mobile-nav'); if (nav) observer.observe(nav);
+      queueMeasure();
+    });
   }
+  document.addEventListener('DOMContentLoaded', queueMeasure);
   window.addEventListener('resize', queueMeasure);
   window.visualViewport?.addEventListener('resize', queueMeasure);
   measure(); connect();

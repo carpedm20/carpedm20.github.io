@@ -1,4 +1,4 @@
-/* User-supplied transparent character, softened with CSS for the white page. */
+/* User-supplied transparent character, faded with opacity without color filters. */
 (() => {
   const motion = matchMedia('(prefers-reduced-motion: reduce)');
   const mouse = matchMedia('(any-hover: hover) and (any-pointer: fine)');
