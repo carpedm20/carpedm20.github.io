@@ -4,7 +4,7 @@
 
 일정에 나오는 장소와 식당·쇼핑·카페 후보를 Google Maps 링크로 모았습니다. **각 끼니는 후보 중 한 곳**, 쇼핑은 가까운 몇 곳만 고르는 구성입니다. 아래 목록 전체를 방문하는 일정이 아닙니다.
 
-현재 사이트 기준으로 식당 **50곳**, 쇼핑 매장 **52곳**, 카페·간식 **25곳**, SARA 긴시초 객실 **10개**, 전용탕 료칸 **5곳**, 건축·종교 공간 **12곳**을 담았습니다. 같은 건물의 객실은 지도 위치가 같습니다.
+현재 사이트 기준으로 식당 **50곳**, 쇼핑 매장 **52곳**, 카페·간식 **25곳**, SARA 긴시초 객실 **10개**, 도심 료칸·휴식 숙소 **9곳**, 건축·종교 공간 **12곳**을 담았습니다. 같은 건물의 객실은 지도 위치가 같습니다.
 
 장소 핀은 2026-11-04에 확인한 지점별 Google Places 결과를 사용했습니다. 건물 핀·대표 산책 지점은 별도로 표시했고, 미확정 장소는 `지도 검색`으로 구분합니다. **연말연시 영업, 행사 일정, 예약, 항공편은 방문 전 재확인**해야 합니다. README 정리 기준: 2026-11-05.
 
@@ -12,7 +12,7 @@
 
 - [점심·저녁 후보](#meals)
 - [숙소·공항](#base)
-- [전용 노천탕 료칸 후보](#ryokan)
+- [마지막 1박·2박 료칸·휴식 숙소](#ryokan)
 - [고요한 건축·종교 공간 후보](#architecture)
 - [12/30 아키하바라](#day-1)
 - [12/31 코미케·신바시](#day-2)
@@ -57,23 +57,72 @@
 
 <a id="ryokan"></a>
 
-## 작은 정원·전용 노천탕 료칸 후보
+## 마지막 1박·2박, 도심 료칸·휴식 숙소
 
-[사진으로 비교하기](https://carpedm20.github.io/tokyo1ee/#ryokan). **분위기 우선은 유엔 다이타, 기존 동선 우선은 쇼류칸**입니다. 현재 본숙소 4박에서 1박을 바꾸는 비교 후보이며, 예약이나 일정 변경을 완료한 상태가 아닙니다. 숙소를 옮길 경우 짐 보관·다음 날 출발을 다시 계획합니다. 아래 날짜는 동선 제안이고 연말연시 객실 공실·요금은 미확인입니다.
+[사진·동선 비교](https://carpedm20.github.io/tokyo1ee/#ryokan). **새 후보 5곳을 추가하고 TOKITO는 먼 교외 동선 때문에 제외**했습니다. 객실 전용 노천탕만으로 한정하지 않고, 함께 이용하는 대절탕과 목재 실내탕도 정확히 구분합니다. 원래 본숙소 4박 일정에 대한 **두 숙소 비교 제안**이며 예약·취소나 일정 선택기 변경을 완료한 상태가 아닙니다.
 
-| 숙소 · 지역 | 정확한 객실·전용탕 | 일정 적합성 | 지도·공식 안내 |
+### 추천 A · 마지막 한 밤을 특별하게 · 3박 + 1박
+
+**본숙소 12/30–1/2 → 두 번째 숙소 1/2–1/3**
+
+숙소 비용을 한 밤에 집중하고 이동도 한 번만 해요. 현재 조회가 나온 차시츠 Fusuma·가모가와부터 비교하고, 전용 객실 노천탕이 필수라면 프로스타일 Suite의 공실을 먼저 확인해요.
+
+1/2 오전 체크아웃·짐 이동 → 우에노·아사쿠사 건축 → 15–16시 입실 → 입욕·저녁 → 1/3 아침 휴식·퇴실·점심 → 하네다
+
+동쪽 숙소를 고르면 1/2 하라주쿠·시부야 쇼핑을 동쪽 코스로 바꿔요. 서쪽 쇼핑을 유지하려면 MINATO 1박을 고가 대안으로 비교해요.
+
+### 추천 B · 코미케 뒤 두 밤 쉬기 · 2박 + 2박
+
+**본숙소 12/30–1/1 → 두 번째 숙소 1/1–1/3**
+
+1/1 15시부터 쉬고 1/2에는 짐 이동 없이 나갔다 돌아와요. 진짜 휴식 시간이 더 길어요. 현재 2박 결과가 나온 가모가와를 비교하고, 원하는 객실 취소분이 나오면 유엔 다이타를 분위기 우선 대안으로 봐요.
+
+1/1 오전 본숙소 체크아웃·두 번째 숙소에 짐 맡기기 → 짧은 산책·점심 → 15시 입실 → 1/2 같은 권역 가벼운 탐방 → 1/3 퇴실·하네다
+
+두 번째 숙소의 두 밤 총액을 비교해요. 아사쿠사 2박은 우에노·아사쿠사·동쪽 일정일 때 잘 맞고, 양일 모두 서쪽 쇼핑이면 숙소 왕복이 늘어요.
+
+### 날짜별 객실·가격 비교
+
+2026-11-05 공식 예약 화면 확인, **성인 2명·1실, 일본 엔 총액**입니다. 결과가 나온 플랜만 금액을 적었습니다. 가격·재고는 변동하며 예약된 상태가 아닙니다. 식사·세금·추가 현지 부담과 취소 조건은 예약 단계에서 다시 확인합니다. 결과 없음은 해당 객실 검색 결과이며 호텔 전체 휴업을 뜻하지 않습니다.
+
+| 숙소 · 탕 방식 | 1/2–1/3 · 1박 | 1/1–1/3 · 2박 | 공식 조회 |
 | --- | --- | --- | --- |
-| 유엔 벳테이 다이타 · 다이타 · 시모키타자와 | **Deluxe Twin with Outdoor Bath · 露天風呂付デラックスツイン · 24㎡**<br>객실 전용 노천탕은 일반 온수예요. 하코네 온천수를 쓰는 공용탕과 구분해서 예약해요. | 1/2 시부야·서쪽 쇼핑 후 1박 후보. 다음 날 고탄다·SARA 오전 일정과 본숙소 짐 회수는 다시 조정해야 해요. | [주소 기반 지도 검색](https://www.google.com/maps/search/?api=1&query=%E7%94%B1%E7%B8%81%E5%88%A5%E9%82%B8%20%E4%BB%A3%E7%94%B0%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA%E4%BB%A3%E7%94%B02-31-26) · [길찾기](https://www.google.com/maps/dir/?api=1&origin=%E6%B8%8B%E8%B0%B7%E9%A7%85&destination=%E7%94%B1%E7%B8%81%E5%88%A5%E9%82%B8%20%E4%BB%A3%E7%94%B0%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA%E4%BB%A3%E7%94%B02-31-26&travelmode=transit) · [공식 객실](https://www.uds-hotels.com/yuenbettei/daita/) |
-| 오차노미즈 호텔 쇼류칸 · 오차노미즈 · 진보초 | **露天風呂付き和室 · 505 茜 / 506 曙 · 34.1㎡**<br>505·506호의 전용 노천탕을 지정해요. 공식 객실 안내에서 천연 온천수 여부는 확인되지 않았어요. | 12/30 아키하바라 일정 뒤 1박으로 비교하기 좋아요. 12/31 다이몬 본숙소 이동·짐 보관 후 코미케로 가려면 아침 여유가 필요해요. | [주소 기반 지도 검색](https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E8%8C%B6%E3%81%AE%E6%B0%B4%E3%83%9B%E3%83%86%E3%83%AB%E6%98%87%E9%BE%8D%E9%A4%A8%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E5%B0%8F%E5%B7%9D%E7%94%BA3-24) · [길찾기](https://www.google.com/maps/dir/?api=1&origin=%E7%A7%8B%E8%91%89%E5%8E%9F%E9%A7%85&destination=%E3%81%8A%E8%8C%B6%E3%81%AE%E6%B0%B4%E3%83%9B%E3%83%86%E3%83%AB%E6%98%87%E9%BE%8D%E9%A4%A8%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E5%B0%8F%E5%B7%9D%E7%94%BA3-24&travelmode=transit) · [공식 객실](https://www.familyhotel.jp/room/) |
-| 프로스타일 료칸 아사쿠사 · 아사쿠사 · 하나카와도 | **Suite Room · 13층 · 37㎡ · 발코니 없음**<br>이 스위트는 천장이 열린 전용 노천탕이 있어요. 일반 객실과 구분하며, 천연 온천수 여부는 미확인이에요. | 1/2를 동쪽 도쿄 코스로 바꿀 때 1박 비교 후보. 기본 시부야 쇼핑 코스에서는 우회하며, 1/3 오전·짐 동선 재조정이 필요해요. | [주소 기반 지도 검색](https://www.google.com/maps/search/?api=1&query=PROSTYLE%E6%97%85%E9%A4%A8%20%E6%9D%B1%E4%BA%AC%E6%B5%85%E8%8D%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E8%8A%B1%E5%B7%9D%E6%88%B82-12-11) · [길찾기](https://www.google.com/maps/dir/?api=1&origin=%E6%B5%85%E8%8D%89%E9%A7%85&destination=PROSTYLE%E6%97%85%E9%A4%A8%20%E6%9D%B1%E4%BA%AC%E6%B5%85%E8%8D%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E8%8A%B1%E5%B7%9D%E6%88%B82-12-11&travelmode=transit) · [공식 객실](https://www.prostyleryokan.com/tokyo-asakusa/en/room/suite) |
-| cya shitsu ryokan TAICHI · 오쿠아사쿠사 | **하루 한 팀 · 객실 60㎡ · 작은 정원과 전용 노천탕**<br>공식 티저에 전용 노천탕을 안내해요. 천연 온천수 여부는 미확인이고, 기존 본관의 옥상 대절탕과 다른 숙소예요. | 1/2 동쪽 도쿄 코스의 조건부 1박 후보. 2026-11-05 확인 시 공식 페이지에 여전히 공식 웹사이트 2026년 10월 공개 예정으로 표시되어 있어, 영업·예약 가능 여부는 미확정이에요. | [주소 기반 지도 검색](https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%893-38-1) · [길찾기](https://www.google.com/maps/dir/?api=1&origin=%E6%B5%85%E8%8D%89%E9%A7%85&destination=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%893-38-1&travelmode=transit) · [공식 객실](https://www.cyashitsu.com/taichi/) |
-| 오베르주 TOKITO · 다치카와 · 도쿄 서부 | **전 4실 · 106㎡ 스위트 · 전용 천연 온천 노천탕**<br>공식 안내상 지하 1,300m에서 끌어올린 천연 온천수를 객실 노천탕에 사용해요. | 중심부 4박 일정에 짧게 끼우기엔 멀어요. 하루를 휴식에 쓰거나 여행을 연장할 때 추천해요. 정기휴무 화·수 안내가 있어 12/30(수), 연말연시 특별 운영 확인이 필요해요. | [주소 기반 지도 검색](https://www.google.com/maps/search/?api=1&query=%E3%82%AA%E3%83%BC%E3%83%99%E3%83%AB%E3%82%B8%E3%83%A5%E3%81%A8%E3%81%8D%E3%81%A8%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AB%8B%E5%B7%9D%E5%B8%82%E9%8C%A6%E7%94%BA1-24-26) · [길찾기](https://www.google.com/maps/dir/?api=1&origin=%E6%96%B0%E6%A9%8B%E9%A7%85&destination=%E3%82%AA%E3%83%BC%E3%83%99%E3%83%AB%E3%82%B8%E3%83%A5%E3%81%A8%E3%81%8D%E3%81%A8%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AB%8B%E5%B7%9D%E5%B8%82%E9%8C%A6%E7%94%BA1-24-26&travelmode=transit) · [공식 객실](https://www.aubergetokito.com/stay/) |
+| 차시츠 료칸 아사쿠사 · 본관<br>옥상 노천탕 45분 대절 | ¥80,780 표시 · Fusuma · 석식+조식 | 미확인 · 조회한 플랜의 1/1 선택 불가 | [객실·예약](https://www.chillnn.com/ja/1727dfd7efb3ae/room/18d106d75942c4) |
+| 료칸 가모가와 아사쿠사<br>실내 목욕탕 30분 대절 | ¥52,080 표시 · Standard · 식사 없음 | ¥104,160 표시 · Standard · 식사 없음 | [객실·예약](https://go-kamogawa.reservation.jp/en/rooms/10017598) · [1박 재검색](https://go-kamogawa.reservation.jp/en/rooms/10017598?checkin_date=20270102&checkout_date=20270103&adults=2&rooms=1&stays=1&dateUndecidedFlg=0) · [2박 재검색](https://go-kamogawa.reservation.jp/en/rooms/10017598?checkin_date=20270101&checkout_date=20270103&adults=2&rooms=1&stays=2&dateUndecidedFlg=0) |
+| 프로스타일 료칸 아사쿠사<br>객실 전용 노천탕 · Suite | Suite 공실·가격 미확인 | 같은 Suite 연속 2박 미확인 | [객실·예약](https://www.prostyleryokan.com/tokyo-asakusa/en/room/suite) |
+| 오차노미즈 호텔 쇼류칸<br>객실 전용 히노키 노천탕 | 505·506호 공실·가격 미확인 | 같은 객실 연속 2박 미확인 | [객실·예약](https://www.familyhotel.jp/room/) |
+| 유엔 벳테이 다이타<br>객실 전용 노천 · 일반 온수 | 전용 노천탕 객실 결과 없음 | 전용 노천탕 객실 결과 없음 | [객실·예약](https://www.uds-hotels.com/yuenbettei/daita/) · [1박 재검색](https://reserve.uds-hotels.com/booking/result?code=6cfa6270-e9d0-4f64-8b10-cf9afe13b833&type=rooms&checkin=2027%2F01%2F02&checkout=2027%2F01%2F03&adults=2&room_count=1) · [2박 재검색](https://reserve.uds-hotels.com/booking/result?code=6cfa6270-e9d0-4f64-8b10-cf9afe13b833&type=rooms&checkin=2027%2F01%2F01&checkout=2027%2F01%2F03&adults=2&room_count=1) |
+| MUJI HOTEL GINZA · Type I<br>객실 전용 실내 히바 욕조 | Type I 예약 결과 없음 | Type I 예약 결과 없음 | [객실·예약](https://book.mh-ginza.com/booking/result?code=019ef8b6-82a1-7fca-b880-804b74a2d7ff&room_type_codes=0010&search_type=undated&locale=ja) · [1박 재검색](https://book.mh-ginza.com/booking/result?code=019ef8b6-82a1-7fca-b880-804b74a2d7ff&room_type_codes=0010&locale=ja&checkin=2027%2F01%2F02&checkout=2027%2F01%2F03&adults=2&room_count=1) · [2박 재검색](https://book.mh-ginza.com/booking/result?code=019ef8b6-82a1-7fca-b880-804b74a2d7ff&room_type_codes=0010&locale=ja&checkin=2027%2F01%2F01&checkout=2027%2F01%2F03&adults=2&room_count=1) |
+| HOTEL MINATO 니시아자부<br>객실 전용 노천탕·사우나 | ¥200,000 표시 · Suite · 조식 | ¥650,000 표시 · Suite · 조식 | [객실·예약](https://reserve.hotel-minato.com/booking/result?code=a842ec72-d308-4f98-acc0-4c4d911660a3&type=rooms&room_type_codes=2303suite&locale=ja) · [1박 재검색](https://reserve.hotel-minato.com/booking/result?code=a842ec72-d308-4f98-acc0-4c4d911660a3&type=rooms&room_type_codes=2303suite&locale=ja&checkin=2027%2F01%2F02&checkout=2027%2F01%2F03&adults=2&room_count=1) · [2박 재검색](https://reserve.hotel-minato.com/booking/result?code=a842ec72-d308-4f98-acc0-4c4d911660a3&type=rooms&room_type_codes=2303suite&locale=ja&checkin=2027%2F01%2F01&checkout=2027%2F01%2F03&adults=2&room_count=1) |
+| 온센 료칸 유엔 신주쿠<br>객실 전용 실내 온천 · 신설 예정 | 공실 미확인 · 공사 조건 확인 | 낮 시간 휴식에는 후순위 | [객실·예약](https://www.uds-hotels.com/yuen/shinjuku/) |
+| cya shitsu ryokan TAICHI<br>전용 정원·노천탕 예정 | 운영·예약 확인 전 보류 | 운영·예약 확인 전 보류 | [객실·예약](https://www.cyashitsu.com/taichi/) |
 
-유엔의 전용 객실탕은 일반 온수이고, 공용탕의 하코네 온천수와 다릅니다. 당일 입욕 패키지가 이 객실의 이용을 뜻하지 않습니다. 프로스타일의 당일 이용 검색도 특정 스위트의 이용 가능 여부를 보장하지 않습니다. 따라서 SARA의 1/3 3시간 테마룸 후보와 별도로 비교합니다.
+차시츠의 가격은 **Fusuma 23㎡ + 스키야키·스시 석식 + 조식 + 45분 대절탕** 선택 후 총액입니다. 달력의 객실 최소가 ¥54,780과 구분합니다. 가모가와는 Standard 사전결제·식사 없는 플랜, MINATO는 Suite 조식 포함 숙박 플랜입니다.
 
-TAICHI 주소는 **浅草3-38-1**이며 기존 cya shitsu ryokan asakusa 본관과 구분합니다. 공식 페이지가 2026-11-05에도 공식 웹사이트 2026년 10월 공개 예정으로 표시되어 실제 운영·예약 상태는 미확정입니다. TOKITO는 화·수 정기휴무 안내가 있으므로 12/30(수)와 연말연시 특별 운영을 확인해야 합니다.
+### 짐·마지막 날·식사
 
-공식 자료 확인: **2026-11-05**. [객실·교통·사진별 출처](assets/RYOKAN-SOURCES.md).
+- **짐은 한 번만 옮기기**: 체크아웃하는 날 큰 짐까지 두 번째 숙소로 가져가요. 입실 전 보관을 확인하고 짐이 크면 숙소 간 택시도 비교해요. 첫 숙소에 1–2일 맡겨둔다는 가정이나 당일 택배 도착을 전제로 하지 않아요.
+- **마지막 날은 숙소에서 쉬고 출국**: 1/3 숙소에서 아침을 여유롭게 보내고 → 각 숙소 10–11시 퇴실 → 가까운 점심 → 짐 회수 → 하네다. 이 안에서는 고탄다 플리마켓·SARA 3시간 코스를 함께 넣지 않아요. 1/3 당일 새 료칸에 체크인하는 안은 통상 15시 입실이라 출국 일정과 맞지 않아요.
+- **공항 시간을 먼저 고정**: 현재 계획의 19:30 항공편은 가정이며 하네다 T3 약 15:00 도착 목표예요. 아사쿠사·다이타·신주쿠는 12:30–13:00, 긴자·니시아자부는 13:00–13:30에 숙소에서 출발하는 계획용 여유를 잡고 실제 노선·항공편으로 조정해요. 이는 실시간 소요시간이 아니에요.
+- **식사와 비용을 함께 비교**: 차시츠의 조회된 2식 플랜은 1/2 저녁·1/3 조식을 대신해요. 가모가와는 식사가 없어 조식·점심을 따로 잡아요. 2박은 같은 객실의 연속 판매와 총액·취소 조건을 확인하고, 기존 숙소가 예약되어 있다면 변경 조건도 함께 비교해요.
+
+### 객실과 동선 상세
+
+| 숙소 · 객실 | 함께 쓰는 탕 | 적합한 계획·입퇴실 | 지도·공식 근거 |
+| --- | --- | --- | --- |
+| **차시츠 료칸 아사쿠사 · 본관** · 아사쿠사 · 센소지 북쪽<br>茶室スイート襖 Fusuma · 23㎡ · 또는 Den 23㎡ | Fusuma·Den은 객실 안 노천탕이 아니라 숙박객이 시간을 나눠 쓰는 옥상 노천탕을 45분 대절해요. 원하는 시간은 도착 후 조정하며 확약되지 않아요. 천연 온천수 여부는 미확인. | 1/2 우에노·아사쿠사 건축 코스로 바꾸고 15–16시 입실 → 전용 시간에 입욕 → 저녁 → 다음 날 조식. 조회한 2식 플랜은 기존 1/2 저녁 후보를 대신해요. 1/3은 10시 퇴실 후 근처 산책·점심 정도만 남겨요.<br>**15:00–19:00 입실 / 10:00 퇴실**<br>입실 전·퇴실 후 1층 라운지에 보관 가능. | [지도 검색](https://www.google.com/maps/search/?api=1&query=%E8%8C%B6%E5%AE%A4ryokan%20asakusa%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%893-32-12) · [하네다 T3 경로](https://www.google.com/maps/dir/?api=1&origin=%E8%8C%B6%E5%AE%A4ryokan%20asakusa%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%893-32-12&destination=%E7%BE%BD%E7%94%B0%E7%A9%BA%E6%B8%AF%20%E7%AC%AC3%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB&travelmode=transit) · [객실 안내](https://www.cyashitsu.com/jp/rooms/) · [추가 안내](https://www.cyashitsu.com/jp/faq/) |
+| **료칸 가모가와 아사쿠사** · 아사쿠사 · 나카미세 옆<br>Standard 화실 · 2인 숙박 · 객실 욕실·화장실 | 1층 실내 목욕탕을 무료로 30분 예약 대절해요. 객실 전용 노천탕은 아니며 천연 온천으로 안내하지 않아요. 공식 홈페이지 기준 16:00–23:00, 실제 슬롯은 별도 확보해요. | 1/2–1/3 한 밤은 우에노·아사쿠사 건축과 묶기 좋아요. 1/1–1/3 두 밤은 코미케 다음 날부터 동쪽 도쿄를 느긋하게 즐길 때 선택해요. 식사 미포함이므로 신년 영업 중인 식당과 아침 식사를 따로 골라요.<br>**15:00–21:00 입실 / 10:00 퇴실**<br>숙박 전 발송 짐 보관은 공식 안내가 있어요. 이동일 직접 맡기는 시간과 퇴실 후 보관은 별도 확인해요. | [지도 검색](https://www.google.com/maps/search/?api=1&query=%E6%97%85%E9%A4%A8%E5%8A%A0%E8%8C%82%E5%B7%9D%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%891-30-10) · [하네다 T3 경로](https://www.google.com/maps/dir/?api=1&origin=%E6%97%85%E9%A4%A8%E5%8A%A0%E8%8C%82%E5%B7%9D%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%891-30-10&destination=%E7%BE%BD%E7%94%B0%E7%A9%BA%E6%B8%AF%20%E7%AC%AC3%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB&travelmode=transit) · [객실 안내](https://f-kamogawa.jp/) · [추가 안내](https://www.f-kamogawa.jp/english/faq.html) |
+| **프로스타일 료칸 아사쿠사** · 아사쿠사 · 하나카와도<br>Suite Room · 13층 · 37㎡ · 발코니 없음 | 이 스위트는 천장이 열린 전용 노천탕이 있어요. 일반 객실과 구분하며, 천연 온천수 여부는 미확인이에요. | 1/2 우에노 법륭사보물관·아사쿠사 건축을 보고 1박하는 안이 잘 맞아요. 1/1–1/3 두 밤은 신년 산책·동쪽 코스에 시간을 쓸 때 선택해요. 하라주쿠·시부야 쇼핑을 끝까지 유지하면 왕복 부담이 생겨요.<br>**선택한 숙박 플랜의 입퇴실 시간 확인**<br>이동일 짐 보관 가능 시간은 예약 전 확인. | [지도 검색](https://www.google.com/maps/search/?api=1&query=PROSTYLE%E6%97%85%E9%A4%A8%20%E6%9D%B1%E4%BA%AC%E6%B5%85%E8%8D%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E8%8A%B1%E5%B7%9D%E6%88%B82-12-11) · [하네다 T3 경로](https://www.google.com/maps/dir/?api=1&origin=PROSTYLE%E6%97%85%E9%A4%A8%20%E6%9D%B1%E4%BA%AC%E6%B5%85%E8%8D%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E8%8A%B1%E5%B7%9D%E6%88%B82-12-11&destination=%E7%BE%BD%E7%94%B0%E7%A9%BA%E6%B8%AF%20%E7%AC%AC3%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB&travelmode=transit) · [객실 안내](https://www.prostyleryokan.com/tokyo-asakusa/en/room/suite) · [추가 안내](https://www.prostyleryokan.com/tokyo-asakusa/en/) |
+| **오차노미즈 호텔 쇼류칸** · 오차노미즈 · 진보초<br>露天風呂付き和室 · 505 茜 / 506 曙 · 34.1㎡ | 505·506호의 전용 노천탕을 지정해요. 공식 객실 안내에서 천연 온천수 여부는 확인되지 않았어요. | 이번에는 1/2–1/3 마지막 1박 또는 1/1–1/3 두 밤으로 비교해요. 진보초·아키하바라 재방문과 어울리고, 서쪽 쇼핑 뒤에는 숙소까지 돌아오는 시간을 남겨요. 12/31 코미케 아침에 숙소를 옮기는 안보다 여행 후반 이동이 편해요.<br>**15:00 입실 / 10:00 퇴실**<br>이동일 입실 전·퇴실 후 보관 조건은 예약 전 확인. | [지도 검색](https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E8%8C%B6%E3%81%AE%E6%B0%B4%E3%83%9B%E3%83%86%E3%83%AB%E6%98%87%E9%BE%8D%E9%A4%A8%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E5%B0%8F%E5%B7%9D%E7%94%BA3-24) · [하네다 T3 경로](https://www.google.com/maps/dir/?api=1&origin=%E3%81%8A%E8%8C%B6%E3%81%AE%E6%B0%B4%E3%83%9B%E3%83%86%E3%83%AB%E6%98%87%E9%BE%8D%E9%A4%A8%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E5%B0%8F%E5%B7%9D%E7%94%BA3-24&destination=%E7%BE%BD%E7%94%B0%E7%A9%BA%E6%B8%AF%20%E7%AC%AC3%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB&travelmode=transit) · [객실 안내](https://www.familyhotel.jp/room/) · [추가 안내](https://www.familyhotel.jp/faq/) |
+| **유엔 벳테이 다이타** · 다이타 · 시모키타자와<br>Deluxe Twin with Outdoor Bath · 露天風呂付デラックスツイン · 24㎡ | 객실 전용 노천탕은 일반 온수예요. 하코네 온천수를 쓰는 공용탕과 구분해서 예약해요. | 1/1–1/3 두 밤이면 코미케 다음 날 15시부터 쉬고, 1/2 시모키타자와·시부야를 가볍게 둘러보기 좋아요. 1박은 1/2 쇼핑을 16시쯤 마칠 때 추천해요. 현재 조회에서는 전용 노천탕 객실이 나오지 않았어요.<br>**15:00 입실 / 11:00 퇴실**<br>입실 전 보관 가능, 퇴실 후 당일 회수 조건·수량 제한. | [지도 검색](https://www.google.com/maps/search/?api=1&query=%E7%94%B1%E7%B8%81%E5%88%A5%E9%82%B8%20%E4%BB%A3%E7%94%B0%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA%E4%BB%A3%E7%94%B02-31-26) · [하네다 T3 경로](https://www.google.com/maps/dir/?api=1&origin=%E7%94%B1%E7%B8%81%E5%88%A5%E9%82%B8%20%E4%BB%A3%E7%94%B0%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA%E4%BB%A3%E7%94%B02-31-26&destination=%E7%BE%BD%E7%94%B0%E7%A9%BA%E6%B8%AF%20%E7%AC%AC3%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB&travelmode=transit) · [객실 안내](https://www.uds-hotels.com/yuenbettei/daita/) · [추가 안내](https://www.uds-hotels.com/yuenbettei/daita/qa/) |
+| **MUJI HOTEL GINZA · Type I** · 긴자 · 유라쿠초<br>TYPE I · 52㎡ · 트윈 · 전체 1실 | Type I의 객실 전용 실내 히바(ヒバ) 목재 욕조. 노천탕·천연 온천은 아니며 히노키와도 구분해요. 다른 타입의 일반 욕조가 같은 목재 욕조를 뜻하지 않아요. | 1/2–1/3 한 밤은 다이몬·신바시에서 옮기기 수월하고, 시부야 쇼핑 뒤 긴자로 돌아와 쉬기 좋아요. 1/1–1/3 두 밤도 도심 거점으로 쓸 수 있지만 Type I은 1실뿐이며 이번 조회에서는 두 범위 모두 결과가 없었어요.<br>**15:00 입실 / 11:00 퇴실**<br>입실 전·퇴실 후 프런트 짐 보관 가능. 마지막 날 당일 회수. | [지도 검색](https://www.google.com/maps/search/?api=1&query=MUJI%20HOTEL%20GINZA%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%8A%80%E5%BA%A73-3-5) · [하네다 T3 경로](https://www.google.com/maps/dir/?api=1&origin=MUJI%20HOTEL%20GINZA%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%8A%80%E5%BA%A73-3-5&destination=%E7%BE%BD%E7%94%B0%E7%A9%BA%E6%B8%AF%20%E7%AC%AC3%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB&travelmode=transit) · [객실 안내](https://hotel.muji.com/ginza/ja/rooms/) · [추가 안내](https://hotel.muji.com/ginza/ja/contact/) |
+| **HOTEL MINATO 니시아자부** · 니시아자부 · 롯폰기 서쪽<br>Suite · 90㎡ · 킹 베드 · 1–2명 | Suite의 전용 실내탕·노천탕과 2인용 사우나. Luxury 객실은 같은 노천탕이 아니에요. 천연 온천수 여부는 확인되지 않았어요. | 1/2 아오야마·시부야 코스를 일찍 마친 뒤 한 밤이 더 합리적이에요. 조회된 2박 총액이 크게 높아 이번에는 1박 특별 숙박용으로만 우선 비교해요. 짐이 크면 시부야·신바시에서 택시 이동도 비교해요.<br>**통상 15:00 입실 / 11:00 퇴실 · 숙박 플랜 확인**<br>입실 전·퇴실 후 보관 가능. 귀중품·깨지기 쉬운 물건·식품 제외. | [지도 검색](https://www.google.com/maps/search/?api=1&query=HOTEL%20%E3%81%BF%E3%81%AA%E3%81%A8%20%E8%A5%BF%E9%BA%BB%E5%B8%83%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%AF%E5%8C%BA%E8%A5%BF%E9%BA%BB%E5%B8%831-13-17) · [하네다 T3 경로](https://www.google.com/maps/dir/?api=1&origin=HOTEL%20%E3%81%BF%E3%81%AA%E3%81%A8%20%E8%A5%BF%E9%BA%BB%E5%B8%83%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%AF%E5%8C%BA%E8%A5%BF%E9%BA%BB%E5%B8%831-13-17&destination=%E7%BE%BD%E7%94%B0%E7%A9%BA%E6%B8%AF%20%E7%AC%AC3%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB&travelmode=transit) · [객실 안내](https://hotel-minato.com/rooms/) · [추가 안내](https://hotel-minato.com/faq/) |
+| **온센 료칸 유엔 신주쿠** · 신주쿠교엔마에 · 신주쿠산초메<br>ONSEN Suite Double 50㎡ / Twin 62㎡ · 새 객실 총 4실 | ONSEN Suite는 하코네에서 운반한 천연 온천수를 객실에서 즐기는 타입. 객실 전용 실내탕이며 정원 노천탕으로 소개하지 않아요. 일반 객실·공용탕 이용 플랜과 구분해요. | 1/2 서쪽 쇼핑 뒤 1박이면 공사 시간 대부분을 피하는 계획이 가능해요. 1/1–1/3 종일 쉬는 두 밤은 우선순위를 낮춰요. 공식상 소음·진동 작업 11–15시, 작업자 출입 9–18시이며 여행 중 휴공 여부는 미확인.<br>**15:00 입실 / 11:00 퇴실**<br>입실 전 보관 가능, 퇴실 후 당일 회수 원칙·수량 제한. | [지도 검색](https://www.google.com/maps/search/?api=1&query=ONSEN%20RYOKAN%20%E7%94%B1%E7%B8%81%20%E6%96%B0%E5%AE%BF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E6%96%B0%E5%AE%BF5-3-18) · [하네다 T3 경로](https://www.google.com/maps/dir/?api=1&origin=ONSEN%20RYOKAN%20%E7%94%B1%E7%B8%81%20%E6%96%B0%E5%AE%BF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E6%96%B0%E5%AE%BF5-3-18&destination=%E7%BE%BD%E7%94%B0%E7%A9%BA%E6%B8%AF%20%E7%AC%AC3%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB&travelmode=transit) · [객실 안내](https://www.uds-hotels.com/yuen/shinjuku/) · [추가 안내](https://www.uds-hotels.com/yuen/shinjuku/news/information/20251225a/) |
+| **cya shitsu ryokan TAICHI** · 오쿠아사쿠사<br>하루 한 팀 · 객실 60㎡ · 작은 정원과 전용 노천탕 | 공식 티저에 전용 노천탕을 안내해요. 천연 온천수 여부는 미확인이고, 기존 본관의 옥상 대절탕과 다른 숙소예요. | 1/2 동쪽 도쿄 코스의 조건부 1박 후보. 2026-11-05 확인 시 공식 페이지에 여전히 공식 웹사이트 2026년 10월 공개 예정으로 표시되어 있어, 영업·예약 가능 여부는 미확정이에요.<br>**실제 운영·입퇴실 조건 미확인**<br>운영 확인 후 짐 보관 조건도 확인. | [지도 검색](https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%893-38-1) · [하네다 T3 경로](https://www.google.com/maps/dir/?api=1&origin=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%893-38-1&destination=%E7%BE%BD%E7%94%B0%E7%A9%BA%E6%B8%AF%20%E7%AC%AC3%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB&travelmode=transit) · [객실 안내](https://www.cyashitsu.com/taichi/) |
+
+**확인할 차이:** 차시츠 본관은 浅草3-32-12, TAICHI는 浅草3-38-1입니다. 본관 Gratte ciel는 공식 홈페이지 정원 2명과 예약 페이지 정원 1명·공용 화장실 표기가 달라 두 사람의 우선 객실로 추천하지 않고 Fusuma·Den을 비교합니다. MUJI의 나무 욕조는 히바이며 노천탕이 아닙니다. 유엔 신주쿠 ONSEN Suite는 11/16 신설 예정이고 공사 공지가 2027/2/28까지 이어져 낮 시간 휴식에는 후순위입니다.
+
+[객실·조회 조건·사진별 출처](assets/RYOKAN-SOURCES.md).
 
 <a id="architecture"></a>
 

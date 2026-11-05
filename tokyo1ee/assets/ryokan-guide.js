@@ -1,15 +1,156 @@
-/* Official room details and photo credits: RYOKAN-SOURCES.md. Comparison only; no booking or itinerary mutation. */
+/* Official facts, dated search results and photo credits: RYOKAN-SOURCES.md. Split stays are proposals, not bookings. */
 const ryokanStays = [
+  {
+    "id": "cyashitsu",
+    "name": "차시츠 료칸 아사쿠사 · 본관",
+    "english": "cya shitsu ryokan asakusa",
+    "badge": "새 후보 · 마지막 1박과 동쪽 코스 추천",
+    "area": "아사쿠사 · 센소지 북쪽",
+    "room": "茶室スイート襖 Fusuma · 23㎡ · 또는 Den 23㎡",
+    "mood": "어두운 목재와 다다미, 낮은 조명과 작은 차실 같은 공간. 두 사람의 분위기 있는 마지막 밤에 어울려요.",
+    "bath": "Fusuma·Den은 객실 안 노천탕이 아니라 숙박객이 시간을 나눠 쓰는 옥상 노천탕을 45분 대절해요. 원하는 시간은 도착 후 조정하며 확약되지 않아요. 천연 온천수 여부는 미확인.",
+    "bathKind": "옥상 노천탕 45분 대절",
+    "fit": "1/2 우에노·아사쿠사 건축 코스로 바꾸고 15–16시 입실 → 전용 시간에 입욕 → 저녁 → 다음 날 조식. 조회한 2식 플랜은 기존 1/2 저녁 후보를 대신해요. 1/3은 10시 퇴실 후 근처 산책·점심 정도만 남겨요.",
+    "access": "긴자선·도부 아사쿠사역 도보 10분. 출국 때는 도에이 아사쿠사선 승강장까지 별도로 이동해요.",
+    "query": "茶室ryokan asakusa 東京都台東区浅草3-32-12",
+    "origin": "上野駅",
+    "source": "https://www.cyashitsu.com/jp/rooms/",
+    "extra": "https://www.cyashitsu.com/jp/faq/",
+    "extraLabel": "입퇴실·짐 보관 FAQ",
+    "booking": "https://www.chillnn.com/ja/1727dfd7efb3ae/room/18d106d75942c4",
+    "caption": "공식 Fusuma 객실 사진 · 대절 노천탕은 객실 밖 별도 공간",
+    "photoSource": "https://www.cyashitsu.com/assets/img/rooms/pic-fusuma-1.webp",
+    "one": "¥80,780 표시 · Fusuma · 석식+조식",
+    "two": "미확인 · 조회한 플랜의 1/1 선택 불가",
+    "checkout": "15:00–19:00 입실 / 10:00 퇴실",
+    "bags": "입실 전·퇴실 후 1층 라운지에 보관 가능.",
+    "airport": "도에이 아사쿠사선 → 게이큐 하네다 방면. 큰 짐은 이 숙소로 옮기고 마지막 날 여기서 회수해요.",
+    "inventory": "2026-11-05 CHILLNN: 성인 2명·1실·1/2–1/3·Fusuma·스키야키&스시 석식+조식 플랜 총액 ¥80,780 표시. 객실 최소가 ¥54,780만을 총액으로 쓰지 않았어요. 1/1의 해당 플랜은 선택 불가, 다른 플랜의 2박은 미확인.",
+    "evidence": [
+      "https://www.cyashitsu.com/jp/access/",
+      "https://www.chillnn.com/ja/1727dfd7efb3ae/room/172e8b48b361",
+      "https://www.chillnn.com/ja/1727dfd7efb3ae/room/172e8ac176b7c"
+    ],
+    "photo": "assets/photos/ryokan-cyashitsu.webp",
+    "group": "main",
+    "map": "https://www.google.com/maps/search/?api=1&query=%E8%8C%B6%E5%AE%A4ryokan%20asakusa%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%893-32-12",
+    "directions": "https://www.google.com/maps/dir/?api=1&origin=%E4%B8%8A%E9%87%8E%E9%A7%85&destination=%E8%8C%B6%E5%AE%A4ryokan%20asakusa%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%893-32-12&travelmode=transit",
+    "airportMap": "https://www.google.com/maps/dir/?api=1&origin=%E8%8C%B6%E5%AE%A4ryokan%20asakusa%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%893-32-12&destination=%E7%BE%BD%E7%94%B0%E7%A9%BA%E6%B8%AF%20%E7%AC%AC3%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB&travelmode=transit"
+  },
+  {
+    "id": "kamogawa",
+    "name": "료칸 가모가와 아사쿠사",
+    "english": "Ryokan Kamogawa Asakusa",
+    "badge": "새 후보 · 조회된 가격과 동선의 균형",
+    "area": "아사쿠사 · 나카미세 옆",
+    "room": "Standard 화실 · 2인 숙박 · 객실 욕실·화장실",
+    "mood": "다다미와 이불, 목재로 마감한 대절 목욕탕. 정원 노천탕의 화려함보다는 소박한 일본식 숙소에서 함께 쉬는 선택이에요.",
+    "bath": "1층 실내 목욕탕을 무료로 30분 예약 대절해요. 객실 전용 노천탕은 아니며 천연 온천으로 안내하지 않아요. 공식 홈페이지 기준 16:00–23:00, 실제 슬롯은 별도 확보해요.",
+    "bathKind": "실내 목욕탕 30분 대절",
+    "fit": "1/2–1/3 한 밤은 우에노·아사쿠사 건축과 묶기 좋아요. 1/1–1/3 두 밤은 코미케 다음 날부터 동쪽 도쿄를 느긋하게 즐길 때 선택해요. 식사 미포함이므로 신년 영업 중인 식당과 아침 식사를 따로 골라요.",
+    "access": "긴자선·도에이 아사쿠사역에서 공식 안내 도보 약 5분. 센소지 도보 3분, 나카미세 가까운 골목이에요.",
+    "query": "旅館加茂川 東京都台東区浅草1-30-10",
+    "origin": "上野駅",
+    "source": "https://f-kamogawa.jp/",
+    "extra": "https://www.f-kamogawa.jp/english/faq.html",
+    "extraLabel": "입퇴실·시설 FAQ",
+    "booking": "https://go-kamogawa.reservation.jp/en/rooms/10017598",
+    "caption": "공식 대절 실내탕 사진 · 객실 노천탕과 구분",
+    "photoSource": "https://f-kamogawa.jp/images/img_reason9_2.jpg",
+    "one": "¥52,080 표시 · Standard · 식사 없음",
+    "two": "¥104,160 표시 · Standard · 식사 없음",
+    "checkout": "15:00–21:00 입실 / 10:00 퇴실",
+    "bags": "숙박 전 발송 짐 보관은 공식 안내가 있어요. 이동일 직접 맡기는 시간과 퇴실 후 보관은 별도 확인해요.",
+    "airport": "도에이 아사쿠사선 → 게이큐 하네다 방면. 점심 뒤 숙소에서 짐을 가져와 역으로 이동해요.",
+    "inventory": "2026-11-05 공식 예약: 성인 2명·1실 Standard, 사전결제·식사 없는 플랜. 1박 총 ¥52,080 / 2박 총 ¥104,160 표시(세금·수수료 포함 표기). 숙박세 등 추가 현지 부담은 결제 조건에서 재확인. 정기 월–수 휴관 안내와 달리 이 금–일 날짜는 실제 검색 결과로 확인했어요.",
+    "evidence": [
+      "https://www.f-kamogawa.jp/english/room.html",
+      "https://www.f-kamogawa.jp/english/access.html"
+    ],
+    "photo": "assets/photos/ryokan-kamogawa.jpg",
+    "group": "main",
+    "map": "https://www.google.com/maps/search/?api=1&query=%E6%97%85%E9%A4%A8%E5%8A%A0%E8%8C%82%E5%B7%9D%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%891-30-10",
+    "directions": "https://www.google.com/maps/dir/?api=1&origin=%E4%B8%8A%E9%87%8E%E9%A7%85&destination=%E6%97%85%E9%A4%A8%E5%8A%A0%E8%8C%82%E5%B7%9D%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%891-30-10&travelmode=transit",
+    "airportMap": "https://www.google.com/maps/dir/?api=1&origin=%E6%97%85%E9%A4%A8%E5%8A%A0%E8%8C%82%E5%B7%9D%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%891-30-10&destination=%E7%BE%BD%E7%94%B0%E7%A9%BA%E6%B8%AF%20%E7%AC%AC3%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB&travelmode=transit",
+    "search1": "https://go-kamogawa.reservation.jp/en/rooms/10017598?checkin_date=20270102&checkout_date=20270103&adults=2&rooms=1&stays=1&dateUndecidedFlg=0",
+    "search2": "https://go-kamogawa.reservation.jp/en/rooms/10017598?checkin_date=20270101&checkout_date=20270103&adults=2&rooms=1&stays=2&dateUndecidedFlg=0"
+  },
+  {
+    "id": "prostyle",
+    "name": "프로스타일 료칸 아사쿠사",
+    "english": "Prostyle Ryokan Tokyo Asakusa",
+    "badge": "동쪽 건축 코스 · 객실 전용 노천탕",
+    "area": "아사쿠사 · 하나카와도",
+    "room": "Suite Room · 13층 · 37㎡ · 발코니 없음",
+    "mood": "쇼지와 다다미, 돌 욕조의 차분한 도심형 료칸. 정원과 대나무를 우선한다면 유엔 쪽이 더 잘 맞아요.",
+    "bath": "이 스위트는 천장이 열린 전용 노천탕이 있어요. 일반 객실과 구분하며, 천연 온천수 여부는 미확인이에요.",
+    "fit": "1/2 우에노 법륭사보물관·아사쿠사 건축을 보고 1박하는 안이 잘 맞아요. 1/1–1/3 두 밤은 신년 산책·동쪽 코스에 시간을 쓸 때 선택해요. 하라주쿠·시부야 쇼핑을 끝까지 유지하면 왕복 부담이 생겨요.",
+    "access": "긴자선 아사쿠사역 5번 출구 도보 6분 · 도에이선 A5 도보 7분",
+    "query": "PROSTYLE旅館 東京浅草 東京都台東区花川戸2-12-11",
+    "origin": "浅草駅",
+    "source": "https://www.prostyleryokan.com/tokyo-asakusa/en/room/suite",
+    "caption": "공식 객실 사진 · 13층 Suite의 노천탕",
+    "photo": "assets/photos/ryokan-prostyle.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=PROSTYLE%E6%97%85%E9%A4%A8%20%E6%9D%B1%E4%BA%AC%E6%B5%85%E8%8D%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E8%8A%B1%E5%B7%9D%E6%88%B82-12-11",
+    "directions": "https://www.google.com/maps/dir/?api=1&origin=%E6%B5%85%E8%8D%89%E9%A7%85&destination=PROSTYLE%E6%97%85%E9%A4%A8%20%E6%9D%B1%E4%BA%AC%E6%B5%85%E8%8D%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E8%8A%B1%E5%B7%9D%E6%88%B82-12-11&travelmode=transit",
+    "photoSource": "https://www.prostyleryokan.com/tokyo-asakusa/wp-content/uploads/2019/09/2019-12-03@12-59-55-IMG_0257-Edit-scaled.jpg",
+    "one": "Suite 공실·가격 미확인",
+    "two": "같은 Suite 연속 2박 미확인",
+    "bathKind": "객실 전용 노천탕 · Suite",
+    "checkout": "선택한 숙박 플랜의 입퇴실 시간 확인",
+    "bags": "이동일 짐 보관 가능 시간은 예약 전 확인.",
+    "airport": "도에이 아사쿠사역 → 게이큐 하네다 방면. 직통 여부·행선지를 확인하고, 짐을 되찾으러 다이몬에 돌아가지 않아요.",
+    "extra": "https://www.prostyleryokan.com/tokyo-asakusa/en/",
+    "extraLabel": "공식 공항·역 접근 안내",
+    "inventory": "Suite 객실의 조건은 확인했으나 1박·2박 공실과 가격은 미확인입니다.",
+    "group": "main",
+    "booking": "https://www.prostyleryokan.com/tokyo-asakusa/en/room/suite",
+    "evidence": [],
+    "airportMap": "https://www.google.com/maps/dir/?api=1&origin=PROSTYLE%E6%97%85%E9%A4%A8%20%E6%9D%B1%E4%BA%AC%E6%B5%85%E8%8D%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E8%8A%B1%E5%B7%9D%E6%88%B82-12-11&destination=%E7%BE%BD%E7%94%B0%E7%A9%BA%E6%B8%AF%20%E7%AC%AC3%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB&travelmode=transit"
+  },
+  {
+    "id": "shoryukan",
+    "name": "오차노미즈 호텔 쇼류칸",
+    "english": "Ochanomizu Hotel Shoryukan",
+    "badge": "소박한 전용 노천탕 · 중앙 동선 대안",
+    "area": "오차노미즈 · 진보초",
+    "room": "露天風呂付き和室 · 505 茜 / 506 曙 · 34.1㎡",
+    "mood": "다다미와 목재, 베란다의 히노키 욕조. 작은 정원보다는 소박한 일본식 객실 분위기에 가까워요.",
+    "bath": "505·506호의 전용 노천탕을 지정해요. 공식 객실 안내에서 천연 온천수 여부는 확인되지 않았어요.",
+    "fit": "이번에는 1/2–1/3 마지막 1박 또는 1/1–1/3 두 밤으로 비교해요. 진보초·아키하바라 재방문과 어울리고, 서쪽 쇼핑 뒤에는 숙소까지 돌아오는 시간을 남겨요. 12/31 코미케 아침에 숙소를 옮기는 안보다 여행 후반 이동이 편해요.",
+    "access": "JR 오차노미즈역 도보 약 5분 · 아키하바라 인접 구역",
+    "query": "お茶の水ホテル昇龍館 東京都千代田区神田小川町3-24",
+    "origin": "秋葉原駅",
+    "source": "https://www.familyhotel.jp/room/",
+    "caption": "공식 객실 사진 · 노천탕 포함 화실의 히노키 욕조",
+    "photo": "assets/photos/ryokan-shoryukan.png",
+    "map": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E8%8C%B6%E3%81%AE%E6%B0%B4%E3%83%9B%E3%83%86%E3%83%AB%E6%98%87%E9%BE%8D%E9%A4%A8%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E5%B0%8F%E5%B7%9D%E7%94%BA3-24",
+    "directions": "https://www.google.com/maps/dir/?api=1&origin=%E7%A7%8B%E8%91%89%E5%8E%9F%E9%A7%85&destination=%E3%81%8A%E8%8C%B6%E3%81%AE%E6%B0%B4%E3%83%9B%E3%83%86%E3%83%AB%E6%98%87%E9%BE%8D%E9%A4%A8%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E5%B0%8F%E5%B7%9D%E7%94%BA3-24&travelmode=transit",
+    "photoSource": "https://www.familyhotel.jp/room/images/img_r1_2.png",
+    "one": "505·506호 공실·가격 미확인",
+    "two": "같은 객실 연속 2박 미확인",
+    "bathKind": "객실 전용 히노키 노천탕",
+    "checkout": "15:00 입실 / 10:00 퇴실",
+    "bags": "이동일 입실 전·퇴실 후 보관 조건은 예약 전 확인.",
+    "airport": "오차노미즈 → 도쿄·시나가와 → 게이큐 하네다, 또는 하마마쓰초 → 모노레일. 큰 짐을 들고 본숙소로 돌아가지 않아요.",
+    "extra": "https://www.familyhotel.jp/faq/",
+    "extraLabel": "입퇴실·시설 FAQ",
+    "inventory": "객실 유형은 확인했으나 이번 두 날짜 범위의 판매 결과는 미확인입니다.",
+    "group": "main",
+    "booking": "https://www.familyhotel.jp/room/",
+    "evidence": [],
+    "airportMap": "https://www.google.com/maps/dir/?api=1&origin=%E3%81%8A%E8%8C%B6%E3%81%AE%E6%B0%B4%E3%83%9B%E3%83%86%E3%83%AB%E6%98%87%E9%BE%8D%E9%A4%A8%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E5%B0%8F%E5%B7%9D%E7%94%BA3-24&destination=%E7%BE%BD%E7%94%B0%E7%A9%BA%E6%B8%AF%20%E7%AC%AC3%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB&travelmode=transit"
+  },
   {
     "id": "yuen",
     "name": "유엔 벳테이 다이타",
     "english": "Onsen Ryokan Yuen Bettei Daita",
-    "badge": "분위기 우선 · 첫 번째 후보",
+    "badge": "분위기 최우선 · 전용탕 객실 재확인",
     "area": "다이타 · 시모키타자와",
     "room": "Deluxe Twin with Outdoor Bath · 露天風呂付デラックスツイン · 24㎡",
     "mood": "나무 욕조와 대나무 가림막, 작은 정원. 요청한 조용하고 아늑한 노천탕 분위기에 가장 가까워요.",
     "bath": "객실 전용 노천탕은 일반 온수예요. 하코네 온천수를 쓰는 공용탕과 구분해서 예약해요.",
-    "fit": "1/2 시부야·서쪽 쇼핑 후 1박 후보. 다음 날 고탄다·SARA 오전 일정과 본숙소 짐 회수는 다시 조정해야 해요.",
+    "fit": "1/1–1/3 두 밤이면 코미케 다음 날 15시부터 쉬고, 1/2 시모키타자와·시부야를 가볍게 둘러보기 좋아요. 1박은 1/2 쇼핑을 16시쯤 마칠 때 추천해요. 현재 조회에서는 전용 노천탕 객실이 나오지 않았어요.",
     "access": "세타가야다이타역 동쪽 출구 도보 30초 · 시모키타자와역 남서쪽 출구 도보 8분",
     "query": "由縁別邸 代田 東京都世田谷区代田2-31-26",
     "origin": "渋谷駅",
@@ -20,47 +161,130 @@ const ryokanStays = [
     "photo": "assets/photos/ryokan-yuen.jpg",
     "map": "https://www.google.com/maps/search/?api=1&query=%E7%94%B1%E7%B8%81%E5%88%A5%E9%82%B8%20%E4%BB%A3%E7%94%B0%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA%E4%BB%A3%E7%94%B02-31-26",
     "directions": "https://www.google.com/maps/dir/?api=1&origin=%E6%B8%8B%E8%B0%B7%E9%A7%85&destination=%E7%94%B1%E7%B8%81%E5%88%A5%E9%82%B8%20%E4%BB%A3%E7%94%B0%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA%E4%BB%A3%E7%94%B02-31-26&travelmode=transit",
-    "photoSource": "https://www.uds-hotels.com/wp/wp-content/uploads/2025/03/room01_02-1.jpg"
+    "photoSource": "https://www.uds-hotels.com/wp/wp-content/uploads/2025/03/room01_02-1.jpg",
+    "one": "전용 노천탕 객실 결과 없음",
+    "two": "전용 노천탕 객실 결과 없음",
+    "bathKind": "객실 전용 노천 · 일반 온수",
+    "checkout": "15:00 입실 / 11:00 퇴실",
+    "bags": "입실 전 보관 가능, 퇴실 후 당일 회수 조건·수량 제한.",
+    "airport": "세타가야다이타·시모키타자와 → 신주쿠 또는 시부야 → 시나가와 → 게이큐 하네다. 역 이동과 환승이 있어 출국일 고탄다·긴시초를 함께 넣지 않아요.",
+    "inventory": "2026-11-05 공식 조회: 두 날짜 범위 모두 메조네트 트윈만 표시. 그 객실은 샤워만 있으며 여기서 원하는 전용 노천탕 객실이 아니에요.",
+    "group": "main",
+    "booking": "https://www.uds-hotels.com/yuenbettei/daita/",
+    "evidence": [],
+    "airportMap": "https://www.google.com/maps/dir/?api=1&origin=%E7%94%B1%E7%B8%81%E5%88%A5%E9%82%B8%20%E4%BB%A3%E7%94%B0%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA%E4%BB%A3%E7%94%B02-31-26&destination=%E7%BE%BD%E7%94%B0%E7%A9%BA%E6%B8%AF%20%E7%AC%AC3%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB&travelmode=transit",
+    "search1": "https://reserve.uds-hotels.com/booking/result?code=6cfa6270-e9d0-4f64-8b10-cf9afe13b833&type=rooms&checkin=2027%2F01%2F02&checkout=2027%2F01%2F03&adults=2&room_count=1",
+    "search2": "https://reserve.uds-hotels.com/booking/result?code=6cfa6270-e9d0-4f64-8b10-cf9afe13b833&type=rooms&checkin=2027%2F01%2F01&checkout=2027%2F01%2F03&adults=2&room_count=1"
   },
   {
-    "id": "shoryukan",
-    "name": "오차노미즈 호텔 쇼류칸",
-    "english": "Ochanomizu Hotel Shoryukan",
-    "badge": "동선 우선 · 12/30 후보",
-    "area": "오차노미즈 · 진보초",
-    "room": "露天風呂付き和室 · 505 茜 / 506 曙 · 34.1㎡",
-    "mood": "다다미와 목재, 베란다의 히노키 욕조. 작은 정원보다는 소박한 일본식 객실 분위기에 가까워요.",
-    "bath": "505·506호의 전용 노천탕을 지정해요. 공식 객실 안내에서 천연 온천수 여부는 확인되지 않았어요.",
-    "fit": "12/30 아키하바라 일정 뒤 1박으로 비교하기 좋아요. 12/31 다이몬 본숙소 이동·짐 보관 후 코미케로 가려면 아침 여유가 필요해요.",
-    "access": "JR 오차노미즈역 도보 약 5분 · 아키하바라 인접 구역",
-    "query": "お茶の水ホテル昇龍館 東京都千代田区神田小川町3-24",
-    "origin": "秋葉原駅",
-    "source": "https://www.familyhotel.jp/room/",
-    "caption": "공식 객실 사진 · 노천탕 포함 화실의 히노키 욕조",
-    "photo": "assets/photos/ryokan-shoryukan.png",
-    "map": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E8%8C%B6%E3%81%AE%E6%B0%B4%E3%83%9B%E3%83%86%E3%83%AB%E6%98%87%E9%BE%8D%E9%A4%A8%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E5%B0%8F%E5%B7%9D%E7%94%BA3-24",
-    "directions": "https://www.google.com/maps/dir/?api=1&origin=%E7%A7%8B%E8%91%89%E5%8E%9F%E9%A7%85&destination=%E3%81%8A%E8%8C%B6%E3%81%AE%E6%B0%B4%E3%83%9B%E3%83%86%E3%83%AB%E6%98%87%E9%BE%8D%E9%A4%A8%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E5%B0%8F%E5%B7%9D%E7%94%BA3-24&travelmode=transit",
-    "photoSource": "https://www.familyhotel.jp/room/images/img_r1_2.png"
+    "id": "muji",
+    "name": "MUJI HOTEL GINZA · Type I",
+    "english": "MUJI HOTEL GINZA",
+    "badge": "새 후보 · 공항 동선 우수 / 객실 재확인",
+    "area": "긴자 · 유라쿠초",
+    "room": "TYPE I · 52㎡ · 트윈 · 전체 1실",
+    "mood": "목재·다다미·낮은 가구의 차분한 객실. 정원이 있는 료칸 대신 긴자 한가운데에서 나무 욕조와 편안한 실내를 즐기는 대안이에요.",
+    "bath": "Type I의 객실 전용 실내 히바(ヒバ) 목재 욕조. 노천탕·천연 온천은 아니며 히노키와도 구분해요. 다른 타입의 일반 욕조가 같은 목재 욕조를 뜻하지 않아요.",
+    "bathKind": "객실 전용 실내 히바 욕조",
+    "fit": "1/2–1/3 한 밤은 다이몬·신바시에서 옮기기 수월하고, 시부야 쇼핑 뒤 긴자로 돌아와 쉬기 좋아요. 1/1–1/3 두 밤도 도심 거점으로 쓸 수 있지만 Type I은 1실뿐이며 이번 조회에서는 두 범위 모두 결과가 없었어요.",
+    "access": "긴자역 C8 또는 긴자잇초메역 5번 출구 도보 2분 · JR 유라쿠초역 중앙 출구 도보 3분.",
+    "query": "MUJI HOTEL GINZA 東京都中央区銀座3-3-5",
+    "origin": "新橋駅",
+    "source": "https://hotel.muji.com/ginza/ja/rooms/",
+    "extra": "https://hotel.muji.com/ginza/ja/contact/",
+    "extraLabel": "짐 보관·공항 이동 FAQ",
+    "booking": "https://book.mh-ginza.com/booking/result?code=019ef8b6-82a1-7fca-b880-804b74a2d7ff&room_type_codes=0010&search_type=undated&locale=ja",
+    "caption": "공식 Type I 욕실 사진 · 히바 목재 실내 욕조",
+    "photoSource": "https://hotel.muji.com/ginza/wp-content/themes/mujihotelginza/img/rooms_type_i_6.jpg",
+    "one": "Type I 예약 결과 없음",
+    "two": "Type I 예약 결과 없음",
+    "checkout": "15:00 입실 / 11:00 퇴실",
+    "bags": "입실 전·퇴실 후 프런트 짐 보관 가능. 마지막 날 당일 회수.",
+    "airport": "유라쿠초 → 하마마쓰초 → 모노레일 하네다, 또는 시나가와 → 게이큐. 두 숙소를 오가는 짐 회수 없이 연결해요.",
+    "inventory": "2026-11-05 공식 예약: 성인 2명·1실·Type I(0010), 1/2–1/3 및 1/1–1/3 모두 예약 가능한 객실 없음 표시. 취소분 등을 재확인할 후보입니다.",
+    "evidence": [
+      "https://www.muji.com/jp/ja/shop/046604/articles/info/957311"
+    ],
+    "photo": "assets/photos/ryokan-muji.jpg",
+    "group": "main",
+    "map": "https://www.google.com/maps/search/?api=1&query=MUJI%20HOTEL%20GINZA%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%8A%80%E5%BA%A73-3-5",
+    "directions": "https://www.google.com/maps/dir/?api=1&origin=%E6%96%B0%E6%A9%8B%E9%A7%85&destination=MUJI%20HOTEL%20GINZA%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%8A%80%E5%BA%A73-3-5&travelmode=transit",
+    "airportMap": "https://www.google.com/maps/dir/?api=1&origin=MUJI%20HOTEL%20GINZA%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%8A%80%E5%BA%A73-3-5&destination=%E7%BE%BD%E7%94%B0%E7%A9%BA%E6%B8%AF%20%E7%AC%AC3%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB&travelmode=transit",
+    "search1": "https://book.mh-ginza.com/booking/result?code=019ef8b6-82a1-7fca-b880-804b74a2d7ff&room_type_codes=0010&locale=ja&checkin=2027%2F01%2F02&checkout=2027%2F01%2F03&adults=2&room_count=1",
+    "search2": "https://book.mh-ginza.com/booking/result?code=019ef8b6-82a1-7fca-b880-804b74a2d7ff&room_type_codes=0010&locale=ja&checkin=2027%2F01%2F01&checkout=2027%2F01%2F03&adults=2&room_count=1"
   },
   {
-    "id": "prostyle",
-    "name": "프로스타일 료칸 아사쿠사",
-    "english": "Prostyle Ryokan Tokyo Asakusa",
-    "badge": "도심형 대안 · 동쪽 코스",
-    "area": "아사쿠사 · 하나카와도",
-    "room": "Suite Room · 13층 · 37㎡ · 발코니 없음",
-    "mood": "쇼지와 다다미, 돌 욕조의 차분한 도심형 료칸. 정원과 대나무를 우선한다면 유엔 쪽이 더 잘 맞아요.",
-    "bath": "이 스위트는 천장이 열린 전용 노천탕이 있어요. 일반 객실과 구분하며, 천연 온천수 여부는 미확인이에요.",
-    "fit": "1/2를 동쪽 도쿄 코스로 바꿀 때 1박 비교 후보. 기본 시부야 쇼핑 코스에서는 우회하며, 1/3 오전·짐 동선 재조정이 필요해요.",
-    "access": "긴자선 아사쿠사역 5번 출구 도보 6분 · 도에이선 A5 도보 7분",
-    "query": "PROSTYLE旅館 東京浅草 東京都台東区花川戸2-12-11",
-    "origin": "浅草駅",
-    "source": "https://www.prostyleryokan.com/tokyo-asakusa/en/room/suite",
-    "caption": "공식 객실 사진 · 13층 Suite의 노천탕",
-    "photo": "assets/photos/ryokan-prostyle.jpg",
-    "map": "https://www.google.com/maps/search/?api=1&query=PROSTYLE%E6%97%85%E9%A4%A8%20%E6%9D%B1%E4%BA%AC%E6%B5%85%E8%8D%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E8%8A%B1%E5%B7%9D%E6%88%B82-12-11",
-    "directions": "https://www.google.com/maps/dir/?api=1&origin=%E6%B5%85%E8%8D%89%E9%A7%85&destination=PROSTYLE%E6%97%85%E9%A4%A8%20%E6%9D%B1%E4%BA%AC%E6%B5%85%E8%8D%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E8%8A%B1%E5%B7%9D%E6%88%B82-12-11&travelmode=transit",
-    "photoSource": "https://www.prostyleryokan.com/tokyo-asakusa/wp-content/uploads/2019/09/2019-12-03@12-59-55-IMG_0257-Edit-scaled.jpg"
+    "id": "minato",
+    "name": "HOTEL MINATO 니시아자부",
+    "english": "HOTEL MINATO Nishi-Azabu",
+    "badge": "새 후보 · 전용 노천탕+사우나 / 고가",
+    "area": "니시아자부 · 롯폰기 서쪽",
+    "room": "Suite · 90㎡ · 킹 베드 · 1–2명",
+    "mood": "목재 격자와 넓은 물 공간, 객실 사우나를 함께 쓰는 현대적인 휴식 호텔. 정원 료칸보다 두 사람만의 목욕·사우나에 무게를 둔 선택이에요.",
+    "bath": "Suite의 전용 실내탕·노천탕과 2인용 사우나. Luxury 객실은 같은 노천탕이 아니에요. 천연 온천수 여부는 확인되지 않았어요.",
+    "bathKind": "객실 전용 노천탕·사우나",
+    "fit": "1/2 아오야마·시부야 코스를 일찍 마친 뒤 한 밤이 더 합리적이에요. 조회된 2박 총액이 크게 높아 이번에는 1박 특별 숙박용으로만 우선 비교해요. 짐이 크면 시부야·신바시에서 택시 이동도 비교해요.",
+    "access": "東京都港区西麻布1-13-17. 롯폰기·노기자카 쪽 접근 또는 택시 비교. 니시아자부 지점이며 같은 이름의 신바시·도라노몬 지점과 달라요.",
+    "query": "HOTEL みなと 西麻布 東京都港区西麻布1-13-17",
+    "origin": "渋谷駅",
+    "source": "https://hotel-minato.com/rooms/",
+    "extra": "https://hotel-minato.com/faq/",
+    "extraLabel": "입퇴실·짐 보관 FAQ",
+    "booking": "https://reserve.hotel-minato.com/booking/result?code=a842ec72-d308-4f98-acc0-4c4d911660a3&type=rooms&room_type_codes=2303suite&locale=ja",
+    "caption": "공식 Suite 노천탕 사진 · HOTEL MINATO 니시아자부",
+    "photoSource": "https://hotel-minato.com/_astro/suite-room-img-03.BnYm0eXy_Z238t0Y.webp",
+    "one": "¥200,000 표시 · Suite · 조식",
+    "two": "¥650,000 표시 · Suite · 조식",
+    "checkout": "통상 15:00 입실 / 11:00 퇴실 · 숙박 플랜 확인",
+    "bags": "입실 전·퇴실 후 보관 가능. 귀중품·깨지기 쉬운 물건·식품 제외.",
+    "airport": "롯폰기 → 다이몬 → 도에이·게이큐 하네다 방면, 또는 택시로 철도 연결역 이동. 공항까지의 실제 출발 시각은 길찾기로 확인해요.",
+    "inventory": "2026-11-05 공식 예약: 성인 2명·1실 Suite, 연박 가능한 조식 포함 숙박 플랜. 1박 총 ¥200,000 / 2박 총 ¥650,000 표시(세금·수수료 포함). 데이유스·3시간 이용 요금이 아니에요. 높은 총액 때문에 가성비 추천으로 분류하지 않아요.",
+    "evidence": [
+      "https://hotel-minato.com/access/"
+    ],
+    "photo": "assets/photos/ryokan-minato.webp",
+    "group": "main",
+    "map": "https://www.google.com/maps/search/?api=1&query=HOTEL%20%E3%81%BF%E3%81%AA%E3%81%A8%20%E8%A5%BF%E9%BA%BB%E5%B8%83%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%AF%E5%8C%BA%E8%A5%BF%E9%BA%BB%E5%B8%831-13-17",
+    "directions": "https://www.google.com/maps/dir/?api=1&origin=%E6%B8%8B%E8%B0%B7%E9%A7%85&destination=HOTEL%20%E3%81%BF%E3%81%AA%E3%81%A8%20%E8%A5%BF%E9%BA%BB%E5%B8%83%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%AF%E5%8C%BA%E8%A5%BF%E9%BA%BB%E5%B8%831-13-17&travelmode=transit",
+    "airportMap": "https://www.google.com/maps/dir/?api=1&origin=HOTEL%20%E3%81%BF%E3%81%AA%E3%81%A8%20%E8%A5%BF%E9%BA%BB%E5%B8%83%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%AF%E5%8C%BA%E8%A5%BF%E9%BA%BB%E5%B8%831-13-17&destination=%E7%BE%BD%E7%94%B0%E7%A9%BA%E6%B8%AF%20%E7%AC%AC3%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB&travelmode=transit",
+    "search1": "https://reserve.hotel-minato.com/booking/result?code=a842ec72-d308-4f98-acc0-4c4d911660a3&type=rooms&room_type_codes=2303suite&locale=ja&checkin=2027%2F01%2F02&checkout=2027%2F01%2F03&adults=2&room_count=1",
+    "search2": "https://reserve.hotel-minato.com/booking/result?code=a842ec72-d308-4f98-acc0-4c4d911660a3&type=rooms&room_type_codes=2303suite&locale=ja&checkin=2027%2F01%2F01&checkout=2027%2F01%2F03&adults=2&room_count=1"
+  },
+  {
+    "id": "shinjuku",
+    "name": "온센 료칸 유엔 신주쿠",
+    "english": "ONSEN RYOKAN YUEN SHINJUKU",
+    "badge": "새 후보 · 객실 온천 / 공사 조건 확인",
+    "area": "신주쿠교엔마에 · 신주쿠산초메",
+    "group": "conditional",
+    "room": "ONSEN Suite Double 50㎡ / Twin 62㎡ · 새 객실 총 4실",
+    "mood": "밝은 목재와 격자, 다다미 감각의 여유 있는 스위트. 시부야·하라주쿠 쇼핑과 연결하기 좋은 도심 료칸이에요.",
+    "bath": "ONSEN Suite는 하코네에서 운반한 천연 온천수를 객실에서 즐기는 타입. 객실 전용 실내탕이며 정원 노천탕으로 소개하지 않아요. 일반 객실·공용탕 이용 플랜과 구분해요.",
+    "bathKind": "객실 전용 실내 온천 · 신설 예정",
+    "fit": "1/2 서쪽 쇼핑 뒤 1박이면 공사 시간 대부분을 피하는 계획이 가능해요. 1/1–1/3 종일 쉬는 두 밤은 우선순위를 낮춰요. 공식상 소음·진동 작업 11–15시, 작업자 출입 9–18시이며 여행 중 휴공 여부는 미확인.",
+    "access": "신주쿠교엔마에역 3번 출구 도보 7분 · 신주쿠산초메역 C7 도보 8분. JR 신주쿠역 바로 앞은 아니에요.",
+    "query": "ONSEN RYOKAN 由縁 新宿 東京都新宿区新宿5-3-18",
+    "origin": "渋谷駅",
+    "source": "https://www.uds-hotels.com/yuen/shinjuku/",
+    "extra": "https://www.uds-hotels.com/yuen/shinjuku/news/information/20251225a/",
+    "extraLabel": "공식 공사 기간·시간 안내",
+    "caption": "공식 ONSEN Suite Double 소개 이미지 · 신설 객실의 완공 실사로 단정하지 않음",
+    "photoSource": "https://www.uds-hotels.com/wp/wp-content/uploads/2026/09/ONSENSuite_Double.jpg",
+    "one": "공실 미확인 · 공사 조건 확인",
+    "two": "낮 시간 휴식에는 후순위",
+    "checkout": "15:00 입실 / 11:00 퇴실",
+    "bags": "입실 전 보관 가능, 퇴실 후 당일 회수 원칙·수량 제한.",
+    "airport": "신주쿠 → 시나가와 → 게이큐 하네다. 숙소에서 역까지 걷는 시간과 짐 이동을 포함해 여유를 둬요.",
+    "inventory": "신설 ONSEN Suite는 공식 2026-11-16 숙박 시작 예정. 2027-02-28까지 공사 안내가 있어 개실·연말연시 작업 여부 확인 후 선택합니다. 기존 Family Room은 2027년 3월 예정으로 이번 후보가 아니에요.",
+    "evidence": [
+      "https://www.uds-hotels.com/en/yuen/shinjuku/news/information/260731a/",
+      "https://www.uds-hotels.com/yuen/shinjuku/qa/"
+    ],
+    "photo": "assets/photos/ryokan-shinjuku.jpg",
+    "booking": "https://www.uds-hotels.com/yuen/shinjuku/",
+    "map": "https://www.google.com/maps/search/?api=1&query=ONSEN%20RYOKAN%20%E7%94%B1%E7%B8%81%20%E6%96%B0%E5%AE%BF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E6%96%B0%E5%AE%BF5-3-18",
+    "directions": "https://www.google.com/maps/dir/?api=1&origin=%E6%B8%8B%E8%B0%B7%E9%A7%85&destination=ONSEN%20RYOKAN%20%E7%94%B1%E7%B8%81%20%E6%96%B0%E5%AE%BF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E6%96%B0%E5%AE%BF5-3-18&travelmode=transit",
+    "airportMap": "https://www.google.com/maps/dir/?api=1&origin=ONSEN%20RYOKAN%20%E7%94%B1%E7%B8%81%20%E6%96%B0%E5%AE%BF%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E6%96%B0%E5%AE%BF5-3-18&destination=%E7%BE%BD%E7%94%B0%E7%A9%BA%E6%B8%AF%20%E7%AC%AC3%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB&travelmode=transit"
   },
   {
     "id": "taichi",
@@ -80,38 +304,75 @@ const ryokanStays = [
     "photo": "assets/photos/ryokan-taichi.webp",
     "map": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%893-38-1",
     "directions": "https://www.google.com/maps/dir/?api=1&origin=%E6%B5%85%E8%8D%89%E9%A7%85&destination=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%893-38-1&travelmode=transit",
-    "photoSource": "https://www.cyashitsu.com/assets/img/teaser-2026/pic-4.webp"
+    "photoSource": "https://www.cyashitsu.com/assets/img/teaser-2026/pic-4.webp",
+    "group": "conditional",
+    "one": "운영·예약 확인 전 보류",
+    "two": "운영·예약 확인 전 보류",
+    "bathKind": "전용 정원·노천탕 예정",
+    "checkout": "실제 운영·입퇴실 조건 미확인",
+    "bags": "운영 확인 후 짐 보관 조건도 확인.",
+    "airport": "아사쿠사에서 하네다로 이동하는 동쪽 숙소 안. 운영 확인 전에는 출국 동선의 기준 숙소로 잡지 않아요.",
+    "inventory": "공식 티저 상태로 실제 영업·예약을 확인하지 못했습니다. 운영 중인 cya shitsu asakusa 본관과 구분해요.",
+    "booking": "https://www.cyashitsu.com/taichi/",
+    "evidence": [],
+    "airportMap": "https://www.google.com/maps/dir/?api=1&origin=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%893-38-1&destination=%E7%BE%BD%E7%94%B0%E7%A9%BA%E6%B8%AF%20%E7%AC%AC3%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB&travelmode=transit"
+  }
+];
+const ryokanStayPlans = [
+  {
+    "title": "추천 A · 마지막 한 밤을 특별하게",
+    "nights": "3박 + 1박",
+    "dates": "본숙소 12/30–1/2 → 두 번째 숙소 1/2–1/3",
+    "reason": "숙소 비용을 한 밤에 집중하고 이동도 한 번만 해요. 현재 조회가 나온 차시츠 Fusuma·가모가와부터 비교하고, 전용 객실 노천탕이 필수라면 프로스타일 Suite의 공실을 먼저 확인해요.",
+    "flow": "1/2 오전 체크아웃·짐 이동 → 우에노·아사쿠사 건축 → 15–16시 입실 → 입욕·저녁 → 1/3 아침 휴식·퇴실·점심 → 하네다",
+    "tradeoff": "동쪽 숙소를 고르면 1/2 하라주쿠·시부야 쇼핑을 동쪽 코스로 바꿔요. 서쪽 쇼핑을 유지하려면 MINATO 1박을 고가 대안으로 비교해요."
   },
   {
-    "id": "tokito",
-    "name": "오베르주 TOKITO",
-    "english": "Auberge TOKITO",
-    "badge": "별도 휴식 여행 · 일정 확장용",
-    "area": "다치카와 · 도쿄 서부",
-    "room": "전 4실 · 106㎡ 스위트 · 전용 천연 온천 노천탕",
-    "mood": "정원과 어두운 목재, 넓은 전용탕. 더 현대적이고 고급스러운 분위기에서 온전히 쉬는 선택이에요.",
-    "bath": "공식 안내상 지하 1,300m에서 끌어올린 천연 온천수를 객실 노천탕에 사용해요.",
-    "fit": "중심부 4박 일정에 짧게 끼우기엔 멀어요. 하루를 휴식에 쓰거나 여행을 연장할 때 추천해요. 정기휴무 화·수 안내가 있어 12/30(수), 연말연시 특별 운영 확인이 필요해요.",
-    "access": "JR 니시쿠니타치역 도보 1분 · 다치카와역 도보 15분",
-    "query": "オーベルジュときと 東京都立川市錦町1-24-26",
-    "origin": "新橋駅",
-    "source": "https://www.aubergetokito.com/stay/",
-    "extra": "https://www.aubergetokito.com/access/",
-    "extraLabel": "교통·정기휴무 안내",
-    "caption": "공식 숙박 사진 · 정원을 바라보는 객실 노천탕",
-    "photo": "assets/photos/ryokan-tokito.jpg",
-    "map": "https://www.google.com/maps/search/?api=1&query=%E3%82%AA%E3%83%BC%E3%83%99%E3%83%AB%E3%82%B8%E3%83%A5%E3%81%A8%E3%81%8D%E3%81%A8%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AB%8B%E5%B7%9D%E5%B8%82%E9%8C%A6%E7%94%BA1-24-26",
-    "directions": "https://www.google.com/maps/dir/?api=1&origin=%E6%96%B0%E6%A9%8B%E9%A7%85&destination=%E3%82%AA%E3%83%BC%E3%83%99%E3%83%AB%E3%82%B8%E3%83%A5%E3%81%A8%E3%81%8D%E3%81%A8%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AB%8B%E5%B7%9D%E5%B8%82%E9%8C%A6%E7%94%BA1-24-26&travelmode=transit",
-    "photoSource": "https://www.aubergetokito.com/websys/wp-content/themes/tokito/assets/images/stay/kutsurogi_img01_pc.jpg"
+    "title": "추천 B · 코미케 뒤 두 밤 쉬기",
+    "nights": "2박 + 2박",
+    "dates": "본숙소 12/30–1/1 → 두 번째 숙소 1/1–1/3",
+    "reason": "1/1 15시부터 쉬고 1/2에는 짐 이동 없이 나갔다 돌아와요. 진짜 휴식 시간이 더 길어요. 현재 2박 결과가 나온 가모가와를 비교하고, 원하는 객실 취소분이 나오면 유엔 다이타를 분위기 우선 대안으로 봐요.",
+    "flow": "1/1 오전 본숙소 체크아웃·두 번째 숙소에 짐 맡기기 → 짧은 산책·점심 → 15시 입실 → 1/2 같은 권역 가벼운 탐방 → 1/3 퇴실·하네다",
+    "tradeoff": "두 번째 숙소의 두 밤 총액을 비교해요. 아사쿠사 2박은 우에노·아사쿠사·동쪽 일정일 때 잘 맞고, 양일 모두 서쪽 쇼핑이면 숙소 왕복이 늘어요."
   }
+];
+const ryokanLogistics = [
+  [
+    "짐은 한 번만 옮기기",
+    "체크아웃하는 날 큰 짐까지 두 번째 숙소로 가져가요. 입실 전 보관을 확인하고 짐이 크면 숙소 간 택시도 비교해요. 첫 숙소에 1–2일 맡겨둔다는 가정이나 당일 택배 도착을 전제로 하지 않아요."
+  ],
+  [
+    "마지막 날은 숙소에서 쉬고 출국",
+    "1/3 숙소에서 아침을 여유롭게 보내고 → 각 숙소 10–11시 퇴실 → 가까운 점심 → 짐 회수 → 하네다. 이 안에서는 고탄다 플리마켓·SARA 3시간 코스를 함께 넣지 않아요. 1/3 당일 새 료칸에 체크인하는 안은 통상 15시 입실이라 출국 일정과 맞지 않아요."
+  ],
+  [
+    "공항 시간을 먼저 고정",
+    "현재 계획의 19:30 항공편은 가정이며 하네다 T3 약 15:00 도착 목표예요. 아사쿠사·다이타·신주쿠는 12:30–13:00, 긴자·니시아자부는 13:00–13:30에 숙소에서 출발하는 계획용 여유를 잡고 실제 노선·항공편으로 조정해요. 이는 실시간 소요시간이 아니에요."
+  ],
+  [
+    "식사와 비용을 함께 비교",
+    "차시츠의 조회된 2식 플랜은 1/2 저녁·1/3 조식을 대신해요. 가모가와는 식사가 없어 조식·점심을 따로 잡아요. 2박은 같은 객실의 연속 판매와 총액·취소 조건을 확인하고, 기존 숙소가 예약되어 있다면 변경 조건도 함께 비교해요."
+  ]
 ];
 function renderRyokanGuide() {
   const host = document.querySelector('#ryokanGuide');
   if (!host) return;
   const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  host.innerHTML = ryokanStays.map(stay => `<article class="ryokan-card" data-mini-query="${esc(stay.query)}" data-mini-name="${esc(stay.name)}" data-mini-note="${esc(stay.area)}">
-    <figure><a href="${esc(stay.photo)}" target="_blank" rel="noopener" aria-label="${esc(stay.name)} 사진 크게 보기"><img src="${esc(stay.photo)}" alt="${esc(stay.name + ' · ' + stay.caption)}" loading="lazy" decoding="async" width="900" height="600"></a><figcaption><a href="${esc(stay.source)}" target="_blank" rel="noopener">${esc(stay.caption)} ↗</a></figcaption></figure>
+  const link = (url, label) => `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(label)} ↗</a>`;
+  const card = stay => `<article class="ryokan-card" id="ryokan-${esc(stay.id)}" data-mini-query="${esc(stay.query)}" data-mini-name="${esc(stay.name)}" data-mini-note="${esc(stay.area)}">
+    <figure><a href="${esc(stay.photo)}" target="_blank" rel="noopener" aria-label="${esc(stay.name)} 사진 크게 보기"><img src="${esc(stay.photo)}" alt="${esc(stay.name + ' · ' + stay.caption)}" loading="lazy" decoding="async" width="900" height="600"></a><figcaption>${link(stay.source, stay.caption)}</figcaption></figure>
     <div class="ryokan-body"><span class="ryokan-badge">${esc(stay.badge)}</span><h3>${esc(stay.name)}</h3><p class="ryokan-area">${esc(stay.area)}</p><p>${esc(stay.mood)}</p>
-    <dl><dt>예약할 객실</dt><dd>${esc(stay.room)}</dd><dt>전용탕 확인</dt><dd>${esc(stay.bath)}</dd><dt>우리 일정에 넣는다면</dt><dd>${esc(stay.fit)}</dd><dt>가까운 역</dt><dd>${esc(stay.access)}</dd></dl>
-    <div class="ryokan-links"><a href="${esc(stay.map)}" target="_blank" rel="noopener">${stay.id === 'taichi' ? '주소로 지도 검색' : 'Google Maps 검색'} ↗</a><a href="${esc(stay.directions)}" target="_blank" rel="noopener">${esc(stay.origin)}에서 길찾기 ↗</a><a href="${esc(stay.source)}" target="_blank" rel="noopener">공식 객실 안내 ↗</a>${stay.extra ? `<a href="${esc(stay.extra)}" target="_blank" rel="noopener">${esc(stay.extraLabel)} ↗</a>` : ''}</div></div></article>`).join('');
+    <dl>${[['예약할 객실',stay.room],['함께 쓰는 탕의 방식',stay.bath],['우리 일정에 넣는다면',stay.fit],['입퇴실·짐',stay.checkout+' · '+stay.bags],['가까운 역',stay.access],['마지막 날 하네다',stay.airport],['이번 날짜 조회',stay.inventory]].map(([title,value]) => `<dt>${esc(title)}</dt><dd>${esc(value)}</dd>`).join('')}</dl>
+    <div class="ryokan-links">${link(stay.map,'Google Maps 검색')}${link(stay.directions,stay.origin+'에서 길찾기')}${link(stay.airportMap,'숙소 → 하네다 T3')}${link(stay.source,'공식 객실 안내')}${stay.extra ? link(stay.extra,stay.extraLabel) : ''}${link(stay.booking,'공식 예약·가격 확인')}</div></div></article>`;
+  host.innerHTML = `<div class="ryokan-scenarios">${ryokanStayPlans.map(plan => `<article class="ryokan-scenario"><span class="ryokan-badge">${esc(plan.nights)}</span><h3>${esc(plan.title)}</h3><p><strong>${esc(plan.dates)}</strong></p><p>${esc(plan.reason)}</p><p class="ryokan-flow">${esc(plan.flow)}</p><p>${esc(plan.tradeoff)}</p></article>`).join('')}</div>
+    <h3 class="ryokan-subheading">1박과 2박, 지금 비교하면</h3><p class="ryokan-note">2026-11-05 조회 · 성인 2명 / 1실 / 일본 엔 총액. 표시된 금액은 해당 플랜의 조회 결과이며 예약·가격 보장이 아니에요. 식사·숙박세 등 최종 포함 내역은 결제 전 확인해요. ‘결과 없음’은 해당 객실 검색 결과이고 호텔 전체 휴업을 뜻하지 않아요.</p>
+    <div class="ryokan-table-wrap" role="region" aria-label="숙소별 1박·2박 비교" tabindex="0"><table class="ryokan-comparison"><caption>모바일에서는 표를 옆으로 밀어 비교해요 →</caption><thead><tr><th scope="col">숙소 · 탕 방식</th><th scope="col">1/2–1/3 · 1박</th><th scope="col">1/1–1/3 · 2박</th></tr></thead><tbody>${ryokanStays.map(stay => `<tr><th scope="row"><a href="#ryokan-${esc(stay.id)}">${esc(stay.name)}</a><small>${esc(stay.bathKind)}</small></th><td>${esc(stay.one)}${stay.search1 ? `<br>${link(stay.search1,'같은 날짜 재검색')}` : ''}</td><td>${esc(stay.two)}${stay.search2 ? `<br>${link(stay.search2,'같은 날짜 재검색')}` : ''}</td></tr>`).join('')}</tbody></table></div>
+    <div class="ryokan-logistics"><h3>두 숙소로 나눌 때 바꿀 것</h3><dl>${ryokanLogistics.map(([title,body]) => `<dt>${esc(title)}</dt><dd>${esc(body)}</dd>`).join('')}</dl></div>
+    <h3 class="ryokan-subheading">도심 후보 7곳 · 객실과 동선 자세히</h3><div class="ryokan-grid">${ryokanStays.filter(s => s.group === 'main').map(card).join('')}</div>
+    <details class="ryokan-conditional"><summary>공사·개업 확인 후 검토할 2곳 · 유엔 신주쿠 / TAICHI</summary><div class="ryokan-grid">${ryokanStays.filter(s => s.group === 'conditional').map(card).join('')}</div></details>`;
+  host.querySelectorAll('a[href^="#ryokan-"]').forEach(anchor => anchor.addEventListener('click', () => {
+    const target = document.getElementById(anchor.hash.slice(1));
+    const details = target?.closest('details');
+    if (details) details.open = true;
+  }));
 }
