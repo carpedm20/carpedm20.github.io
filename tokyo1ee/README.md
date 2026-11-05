@@ -4,7 +4,7 @@
 
 일정에 나오는 장소와 식당·쇼핑·카페 후보를 Google Maps 링크로 모았습니다. **각 끼니는 후보 중 한 곳**, 쇼핑은 가까운 몇 곳만 고르는 구성입니다. 아래 목록 전체를 방문하는 일정이 아닙니다.
 
-현재 사이트 기준으로 식당 **50곳**, 쇼핑 매장 **52곳**, 카페·간식 **25곳**, SARA 긴시초 객실 **10개**를 담았습니다. 같은 건물의 객실은 지도 위치가 같습니다.
+현재 사이트 기준으로 식당 **50곳**, 쇼핑 매장 **52곳**, 카페·간식 **25곳**, SARA 긴시초 객실 **10개**, 전용탕 료칸 **5곳**을 담았습니다. 같은 건물의 객실은 지도 위치가 같습니다.
 
 장소 핀은 2026-11-04에 확인한 지점별 Google Places 결과를 사용했습니다. 건물 핀·대표 산책 지점은 별도로 표시했고, 미확정 장소는 `지도 검색`으로 구분합니다. **연말연시 영업, 행사 일정, 예약, 항공편은 방문 전 재확인**해야 합니다. README 정리 기준: 2026-11-05.
 
@@ -12,6 +12,7 @@
 
 - [점심·저녁 후보](#meals)
 - [숙소·공항](#base)
+- [전용 노천탕 료칸 후보](#ryokan)
 - [12/30 아키하바라](#day-1)
 - [12/31 코미케·신바시](#day-2)
 - [1/1 기요스미·시오도메](#day-3)
@@ -52,6 +53,26 @@
 | Sotetsu Fresa Inn Daimon | 본숙소 기준점 · 다이몬 | [지도](https://maps.google.com/?cid=17259230171811054757) |
 | Super Hotel Shimbashi Karasumoriguchi | 본숙소 대안 · 신바시 | [지도](https://maps.google.com/?cid=4810967646838881265) |
 | 하네다공항 제3터미널 (T3) | 입출국 · 공항 식사 기준 터미널 | [지도](https://maps.google.com/?cid=8215175827991883231) |
+
+<a id="ryokan"></a>
+
+## 작은 정원·전용 노천탕 료칸 후보
+
+[사진으로 비교하기](https://carpedm20.github.io/tokyo1ee/#ryokan). **분위기 우선은 유엔 다이타, 기존 동선 우선은 쇼류칸**입니다. 현재 본숙소 4박에서 1박을 바꾸는 비교 후보이며, 예약이나 일정 변경을 완료한 상태가 아닙니다. 숙소를 옮길 경우 짐 보관·다음 날 출발을 다시 계획합니다. 아래 날짜는 동선 제안이고 연말연시 객실 공실·요금은 미확인입니다.
+
+| 숙소 · 지역 | 정확한 객실·전용탕 | 일정 적합성 | 지도·공식 안내 |
+| --- | --- | --- | --- |
+| 유엔 벳테이 다이타 · 다이타 · 시모키타자와 | **Deluxe Twin with Outdoor Bath · 露天風呂付デラックスツイン · 24㎡**<br>객실 전용 노천탕은 일반 온수예요. 하코네 온천수를 쓰는 공용탕과 구분해서 예약해요. | 1/2 시부야·서쪽 쇼핑 후 1박 후보. 다음 날 고탄다·SARA 오전 일정과 본숙소 짐 회수는 다시 조정해야 해요. | [주소 기반 지도 검색](https://www.google.com/maps/search/?api=1&query=%E7%94%B1%E7%B8%81%E5%88%A5%E9%82%B8%20%E4%BB%A3%E7%94%B0%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA%E4%BB%A3%E7%94%B02-31-26) · [길찾기](https://www.google.com/maps/dir/?api=1&origin=%E6%B8%8B%E8%B0%B7%E9%A7%85&destination=%E7%94%B1%E7%B8%81%E5%88%A5%E9%82%B8%20%E4%BB%A3%E7%94%B0%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA%E4%BB%A3%E7%94%B02-31-26&travelmode=transit) · [공식 객실](https://www.uds-hotels.com/yuenbettei/daita/) |
+| 오차노미즈 호텔 쇼류칸 · 오차노미즈 · 진보초 | **露天風呂付き和室 · 505 茜 / 506 曙 · 34.1㎡**<br>505·506호의 전용 노천탕을 지정해요. 공식 객실 안내에서 천연 온천수 여부는 확인되지 않았어요. | 12/30 아키하바라 일정 뒤 1박으로 비교하기 좋아요. 12/31 다이몬 본숙소 이동·짐 보관 후 코미케로 가려면 아침 여유가 필요해요. | [주소 기반 지도 검색](https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E8%8C%B6%E3%81%AE%E6%B0%B4%E3%83%9B%E3%83%86%E3%83%AB%E6%98%87%E9%BE%8D%E9%A4%A8%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E5%B0%8F%E5%B7%9D%E7%94%BA3-24) · [길찾기](https://www.google.com/maps/dir/?api=1&origin=%E7%A7%8B%E8%91%89%E5%8E%9F%E9%A7%85&destination=%E3%81%8A%E8%8C%B6%E3%81%AE%E6%B0%B4%E3%83%9B%E3%83%86%E3%83%AB%E6%98%87%E9%BE%8D%E9%A4%A8%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E5%B0%8F%E5%B7%9D%E7%94%BA3-24&travelmode=transit) · [공식 객실](https://www.familyhotel.jp/room/) |
+| 프로스타일 료칸 아사쿠사 · 아사쿠사 · 하나카와도 | **Suite Room · 13층 · 37㎡ · 발코니 없음**<br>이 스위트는 천장이 열린 전용 노천탕이 있어요. 일반 객실과 구분하며, 천연 온천수 여부는 미확인이에요. | 1/2를 동쪽 도쿄 코스로 바꿀 때 1박 비교 후보. 기본 시부야 쇼핑 코스에서는 우회하며, 1/3 오전·짐 동선 재조정이 필요해요. | [주소 기반 지도 검색](https://www.google.com/maps/search/?api=1&query=PROSTYLE%E6%97%85%E9%A4%A8%20%E6%9D%B1%E4%BA%AC%E6%B5%85%E8%8D%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E8%8A%B1%E5%B7%9D%E6%88%B82-12-11) · [길찾기](https://www.google.com/maps/dir/?api=1&origin=%E6%B5%85%E8%8D%89%E9%A7%85&destination=PROSTYLE%E6%97%85%E9%A4%A8%20%E6%9D%B1%E4%BA%AC%E6%B5%85%E8%8D%89%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E8%8A%B1%E5%B7%9D%E6%88%B82-12-11&travelmode=transit) · [공식 객실](https://www.prostyleryokan.com/tokyo-asakusa/en/room/suite) |
+| cya shitsu ryokan TAICHI · 오쿠아사쿠사 | **하루 한 팀 · 객실 60㎡ · 작은 정원과 전용 노천탕**<br>공식 티저에 전용 노천탕을 안내해요. 천연 온천수 여부는 미확인이고, 기존 본관의 옥상 대절탕과 다른 숙소예요. | 1/2 동쪽 도쿄 코스의 조건부 1박 후보. 2026-11-05 확인 시 공식 페이지에 여전히 공식 웹사이트 2026년 10월 공개 예정으로 표시되어 있어, 영업·예약 가능 여부는 미확정이에요. | [주소 기반 지도 검색](https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%893-38-1) · [길찾기](https://www.google.com/maps/dir/?api=1&origin=%E6%B5%85%E8%8D%89%E9%A7%85&destination=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%893-38-1&travelmode=transit) · [공식 객실](https://www.cyashitsu.com/taichi/) |
+| 오베르주 TOKITO · 다치카와 · 도쿄 서부 | **전 4실 · 106㎡ 스위트 · 전용 천연 온천 노천탕**<br>공식 안내상 지하 1,300m에서 끌어올린 천연 온천수를 객실 노천탕에 사용해요. | 중심부 4박 일정에 짧게 끼우기엔 멀어요. 하루를 휴식에 쓰거나 여행을 연장할 때 추천해요. 정기휴무 화·수 안내가 있어 12/30(수), 연말연시 특별 운영 확인이 필요해요. | [주소 기반 지도 검색](https://www.google.com/maps/search/?api=1&query=%E3%82%AA%E3%83%BC%E3%83%99%E3%83%AB%E3%82%B8%E3%83%A5%E3%81%A8%E3%81%8D%E3%81%A8%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AB%8B%E5%B7%9D%E5%B8%82%E9%8C%A6%E7%94%BA1-24-26) · [길찾기](https://www.google.com/maps/dir/?api=1&origin=%E6%96%B0%E6%A9%8B%E9%A7%85&destination=%E3%82%AA%E3%83%BC%E3%83%99%E3%83%AB%E3%82%B8%E3%83%A5%E3%81%A8%E3%81%8D%E3%81%A8%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AB%8B%E5%B7%9D%E5%B8%82%E9%8C%A6%E7%94%BA1-24-26&travelmode=transit) · [공식 객실](https://www.aubergetokito.com/stay/) |
+
+유엔의 전용 객실탕은 일반 온수이고, 공용탕의 하코네 온천수와 다릅니다. 당일 입욕 패키지가 이 객실의 이용을 뜻하지 않습니다. 프로스타일의 당일 이용 검색도 특정 스위트의 이용 가능 여부를 보장하지 않습니다. 따라서 SARA의 1/3 3시간 테마룸 후보와 별도로 비교합니다.
+
+TAICHI 주소는 **浅草3-38-1**이며 기존 cya shitsu ryokan asakusa 본관과 구분합니다. 공식 페이지가 2026-11-05에도 공식 웹사이트 2026년 10월 공개 예정으로 표시되어 실제 운영·예약 상태는 미확정입니다. TOKITO는 화·수 정기휴무 안내가 있으므로 12/30(수)와 연말연시 특별 운영을 확인해야 합니다.
+
+공식 자료 확인: **2026-11-05**. [객실·교통·사진별 출처](assets/RYOKAN-SOURCES.md).
 
 <a id="day-1"></a>
 
