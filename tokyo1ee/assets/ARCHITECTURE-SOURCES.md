@@ -85,3 +85,63 @@ Checked 2026-11-05. Official operators, the university, the diocese and architec
 - Decision: 다음 여행 · 개관일 확인 후
 - Photos are linked on the official architecture page; no substitute or generated image is used.
 
+
+## Five additions with access during December 30, 2026–January 3, 2027
+
+Checked 2026-11-05. TNM explicitly closes December 26–31 and opens January 1, 2027 at noon until 20:00; normal Friday/Saturday late hours apply January 2, and normal Sunday hours January 3. The Gallery of Hōryūji Treasures has collection displays spanning the trip dates. Kadokawa's notice dated 2026-09-01 explicitly closes December 31, 2026–January 1, 2027 and resumes normal opening January 2. Its regular hours apply December 30 and January 2–3.
+
+The Forum, Asakusa center and Ōsanbashi are based on standing year-round/public-area policies, not date-specific 2026–27 holiday announcements. The Forum's guide PDF is dated July 2022; the current homepage also lists 07:00–23:30. Maintenance/events/weather may restrict public access. Asakusa's table describes the 8F terrace only, and Ōsanbashi's the roof only. No ticket inventory was checked. Route pairings are editorial alternatives, not additions to every day's confirmed itinerary.
+
+### Gallery of Hōryūji Treasures
+
+- Architect: 다니구치 요시오 · Yoshio Taniguchi
+- [Official architecture/details](https://www.tnm.jp/modules/r_free_page/index.php?id=119)
+- [Official access/holiday evidence](https://www.tnm.jp/modules/r_free_page/index.php?id=113)
+- [Supporting official source](https://www.tnm.jp/modules/r_exhibition/index.php?controller=hall&date=&hid=16)
+- Map query: 東京国立博物館 法隆寺宝物館 東京都台東区上野公園13-9
+- Date sequence (Dec 30, Dec 31, Jan 1, Jan 2, Jan 3): 휴관, 휴관, 12:00–20:00, 09:30–20:00, 09:30–17:00.
+- Photo: `assets/photos/architecture-horyuji.jpg` — [original](https://www.tnm.jp/uploads/fckeditor/Access/Accessibility/uid000360_2022053116421344c84f1e.jpg). 법륭사보물관과 수면 · Tokyo National Museum 공식 사진. Copied unchanged; CSS display crop (Asakusa uses contain to retain the whole building).
+
+### Tokyo International Forum
+
+- Architect: 라파엘 비뇰리 · Rafael Viñoly
+- [Official architecture/details](https://www.t-i-forum.co.jp/about/architecture/)
+- [Official access/holiday evidence](https://www.t-i-forum.co.jp/mt_images/access/access/access_print.pdf)
+- [Supporting official source](https://www.t-i-forum.co.jp/)
+- Map query: 東京国際フォーラム 東京都千代田区丸の内3-5-1
+- Date sequence (Dec 30, Dec 31, Jan 1, Jan 2, Jan 3): 07:00–23:30, 07:00–23:30, 07:00–23:30, 07:00–23:30, 07:00–23:30.
+- Photo: `assets/photos/architecture-forum.jpg` — [original](https://www.t-i-forum.co.jp/img/top/img-mainVisual01.jpg). 유리 아트리움 · Tokyo International Forum 공식 사진. Copied unchanged; CSS display crop (Asakusa uses contain to retain the whole building).
+
+### Asakusa Culture Tourist Information Center
+
+- Architect: 구마 겐고 · Kengo Kuma
+- [Official architecture/details](https://www.culture.city.taito.lg.jp/ja/facilities/00001c00000000000002000000540085)
+- [Official access/holiday evidence](https://www.city.taito.lg.jp/bunka_kanko/kankoinfo/info/oyakudachi/kankocenter/a-tic-gaiyo.html)
+- [Supporting official source](https://www.gotokyo.org/book/wp-content/uploads/2025/11/2511_taito-kanko_JP_low.pdf)
+- Map query: 浅草文化観光センター 東京都台東区雷門2-18-9
+- Date sequence (Dec 30, Dec 31, Jan 1, Jan 2, Jan 3): 09:00–22:00, 09:00–22:00, 09:00–22:00, 09:00–22:00, 09:00–22:00.
+- Photo: `assets/photos/architecture-asakusa.jpg` — [original](https://www.city.taito.lg.jp/bunka_kanko/kankoinfo/info/oyakudachi/kankocenter/a-tic-gaiyo.images/IMGP1077.JPG). 겹쳐진 지붕과 목재 스크린 · Taito City 공식 외관 사진. Copied unchanged; CSS display crop (Asakusa uses contain to retain the whole building).
+
+### Kadokawa Culture Museum
+
+- Architect: 구마 겐고 건축도시설계사무소
+- [Official architecture/details](https://kadcul.com/en/museum/overciew)
+- [Official access/holiday evidence](https://kadcul.com/en/news/350)
+- [Supporting official source](https://kadcul.com/en/guide/info)
+- [Supporting official source](https://kadcul.com/en/guide/access)
+- [Supporting official source](https://kadcul.com/en/guide)
+- Map query: 角川武蔵野ミュージアム 埼玉県所沢市東所沢和田3-31-3
+- Date sequence (Dec 30, Dec 31, Jan 1, Jan 2, Jan 3): 10:00–18:00, 휴관, 휴관, 10:00–18:00, 10:00–18:00.
+- Photo: `assets/photos/architecture-kadokawa.jpg` — [original](https://kadcul.com/img/museum_img03.jpg). 거대한 석재 다면체 · Photo: Kenshu Shintsubo / Kadokawa Culture Museum. Copied unchanged; CSS display crop (Asakusa uses contain to retain the whole building).
+
+### Yokohama Ōsanbashi International Passenger Terminal
+
+- Architect: FOA · Alejandro Zaera-Polo + Farshid Moussavi
+- [Official architecture/details](https://osanbashi.jp/about/architecture)
+- [Official access/holiday evidence](https://osanbashi.jp/floorguide/rooftop)
+- [Supporting official source](https://osanbashi.jp/floorguide)
+- [Supporting official source](https://osanbashi.jp/access)
+- [Supporting official source](https://osanbashi.jp/faq?active-tab=tab-3)
+- Map query: 横浜港大さん橋国際客船ターミナル 神奈川県横浜市中区海岸通1-1-4
+- Date sequence (Dec 30, Dec 31, Jan 1, Jan 2, Jan 3): 24시간, 24시간, 24시간, 24시간, 24시간.
+- Photo: `assets/photos/architecture-osanbashi.jpg` — [original](https://osanbashi.jp/wp-content/uploads/2025/02/arch01.jpg). 접힌 데크와 잔디가 있는 항구 건축 · Ōsanbashi 공식 사진. Copied unchanged; CSS display crop (Asakusa uses contain to retain the whole building).
